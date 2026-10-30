@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prop Firm Mirror — Every prop firm, side by side</title>
+<meta name="description" content="Compare prop trading firms side by side: CFD, futures and crypto challenges, rules, prices, restricted countries and rule changes, each taken from the firm's own pages with a source link and the date checked.">
+<meta name="theme-color" content="#0A0E0C">
+<meta name="application-name" content="Prop Firm Mirror">
+<meta name="apple-mobile-web-app-title" content="Prop Firm Mirror">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://propfirmmirror.com/">
+<!-- share previews -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Prop Firm Mirror">
+<meta property="og:title" content="Prop Firm Mirror — Every prop firm, side by side">
+<meta property="og:description" content="Rules, prices and restricted countries for 70 prop firms. Every fact sourced from the firm's own site, with the date we checked.">
+<meta property="og:url" content="https://propfirmmirror.com/">
+<meta property="og:image" content="https://propfirmmirror.com/assets/icons/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@PropFirmMirror">
+<meta name="twitter:title" content="Prop Firm Mirror — Every prop firm, side by side">
+<meta name="twitter:description" content="Rules, prices and restricted countries for 70 prop firms, each sourced from the firm's own site.">
+<meta name="twitter:image" content="https://propfirmmirror.com/assets/icons/og.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="manifest" href="site.webmanifest">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "name": "Prop Firm Mirror", "url": "https://propfirmmirror.com/", "logo": "https://propfirmmirror.com/assets/icons/icon-512.png", "sameAs": ["https://x.com/PropFirmMirror"]}, {"@type": "WebSite", "name": "Prop Firm Mirror", "url": "https://propfirmmirror.com/", "description": "Compare prop trading firms side by side: rules, prices, restricted countries and dated rule changes, each sourced from the firm's own pages."}]}</script>
+<link rel="preload" href="assets/fonts/MonaSansVF-wdth-opsz-wght.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="assets/css/app.css?v=20261030172017">
+<script>(function(){var d=document.documentElement;try{if(sessionStorage.getItem("pfm-intro")||matchMedia("(prefers-reduced-motion: reduce)").matches)d.classList.add("no-loader");else d.classList.add("is-loading")}catch(e){d.classList.add("no-loader")}})();</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A0E0C'/%3E%3Crect x='28.5' y='10' width='7' height='44' fill='%233DDC97'/%3E%3Cpath d='M25 20a14 14 0 0 0 0 26v-6a8 8 0 0 1 0-14z M39 20a14 14 0 0 1 0 26v-6a8 8 0 0 0 0-14z' fill='%233DDC97'/%3E%3C/svg%3E">
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="ld-panel ld-top"></div><div class="ld-panel ld-bot"></div>
+  <div class="ld-core">
+    <svg class="ld-mark" viewBox="0 0 120 120"></svg>
+    <div class="ld-word">PROP FIRM MIRROR</div>
+    <div class="ld-bar"><i></i></div>
+    <div class="ld-num"><span id="ldNum">0</span></div>
+  </div>
+</div>
+<div class="ambient" aria-hidden="true"><div class="grid"></div></div>
+
+<nav class="secbar" aria-label="Market sections"><div class="secbar-in" id="secbar"></div></nav>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#/" aria-label="Prop Firm Mirror home"><svg viewBox="0 0 30 30" id="brandMark"></svg><b>PROP FIRM MIRROR</b><span class="brand-sec" id="brandSec" hidden></span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/" data-nav="home">Firms</a>
+      <a href="#/compare" data-nav="compare">Compare <span class="count" id="navCmpCount" hidden>0</span></a>
+      <a href="#/changes" data-nav="changes">Rule changes</a>
+      <a href="#/method" data-nav="method">How we verify</a>
+    </nav>
+    <div class="spacer"></div>
+    <button class="country-chip" id="countryChip" type="button" aria-haspopup="dialog"></button>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+<nav class="mnav" id="mnav" aria-label="Mobile">
+  <a href="#/" data-nav="home">Firms</a>
+  <a href="#/compare" data-nav="compare">Compare <span class="mono" id="mnavCmp"></span></a>
+  <a href="#/changes" data-nav="changes">Rule changes</a>
+  <a href="#/method" data-nav="method">How we verify</a>
+</nav>
+
+<main id="app" class="wrap" tabindex="-1"></main>
+
+<footer>
+  <div class="foot-mark" aria-hidden="true"><span>PROP FIRM</span><span>MIRROR</span></div>
+  <div class="wrap">
+    <div>
+      <a class="brand" href="#/"><svg viewBox="0 0 30 30" id="footMark"></svg><b>PROP FIRM MIRROR</b></a>
+      <p>Every fact on this site is taken from the firm's own website, help centre or terms, with the link and the date we checked it. If a firm doesn't publish something, we say so. Mirror Scores are our own opinion, built from the reviews and payout reports shown on each firm's page. No paid placement, no affiliate links. Information only, not financial advice — rules change, so confirm on the firm's own page before you buy.</p>
+    </div>
+    <div class="fl">
+      <a href="#/method">How we verify</a>
+      <a href="#/changes">Rule changes</a>
+      <a href="SOURCES.md" target="_blank" rel="noopener">Data log (SOURCES.md)</a>
+      <a href="#/legal">Privacy &amp; disclaimer</a>
+      <a href="https://x.com/PropFirmMirror" target="_blank" rel="noopener">@PropFirmMirror</a>
+    </div>
+  </div>
+  <div class="wrap foot-base"><span>© 2026 Prop Firm Mirror. All rights reserved.</span><span>Firm names and logos belong to their owners and are shown only to identify each firm.</span></div>
+</footer>
+
+<div class="tray" id="tray" role="region" aria-label="Compare selection"></div>
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"></div>
+<div class="picker" id="picker" role="dialog" aria-modal="true" aria-labelledby="pickerTitle"></div>
+
+<noscript><div class="wrap" style="padding:40px 0">This comparison needs JavaScript turned on.</div></noscript>
+
+<script type="importmap">{ "imports": { "three": "./assets/vendor/three.module.js?v=20261030172017" } }</script>
+<script src="assets/js/mark.js?v=20261030172017"></script>
+<script src="assets/js/countries.js?v=20261030172017"></script>
+<script src="assets/js/motion.js?v=20261030172017"></script>
+<script src="data/bundle.js?v=20261030172017"></script>
+<script src="assets/js/app.js?v=20261030172017"></script>
+<script type="module" src="assets/js/hero3d.js?v=20261030172017"></script>
+</body>
+</html>

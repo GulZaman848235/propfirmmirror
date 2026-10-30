@@ -1,0 +1,4224 @@
+# Prop Firm Mirror — data log
+
+Generated 2026-10-30 from `data/firms/*.json` by `node tools/build-data.mjs`.
+
+Every fact on the site comes from the firm's own website, help centre, FAQ, terms or announcements. Each entry below lists the pages used and the date they were checked. `null` values are shown on the site as **Not published**; fields listed under *Unverified* are shown with an **Unverified** badge.
+
+**71 firms · 378 programs · 1077 source pages · 106 dated rule changes**
+
+| Firm | Status | Markets | HQ | Restricted list | Programs | Changes | Last verified |
+|---|---|---|---|---|---|---|---|
+| [Alpha Capital Group](#alpha-capital) | active | cfd | GB | 21 countries | 5 | 0 | 2026-10-30 |
+| [Alpha Futures](#alpha-futures) | active | futures | — | 60 countries (incl. PK) | 4 | 2 | 2026-10-30 |
+| [Apex Trader Funding](#apex-trader-funding) | active | futures | US | unverified (incl. PK) | 2 | 1 | 2026-10-30 |
+| [AquaFunded](#aquafunded) | active | cfd | AE | 15 countries | 8 | 3 | 2026-10-30 |
+| [AquaFutures (AquaFunded Futures)](#aquafutures) | active | futures | AE | 70 countries (incl. PK) | 5 | 0 | 2026-10-30 |
+| [Atmos Funded](#atmos-funded) | active | cfd | CY | 15 countries | 4 | 0 | 2026-10-30 |
+| [Audacity Capital](#audacity-capital) | active | cfd | KM | 4 countries | 3 | 1 | 2026-10-30 |
+| [Bitfunded](#bitfunded) | active | crypto | AE | not published | 5 | 0 | 2026-10-30 |
+| [Blue Guardian](#blue-guardian) | active | cfd, futures | AE | 13 countries | 10 | 1 | 2026-10-30 |
+| [BluSky Trading](#blusky-trading) | active | futures, stocks | US | not published | 6 | 0 | 2026-10-30 |
+| [Breakout (Kraken)](#breakout) | active | crypto | — | unverified | 4 | 4 | 2026-10-30 |
+| [BrightFunded](#brightfunded) | active | cfd, futures | AE | 6 countries (incl. PK) | 5 | 0 | 2026-10-30 |
+| [Bulenox](#bulenox) | active | futures | US | not published | 3 | 0 | 2026-10-30 |
+| [City Traders Imperium](#city-traders-imperium) | active | cfd | KM | 5 countries | 4 | 0 | 2026-10-30 |
+| [Crypto Fund Trader](#crypto-fund-trader) | active | crypto, cfd | CH | not published | 5 | 0 | 2026-10-30 |
+| [DayTraders.com](#daytraders-com) | active | futures | US | 80 countries (incl. PK) | 5 | 0 | 2026-10-30 |
+| [E8 Markets](#e8-markets) | active | cfd, futures, crypto | US | 35 countries (incl. PK); futures: 87 (incl. PK) | 7 | 0 | 2026-10-30 |
+| [Earn2Trade](#earn2trade) | active | futures | US | 25 countries (incl. PK) | 2 | 5 | 2026-10-30 |
+| [Elite Trader Funding](#elite-trader-funding) | active | futures | US | 24 countries | 6 | 5 | 2026-10-30 |
+| [Finotive Funding](#finotive) | active | cfd | AE | 3 countries | 7 | 0 | 2026-10-30 |
+| [Fintokei](#fintokei) | active | cfd | CZ | 36 countries (incl. PK) | 4 | 4 | 2026-10-30 |
+| [Fondeo](#fondeo) | active | crypto | US | not published | 3 | 1 | 2026-10-30 |
+| [For Traders](#for-traders) | active | cfd, crypto, futures | AE | 13 countries (incl. PK) | 12 | 3 | 2026-10-30 |
+| [FTMO](#ftmo) | active | cfd, futures | CZ | 74 countries | 5 | 4 | 2026-10-30 |
+| [FTUK](#ftuk) | active | cfd, futures | NL | 7 countries | 4 | 1 | 2026-10-30 |
+| [Funded Futures Network](#funded-futures-network) | active | futures | — | unverified | 2 | 2 | 2026-10-30 |
+| [Funded Trading Plus](#funded-trading-plus) | active | cfd | — | 22 countries | 4 | 1 | 2026-10-30 |
+| [FundedElite](#fundedelite) | active | cfd, futures | IT | 14 countries; futures: 78 (incl. PK) | 14 | 0 | 2026-10-30 |
+| [FundedNext](#fundednext) | active | cfd, futures | AE | 20 countries; futures: 51 | 8 | 3 | 2026-10-30 |
+| [FunderPro](#funderpro) | active | cfd, futures | MT | 20 countries | 7 | 1 | 2026-10-30 |
+| [FundingPips](#fundingpips) | active | cfd | AE | not published | 5 | 0 | 2026-10-30 |
+| [FundingTraders](#funding-traders) | active | cfd | US | 5 countries | 5 | 4 | 2026-10-30 |
+| [FXIFY](#fxify) | active | cfd, crypto, futures | GB | 35 countries; futures: 77 (incl. PK) | 13 | 2 | 2026-10-30 |
+| [Goat Funded Trader](#goat-funded-trader) | active | cfd, futures | HK | 32 countries | 13 | 7 | 2026-10-30 |
+| [Hola Prime](#hola-prime) | active | cfd, futures | HK | 10 countries | 6 | 0 | 2026-10-30 |
+| [Hydra Funding](#hydra-funding) | active | cfd, crypto, futures | LC | 11 countries (incl. PK) | 9 | 2 | 2026-10-30 |
+| [HyroTrader](#hyrotrader) | active | crypto | AE | 23 countries | 3 | 1 | 2026-10-30 |
+| [Instant Funding](#instant-funding) | active | cfd, crypto | LC | 26 countries | 14 | 6 | 2026-10-30 |
+| [Klein Funding](#klein-funding) | active | crypto | — | not published | 5 | 0 | 2026-10-30 |
+| [Lark Funding](#lark-funding) | active | cfd | CA | 5 countries | 4 | 0 | 2026-10-30 |
+| [Leeloo Trading](#leeloo-trading) | active | futures | US | not published | 2 | 0 | 2026-10-30 |
+| [Lenvra Markets](#lenvra) | active | cfd, crypto, stocks | US | 4 countries | 2 | 0 | 2026-10-30 |
+| [Lucid Trading](#lucid-trading) | active | futures | — | 77 countries (incl. PK) | 4 | 1 | 2026-10-30 |
+| [Lux Trading Firm](#lux-trading-firm) | active | cfd, prediction | GB | not published | 3 | 1 | 2026-10-30 |
+| [Maven Trading](#maven-trading) | active | cfd, prediction | AE | 25 countries | 9 | 0 | 2026-10-30 |
+| [Ment Funding](#ment-funding) | active | cfd, futures, stocks | US | not published | 3 | 1 | 2026-10-30 |
+| [Moneta Funded](#moneta-funded) | active | cfd | — | 9 countries | 7 | 2 | 2026-10-30 |
+| [MyFundedFutures](#myfundedfutures) | active | futures | — | 88 countries (incl. PK) | 5 | 2 | 2026-10-30 |
+| [Nordic Funder](#nordic-funder) | active | cfd, crypto, stocks | — | not published | 9 | 0 | 2026-10-30 |
+| [OneUp Trader](#oneup-trader) | active | futures | US | 19 countries | 2 | 1 | 2026-10-30 |
+| [Phidias Propfirm](#phidias) | active | futures | GI | 58 countries (incl. PK) | 4 | 0 | 2026-10-30 |
+| [PipFarm](#pipfarm) | active | cfd | SG | 13 countries | 6 | 4 | 2026-10-30 |
+| [Pipstone Capital](#pipstone-capital) | active | cfd | — | 7 countries | 3 | 0 | 2026-10-30 |
+| [Propr](#propr) | active | crypto | VG | 30 countries (incl. PK) | 4 | 5 | 2026-10-30 |
+| [Purdia Capital](#purdia-capital) | active | futures | — | unverified | 5 | 1 | 2026-10-30 |
+| [QT Funded](#qt-funded) | active | cfd | VC | 12 countries (incl. PK) | 5 | 1 | 2026-10-30 |
+| [RebelsFunding](#rebels-funding) | active | cfd | SK | 9 countries (incl. PK) | 5 | 4 | 2026-10-30 |
+| [RZR Funded (formerly Hantec Trader)](#rzr-funded) | active | cfd | MU | 5 countries | 7 | 0 | 2026-10-30 |
+| [SabioTrade](#sabiotrade) | active | cfd | IE | unverified | 1 | 0 | 2026-10-30 |
+| [Seacrest Funded](#seacrest-funded) | closed | cfd | ZA | not published | 0 | 0 | 2026-10-30 |
+| [Take Profit Trader](#take-profit-trader) | active | futures | US | not published | 1 | 0 | 2026-10-30 |
+| [The Legends Trading](#the-legends-trading) | active | futures | US | unverified | 3 | 0 | 2026-10-30 |
+| [The Trading Pit](#the-trading-pit) | active | cfd, futures, stocks | LI | 9 countries | 5 | 5 | 2026-10-30 |
+| [The5ers](#the5ers) | active | cfd, futures | GB | 29 countries | 5 | 0 | 2026-10-30 |
+| [ThinkCapital](#thinkcapital) | active | cfd | GB | 31 countries | 6 | 2 | 2026-10-30 |
+| [Top One Trader](#top-one-trader) | active | cfd, crypto, futures | KM | 26 countries (incl. PK); futures: 72 (incl. PK) | 11 | 3 | 2026-10-30 |
+| [Topstep](#topstep) | active | futures | US | 32 countries (incl. PK) | 5 | 3 | 2026-10-30 |
+| [Trade The Pool](#trade-the-pool) | active | stocks | IL | 30 countries | 5 | 0 | 2026-10-30 |
+| [TradeDay](#tradeday) | active | futures | US | 80 countries (incl. PK) | 3 | 5 | 2026-10-30 |
+| [Tradeify](#tradeify) | active | futures, cfd | US | 64 countries (incl. PK); cfd: 30 | 6 | 1 | 2026-10-30 |
+| [UProfit](#uprofit) | active | futures | US | 10 countries (incl. PK) | 2 | 0 | 2026-10-30 |
+
+## Alpha Capital Group
+<a id="alpha-capital"></a>
+
+- Website: https://alphacapitalgroup.uk/
+- Last verified: 2026-10-30
+- HQ: GB, Harpenden — Alpha Capital Group Limited (verified) — source: https://alphacapitalgroup.uk/ (2026-10-30)
+- Restricted countries: published — AF, BY, BI, CF, TD, CU, CD, ER, IR, IQ, LY, MM, KP, RU, SO, SS, SD, SY, VE, VN, YE — source: https://alphacapitalgroup.uk/resources/alpha-capital-country-availability-2026 (2026-10-30)
+  - Note: Country-availability page (published 30 Jun 2026): these countries cannot be selected at checkout. Pakistan is listed as available. The US is listed as available with platform limits (no MT5 for US residents; cTrader closed to new US customers; DXtrade and TradeLocker available), but the homepage order form asks buyers to confirm they are not US residents or citizens.
+- Program **Alpha One (6% / 10% / 12%)** (cfd, 1-step) — checked 2026-10-30
+  - https://help.alphacapitalgroup.uk/en/articles/10097421-alpha-one-6-10-12
+  - https://alphacapitalgroup.uk/product/alpha-one
+  - https://help.alphacapitalgroup.uk/en/articles/10102634-on-demand-performance-fee
+  - https://help.alphacapitalgroup.uk/en/articles/6934236-can-i-use-an-expert-advisor-ea
+  - https://help.alphacapitalgroup.uk/en/articles/8786973-is-copy-trading-allowed
+  - https://alphacapitalgroup.uk/
+  - Unverified fields: dailyLoss
+- Program **Alpha Pro (6% / 8% / 10%)** (cfd, 2-step) — checked 2026-10-30
+  - https://help.alphacapitalgroup.uk/en/articles/8420429-alpha-pro-8-10
+  - https://help.alphacapitalgroup.uk/en/articles/11378706-alpha-pro-6
+  - https://alphacapitalgroup.uk/product/alpha-pro
+  - https://help.alphacapitalgroup.uk/en/articles/10570531-bi-weekly-performance-fee
+  - https://help.alphacapitalgroup.uk/en/articles/10102634-on-demand-performance-fee
+  - https://alphacapitalgroup.uk/
+- Program **Alpha Swing** (cfd, 2-step) — checked 2026-10-30
+  - https://help.alphacapitalgroup.uk/en/articles/9789907-alpha-swing
+  - https://help.alphacapitalgroup.uk/en/articles/10102634-on-demand-performance-fee
+  - https://alphacapitalgroup.uk/
+  - Unverified fields: platforms
+- Program **Alpha Three** (cfd, 3-step) — checked 2026-10-30
+  - https://help.alphacapitalgroup.uk/en/articles/10192958-alpha-three
+  - https://help.alphacapitalgroup.uk/en/articles/10570531-bi-weekly-performance-fee
+  - https://help.alphacapitalgroup.uk/en/articles/10102634-on-demand-performance-fee
+  - https://alphacapitalgroup.uk/
+  - Unverified fields: platforms
+- Program **Alpha Direct** (cfd, instant) — checked 2026-10-30
+  - https://help.alphacapitalgroup.uk/en/articles/16003693-alpha-direct
+  - https://help.alphacapitalgroup.uk/en/articles/10102634-on-demand-performance-fee
+  - https://help.alphacapitalgroup.uk/en/articles/6934236-can-i-use-an-expert-advisor-ea
+  - https://alphacapitalgroup.uk/
+  - Unverified fields: platforms
+- All sources:
+  - 2026-10-30 · Homepage (entity, programs) · https://alphacapitalgroup.uk/
+  - 2026-10-30 · Country availability 2026 · https://alphacapitalgroup.uk/resources/alpha-capital-country-availability-2026
+  - 2026-10-30 · Alpha One product page · https://alphacapitalgroup.uk/product/alpha-one
+  - 2026-10-30 · Alpha Pro product page · https://alphacapitalgroup.uk/product/alpha-pro
+  - 2026-10-30 · Alpha One rules · https://help.alphacapitalgroup.uk/en/articles/10097421-alpha-one-6-10-12
+  - 2026-10-30 · Alpha Pro 8%/10% rules · https://help.alphacapitalgroup.uk/en/articles/8420429-alpha-pro-8-10
+  - 2026-10-30 · Alpha Pro 6% rules · https://help.alphacapitalgroup.uk/en/articles/11378706-alpha-pro-6
+  - 2026-10-30 · Alpha Swing rules · https://help.alphacapitalgroup.uk/en/articles/9789907-alpha-swing
+  - 2026-10-30 · Alpha Three rules · https://help.alphacapitalgroup.uk/en/articles/10192958-alpha-three
+  - 2026-10-30 · Alpha Direct rules · https://help.alphacapitalgroup.uk/en/articles/16003693-alpha-direct
+  - 2026-10-30 · Bi-Weekly performance fee · https://help.alphacapitalgroup.uk/en/articles/10570531-bi-weekly-performance-fee
+  - 2026-10-30 · On-Demand performance fee · https://help.alphacapitalgroup.uk/en/articles/10102634-on-demand-performance-fee
+  - 2026-10-30 · Qualified Analyst earnings · https://help.alphacapitalgroup.uk/en/articles/7060937-what-do-qualified-analysts-earn-from-account-profits
+  - 2026-10-30 · EA policy · https://help.alphacapitalgroup.uk/en/articles/6934236-can-i-use-an-expert-advisor-ea
+  - 2026-10-30 · Copy trading policy · https://help.alphacapitalgroup.uk/en/articles/8786973-is-copy-trading-allowed
+  - 2026-10-30 · Help centre collections · https://help.alphacapitalgroup.uk/en/collections/19682652-trading-rules
+  - 2026-10-30 · Plan picker on homepage (prices) · https://alphacapitalgroup.uk/
+- Data gaps:
+  - Alpha One daily-loss figures for the 10% and 12% variants are worded ambiguously between the help article and the product page.
+  - A 2-minute average trade duration rule exists (help article title) but its text was not opened, so it is not applied to any program.
+  - Platform availability per plan (cTrader, DXtrade, TradeLocker) is taken from the country-availability page, not plan articles.
+  - No dated rule-change announcements were found on official pages opened; web search quota was exhausted before a blog/announcement search.
+  - Prices were read from the JS plan picker in a browser on 2026-10-30. Alpha Three did not appear in the picker that day.
+
+## Alpha Futures
+<a id="alpha-futures"></a>
+
+- Website: https://alpha-futures.com/
+- Last verified: 2026-10-30
+- HQ: not published — Alpha Futures Limited (unverified) — source: https://help.alpha-futures.com/en/articles/9508585-prohibited-trading-practices (2026-10-30)
+- Restricted countries: published — AF, AL, BY, BA, BG, BF, MM, TD, CN, CI, HR, CU, CD, DJ, TL, GW, ET, HT, IR, IQ, JM, JO, KE, XK, KG, LA, LB, LS, LY, MW, MY, ML, ME, MZ, NA, NG, KP, MK, PS, PK, PH, RO, RU, RW, SN, RS, SL, SI, SO, SS, SD, SY, TJ, TZ, TR, UA, VE, VN, YE, ZW — source: https://help.alpha-futures.com/en/articles/9523389-countries-with-limitations (2026-10-30)
+  - Note: 'Banned Countries' list (61 entries, article dated 12 Aug 2026). Pakistan is listed. Also lists Northern Cyprus (no ISO code). Trading is not permitted even while visiting or travelling through a listed country.
+- Program **Zero** (futures, 1-step) — checked 2026-10-30
+  - https://help.alpha-futures.com/en/articles/11771813-zero-account-overview
+  - https://help.alpha-futures.com/en/articles/9491999-maximum-loss-limit-mll
+  - https://help.alpha-futures.com/en/articles/9492063-news-trading-policy
+  - https://help.alpha-futures.com/en/articles/9508585-prohibited-trading-practices
+  - https://help.alpha-futures.com/en/articles/10573989-copy-trading
+  - https://help.alpha-futures.com/en/articles/9492096-what-and-when-you-can-trade
+- Program **Standard** (futures, 1-step) — checked 2026-10-30
+  - https://help.alpha-futures.com/en/articles/11632512-standard-account-overview
+  - https://help.alpha-futures.com/en/articles/9491999-maximum-loss-limit-mll
+  - https://help.alpha-futures.com/en/articles/9492063-news-trading-policy
+- Program **Advanced** (futures, 1-step) — checked 2026-10-30
+  - https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview
+  - https://help.alpha-futures.com/en/articles/9492083-activation-fee
+  - https://help.alpha-futures.com/en/articles/9492063-news-trading-policy
+- Program **Direct (instant)** (futures, instant) — checked 2026-10-30
+  - https://help.alpha-futures.com/en/articles/15838742-direct-account-overview
+  - https://help.alpha-futures.com/en/articles/9491999-maximum-loss-limit-mll
+  - https://help.alpha-futures.com/en/articles/9492063-news-trading-policy
+- Rule changes:
+  - 2026-07-08 — Activation fee removed — https://help.alpha-futures.com/en/articles/9492083-activation-fee
+  - 2026-07-07 — Direct (instant) account launched — https://help.alpha-futures.com/en/articles/15838742-direct-account-overview
+- All sources:
+  - 2026-10-30 · Countries with limitations · https://help.alpha-futures.com/en/articles/9523389-countries-with-limitations
+  - 2026-10-30 · Zero account · https://help.alpha-futures.com/en/articles/11771813-zero-account-overview
+  - 2026-10-30 · Standard account · https://help.alpha-futures.com/en/articles/11632512-standard-account-overview
+  - 2026-10-30 · Advanced account · https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview
+  - 2026-10-30 · Direct account · https://help.alpha-futures.com/en/articles/15838742-direct-account-overview
+  - 2026-10-30 · Maximum Loss Limit · https://help.alpha-futures.com/en/articles/9491999-maximum-loss-limit-mll
+  - 2026-10-30 · Activation fee · https://help.alpha-futures.com/en/articles/9492083-activation-fee
+  - 2026-10-30 · News trading policy · https://help.alpha-futures.com/en/articles/9492063-news-trading-policy
+  - 2026-10-30 · Prohibited trading practices · https://help.alpha-futures.com/en/articles/9508585-prohibited-trading-practices
+  - 2026-10-30 · Copy trading · https://help.alpha-futures.com/en/articles/10573989-copy-trading
+  - 2026-10-30 · What and when you can trade · https://help.alpha-futures.com/en/articles/9492096-what-and-when-you-can-trade
+  - 2026-10-30 · Trading platforms · https://help.alpha-futures.com/en/articles/10525305-trading-platforms
+- Data gaps:
+  - Registered country and address of Alpha Futures Limited not found; alpha-futures.com returned HTTP 403.
+  - A ProjectX discontinuation (third-party reports: active accounts until 28 Feb 2026) was not found on an official page, so it is not listed.
+  - Some help articles show only relative update dates.
+
+## Apex Trader Funding
+<a id="apex-trader-funding"></a>
+
+- Website: https://apextraderfunding.com/
+- Last verified: 2026-10-30
+- HQ: US, Austin — Apex Trader Funding Inc. (unverified) — source: https://apextraderfunding.com/terms-of-use/ (2026-10-30)
+- Restricted countries: unverified — AF, DZ, BD, PK, VN, EG, IR, KE, MA, NG, RU, EH — source: https://apextraderfunding.com/help-center/getting-started/restricted-countries/ (2026-10-30)
+  - Note: PARTIAL list. The official Restricted Countries page (roughly 100 entries) returned HTTP 403; only these codes were confirmed in search-engine snippets of that page. Pakistan appears in the official snippet. Exception possible for people from a restricted country who live in a non-restricted country with government ID, residence, mailing address and bank account there. Payment methods issued in a restricted country are prohibited. A separate, narrower Live-account list is set by the brokerage partner. Opening apextraderfunding.com from Pakistan on 2026-10-30 showed: 'Sorry but you are in a country that has been blocked from accessing our services.'
+- Program **Intraday Trailing Drawdown Evaluation** (futures, 1-step) — checked 2026-10-30
+  - https://apextraderfunding.com/help-center/evaluation-accounts-ea/intraday-trailing-drawdown-evaluations/
+  - https://apextraderfunding.com/help-center/intraday-trailing-drawdown-accounts/intraday-trailing-drawdown-payouts/
+  - https://apextraderfunding.com/help-center/intraday-trailing-drawdown-accounts/intraday-trailing-drawdown-explained/
+  - https://apextraderfunding.com/help-center/billing/evaluation-plan-fees-and-access-explained/
+  - https://apextraderfunding.com/help-center/billing/pa-activation-process-deadline-explained/
+  - https://apextraderfunding.com/help-center/getting-started/prohibited-activities/
+  - https://apextraderfunding.com/help-center/getting-started/apex-live-prop-trading-program-faq/
+  - Unverified fields: sizes, billing, phases, dailyLoss, maxDrawdown, profitSplit, payoutFrequency, payoutMinimum, minDays, timeLimit, consistency, eas, copyTrading, weekend, leverage, platforms
+- Program **EOD Trailing Drawdown Evaluation** (futures, 1-step) — checked 2026-10-30
+  - https://apextraderfunding.com/help-center/eod-trailing-drawdown-accounts/eod-evaluations/
+  - https://apextraderfunding.com/help-center/eod-trailing-drawdown-accounts/eod-performance-accounts-pa/
+  - https://apextraderfunding.com/help-center/eod-trailing-drawdown-accounts/eod-payouts/
+  - https://apextraderfunding.com/help-center/additional-helpful-items/daily-loss-limit-explained/
+  - https://apextraderfunding.com/help-center/billing/evaluation-plan-fees-and-access-explained/
+  - Unverified fields: sizes, billing, phases, dailyLoss, maxDrawdown, profitSplit, payoutFrequency, payoutMinimum, minDays, timeLimit, consistency, eas, copyTrading, weekend, leverage, platforms
+- Rule changes:
+  - 2026-03-01 — New EOD and Intraday account models; old products moved to Legacy — https://apextraderfunding.com/help-center/legacy-products/legacy-products-overview/
+- All sources:
+  - 2026-10-30 · Restricted countries (snippet only, HTTP 403) · https://apextraderfunding.com/help-center/getting-started/restricted-countries/
+  - 2026-10-30 · Terms of Use (snippet only, HTTP 403) · https://apextraderfunding.com/terms-of-use/
+  - 2026-10-30 · Intraday evaluations (snippet only) · https://apextraderfunding.com/help-center/evaluation-accounts-ea/intraday-trailing-drawdown-evaluations/
+  - 2026-10-30 · Intraday payouts (snippet only) · https://apextraderfunding.com/help-center/intraday-trailing-drawdown-accounts/intraday-trailing-drawdown-payouts/
+  - 2026-10-30 · EOD evaluations (snippet only) · https://apextraderfunding.com/help-center/eod-trailing-drawdown-accounts/eod-evaluations/
+  - 2026-10-30 · EOD Performance Accounts (snippet only) · https://apextraderfunding.com/help-center/eod-trailing-drawdown-accounts/eod-performance-accounts-pa/
+  - 2026-10-30 · EOD payouts (snippet only) · https://apextraderfunding.com/help-center/eod-trailing-drawdown-accounts/eod-payouts/
+  - 2026-10-30 · Evaluation fees and access (snippet only) · https://apextraderfunding.com/help-center/billing/evaluation-plan-fees-and-access-explained/
+  - 2026-10-30 · PA activation (snippet only) · https://apextraderfunding.com/help-center/billing/pa-activation-process-deadline-explained/
+  - 2026-10-30 · Prohibited activities (snippet only) · https://apextraderfunding.com/help-center/getting-started/prohibited-activities/
+  - 2026-10-30 · Live program FAQ (snippet only) · https://apextraderfunding.com/help-center/getting-started/apex-live-prop-trading-program-faq/
+  - 2026-10-30 · Legacy products overview (snippet only) · https://apextraderfunding.com/help-center/legacy-products/legacy-products-overview/
+  - 2026-10-30 · Choosing the right platform (snippet only) · https://apextraderfunding.com/help-center/getting-started/choosing-the-right-platform/
+- Data gaps:
+  - apextraderfunding.com, support.apextraderfunding.com and dashboard.apextraderfunding.com all returned HTTP 403 to our fetcher; every Apex value comes from search-engine snippets of official pages and is marked unverified.
+  - Current one-time evaluation prices and PA activation fee amounts not verified; snippets showed conflicting legacy figures.
+  - Restricted-country list is partial (12 codes confirmed in snippets of a ~100-entry list).
+  - News-trading rule for new accounts not found.
+  - EOD payout caps for payouts 3-6 and intraday cap schedule beyond the 50K example not captured.
+  - The site blocks visitors from Pakistan, so the full restricted list and current prices could not be read from there.
+
+## AquaFunded
+<a id="aquafunded"></a>
+
+- Website: https://aquafunded.com/
+- Last verified: 2026-10-30
+- HQ: AE, Dubai — Aqua Funded FZCO (t/a AquaFunded) (verified) — source: https://aquafunded.com/forex-rules (2026-10-30)
+- Restricted countries: published — CU, IR, SY, VN, KE, AL, DZ, KP, SN, MM, RU, BY, SD, SS, VE — source: https://help.aquafunded.com/en/articles/9251052-are-there-any-countries-we-cannot-trade-from (2026-10-30)
+  - Note: Also Crimea, Donetsk and Luhansk (regions of Ukraine). Conditional countries, allowed on Instant Funding models only with max $50K funded per trader: TH, BR, BG, JP, JO, SG, MY, ID, PH. Pakistan is not on either list. No separate list found for AquaFutures.
+- Program **Instant Funding Standard** (cfd, instant) — checked 2026-10-30
+  - https://help.aquafunded.com/en/articles/10476448-instant-funding-standard
+  - https://aquafunded.com/forex-rules
+  - https://aquafunded.com/
+  - Unverified fields: platforms
+- Program **Instant Funding Pro** (cfd, instant) — checked 2026-10-30
+  - https://help.aquafunded.com/en/articles/15281078-instant-funding-pro
+  - https://aquafunded.com/forex-rules
+  - https://aquafunded.com/
+  - Unverified fields: platforms
+- Program **Instant Flex** (cfd, instant) — checked 2026-10-30
+  - https://help.aquafunded.com/en/articles/17066639-instant-flex
+  - https://aquafunded.com/forex-rules
+  - https://aquafunded.com/
+  - Unverified fields: platforms
+- Program **1 Step Standard** (cfd, 1-step) — checked 2026-10-30
+  - https://help.aquafunded.com/en/articles/15281183-1-step-standard
+  - https://aquafunded.com/forex-rules
+  - https://aquafunded.com/
+  - Unverified fields: maxDrawdown, platforms
+- Program **1 Step Flex** (cfd, 1-step) — checked 2026-10-30
+  - https://help.aquafunded.com/en/articles/10476451-1-step-flex
+  - https://aquafunded.com/forex-rules
+  - https://aquafunded.com/
+  - Unverified fields: platforms
+- Program **2 Step Standard** (cfd, 2-step) — checked 2026-10-30
+  - https://help.aquafunded.com/en/articles/15281226-2-step-standard
+  - https://aquafunded.com/forex-rules
+  - https://aquafunded.com/
+  - Unverified fields: platforms
+- Program **2 Step Elite** (cfd, 2-step) — checked 2026-10-30
+  - https://help.aquafunded.com/en/articles/17709019-2-step-elite
+  - https://aquafunded.com/forex-rules
+  - https://aquafunded.com/
+  - Unverified fields: platforms
+- Program **2 Step Pro** (cfd, 2-step) — checked 2026-10-30
+  - https://help.aquafunded.com/en/articles/15281229-2-step-pro
+  - https://aquafunded.com/forex-rules
+  - https://aquafunded.com/
+  - Unverified fields: platforms
+- Rule changes:
+  - 2026-09-08 — Instant Funding Pro consistency 15% to 20% — https://help.aquafunded.com/en/articles/15281078-instant-funding-pro
+  - 2026-08-31 — 1 Step Flex max drawdown 10% to 12% — https://help.aquafunded.com/en/articles/10476451-1-step-flex
+  - 2026-08-31 — 2 Step Pro consistency 25% to 50% — https://help.aquafunded.com/en/articles/15281229-2-step-pro
+- All sources:
+  - 2026-10-30 · Homepage (platforms, entities, links) · https://aquafunded.com/
+  - 2026-10-30 · Forex rules (leverage, news, EAs, entity) · https://aquafunded.com/forex-rules
+  - 2026-10-30 · Restricted countries · https://help.aquafunded.com/en/articles/9251052-are-there-any-countries-we-cannot-trade-from
+  - 2026-10-30 · Forex models collection · https://help.aquafunded.com/en/collections/11518293-forex-models
+  - 2026-10-30 · Instant Funding Standard · https://help.aquafunded.com/en/articles/10476448-instant-funding-standard
+  - 2026-10-30 · Instant Funding Pro · https://help.aquafunded.com/en/articles/15281078-instant-funding-pro
+  - 2026-10-30 · Instant Flex · https://help.aquafunded.com/en/articles/17066639-instant-flex
+  - 2026-10-30 · 1 Step Standard · https://help.aquafunded.com/en/articles/15281183-1-step-standard
+  - 2026-10-30 · 1 Step Flex · https://help.aquafunded.com/en/articles/10476451-1-step-flex
+  - 2026-10-30 · 2 Step Standard · https://help.aquafunded.com/en/articles/15281226-2-step-standard
+  - 2026-10-30 · 2 Step Elite · https://help.aquafunded.com/en/articles/17709019-2-step-elite
+  - 2026-10-30 · 2 Step Pro · https://help.aquafunded.com/en/articles/15281229-2-step-pro
+  - 2026-10-30 · AquaFutures help centre · https://intercom.help/aquafutures-help-center/en
+  - 2026-10-30 · AquaFutures models collection · https://intercom.help/aquafutures-help-center/en/collections/19749869-models
+  - 2026-10-30 · AquaFutures Standard rules · https://intercom.help/aquafutures-help-center/en/articles/16934774-standard-account-rules
+  - 2026-10-30 · AquaFutures Flex (daily loss) FAQ · https://intercom.help/aquafutures-help-center/en/articles/16934765-flex-daily-loss-faq
+  - 2026-10-30 · AquaFutures Daily rules · https://intercom.help/aquafutures-help-center/en/articles/16934770-daily-account-rules
+  - 2026-10-30 · AquaFutures Instant rules · https://intercom.help/aquafutures-help-center/en/articles/16934775-instant-account-rules
+  - 2026-10-30 · AquaFutures platforms collection · https://intercom.help/aquafutures-help-center/en/collections/19685956-trading-platforms
+  - 2026-10-30 · AquaFutures page · https://aquafunded.com/futures
+  - 2026-10-30 · Account configurator (prices) · https://aquafunded.com/
+- Data gaps:
+  - CFD platform list (MT5, cTrader, Match-Trader, TradeLocker) is from the homepage and not tied to individual models.
+  - Minimum payout and payout caps for CFD models are not stated in the model articles.
+  - 1 Step Standard trailing drawdown example in the help article conflicts with its own wording.
+  - AquaFutures news, automation and overnight rules not opened except Standard (news allowed); Flex 'No Daily Loss' variant article not opened.
+  - Prices were read from the JS account configurator in a browser on 2026-10-30.
+
+## AquaFutures (AquaFunded Futures)
+<a id="aquafutures"></a>
+
+- Website: https://www.aquafunded.com/futures
+- Last verified: 2026-10-30
+- HQ: AE, Dubai — Aqua Funded FZCO (t/a AquaFunded); simulated trading services by AquaFunded LTD (Saint Lucia, company no. 2004-00597) (unverified) — source: https://www.aquafunded.com/legal/terms-and-conditions (2026-10-30)
+- Restricted countries: published — AF, AL, DZ, AO, BS, BB, BY, BA, BW, MM, BF, BI, KH, CM, CF, CN, CI, HR, CU, CD, EC, ET, GH, HK, IS, ID, IR, IQ, JM, KE, XK, LA, LB, LR, LY, MK, ML, MU, MN, ME, MZ, NA, NI, KP, PK, PA, PG, PH, QA, RO, RU, SN, RS, SI, SO, ZA, SS, LK, SD, SY, TZ, TT, TN, TR, UG, UA, VE, VN, YE, ZW — source: https://intercom.help/aquafutures-help-center/en/articles/15692184-restricted-territories (2026-10-30)
+  - Note: Pakistan (PK) is restricted. Help-centre article 'Restricted Territories' says AquaFutures is unable to accept traders from the listed countries; it also says residents or citizens of these countries cannot claim a giveaway account. Also lists Crimea (no ISO code). Kosovo mapped to XK (user-assigned code). Article shows no exact update date.
+- Program **Flex (Daily Loss Limit)** (futures, 1-step) — checked 2026-10-30
+  - https://intercom.help/aquafutures-help-center/en/articles/16934765-flex-daily-loss-faq
+  - https://intercom.help/aquafutures-help-center/en/articles/16941660-payout-policy
+  - https://intercom.help/aquafutures-help-center/en/articles/15863742-prohibited-trading-strategies
+  - https://intercom.help/aquafutures-help-center/en/articles/15692209-trading-hours
+  - https://aquafunded.com/
+  - Unverified fields: payoutMinimum
+- Program **Flex (No Daily Loss Limit)** (futures, 1-step) — checked 2026-10-30
+  - https://intercom.help/aquafutures-help-center/en/articles/17296868-flex-no-daily-loss-faq
+  - https://intercom.help/aquafutures-help-center/en/articles/16941660-payout-policy
+  - https://intercom.help/aquafutures-help-center/en/articles/15863742-prohibited-trading-strategies
+  - https://intercom.help/aquafutures-help-center/en/articles/15692209-trading-hours
+  - https://aquafunded.com/
+  - Unverified fields: payoutMinimum
+- Program **Standard** (futures, 1-step) — checked 2026-10-30
+  - https://intercom.help/aquafutures-help-center/en/articles/16934774-standard-account-rules
+  - https://intercom.help/aquafutures-help-center/en/articles/16941660-payout-policy
+  - https://aquafunded.com/
+- Program **Daily** (futures, 1-step) — checked 2026-10-30
+  - https://intercom.help/aquafutures-help-center/en/articles/16934770-daily-account-rules
+  - https://intercom.help/aquafutures-help-center/en/articles/16941660-payout-policy
+  - https://aquafunded.com/
+  - Unverified fields: payoutMinimum
+- Program **Instant** (futures, instant) — checked 2026-10-30
+  - https://intercom.help/aquafutures-help-center/en/articles/16934775-instant-account-rules
+  - https://intercom.help/aquafutures-help-center/en/articles/16941660-payout-policy
+  - https://aquafunded.com/
+- All sources:
+  - 2026-10-30 · Futures page (aquafutures.io redirects here) · https://www.aquafunded.com/futures
+  - 2026-10-30 · Terms and conditions (entities) · https://www.aquafunded.com/legal/terms-and-conditions
+  - 2026-10-30 · Help centre home · https://intercom.help/aquafutures-help-center/en
+  - 2026-10-30 · Restricted territories · https://intercom.help/aquafutures-help-center/en/articles/15692184-restricted-territories
+  - 2026-10-30 · Models collection · https://intercom.help/aquafutures-help-center/en/collections/19749869-models
+  - 2026-10-30 · Flex Daily Loss rules · https://intercom.help/aquafutures-help-center/en/articles/16934765-flex-daily-loss-faq
+  - 2026-10-30 · Flex No Daily Loss rules · https://intercom.help/aquafutures-help-center/en/articles/17296868-flex-no-daily-loss-faq
+  - 2026-10-30 · Standard account rules · https://intercom.help/aquafutures-help-center/en/articles/16934774-standard-account-rules
+  - 2026-10-30 · Daily account rules · https://intercom.help/aquafutures-help-center/en/articles/16934770-daily-account-rules
+  - 2026-10-30 · Instant account rules · https://intercom.help/aquafutures-help-center/en/articles/16934775-instant-account-rules
+  - 2026-10-30 · Payout policy · https://intercom.help/aquafutures-help-center/en/articles/16941660-payout-policy
+  - 2026-10-30 · Prohibited trading strategies · https://intercom.help/aquafutures-help-center/en/articles/15863742-prohibited-trading-strategies
+  - 2026-10-30 · Trading hours · https://intercom.help/aquafutures-help-center/en/articles/15692209-trading-hours
+  - 2026-10-30 · Trading platforms collection · https://intercom.help/aquafutures-help-center/en/collections/19685956-trading-platforms
+  - 2026-10-30 · Introduction to AquaFutures · https://intercom.help/aquafutures-help-center/en/articles/15692085-introduction-to-aquafutures
+  - 2026-10-30 · Account configurator, Futures tab (prices) · https://aquafunded.com/
+- Data gaps:
+  - Minimum payout conflicts: the payout policy says $500 for all models, while the Flex and Daily articles give $100 via crypto / $500 via Rise.
+  - Operating entity for the futures brand is not named; HQ taken from AquaFunded's terms (marked unverified).
+  - Help-centre articles show only relative update times ('over a month ago'), and no dated official announcements were found, so changes is empty.
+  - Instant drawdown lock level is not stated.
+  - Restricted-countries article also mentions giveaway eligibility, so its scope wording is ambiguous; the opening line covers all traders.
+  - Prices were read from the JS account configurator (Futures tab) in a browser on 2026-10-30.
+
+## Atmos Funded
+<a id="atmos-funded"></a>
+
+- Website: https://atmosfunded.com/
+- Last verified: 2026-10-30
+- HQ: CY, Nicosia — AtmosFunded Ltd (verified) — source: https://atmosfunded.com/legal/ (2026-10-30)
+- Restricted countries: published — US, BE, KP, RU, IQ, AS, BY, MP, PS, PR, UA, VI, WF, YE, ZW — source: https://atmosfunded.com/legal/ (2026-10-30)
+  - Note: The firm says restricted jurisdictions 'include, but are not limited to' these countries, so the list may not be complete. Pakistan is not on the published list.
+- Program **Nova (1-Step, pay after you pass)** (cfd, 1-step) — checked 2026-10-30
+  - https://help.atmosfunded.com/en/articles/13959447-nova-challenge
+  - https://help.atmosfunded.com/en/articles/12380605-how-payouts-work
+  - https://help.atmosfunded.com/en/articles/12380612-profit-split-explained
+  - https://atmosfunded.com/nova-challenge/
+  - https://atmosfunded.com/rules/
+- Program **2-Step Standard** (cfd, 2-step) — checked 2026-10-30
+  - https://help.atmosfunded.com/en/articles/12380559-2-step-standard-challenge
+  - https://help.atmosfunded.com/en/articles/12381307-what-is-the-daily-loss-limit
+  - https://help.atmosfunded.com/en/articles/12380605-how-payouts-work
+  - https://atmosfunded.com/rules/
+- Program **2-Step Plus** (cfd, 2-step) — checked 2026-10-30
+  - https://atmosfunded.com/rules/
+  - https://atmosfunded.com/best-prop-firms/
+  - https://atmosfunded.com/prop-firm-drawdown-rules-for-brazilian-traders/
+  - Unverified fields: sizes, payoutFrequency, profitSplit
+- Program **Instant Funding** (cfd, instant) — checked 2026-10-30
+  - https://help.atmosfunded.com/en/articles/12380563-instant-funding
+  - https://help.atmosfunded.com/en/articles/12381237-what-are-the-rules-for-news-trading
+  - https://help.atmosfunded.com/en/articles/12380605-how-payouts-work
+  - https://atmosfunded.com/rules/
+- All sources:
+  - 2026-10-30 · Legal page (entities, restricted jurisdictions) · https://atmosfunded.com/legal/
+  - 2026-10-30 · Rules page · https://atmosfunded.com/rules/
+  - 2026-10-30 · Help centre · https://help.atmosfunded.com/
+  - 2026-10-30 · Compare challenges · https://help.atmosfunded.com/en/articles/12380567-compare-challenges-which-one-is-right-for-me
+  - 2026-10-30 · 2-Step Standard · https://help.atmosfunded.com/en/articles/12380559-2-step-standard-challenge
+  - 2026-10-30 · Instant Funding · https://help.atmosfunded.com/en/articles/12380563-instant-funding
+  - 2026-10-30 · Nova Challenge · https://help.atmosfunded.com/en/articles/13959447-nova-challenge
+  - 2026-10-30 · Nova page · https://atmosfunded.com/nova-challenge/
+  - 2026-10-30 · Daily loss limit · https://help.atmosfunded.com/en/articles/12381307-what-is-the-daily-loss-limit
+  - 2026-10-30 · Overnight and weekends · https://help.atmosfunded.com/en/articles/12381252-can-i-hold-trades-overnight-and-over-weekends
+  - 2026-10-30 · News trading · https://help.atmosfunded.com/en/articles/12381237-what-are-the-rules-for-news-trading
+  - 2026-10-30 · Expert Advisors · https://help.atmosfunded.com/en/articles/12381265-can-i-use-expert-advisors-ea
+  - 2026-10-30 · Copy trading · https://help.atmosfunded.com/en/articles/12607162-what-is-the-copy-trading-rule
+  - 2026-10-30 · How payouts work · https://help.atmosfunded.com/en/articles/12380605-how-payouts-work
+  - 2026-10-30 · Profit split · https://help.atmosfunded.com/en/articles/12380612-profit-split-explained
+  - 2026-10-30 · Inactivity time limit · https://help.atmosfunded.com/en/articles/10476245-inactivity-time-limit
+  - 2026-10-30 · Platforms · https://help.atmosfunded.com/en/articles/12380818-which-platforms-do-you-support
+  - 2026-10-30 · Blog: best prop firms (2-Step Plus details) · https://atmosfunded.com/best-prop-firms/
+  - 2026-10-30 · Blog: drawdown rules (2-Step Plus $100K price) · https://atmosfunded.com/prop-firm-drawdown-rules-for-brazilian-traders/
+- Data gaps:
+  - No dated rule-change announcements were found on the firm's site or help centre, so changes[] is empty.
+  - 2-Step Plus is not in the help centre; rules and the $5K/$100K prices come only from the firm's own blog pages, and no full size table was found.
+  - Profit split by program is not stated; the help centre gives a general 80% start, up to 90% with scaling.
+  - The restricted list is described as 'not limited to' the listed countries.
+  - Homepage pricing could not be read by the text extractor; prices come from help-centre articles (no struck-through/sale distinction shown).
+
+## Audacity Capital
+<a id="audacity-capital"></a>
+
+- Website: https://audacity.capital/
+- Last verified: 2026-10-30
+- HQ: KM, Mutsamudu — AudaCity Global LTD (verified) — source: https://audacity.capital/terms-and-conditions/ (2026-10-30)
+- Restricted countries: published — SY, IR, VE, KP — source: https://audacity.capital/terms-and-conditions/ (2026-10-30)
+  - Note: Legal disclaimer says services are unavailable where restricted, 'including but not limited to' Syria, Iran, Venezuela and North Korea, so the list is not exhaustive. U.S. residents may only participate via the DXtrade platform where permitted. Pakistan (PK) is not named.
+- Program **Ability Challenge (2 Step)** (cfd, 2-step) — checked 2026-10-30
+  - https://audacity.capital/two-step-prop-firm-ability-challenge/
+  - https://audacity.capital/knowledge-center/ability-challenge/
+  - https://audacity.capital/knowledge-center/trading-guidelines/
+  - https://audacity.capital/prohibited-trading-practices/
+  - Unverified fields: news, leverage
+- Program **Ability One (1 Step)** (cfd, 1-step) — checked 2026-10-30
+  - https://audacity.capital/one-step-prop-firm-ability-one/
+  - https://audacity.capital/knowledge-center/ability-one/
+  - https://audacity.capital/knowledge-center/trading-guidelines/
+  - Unverified fields: leverage
+- Program **FTP (Instant Funding)** (cfd, instant) — checked 2026-10-30
+  - https://audacity.capital/instant-funding-prop-firm/
+  - https://audacity.capital/knowledge-center/ftp/
+  - https://audacity.capital/knowledge-center/trading-guidelines/
+  - Unverified fields: eas, leverage
+- Rule changes:
+  - 2026-01-17 — 2026 program updates: consistency rule dropped — https://audacity.capital/webinars/new-rules-better-trading/
+- All sources:
+  - 2026-10-30 · Homepage and pricing table · https://audacity.capital/
+  - 2026-10-30 · Terms and conditions / legal disclaimer · https://audacity.capital/terms-and-conditions/
+  - 2026-10-30 · Ability Challenge page · https://audacity.capital/two-step-prop-firm-ability-challenge/
+  - 2026-10-30 · Ability One page · https://audacity.capital/one-step-prop-firm-ability-one/
+  - 2026-10-30 · FTP (Instant Funding) page · https://audacity.capital/instant-funding-prop-firm/
+  - 2026-10-30 · Knowledge centre: Ability Challenge · https://audacity.capital/knowledge-center/ability-challenge/
+  - 2026-10-30 · Knowledge centre: Ability One · https://audacity.capital/knowledge-center/ability-one/
+  - 2026-10-30 · Knowledge centre: FTP · https://audacity.capital/knowledge-center/ftp/
+  - 2026-10-30 · Knowledge centre: trading guidelines · https://audacity.capital/knowledge-center/trading-guidelines/
+  - 2026-10-30 · Prohibited trading practices · https://audacity.capital/prohibited-trading-practices/
+  - 2026-10-30 · 2026 rules webinar · https://audacity.capital/webinars/new-rules-better-trading/
+- Data gaps:
+  - Minimum payout amount not published for any program.
+  - News rule conflicts between official pages: knowledge centre says a 3-minute window around high-impact news; terms and conditions say exposure must be cleared 30 minutes before major events.
+  - Leverage: knowledge-centre text says 1:100 across all assets (Ability) and 1:30 across all assets (FTP), while its leverage table lists lower per-asset values; table values used.
+  - EA and copy-trading rules differ between the program pages ('allowed') and the prohibited-practices page (own EAs only, no copying of others).
+  - No dated changelog or announcements page found; only the January 2026 webinar gives a date.
+
+## Bitfunded
+<a id="bitfunded"></a>
+
+- Website: https://www.bitfunded.com/
+- Last verified: 2026-10-30
+- HQ: AE — Tronovix LTD (verified) — source: https://www.bitfunded.com/terms-of-use/ (2026-10-30)
+- Restricted countries: not_published — source: https://www.bitfunded.com/terms-of-use/ (2026-10-30)
+  - Note: No restricted-country list in the Terms of Use, FAQ or help centre. Pakistan not mentioned.
+- Program **2 Steps Evaluation** (crypto, 2-step) — checked 2026-10-30
+  - https://www.bitfunded.com/
+  - https://www.bitfunded.com/frequently-asked-questions/
+  - https://bitfunded.gitbook.io/support/introduction/challenge-and-trader-stage.md
+  - https://bitfunded.gitbook.io/support/introduction/criteria-to-be-success.md
+  - Unverified fields: perps
+- Program **1 Step Evaluation** (crypto, 1-step) — checked 2026-10-30
+  - https://www.bitfunded.com/
+  - https://www.bitfunded.com/frequently-asked-questions/
+  - https://bitfunded.gitbook.io/support/introduction/challenge-type.md
+  - https://bitfunded.gitbook.io/support/introduction/challenge-and-trader-stage.md
+  - Unverified fields: perps
+- Program **1 Step Express** (crypto, 1-step) — checked 2026-10-30
+  - https://www.bitfunded.com/
+  - https://www.bitfunded.com/frequently-asked-questions/
+  - https://bitfunded.gitbook.io/support/introduction/challenge-type.md
+  - Unverified fields: sizes, perps
+- Program **Instant Funding** (crypto, instant) — checked 2026-10-30
+  - https://www.bitfunded.com/
+  - https://www.bitfunded.com/frequently-asked-questions/
+  - https://bitfunded.gitbook.io/support/introduction/challenge-and-trader-stage.md
+  - Unverified fields: sizes, dailyLoss, perps
+- Program **Day Trader Challenge** (crypto, other) — checked 2026-10-30
+  - https://www.bitfunded.com/
+  - https://bitfunded.gitbook.io/support/introduction/day-trader-challenge.md
+  - Unverified fields: perps
+- All sources:
+  - 2026-10-30 · Homepage (programs and prices) · https://www.bitfunded.com/
+  - 2026-10-30 · FAQ · https://www.bitfunded.com/frequently-asked-questions/
+  - 2026-10-30 · Terms of Use · https://www.bitfunded.com/terms-of-use/
+  - 2026-10-30 · Help centre: Challenge Type · https://bitfunded.gitbook.io/support/introduction/challenge-type.md
+  - 2026-10-30 · Help centre: Challenge & Trader Stage · https://bitfunded.gitbook.io/support/introduction/challenge-and-trader-stage.md
+  - 2026-10-30 · Help centre: Criteria to be Success · https://bitfunded.gitbook.io/support/introduction/criteria-to-be-success.md
+  - 2026-10-30 · Help centre: Day Trader Challenge · https://bitfunded.gitbook.io/support/introduction/day-trader-challenge.md
+- Data gaps:
+  - Homepage and help-centre price tables differ for Express and Instant; homepage prices used and sizes marked unverified.
+  - Instant daily loss: FAQ says 4%, help centre says 3%.
+  - Instrument contract type (spot vs perpetual) is not stated; perps set to false and marked unverified.
+  - Terms of Use give conflicting payout timing (14 days vs 4 days) and a 'up to 90%' split in §8(c) versus 80% elsewhere. No minimum payout or news-trading rule published.
+  - No dated rule-change announcements found.
+
+## Blue Guardian
+<a id="blue-guardian"></a>
+
+- Website: https://blueguardian.com/
+- Last verified: 2026-10-30
+- HQ: AE, Dubai — Iconic Exchange FZCO (t/a Blue Guardian) (verified) — source: https://blueguardian.com/terms-and-conditions (2026-10-30)
+- Restricted countries: published — AF, AL, DZ, CU, IR, JO, LY, MM, KP, PH, SN, SY, VN — source: https://help.blueguardian.com/en/articles/15618204-general-information-rules (2026-10-30)
+  - Note: Help-centre 'General Information rules' article. The Terms name no countries and refer generally to jurisdictions that do not give effect to the Terms and to US export controls. Pakistan is not on the list.
+- Program **Instant Standard** (cfd, instant) — checked 2026-10-30
+  - https://help.blueguardian.com/en/articles/14061082-instant-standard-account-rules
+  - https://blueguardian.com/forex
+  - https://blueguardian.com/
+  - Unverified fields: sizes, leverage, platforms
+- Program **Instant Starter** (cfd, instant) — checked 2026-10-30
+  - https://help.blueguardian.com/en/articles/14061939-instant-starter
+  - Unverified fields: platforms
+- Program **1 Step Standard** (cfd, 1-step) — checked 2026-10-30
+  - https://help.blueguardian.com/en/articles/14062186-1-step-standard-rules
+  - https://blueguardian.com/
+  - Unverified fields: leverage, platforms
+- Program **1 Step Nano** (cfd, 1-step) — checked 2026-10-30
+  - https://help.blueguardian.com/en/articles/16444654-1-step-nano-rules
+  - https://blueguardian.com/
+  - Unverified fields: platforms
+- Program **2 Step Standard** (cfd, 2-step) — checked 2026-10-30
+  - https://help.blueguardian.com/en/articles/14062291-2-step-standard-rules
+  - https://blueguardian.com/
+  - Unverified fields: leverage, platforms
+- Program **2 Step Nano** (cfd, 2-step) — checked 2026-10-30
+  - https://help.blueguardian.com/en/articles/16445450-2-step-nano-rules
+  - https://blueguardian.com/
+  - Unverified fields: platforms
+- Program **Futures Standard** (futures, 1-step) — checked 2026-10-30
+  - https://blueguardian.com/
+  - https://blueguardian.com/futures
+  - Unverified fields: platforms, profitSplit
+- Program **Futures Reserve** (futures, 1-step) — checked 2026-10-30
+  - https://blueguardian.com/
+  - https://blueguardian.com/futures
+  - Unverified fields: platforms, profitSplit
+- Program **Futures Express** (futures, 1-step) — checked 2026-10-30
+  - https://blueguardian.com/
+  - https://blueguardian.com/futures
+  - Unverified fields: platforms, profitSplit
+- Program **Futures Direct** (futures, instant) — checked 2026-10-30
+  - https://blueguardian.com/
+  - https://blueguardian.com/futures
+  - Unverified fields: platforms, profitSplit
+- Rule changes:
+  - 2025-11-13 — Instant Standard: news window applies — https://help.blueguardian.com/en/articles/14061082-instant-standard-account-rules
+- All sources:
+  - 2026-10-30 · Homepage (plans, prices, entities, futures cards) · https://blueguardian.com/
+  - 2026-10-30 · Forex page · https://blueguardian.com/forex
+  - 2026-10-30 · Futures page · https://blueguardian.com/futures
+  - 2026-10-30 · Terms and conditions · https://blueguardian.com/terms-and-conditions
+  - 2026-10-30 · General information rules (restricted countries) · https://help.blueguardian.com/en/articles/15618204-general-information-rules
+  - 2026-10-30 · Account models collection · https://help.blueguardian.com/en/collections/18967956-account-models
+  - 2026-10-30 · Instant Standard rules · https://help.blueguardian.com/en/articles/14061082-instant-standard-account-rules
+  - 2026-10-30 · Instant Starter rules · https://help.blueguardian.com/en/articles/14061939-instant-starter
+  - 2026-10-30 · 1 Step Standard rules · https://help.blueguardian.com/en/articles/14062186-1-step-standard-rules
+  - 2026-10-30 · 1 Step Nano rules · https://help.blueguardian.com/en/articles/16444654-1-step-nano-rules
+  - 2026-10-30 · 2 Step Standard rules · https://help.blueguardian.com/en/articles/14062291-2-step-standard-rules
+  - 2026-10-30 · 2 Step Nano rules · https://help.blueguardian.com/en/articles/16445450-2-step-nano-rules
+  - 2026-10-30 · Homepage plan picker, CFD and Futures (prices) · https://blueguardian.com/
+- Data gaps:
+  - Leverage (1:30 max) and platform list come from a site rules/feature section not tied to a specific plan.
+  - The 20 Aug rule changes are not listed under changes because the help articles do not state the year.
+  - Help articles show 'Updated this week' without dates.
+  - Prices were read from the JS plan picker in a browser on 2026-10-30. Futures rules shown are for the 100K size; Direct's limits were not shown on the picker.
+
+## BluSky Trading
+<a id="blusky-trading"></a>
+
+- Website: https://blusky.pro/
+- Last verified: 2026-10-30
+- HQ: US, St. Petersburg, FL — BluSky Trading Company LLC (verified) — source: https://blusky.pro/terms-and-conditions/ (2026-10-30)
+- Restricted countries: not_published — source: https://blusky.pro/terms-and-conditions/ (2026-10-30)
+  - Note: No restricted-country list found on official pages. The Terms say the site makes no claim it is appropriate outside the United States and that access may not be legal in certain countries; the help-centre Terms of Use say BluSky may limit access in certain jurisdictions without naming any. Pakistan (PK) is not mentioned. Non-US traders are paid after submitting a W-8BEN (Payouts article).
+- Program **Launch** (futures, 2-step) — checked 2026-10-30
+  - https://help.blusky.pro/en/articles/16300846-launch-plans-phases-rules-and-costs
+  - https://blusky.pro/how-blusky-compares/
+  - https://help.blusky.pro/en/articles/12434059-evaluation-rules
+  - https://help.blusky.pro/en/articles/12434429-payouts
+  - https://help.blusky.pro/en/articles/12069208-ethical-trading-conduct-policy-blusky-trading-company
+  - Unverified fields: sizes
+- Program **Propel** (futures, 2-step) — checked 2026-10-30
+  - https://help.blusky.pro/en/articles/16300862-propel-plans-phases-rules-and-costs
+  - https://blusky.pro/how-blusky-compares/
+  - https://help.blusky.pro/en/articles/12434059-evaluation-rules
+  - https://help.blusky.pro/en/articles/12434469-sim-funded-accounts-processing
+  - Unverified fields: sizes
+- Program **Orbit** (futures, 1-step) — checked 2026-10-30
+  - https://help.blusky.pro/en/articles/16300866-orbit-plans-two-phases-faster-payouts
+  - https://blusky.pro/how-blusky-compares/
+  - https://help.blusky.pro/en/articles/12434059-evaluation-rules
+  - Unverified fields: sizes
+- Program **Instant Sim Funded** (futures, instant) — checked 2026-10-30
+  - https://help.blusky.pro/en/articles/16300869-instant-funding-direct-to-funded-and-instant-sim-funded
+  - https://blusky.pro/how-blusky-compares/
+- Program **Direct to Funded** (futures, instant) — checked 2026-10-30
+  - https://help.blusky.pro/en/articles/16300869-instant-funding-direct-to-funded-and-instant-sim-funded
+  - https://blusky.pro/how-blusky-compares/
+- Program **Stock Plans** (stocks, 2-step) — checked 2026-10-30
+  - https://help.blusky.pro/en/articles/12944519-blusky-stock-account-plans
+  - Unverified fields: billing, phases
+- All sources:
+  - 2026-10-30 · Homepage · https://blusky.pro/
+  - 2026-10-30 · FAQ · https://blusky.pro/faq/
+  - 2026-10-30 · How BluSky compares (list prices) · https://blusky.pro/how-blusky-compares/
+  - 2026-10-30 · Find your plan · https://blusky.pro/find-your-plan/
+  - 2026-10-30 · Terms and Conditions · https://blusky.pro/terms-and-conditions/
+  - 2026-10-30 · Help centre · https://help.blusky.pro/en/
+  - 2026-10-30 · Launch plans · https://help.blusky.pro/en/articles/16300846-launch-plans-phases-rules-and-costs
+  - 2026-10-30 · Propel plans · https://help.blusky.pro/en/articles/16300862-propel-plans-phases-rules-and-costs
+  - 2026-10-30 · Orbit plans · https://help.blusky.pro/en/articles/16300866-orbit-plans-two-phases-faster-payouts
+  - 2026-10-30 · Instant funding · https://help.blusky.pro/en/articles/16300869-instant-funding-direct-to-funded-and-instant-sim-funded
+  - 2026-10-30 · Evaluation rules · https://help.blusky.pro/en/articles/12434059-evaluation-rules
+  - 2026-10-30 · Static Growth Plan · https://help.blusky.pro/en/articles/12433986-static-growth-plan
+  - 2026-10-30 · Payouts rules · https://help.blusky.pro/en/articles/12434429-payouts
+  - 2026-10-30 · Sim Funded accounts · https://help.blusky.pro/en/articles/12434469-sim-funded-accounts-processing
+  - 2026-10-30 · Terms of Use (help centre) · https://help.blusky.pro/en/articles/11490284-blusky-trading-company-llc-dba-blusky-pro-terms-of-use
+  - 2026-10-30 · Ethical Trading & Conduct Policy · https://help.blusky.pro/en/articles/12069208-ethical-trading-conduct-policy-blusky-trading-company
+  - 2026-10-30 · Stock plans · https://help.blusky.pro/en/articles/12944519-blusky-stock-account-plans
+- Data gaps:
+  - Pricing tables load in a script, so most sizes have no readable price. The 50K prices for Launch ($59), Propel ($160) and Orbit ($199) come from the firm's comparison page, which quotes one price per plan alongside a $3,000 target; matching them to the 50K size is an inference, so 'sizes' is marked unverified.
+  - The homepage order summary shows '$100,000' with '$497 / 30 Days +99 at Launch', which conflicts with the help centre's $149 Launch fee for 100K; not used.
+  - Stock Plans: price, billing type and profit targets not published on readable pages.
+  - A Static Growth Plan help article (150K/200K/300K Pro, dated 2 Feb 2026) has different consistency figures (30% / 21%) than the current Propel static sizes; treated as superseded and not listed.
+  - No dated rule-change announcements found on official pages (help articles show only 'updated' times).
+  - No restricted-country list published.
+
+## Breakout (Kraken)
+<a id="breakout"></a>
+
+- Website: https://www.breakoutprop.com/
+- Last verified: 2026-10-30
+- HQ: not published — Payward Oceanic Ltd (unverified) — source: https://www.breakoutprop.com/ (2026-10-30)
+- Restricted countries: unverified — AF, BY, MM, CF, CU, ML, RU, SO, SD, SY, VE, YE, ZW — source: https://www.breakoutprop.com/program-rules/ (2026-10-30)
+  - Note: Partial list from a search snippet of the Program Rules 'Ineligible Countries' section (page returned 403; the snippet did not show every entry). Also Crimea, Donetsk and Luhansk. The Evaluation and Funded Trader Agreements' lists add Eritrea, Haiti and South Sudan and omit Mali and Yemen. Kraken Prop (Kraken Pro) FAQ: not available in Canada, India or the UK. Pakistan (PK) did not appear in any snippet.
+- Program **1-Step Turbo** (crypto, 1-step) — checked 2026-10-30
+  - https://www.breakoutprop.com/program-rules/
+  - https://www.breakoutprop.com/
+  - https://www.breakoutprop.com/article/breakout-vs-bitfunded/
+  - Unverified fields: sizes, phases, dailyLoss, maxDrawdown, profitSplit, payoutFrequency, payoutMinimum, minDays, consistency, leverage, perps
+- Program **1-Step Pro** (crypto, 1-step) — checked 2026-10-30
+  - https://www.breakoutprop.com/program-rules/
+  - https://www.breakoutprop.com/
+  - Unverified fields: sizes, phases, dailyLoss, maxDrawdown, profitSplit, payoutFrequency, payoutMinimum, minDays, consistency, leverage, perps
+- Program **1-Step Classic** (crypto, 1-step) — checked 2026-10-30
+  - https://www.breakoutprop.com/program-rules/
+  - https://www.breakoutprop.com/
+  - Unverified fields: sizes, phases, dailyLoss, maxDrawdown, profitSplit, payoutFrequency, payoutMinimum, minDays, consistency, leverage, perps
+- Program **Kraken Prop Lite** (crypto, 1-step) — checked 2026-10-30
+  - https://support.kraken.com/articles/kraken-prop-lite
+  - https://www.kraken.com/pro/prop/lite
+  - https://support.kraken.com/articles/kraken-prop-faq
+  - Unverified fields: sizes, phases, dailyLoss, maxDrawdown, payoutFrequency, timeLimit, perps
+- Rule changes:
+  - 2026-10-29 — Commodities added to Kraken Prop; non-crypto commission halved — https://blog.kraken.com/product/prop/commodities-are-now-live-at-half-the-commission
+  - 2026-08-18 — S&P 500 leverage raised to 10x on Kraken Prop — https://blog.kraken.com/product/prop/10x-leverage
+  - 2026-08-12 — S&P 500 added to Kraken Prop — https://blog.kraken.com/product/prop/trade-the-sp500
+  - 2026-05-27 — Kraken Prop launched on Kraken Pro — https://blog.kraken.com/product/prop/introducing-kraken-prop
+- All sources:
+  - 2026-10-30 · Breakout homepage (search snippet; 403 on fetch) · https://www.breakoutprop.com/
+  - 2026-10-30 · Breakout Program Rules (search snippet; 403 on fetch) · https://www.breakoutprop.com/program-rules/
+  - 2026-10-30 · Breakout Evaluation Agreement (search snippet) · https://www.breakoutprop.com/breakout-evaluation-agreement/
+  - 2026-10-30 · Breakout Funded Trader Agreement (search snippet) · https://www.breakoutprop.com/funded-trader-agreement/
+  - 2026-10-30 · Breakout vs Bitfunded article (search snippet) · https://www.breakoutprop.com/article/breakout-vs-bitfunded/
+  - 2026-10-30 · Kraken Prop FAQ (search snippet; domain unreachable) · https://support.kraken.com/articles/kraken-prop-faq
+  - 2026-10-30 · How Kraken Prop Evaluations Work (search snippet) · https://support.kraken.com/articles/how-kraken-prop-evaluations-work
+  - 2026-10-30 · Kraken Prop Lite support article (search snippet) · https://support.kraken.com/articles/kraken-prop-lite
+  - 2026-10-30 · Kraken Prop page (search snippet) · https://www.kraken.com/pro/prop
+  - 2026-10-30 · Kraken Funded support article (search snippet) · https://support.kraken.com/articles/funded
+  - 2026-10-30 · Kraken blog: commodities on Prop (search snippet) · https://blog.kraken.com/product/prop/commodities-are-now-live-at-half-the-commission
+  - 2026-10-30 · Kraken blog: 10x leverage (search snippet) · https://blog.kraken.com/product/prop/10x-leverage
+  - 2026-10-30 · Kraken blog: S&P 500 on Prop (search snippet) · https://blog.kraken.com/product/prop/trade-the-sp500
+  - 2026-10-30 · Kraken blog: Introducing Kraken Prop (search snippet) · https://blog.kraken.com/product/prop/introducing-kraken-prop
+- Data gaps:
+  - breakoutprop.com (and checkout/help subdomains) returned HTTP 403 and kraken.com / support.kraken.com / blog.kraken.com could not be resolved by the fetch tool, so every value comes from search-engine snippets of official pages and is marked unverified.
+  - Full price table per size not seen; only $5K and $100K prices for Turbo/Pro/Classic. Kraken-domain snippets showed conflicting fee tables across regional pages.
+  - Leverage conflicts between Breakout pages (BTC 10x / others 2x vs 5x BTC/ETH).
+  - Whether a 2-Step evaluation is still sold is unclear: an official comparison article says it was discontinued in May 2026, while the checkout page still mentions 1-step or 2-step.
+  - Restricted-country list only partly visible; official lists conflict (Program Rules vs agreements).
+  - News, EA/bot, copy-trading and weekend rules not seen. Change dates come from search snippets of Kraken blog posts.
+
+## BrightFunded
+<a id="brightfunded"></a>
+
+- Website: https://www.brightfunded.com/
+- Last verified: 2026-10-30
+- HQ: AE, Dubai — Bright Global FZCO (trading as BrightFunded) (verified) — source: https://www.brightfunded.com/ (2026-10-30)
+- Restricted countries: published — CU, IR, KP, SY, VN, PK — source: https://help.brightfunded.com/en/articles/9286630-what-countries-are-restricted-at-brightfunded (2026-10-30)
+  - Note: Applies to people residing in or holding nationality of these countries (help article dated 15 Sep 2026). Pakistan IS on the list: Pakistani traders cannot buy new challenges, but those with an already active account may continue trading. MT5 is not available to US or UAE citizens/residents; cTrader is not available to US citizens/residents; DXtrade has no listed country limit.
+- Program **1-Step** (cfd, 1-step) — checked 2026-10-30
+  - https://help.brightfunded.com/en/articles/14284743-brightfunded-1-step
+  - https://help.brightfunded.com/en/articles/9241611-what-are-the-current-rules-for-the-evaluation-process
+  - https://help.brightfunded.com/en/articles/9268736-how-does-my-reward-split-work-on-my-funded-account
+  - https://help.brightfunded.com/en/articles/9241694-can-i-trade-news
+  - https://help.brightfunded.com/en/articles/9241699-can-i-use-ea
+  - https://help.brightfunded.com/en/articles/9241709-is-copy-trading-allowed
+  - https://help.brightfunded.com/en/articles/9268323-is-it-allowed-to-hold-positions-over-the-weekend
+  - https://www.brightfunded.com/cfds/1-step
+  - https://brightfunded.com/cfds/1-step
+  - Unverified fields: currency
+- Program **2-Step Bright** (cfd, 2-step) — checked 2026-10-30
+  - https://help.brightfunded.com/en/articles/14284817-brightfunded-2-step-bright
+  - https://help.brightfunded.com/en/articles/9241611-what-are-the-current-rules-for-the-evaluation-process
+  - https://help.brightfunded.com/en/articles/9268736-how-does-my-reward-split-work-on-my-funded-account
+  - https://brightfunded.com/
+  - Unverified fields: currency
+- Program **2-Step Classic** (cfd, 2-step) — checked 2026-10-30
+  - https://help.brightfunded.com/en/articles/14284844-brightfunded-2-step-classic
+  - https://help.brightfunded.com/en/articles/9241611-what-are-the-current-rules-for-the-evaluation-process
+  - https://help.brightfunded.com/en/articles/9268736-how-does-my-reward-split-work-on-my-funded-account
+  - https://brightfunded.com/cfds/2-step-classic
+  - Unverified fields: currency
+- Program **BrightPlus (Futures)** (futures, 1-step) — checked 2026-10-30
+  - https://www.brightfunded.com/futures/brightplus
+  - https://brightfunded.com/futures/brightplus
+- Program **BrightCore (Futures)** (futures, 1-step) — checked 2026-10-30
+  - https://www.brightfunded.com/futures/brightcore
+  - https://brightfunded.com/futures
+  - Unverified fields: drawdownType
+- All sources:
+  - 2026-10-30 · Homepage (entities, programs) · https://www.brightfunded.com/
+  - 2026-10-30 · Restricted countries · https://help.brightfunded.com/en/articles/9286630-what-countries-are-restricted-at-brightfunded
+  - 2026-10-30 · Evaluation rules · https://help.brightfunded.com/en/articles/9241611-what-are-the-current-rules-for-the-evaluation-process
+  - 2026-10-30 · 1-Step article · https://help.brightfunded.com/en/articles/14284743-brightfunded-1-step
+  - 2026-10-30 · 2-Step Bright article · https://help.brightfunded.com/en/articles/14284817-brightfunded-2-step-bright
+  - 2026-10-30 · 2-Step Classic article · https://help.brightfunded.com/en/articles/14284844-brightfunded-2-step-classic
+  - 2026-10-30 · Reward split and payouts · https://help.brightfunded.com/en/articles/9268736-how-does-my-reward-split-work-on-my-funded-account
+  - 2026-10-30 · Payout methods · https://help.brightfunded.com/en/articles/9241681-how-can-i-get-paid
+  - 2026-10-30 · News trading · https://help.brightfunded.com/en/articles/9241694-can-i-trade-news
+  - 2026-10-30 · Platforms · https://help.brightfunded.com/en/articles/10855521-what-trading-platform-does-brightfunded-offer
+  - 2026-10-30 · EA policy · https://help.brightfunded.com/en/articles/9241699-can-i-use-ea
+  - 2026-10-30 · Copy trading · https://help.brightfunded.com/en/articles/9241709-is-copy-trading-allowed
+  - 2026-10-30 · Weekend holding · https://help.brightfunded.com/en/articles/9268323-is-it-allowed-to-hold-positions-over-the-weekend
+  - 2026-10-30 · Comparison table · https://www.brightfunded.com/comparison-table
+  - 2026-10-30 · BrightPlus futures · https://www.brightfunded.com/futures/brightplus
+  - 2026-10-30 · BrightCore futures · https://www.brightfunded.com/futures/brightcore
+  - 2026-10-30 · 1-Step page (prices) · https://brightfunded.com/cfds/1-step
+  - 2026-10-30 · 2-Step Classic page (prices) · https://brightfunded.com/cfds/2-step-classic
+  - 2026-10-30 · BrightPlus page (prices) · https://brightfunded.com/futures/brightplus
+  - 2026-10-30 · Futures comparison table · https://brightfunded.com/futures/comparison-table
+- Data gaps:
+  - Leverage is not stated on any page opened.
+  - Futures: profit targets, drawdown amounts, contract limits, platforms, news/overnight rules not readable; BrightPlus/BrightCore sizes between 25K and 150K not listed.
+  - Comparison table scrape was jumbled and conflicts with help articles (it showed 3%/6% for 2-Step Bright); help-centre evaluation rules (dated 20 May 2026) are used instead.
+  - No dated rule-change announcements found; when Pakistan was added to the restricted list is not stated.
+  - Prices were read from the JS plan cards in a browser on 2026-10-30.
+
+## Bulenox
+<a id="bulenox"></a>
+
+- Website: https://bulenox.com/
+- Last verified: 2026-10-30
+- HQ: US, Wilmington — Bulenox LLC (verified) — source: https://bulenox.com/legal/Terms_of_Use.pdf (2026-10-30)
+- Restricted countries: not_published — source: https://bulenox.com/faq (2026-10-30)
+  - Note: The FAQ lists the question 'Is my country supported?' but no answer text could be read, and the Terms of Use (updated October 2026) contain no country list. Pakistan status unknown.
+- Program **Qualification Account** (futures, 1-step) — checked 2026-10-30
+  - https://bulenox.com/accounts-pricing
+  - https://bulenox.com/
+  - https://bulenox.com/help-center/qualification
+  - https://bulenox.com/legal/Terms_of_Use.pdf
+  - Unverified fields: sizes, billing, maxDrawdown, timeLimit
+- Program **Fast Track** (futures, 1-step) — checked 2026-10-30
+  - https://bulenox.com/help-center/fast-track
+  - https://bulenox.com/
+- Program **Momentum** (futures, 1-step) — checked 2026-10-30
+  - https://bulenox.com/help-center/momentum
+  - https://bulenox.com/
+  - Unverified fields: consistency
+- All sources:
+  - 2026-10-30 · Homepage · https://bulenox.com/
+  - 2026-10-30 · Accounts & Pricing · https://bulenox.com/accounts-pricing
+  - 2026-10-30 · FAQ · https://bulenox.com/faq
+  - 2026-10-30 · Help centre: Qualification · https://bulenox.com/help-center/qualification
+  - 2026-10-30 · Help centre: Fast Track · https://bulenox.com/help-center/fast-track
+  - 2026-10-30 · Help centre: Momentum · https://bulenox.com/help-center/momentum
+  - 2026-10-30 · Help centre: Master Account · https://bulenox.com/help-center/master
+  - 2026-10-30 · Terms of Use (PDF, updated Oct 2026) · https://bulenox.com/legal/Terms_of_Use.pdf
+- Data gaps:
+  - Help-centre tabs render via JavaScript; Master Account activation fee, withdrawal rules, payout caps and consistency details could not be read.
+  - No official restricted-country list found; Pakistan status unknown.
+  - Accounts & Pricing cards are not labelled by account type, so the Qualification price mapping is unverified.
+  - Copy-trading rules not readable (FAQ question present, answer not rendered).
+  - No dated rule-change announcements found.
+
+## City Traders Imperium
+<a id="city-traders-imperium"></a>
+
+- Website: https://citytradersimperium.com/
+- Last verified: 2026-10-30
+- HQ: KM, Mutsamudu — City Traders Imperium Limited (verified) — source: https://citytradersimperium.com/terms-conditions-of-service/ (2026-10-30)
+- Restricted countries: published — KP, IR, SY, CU, RU — source: https://citytradersimperium.com/terms-conditions-of-service/ (2026-10-30)
+  - Note: Website lists North Korea, Iran, Syria, Cuba and Russia plus anyone under international sanctions. The T&C PDF (§6.5.1, 2026/08) lists Syria, North Korea, Cuba and Iran. Pakistan (PK) is not listed.
+- Program **1-Step Challenge** (cfd, 1-step) — checked 2026-10-30
+  - https://citytradersimperium.com/1-step-challenge/
+  - https://citytradersimperium.com/terms-conditions-of-service/
+  - Unverified fields: eas
+- Program **2-Step Challenge** (cfd, 2-step) — checked 2026-10-30
+  - https://citytradersimperium.com/2-step-challenge/
+  - https://citytradersimperium.com/terms-conditions-of-service/
+- Program **Instant Funding** (cfd, instant) — checked 2026-10-30
+  - https://citytradersimperium.com/instant-funding/
+- Program **Direct Funding** (cfd, instant) — checked 2026-10-30
+  - https://citytradersimperium.com/direct-funding/
+- All sources:
+  - 2026-10-30 · Homepage · https://citytradersimperium.com/
+  - 2026-10-30 · 1-Step Challenge · https://citytradersimperium.com/1-step-challenge/
+  - 2026-10-30 · 2-Step Challenge · https://citytradersimperium.com/2-step-challenge/
+  - 2026-10-30 · Instant Funding · https://citytradersimperium.com/instant-funding/
+  - 2026-10-30 · Direct Funding · https://citytradersimperium.com/direct-funding/
+  - 2026-10-30 · Terms & Conditions page · https://citytradersimperium.com/terms-conditions-of-service/
+  - 2026-10-30 · Terms & Conditions PDF (2026/08) · https://citytradersimperium.com/wp-content/uploads/2026/08/City-Traders-Imperium-Terms-Conditions.pdf
+  - 2026-10-30 · Symbols specifications (no leverage listed) · https://citytradersimperium.com/symbols-specifications-trading-hours/
+  - 2026-10-30 · Blog (checked for announcements) · https://citytradersimperium.com/blog/
+- Data gaps:
+  - Help centre (helpcenter.citytradersimperium.com) returned a Cloudflare block (HTTP 403) and could not be read.
+  - Leverage is not published on any page checked.
+  - Minimum payout amount not published.
+  - 1-Step page says third-party EAs are allowed while other program pages allow personal EAs only.
+  - No dated rule-change announcements found in the blog (last 12 months are market commentary).
+
+## Crypto Fund Trader
+<a id="crypto-fund-trader"></a>
+
+- Website: https://cryptofundtrader.com/
+- Last verified: 2026-10-30
+- HQ: CH, Zug — SWISS RLCRATES AG (CHE-162.567.204) (verified) — source: https://cryptofundtrader.com/terms-and-conditions/ (2026-10-30)
+- Restricted countries: not_published — source: https://cryptofundtrader.com/terms-and-conditions/ (2026-10-30)
+  - Note: No country list in the T&C or FAQ. MT5 is not available to US residents (T&C §7.3); Match-Trader has no country restrictions; Bybit users must follow Bybit's terms. The firm says it does not operate in countries where crypto or CFD activity is not allowed. Pakistan is not named.
+- Program **2-Phase Evaluation** (crypto, 2-step) — checked 2026-10-30
+  - https://cryptofundtrader.com/
+  - https://cryptofundtrader.com/product/100-000-evaluation-new/
+  - https://cryptofundtrader.com/faq/
+  - https://cryptofundtrader.com/terms-and-conditions/
+- Program **1-Phase Evaluation (Accelerated)** (crypto, 1-step) — checked 2026-10-30
+  - https://cryptofundtrader.com/
+  - https://cryptofundtrader.com/product/10-000-accelerated/
+  - https://cryptofundtrader.com/faq/
+- Program **Ascend Evaluation** (crypto, 2-step) — checked 2026-10-30
+  - https://cryptofundtrader.com/
+  - https://cryptofundtrader.com/faq/
+  - https://cryptofundtrader.com/terms-and-conditions/
+  - Unverified fields: phases
+- Program **Instant Evaluation** (crypto, instant) — checked 2026-10-30
+  - https://cryptofundtrader.com/
+  - https://cryptofundtrader.com/faq/
+  - https://cryptofundtrader.com/terms-and-conditions/
+  - Unverified fields: dailyLoss, maxDrawdown
+- Program **Break** (crypto, 1-step) — checked 2026-10-30
+  - https://cryptofundtrader.com/
+  - https://cryptofundtrader.com/faq/
+  - https://cryptofundtrader.com/terms-and-conditions/
+  - Unverified fields: minDays, priceNote
+- All sources:
+  - 2026-10-30 · Homepage (programs and prices) · https://cryptofundtrader.com/
+  - 2026-10-30 · FAQ · https://cryptofundtrader.com/faq/
+  - 2026-10-30 · Terms and Conditions · https://cryptofundtrader.com/terms-and-conditions/
+  - 2026-10-30 · Product page: $100K Evaluation (2 phases) · https://cryptofundtrader.com/product/100-000-evaluation-new/
+  - 2026-10-30 · Product page: $10K Accelerated (1 phase) · https://cryptofundtrader.com/product/10-000-accelerated/
+  - 2026-10-30 · CFT x Bybit page · https://cryptofundtrader.com/bybit/
+  - 2026-10-30 · Choose your challenge (platform specs) · https://cryptofundtrader.com/choose-your-challenge/
+  - 2026-10-30 · Blog (checked for announcements) · https://cryptofundtrader.com/blog/
+- Data gaps:
+  - No dated rule-change announcements found on the official blog (only educational posts).
+  - Ascend profit targets, loss limits and drawdown are not published on the pages checked.
+  - Instant daily/overall loss (4% / 6%) read from unlabelled homepage blocks; FAQ does not state them.
+  - Break minimum days conflict: FAQ says none, homepage shows 1 day for Phase 1. Break activation fees mapped to sizes by order only.
+  - A 3-Phase evaluation is described in the FAQ (5% daily, 5% fixed overall, first payout after 5 traded days) but is not in the homepage price list; not included.
+  - No minimum payout amount published. T&C page shows no last-updated date.
+
+## DayTraders.com
+<a id="daytraders-com"></a>
+
+- Website: https://daytraders.com/
+- Last verified: 2026-10-30
+- HQ: US, Las Vegas — Day Traders LLC (verified) — source: https://daytraders.com/help/articles/17704078-terms-of-use (2026-10-30)
+- Restricted countries: published — AF, JO, RU, DZ, KZ, RW, AZ, KE, PM, BH, XK, SA, BD, KW, SN, BY, LB, RS, BJ, LS, SO, BN, LY, ZA, BF, MG, LK, MM, MV, SD, CM, MR, SY, CF, MU, TZ, TD, MN, TH, CN, MA, TG, CI, MZ, TT, CU, NA, TN, CW, NP, TR, CY, NI, UG, CD, NE, UA, EG, NG, UZ, GA, OM, VE, GD, PK, VN, HT, PS, EH, ID, QA, YE, IR, MD, ZM, IQ, CG, ZW, JE, RE — source: https://daytraders.com/help/articles/17704103-who-can-sign-up (2026-10-30)
+  - Note: Pakistan (PK) IS restricted. 80 countries/territories listed under 'Countries where we currently can't offer new or additional accounts'. 'Burma' mapped to MM; Kosovo mapped to XK (user-assigned code). Citizens of OFAC or other restricted countries cannot receive services wherever located. Accounts opened before arriving in a restricted country may keep trading there, but no new purchases/activations while physically in one.
+- Program **Trail (Intraday Trailing) Evaluation** (futures, 1-step) — checked 2026-10-30
+  - https://daytraders.com/help/articles/17684693-trail-evaluation
+  - https://daytraders.com/help/articles/17684698-trail-pro-account
+  - https://daytraders.com/help/articles/17684700-trail-payouts
+  - https://daytraders.com/help/articles/17684702-trail-consistency
+  - https://daytraders.com/help/articles/17684704-trail-drawdown
+  - https://daytraders.com/help/articles/17704092-contract-limits
+  - https://daytraders.com/help/articles/17704104-billing
+  - https://daytraders.com/
+  - Unverified fields: billing
+- Program **EOD Trail Evaluation** (futures, 1-step) — checked 2026-10-30
+  - https://daytraders.com/help/articles/17684729-eod-evaluation
+  - https://daytraders.com/help/articles/17684736-eod-pro-account
+  - https://daytraders.com/help/articles/17684739-eod-payouts
+  - https://daytraders.com/help/articles/17684742-eod-daily-loss-limit
+  - https://daytraders.com/help/articles/17684746-eod-drawdown
+  - https://daytraders.com/help/articles/17704092-contract-limits
+  - https://daytraders.com/
+  - Unverified fields: billing
+- Program **Static Evaluation** (futures, 1-step) — checked 2026-10-30
+  - https://daytraders.com/help/articles/17684709-static-evaluation
+  - https://daytraders.com/help/articles/17684716-static-pro-account
+  - https://daytraders.com/help/articles/17684719-static-payouts
+  - https://daytraders.com/help/articles/17684724-static-drawdown
+  - https://daytraders.com/help/articles/17704092-contract-limits
+  - https://daytraders.com/
+  - Unverified fields: billing
+- Program **S2F (Straight-to-Sim-Funded, shown as 'Instant' at checkout)** (futures, instant) — checked 2026-10-30
+  - https://daytraders.com/help/articles/17684751-s2f-account
+  - https://daytraders.com/help/articles/17684752-s2f-payouts
+  - https://daytraders.com/help/articles/17684753-s2f-consistency
+  - https://daytraders.com/help/articles/17684754-s2f-daily-loss-limit
+  - https://daytraders.com/help/articles/17684757-s2f-drawdown
+  - https://daytraders.com/
+  - Unverified fields: billing
+- Program **S2L (Straight-to-Live, shown as 'Live' at checkout)** (futures, 1-step) — checked 2026-10-30
+  - https://daytraders.com/help/articles/17697906-s2l-evaluation
+  - https://daytraders.com/help/articles/17697907-s2l-consistency
+  - https://daytraders.com/help/articles/17697909-s2l-daily-loss-limit
+  - https://daytraders.com/help/articles/17697913-s2l-drawdown
+  - https://daytraders.com/help/articles/17697923-live-payouts
+  - https://daytraders.com/help/articles/17704092-contract-limits
+  - https://daytraders.com/
+  - Unverified fields: payoutFrequency, billing
+- All sources:
+  - 2026-10-30 · Homepage · https://daytraders.com/
+  - 2026-10-30 · How it works · https://daytraders.com/how-it-works
+  - 2026-10-30 · Payouts page · https://daytraders.com/payouts
+  - 2026-10-30 · Help centre · https://daytraders.com/help
+  - 2026-10-30 · Plan comparison overview · https://daytraders.com/help/articles/17704132-plan-comparison-overview
+  - 2026-10-30 · Who can sign up (restricted countries) · https://daytraders.com/help/articles/17704103-who-can-sign-up
+  - 2026-10-30 · Terms of Use · https://daytraders.com/help/articles/17704078-terms-of-use
+  - 2026-10-30 · Privacy / terms page · https://daytraders.com/privacy
+  - 2026-10-30 · About DayTraders · https://daytraders.com/help/articles/17704099-about-daytraders
+  - 2026-10-30 · Billing · https://daytraders.com/help/articles/17704104-billing
+  - 2026-10-30 · Paying for your order · https://daytraders.com/help/articles/17704106-paying-for-your-order
+  - 2026-10-30 · Market data, add-ons and fees · https://daytraders.com/help/articles/17704120-market-data-add-ons-and-fees
+  - 2026-10-30 · Instruments and commissions · https://daytraders.com/help/articles/17704134-instruments-and-commissions
+  - 2026-10-30 · Maximum number of accounts · https://daytraders.com/help/articles/17704126-maximum-number-of-accounts
+  - 2026-10-30 · Minimum activity policy · https://daytraders.com/help/articles/17704072-minimum-activity-policy
+  - 2026-10-30 · Automation, AI and trade copiers · https://daytraders.com/help/articles/17704087-automation-ai-and-trade-copiers
+  - 2026-10-30 · Trading hours, holidays and overnight positions · https://daytraders.com/help/articles/17704089-trading-hours-holidays-and-overnight-positions
+  - 2026-10-30 · Contract limits · https://daytraders.com/help/articles/17704092-contract-limits
+  - 2026-10-30 · Platforms collection · https://daytraders.com/help/collections/19787908-platforms
+  - 2026-10-30 · Trail evaluation · https://daytraders.com/help/articles/17684693-trail-evaluation
+  - 2026-10-30 · Trail Pro account · https://daytraders.com/help/articles/17684698-trail-pro-account
+  - 2026-10-30 · Trail payouts · https://daytraders.com/help/articles/17684700-trail-payouts
+  - 2026-10-30 · Trail consistency · https://daytraders.com/help/articles/17684702-trail-consistency
+  - 2026-10-30 · Trail drawdown · https://daytraders.com/help/articles/17684704-trail-drawdown
+  - 2026-10-30 · EOD evaluation · https://daytraders.com/help/articles/17684729-eod-evaluation
+  - 2026-10-30 · EOD Pro account · https://daytraders.com/help/articles/17684736-eod-pro-account
+  - 2026-10-30 · EOD payouts · https://daytraders.com/help/articles/17684739-eod-payouts
+  - 2026-10-30 · EOD daily loss limit · https://daytraders.com/help/articles/17684742-eod-daily-loss-limit
+  - 2026-10-30 · EOD drawdown · https://daytraders.com/help/articles/17684746-eod-drawdown
+  - 2026-10-30 · Static evaluation · https://daytraders.com/help/articles/17684709-static-evaluation
+  - 2026-10-30 · Static Pro account · https://daytraders.com/help/articles/17684716-static-pro-account
+  - 2026-10-30 · Static payouts · https://daytraders.com/help/articles/17684719-static-payouts
+  - 2026-10-30 · Static drawdown · https://daytraders.com/help/articles/17684724-static-drawdown
+  - 2026-10-30 · S2F account · https://daytraders.com/help/articles/17684751-s2f-account
+  - 2026-10-30 · S2F payouts · https://daytraders.com/help/articles/17684752-s2f-payouts
+  - 2026-10-30 · S2F consistency · https://daytraders.com/help/articles/17684753-s2f-consistency
+  - 2026-10-30 · S2F daily loss limit · https://daytraders.com/help/articles/17684754-s2f-daily-loss-limit
+  - 2026-10-30 · S2F drawdown · https://daytraders.com/help/articles/17684757-s2f-drawdown
+  - 2026-10-30 · S2L evaluation · https://daytraders.com/help/articles/17697906-s2l-evaluation
+  - 2026-10-30 · S2L consistency · https://daytraders.com/help/articles/17697907-s2l-consistency
+  - 2026-10-30 · S2L daily loss limit · https://daytraders.com/help/articles/17697909-s2l-daily-loss-limit
+  - 2026-10-30 · S2L drawdown · https://daytraders.com/help/articles/17697913-s2l-drawdown
+  - 2026-10-30 · Live payouts · https://daytraders.com/help/articles/17697923-live-payouts
+  - 2026-10-30 · Moving from Pro or S2F to Live · https://daytraders.com/help/articles/17697925-moving-from-pro-or-s2f-to-live
+  - 2026-10-30 · Build Your Account picker (prices) · https://daytraders.com/
+- Data gaps:
+  - Founded year not stated on official pages read.
+  - ArcTrader (browser platform on Rithmic with TradingView charts) is offered on the homepage but listed as 'coming soon' in the Platforms help collection; not included in platforms. ATAS, Finamark, Onyx, Wealthcharts and VolFix are also listed as supported but have no matching schema platform name.
+  - Governing law conflict: Terms of Use article (updated 5 Mar 2025) says Nevada; the terms section on /privacy says Delaware.
+  - S2L live payout frequency: article sets no request limit but does not state an explicit cadence; marked unverified.
+  - No dated rule-change announcements found on official pages (no blog/news page; daytraders.com/blog returns 404).
+  - Prices were read from the JS 'Build Your Account' picker on 2026-10-30; it shows '/account' prices while older help articles mention monthly billing, so billing is unverified.
+
+## E8 Markets
+<a id="e8-markets"></a>
+
+- Website: https://e8markets.com/
+- Last verified: 2026-10-30
+- HQ: US, Dallas — E8 Funding LLC (verified) — source: https://e8markets.com/e8-markets-terms-and-conditions (2026-10-30)
+- Restricted countries: published — AF, AL, DZ, MM, BI, BY, CF, CU, CD, CG, ET, IR, IQ, XK, LB, LY, ML, UM, KP, NI, PK, RU, WS, SY, SD, SO, SS, UA, AE, VE, YE, VA, PS, EH, ZM — source: https://help.e8markets.com/en/articles/5514278-accepted-countries (2026-10-30)
+  - Note: This is the list for Classic markets and Perpetuals ('Midway Islands' mapped to UM, 'West Bank' to PS). Futures has a separate, longer list (shown separately; 'Crimea' is a region without an ISO code). E8 One is not sold in Bangladesh, Bulgaria, Cambodia, Croatia, Laos, Romania and Taiwan; India, Kenya, Indonesia and Vietnam are capped at $200K on E8 One. Country is set by the KYC document, not your location.
+  - futures programs use their own list (E8 Futures list): AE, AF, AL, AO, AQ, BA, BB, BF, BG, BI, BS, BW, BY, CD, CF, CG, CI, CM, CN, CU, DJ, DZ, ET, GH, GI, GW, HR, HT, ID, IQ, IR, IS, JM, JO, KE, KH, KP, LA, LB, LK, LR, LS, LY, ME, MK, ML, MM, MN, MU, MW, MZ, NA, NG, NI, PA, PG, PH, PK, PS, QA, RO, RS, RU, RW, SD, SI, SL, SN, SO, SS, SY, TD, TJ, TL, TN, TR, TT, TZ, UA, UG, VE, VN, XK, YE, ZA, ZM, ZW — source: https://help.e8markets.com/en/articles/5514278-accepted-countries (2026-10-30)
+- Program **E8 One** (cfd, 1-step) — checked 2026-10-30
+  - https://e8markets.com/compare-simfi-funded-accounts
+  - https://help.e8markets.com/en/articles/5514278-accepted-countries
+- Program **E8 Pro** (cfd, 1-step) — checked 2026-10-30
+  - https://e8markets.com/compare-simfi-funded-accounts
+  - https://help.e8markets.com/en/articles/5514278-accepted-countries
+- Program **E8 Signature (Futures)** (futures, 1-step) — checked 2026-10-30
+  - https://e8futures.com/?market=futures#accounts
+- Program **E8 Zero Starter (Futures)** (futures, 1-step) — checked 2026-10-30
+  - https://e8futures.com/?market=futures#accounts
+- Program **E8 Zero MAX (Futures)** (futures, 1-step) — checked 2026-10-30
+  - https://e8futures.com/?market=futures#accounts
+- Program **E8 One (Perpetuals)** (crypto, 1-step) — checked 2026-10-30
+  - https://e8markets.com/compare-simfi-funded-accounts
+- Program **E8 Pro (Perpetuals)** (crypto, 1-step) — checked 2026-10-30
+  - https://e8markets.com/compare-simfi-funded-accounts
+- All sources:
+  - 2026-10-30 · Account configurator (prices, rules) · https://e8markets.com/compare-simfi-funded-accounts
+  - 2026-10-30 · Accepted Countries (help centre) · https://help.e8markets.com/en/articles/5514278-accepted-countries
+  - 2026-10-30 · Terms of Service · https://e8markets.com/e8-markets-terms-and-conditions
+  - 2026-10-30 · Homepage (markets, platforms) · https://e8markets.com/
+  - 2026-10-30 · E8 Futures account configurator (prices) · https://e8futures.com/?market=futures#accounts
+- Data gaps:
+  - Payout frequency, split options, news/EA/weekend rules and leverage were not re-read from the help centre on 2026-10-30.
+  - Futures daily loss, payout schedule and contract limits were not shown on the configurator.
+
+## Earn2Trade
+<a id="earn2trade"></a>
+
+- Website: https://www.earn2trade.com/
+- Last verified: 2026-10-30
+- HQ: US, Sheridan — Earn2Trade LLC (verified) — source: https://help.earn2trade.com/en/articles/1518606-where-are-you-based (2026-10-30)
+- Restricted countries: published — AF, AL, AZ, MM, CF, CU, GI, IR, IQ, KE, LY, ML, NR, NG, KP, PK, RU, SO, SS, SD, SY, TM, UA, VE, YE — source: https://help.earn2trade.com/en/articles/2547638-i-m-not-an-american-us-citizen-can-i-still-get-funded (2026-10-30)
+  - Note: Pakistan (PK) IS on the list: citizens of these countries cannot get funded 'owing to sanctions or other reasons' (help article dated 7 Mar 2025). Separately, payout provider Rise does not support payouts to traders in Iowa, Minnesota, South Carolina, Guam, Puerto Rico and the U.S. Virgin Islands, and no longer pays to Haiti (alternative payout options via partner firms).
+- Program **Trader Career Path** (futures, 1-step) — checked 2026-10-30
+  - https://www.earn2trade.com/trader-career-path
+  - https://www.earn2trade.com/pricing
+  - https://help.earn2trade.com/en/articles/2159050-what-is-the-cost-of-your-packages
+  - https://help.earn2trade.com/en/articles/5452472-what-is-the-withdrawal-policy
+  - https://help.earn2trade.com/en/articles/8117088-drawdown-types
+  - https://help.earn2trade.com/en/articles/3849975-what-is-the-maintain-consistency-rule
+  - https://help.earn2trade.com/en/articles/3224526-are-there-any-restrictions-on-when-i-can-trade-in-my-evaluation-account
+  - https://help.earn2trade.com/en/articles/11183609-reset-pricing-for-earn2trade-accounts
+  - https://www.earn2trade.com/blog/earn2trade-evaluation-rules-profit-split-update/
+  - Unverified fields: sizes, phases, leverage
+- Program **Gauntlet Mini** (futures, 1-step) — checked 2026-10-30
+  - https://www.earn2trade.com/gauntlet-mini
+  - https://help.earn2trade.com/en/articles/2159050-what-is-the-cost-of-your-packages
+  - https://help.earn2trade.com/en/articles/11183609-reset-pricing-for-earn2trade-accounts
+  - https://help.earn2trade.com/en/articles/5452472-what-is-the-withdrawal-policy
+  - https://help.earn2trade.com/en/articles/3292351-what-is-the-progression-ladder-in-the-gauntlet-mini
+  - https://help.earn2trade.com/en/articles/12034590-am-i-allowed-to-copy-trades-across-multiple-accounts
+  - Unverified fields: sizes
+- Rule changes:
+  - 2026-10-26 — dxFeed and DeepCharts added — https://www.earn2trade.com/blog/earn2trade-supports-dxfeed-and-deepcharts/
+  - 2026-08-17 — BlackArrow platform added — https://www.earn2trade.com/blog/blackarrow-at-earn2trade/
+  - 2026-07-06 — 10-day minimum removed; threshold profit split — https://www.earn2trade.com/blog/earn2trade-evaluation-rules-profit-split-update/
+  - 2026-06-22 — Evaluation account limit raised to 5 — https://www.earn2trade.com/blog/earn2trade-evaluation-account-limit-increased/
+  - 2026-03-04 — Faster LiveSim access — https://www.earn2trade.com/blog/faster-livesim-access/
+- All sources:
+  - 2026-10-30 · Homepage · https://www.earn2trade.com/
+  - 2026-10-30 · Trader Career Path · https://www.earn2trade.com/trader-career-path
+  - 2026-10-30 · Gauntlet Mini · https://www.earn2trade.com/gauntlet-mini
+  - 2026-10-30 · Pricing (TCP) · https://www.earn2trade.com/pricing
+  - 2026-10-30 · Terms and conditions · https://www.earn2trade.com/terms-and-conditions
+  - 2026-10-30 · Help centre · https://help.earn2trade.com/en/
+  - 2026-10-30 · Where are you based · https://help.earn2trade.com/en/articles/1518606-where-are-you-based
+  - 2026-10-30 · Non-US eligibility and excluded countries · https://help.earn2trade.com/en/articles/2547638-i-m-not-an-american-us-citizen-can-i-still-get-funded
+  - 2026-10-30 · Eligibility requirements · https://help.earn2trade.com/en/articles/16295753-earn2trade-eligibility-requirements
+  - 2026-10-30 · Package costs · https://help.earn2trade.com/en/articles/2159050-what-is-the-cost-of-your-packages
+  - 2026-10-30 · Reset pricing · https://help.earn2trade.com/en/articles/11183609-reset-pricing-for-earn2trade-accounts
+  - 2026-10-30 · Withdrawal policy · https://help.earn2trade.com/en/articles/5452472-what-is-the-withdrawal-policy
+  - 2026-10-30 · Fee schedule · https://help.earn2trade.com/en/articles/8320643-fee-schedule-in-e2t-evaluations-and-on-funded-accounts
+  - 2026-10-30 · LiveSim/Live fee structure · https://help.earn2trade.com/en/articles/2280137-what-is-the-fee-structure-on-the-live-or-livesim-accounts
+  - 2026-10-30 · What is the LiveSim · https://help.earn2trade.com/en/articles/3313030-what-is-the-livesim
+  - 2026-10-30 · Evaluation rules · https://help.earn2trade.com/en/articles/5941958-what-are-the-evaluation-rules
+  - 2026-10-30 · Daily loss calculation · https://help.earn2trade.com/en/articles/3395926-how-is-my-daily-loss-calculated
+  - 2026-10-30 · Drawdown types · https://help.earn2trade.com/en/articles/8117088-drawdown-types
+  - 2026-10-30 · Maximum drawdown · https://help.earn2trade.com/en/articles/3224507-what-is-the-maximum-drawdown-on-the-trader-career-path-and-the-gauntlet-mini-challenges
+  - 2026-10-30 · Consistency rule · https://help.earn2trade.com/en/articles/3849975-what-is-the-maintain-consistency-rule
+  - 2026-10-30 · Trading time restrictions · https://help.earn2trade.com/en/articles/3224526-are-there-any-restrictions-on-when-i-can-trade-in-my-evaluation-account
+  - 2026-10-30 · Overnight positions · https://help.earn2trade.com/en/articles/2090496-can-i-hold-positions-overnight-on-the-trader-career-path-gauntlet-mini
+  - 2026-10-30 · Copy trading policy · https://help.earn2trade.com/en/articles/12034590-am-i-allowed-to-copy-trades-across-multiple-accounts
+  - 2026-10-30 · Prohibited conduct · https://help.earn2trade.com/en/articles/9286647-prohibited-conduct-in-earn2trade-evaluations-and-in-the-livesim-live-trading-environment
+  - 2026-10-30 · Platforms · https://help.earn2trade.com/en/articles/2090521-what-platforms-can-i-use-for-the-gauntlet-mini-trader-career-path
+  - 2026-10-30 · Tradable assets · https://help.earn2trade.com/en/articles/3320460-what-assets-can-i-trade
+  - 2026-10-30 · TCP25/50/100 differences · https://help.earn2trade.com/en/articles/6863807-what-is-the-difference-between-the-tcp25-tcp50-and-tcp100
+  - 2026-10-30 · Progression ladder (TCP) · https://help.earn2trade.com/en/articles/5922873-what-is-the-progression-ladder-on-the-trader-career-path
+  - 2026-10-30 · Progression ladder (Gauntlet Mini) · https://help.earn2trade.com/en/articles/3292351-what-is-the-progression-ladder-in-the-gauntlet-mini
+  - 2026-10-30 · Partner prop firms · https://help.earn2trade.com/en/articles/1585409-which-proprietary-trading-firm-will-contact-me-after-i-pass-my-evaluation
+  - 2026-10-30 · Payout update US states · https://help.earn2trade.com/en/articles/10346102-payout-update-for-traders-in-certain-u-s-states-and-territories
+  - 2026-10-30 · Payout update Haiti · https://help.earn2trade.com/en/articles/10357867-payout-update-for-traders-in-haiti
+  - 2026-10-30 · Blog (announcements) · https://www.earn2trade.com/blog/
+  - 2026-10-30 · Rule and profit split update (6 Jul 2026) · https://www.earn2trade.com/blog/earn2trade-evaluation-rules-profit-split-update/
+  - 2026-10-30 · Account limit increase · https://www.earn2trade.com/blog/earn2trade-evaluation-account-limit-increased/
+  - 2026-10-30 · dxFeed and DeepCharts · https://www.earn2trade.com/blog/earn2trade-supports-dxfeed-and-deepcharts/
+  - 2026-10-30 · BlackArrow · https://www.earn2trade.com/blog/blackarrow-at-earn2trade/
+  - 2026-10-30 · Faster LiveSim access · https://www.earn2trade.com/blog/faster-livesim-access/
+- Data gaps:
+  - Official program pages only render the default size (TCP25 and GAU50). Prices for TCP25 ($150) and GAU50 ($170) are on official pages; the help centre lists the fee set $150/$170/$190/$315/$350/$550 without mapping sizes, so TCP50 $190, TCP100 $350, GAU100 $315 and GAU200 $550 are mapped by order and marked unverified. GAU150 price not published.
+  - Evaluation profit targets, drawdowns and contract limits for TCP50, TCP100 and GAU100-200 are shown only in images; TCP rules are written for TCP25 and Gauntlet rules for GAU50.
+  - Funded-account overnight/weekend holding rules and automated-trading (bot) policy are not stated explicitly.
+  - Homepage shows a 50% anniversary promotion; regular list prices used.
+
+## Elite Trader Funding
+<a id="elite-trader-funding"></a>
+
+- Website: https://elitetraderfunding.com/
+- Last verified: 2026-10-30
+- HQ: US, Wilmington — Elite Trader Funding LLC (verified) — source: https://elitetraderfunding.app/terms-of-service (2026-10-30)
+- Restricted countries: published — AF, CF, CG, CD, CU, GN, HT, IR, IQ, LY, ML, MM, KP, RU, SO, SS, SD, SY, UA, VE, YE, GU, PR, VI — source: https://elitetraderfunding.app/help/countries-restricted-and-supported (2026-10-30)
+  - Note: List of countries restricted by payout provider Rise (page last verified by the firm 2026-07-30), plus unsupported US territories Guam, Puerto Rico and US Virgin Islands. Also OFAC/US, EU and UK sanctioned countries; eligibility is by residence. Pakistan (PK) is NOT on the restricted list, but PK is also not on the Stripe supported-countries list, and the page says traders whose country is not serviceable by its payment partners cannot purchase or be funded, so PK eligibility is unclear.
+- Program **1-Step (Live Trailing)** (futures, 1-step) — checked 2026-10-30
+  - https://elitetraderfunding.app/1-step-evaluation
+  - https://elitetraderfunding.app/help/how-the-1-step-plan-works
+  - https://elitetraderfunding.app/help/contract-limits
+  - https://elitetraderfunding.app/help/what-are-the-elite-funded-account-fees
+  - https://elitetraderfunding.app/cost-to-get-funded-calculator
+  - https://elitetraderfunding.app/help/consistency-rule-and-active-trade-days-atd-explained
+  - https://elitetraderfunding.app/cost-to-get-funded-calculator
+  - Unverified fields: priceNote, news
+- Program **End of Day** (futures, 1-step) — checked 2026-10-30
+  - https://elitetraderfunding.app/end-of-day-evaluation
+  - https://elitetraderfunding.app/help/how-the-end-of-day-plan-works
+  - https://elitetraderfunding.app/help/contract-limits
+  - https://elitetraderfunding.app/help/what-are-the-elite-funded-account-fees
+  - Unverified fields: news
+- Program **Static Drawdown** (futures, 1-step) — checked 2026-10-30
+  - https://elitetraderfunding.app/static-drawdown
+  - https://elitetraderfunding.app/help/how-the-static-account-plan-works
+  - https://elitetraderfunding.app/help/contract-limits
+  - Unverified fields: news
+- Program **Diamond Hands** (futures, 1-step) — checked 2026-10-30
+  - https://elitetraderfunding.app/diamond-hands-evaluation
+  - https://elitetraderfunding.app/help/how-the-revamped-diamond-hands-plan-works
+  - https://elitetraderfunding.app/help/contract-limits
+  - Unverified fields: news
+- Program **Fast Track** (futures, 1-step) — checked 2026-10-30
+  - https://elitetraderfunding.app/fast-track-evaluation
+  - https://elitetraderfunding.app/help/how-the-revamped-fast-track-plan-works
+  - https://elitetraderfunding.app/help/contract-limits
+- Program **Direct to Funded** (futures, instant) — checked 2026-10-30
+  - https://elitetraderfunding.app/direct-to-funded
+  - https://elitetraderfunding.app/help/how-the-dtf-plan-works
+  - https://elitetraderfunding.app/help/contract-limits
+  - https://elitetraderfunding.app/help/consistency-rule-and-active-trade-days-atd-explained
+  - Unverified fields: news
+- Rule changes:
+  - 2026-10-08 — Terms of Service updated — https://elitetraderfunding.app/terms-of-service
+  - 2026-10-02 — Higher Active Trade Day threshold — https://elitetraderfunding.app/help/consistency-rule-and-active-trade-days-atd-explained
+  - 2026-07-28 — New 1-Step reward tables — https://elitetraderfunding.app/help/how-the-1-step-plan-works
+  - 2026-07-06 — Temporary 1-Step ATD schedule — https://elitetraderfunding.app/help/consistency-rule-and-active-trade-days-atd-explained
+  - 2026-01-28 — Rithmic connection fee — https://elitetraderfunding.app/help/rithmic-data-feed-pricing-update
+- All sources:
+  - 2026-10-30 · Homepage (app) · https://elitetraderfunding.app/
+  - 2026-10-30 · Evaluations overview · https://elitetraderfunding.app/evaluations
+  - 2026-10-30 · 1-Step · https://elitetraderfunding.app/1-step-evaluation
+  - 2026-10-30 · End of Day · https://elitetraderfunding.app/end-of-day-evaluation
+  - 2026-10-30 · Static Drawdown · https://elitetraderfunding.app/static-drawdown
+  - 2026-10-30 · Diamond Hands · https://elitetraderfunding.app/diamond-hands-evaluation
+  - 2026-10-30 · Fast Track · https://elitetraderfunding.app/fast-track-evaluation
+  - 2026-10-30 · Direct to Funded · https://elitetraderfunding.app/direct-to-funded
+  - 2026-10-30 · Cost-to-get-funded calculator · https://elitetraderfunding.app/cost-to-get-funded-calculator
+  - 2026-10-30 · Terms of Service · https://elitetraderfunding.app/terms-of-service
+  - 2026-10-30 · About · https://elitetraderfunding.app/about
+  - 2026-10-30 · Help centre · https://elitetraderfunding.app/help
+  - 2026-10-30 · Countries restricted and supported · https://elitetraderfunding.app/help/countries-restricted-and-supported
+  - 2026-10-30 · Restrictions on who can join · https://elitetraderfunding.app/help/restrictions-on-who-can-join-etf
+  - 2026-10-30 · Contract limits · https://elitetraderfunding.app/help/contract-limits
+  - 2026-10-30 · Elite account fees · https://elitetraderfunding.app/help/what-are-the-elite-funded-account-fees
+  - 2026-10-30 · Consistency and ATD · https://elitetraderfunding.app/help/consistency-rule-and-active-trade-days-atd-explained
+  - 2026-10-30 · EOD plan · https://elitetraderfunding.app/help/how-the-end-of-day-plan-works
+  - 2026-10-30 · Diamond Hands plan · https://elitetraderfunding.app/help/how-the-revamped-diamond-hands-plan-works
+  - 2026-10-30 · Fast-Track plan · https://elitetraderfunding.app/help/how-the-revamped-fast-track-plan-works
+  - 2026-10-30 · 1-Step plan · https://elitetraderfunding.app/help/how-the-1-step-plan-works
+  - 2026-10-30 · Static plan · https://elitetraderfunding.app/help/how-the-static-account-plan-works
+  - 2026-10-30 · DTF plan · https://elitetraderfunding.app/help/how-the-dtf-plan-works
+  - 2026-10-30 · LIVE ELITE · https://elitetraderfunding.app/help/live-elite-information
+  - 2026-10-30 · Trade copier, EA and algo policy · https://elitetraderfunding.app/help/trade-copier-disclaimer
+  - 2026-10-30 · Major economic releases · https://elitetraderfunding.app/help/trading-major-economic-releases
+  - 2026-10-30 · Supported platforms · https://elitetraderfunding.app/help/supported-platforms-and-data-feed
+  - 2026-10-30 · Rithmic data feed pricing update · https://elitetraderfunding.app/help/rithmic-data-feed-pricing-update
+  - 2026-10-30 · Blog · https://elitetraderfunding.app/blog
+  - 2026-10-30 · Cost to Get Funded calculator (1-Step prices, May 2026 snapshot) · https://elitetraderfunding.app/cost-to-get-funded-calculator
+- Data gaps:
+  - One-time Elite activation for 1-Step conflicts: help centre $177 (75K and below) vs homepage/calculator 'as low as $157'.
+  - News rule conflicts: help article says no restrictions; Terms of Service (effective 8 Oct 2026) require Elite accounts flat 5 minutes before/after listed major events.
+  - 1-Step sizes conflict: evaluations page lists 50K/100K/150K/250K, 1-Step page shows 50K/100K/250K, contract-limits page says 250K is no longer sold. 150K targets/drawdowns for 1-Step and EOD not published in text.
+  - Pakistan eligibility unclear (not restricted by Rise, but not on Stripe supported list).
+  - Only 1-Step prices are public (calculator snapshot as of May 2026). End of Day, Static, Diamond Hands, Fast Track and Direct to Funded prices appear only in the logged-in checkout.
+
+## Finotive Funding
+<a id="finotive"></a>
+
+- Website: https://finotivefunding.com/
+- Last verified: 2026-10-30
+- HQ: AE, Dubai — Finotive Funding Technologies Limited (DIFC company no. 11088) (verified) — source: https://finotivefunding.com/terms-and-conditions (2026-10-30)
+- Restricted countries: published — IR, KP, PS — source: https://finotivefunding.com/terms-and-conditions (2026-10-30)
+  - Note: Terms §3.3 lists Iran, North Korea and the Palestinian Territories, plus regions: Crimea, Sevastopol, Luhansk, Donetsk, Zaporizhzhia, Kherson, Abkhazia, South Ossetia, Northern Cyprus (TRNC), Somaliland, Transnistria and Nagorno-Karabakh (regions not given country codes). The site footer mentions only Iran and North Korea. Pakistan is not listed.
+- Program **1-Step Challenge** (cfd, 1-step) — checked 2026-10-30
+  - https://finotivefunding.com/terms-and-conditions
+  - https://finotivefunding.com/challenge
+  - https://finotivefunding.com/
+- Program **2-Step Challenge** (cfd, 2-step) — checked 2026-10-30
+  - https://finotivefunding.com/terms-and-conditions
+  - https://finotivefunding.com/
+- Program **1-Step Pro** (cfd, 1-step) — checked 2026-10-30
+  - https://finotivefunding.com/terms-and-conditions
+  - https://finotivefunding.com/finotive-pro
+  - https://finotivefunding.com/
+- Program **2-Step Pro** (cfd, 2-step) — checked 2026-10-30
+  - https://finotivefunding.com/terms-and-conditions
+  - https://finotivefunding.com/
+- Program **2-Step Solo** (cfd, 2-step) — checked 2026-10-30
+  - https://finotivefunding.com/terms-and-conditions
+- Program **Instant Funding Standard** (cfd, instant) — checked 2026-10-30
+  - https://finotivefunding.com/terms-and-conditions
+  - https://finotivefunding.com/instant-funding
+  - https://finotivefunding.com/
+- Program **Instant Funding Lite** (cfd, instant) — checked 2026-10-30
+  - https://finotivefunding.com/terms-and-conditions
+  - https://finotivefunding.com/instant-funding
+  - https://finotivefunding.com/
+- All sources:
+  - 2026-10-30 · Terms and Conditions · https://finotivefunding.com/terms-and-conditions
+  - 2026-10-30 · Homepage · https://finotivefunding.com/
+  - 2026-10-30 · Challenge page · https://finotivefunding.com/challenge
+  - 2026-10-30 · Instant Funding page · https://finotivefunding.com/instant-funding
+  - 2026-10-30 · Pro page · https://finotivefunding.com/finotive-pro
+  - 2026-10-30 · Trading platform page · https://finotivefunding.com/trading
+  - 2026-10-30 · Help centre · https://help.finotivefunding.com/en
+  - 2026-10-30 · Help centre: account types · https://help.finotivefunding.com/en/collections/156-choosing-the-right-account
+  - 2026-10-30 · Homepage program cards (prices) · https://finotivefunding.com/
+- Data gaps:
+  - No dated rule-change announcements found on official pages; Terms carry no visible effective date.
+  - Time limits are not stated in the Terms we could read.
+  - 2-Step Solo profit split and payout minimum not stated.
+  - Prices were read from the homepage program cards in a browser on 2026-10-30; 2-Step Solo was not listed there.
+
+## Fintokei
+<a id="fintokei"></a>
+
+- Website: https://www.fintokei.com/
+- Last verified: 2026-10-30
+- HQ: CZ, Brno — Fintokei a.s. (verified) — source: https://www.fintokei.com/ (2026-10-30)
+- Restricted countries: published — AF, BY, CU, IN, IR, IQ, MM, KP, RU, SO, SS, SD, SY, US, VE, YE, BD, CN, PK, VN, KH, ET, GH, ID, KE, MY, MA, NG, PH, SA, SN, ZA, TH, TR, UA, AE — source: https://support.fintokei.com/en/articles/6538820-who-can-join-fintokei (2026-10-30)
+  - Note: Not served (residents or citizens): AF, BY, CU, IN, IR, IQ, MM, KP, RU, SO, SS, SD, SY, US, VE, YE. Temporarily restricted: Bangladesh, China, Pakistan and Vietnam. New purchases currently unavailable in: KH, ET, GH, ID, KE, MY, MA, NG, PH, SA, SN, ZA, TH, TR, UA, AE. Pakistan (PK) is restricted (temporary).
+- Program **StartTrader** (cfd, 1-step) — checked 2026-10-30
+  - https://www.fintokei.com/
+  - https://support.fintokei.com/en/articles/17677670-what-s-new-on-starttrader-from-october-21-2026-soft-breach-payouts-and-purchase-rules
+  - https://support.fintokei.com/en/articles/6538847-what-leverage-do-you-offer
+- Program **SwiftTrader** (cfd, 1-step) — checked 2026-10-30
+  - https://www.fintokei.com/
+  - https://support.fintokei.com/en/articles/12040973-how-does-swifttrader-challenge-work-what-are-the-rules
+  - https://support.fintokei.com/en/articles/8408430-what-is-the-performance-reward-ratio-on-swifttrader-accounts
+  - https://support.fintokei.com/en/articles/6538884-how-and-how-often-can-i-withdraw-my-performance-rewards-and-what-is-the-minimum-amount
+- Program **ProTrader** (cfd, 2-step) — checked 2026-10-30
+  - https://www.fintokei.com/
+  - https://support.fintokei.com/en/articles/6538822-how-does-the-protrader-challenge-work-what-are-the-rules
+  - https://support.fintokei.com/en/articles/6538873-what-is-the-performance-reward-ratio-on-protrader-accounts
+  - https://support.fintokei.com/en/articles/6538847-what-leverage-do-you-offer
+  - https://support.fintokei.com/en/articles/6538829-is-there-any-time-limit
+- Program **ProTrader Swing** (cfd, 2-step) — checked 2026-10-30
+  - https://www.fintokei.com/
+  - https://support.fintokei.com/en/articles/12058210-what-is-the-difference-between-protrader-and-protrader-swing
+  - https://support.fintokei.com/en/articles/6538847-what-leverage-do-you-offer
+- Rule changes:
+  - 2026-10-21 — StartTrader becomes a 1-phase program with soft breach — https://support.fintokei.com/en/articles/17677670-what-s-new-on-starttrader-from-october-21-2026-soft-breach-payouts-and-purchase-rules
+  - 2026-07-15 — SwiftTrader rules changed — https://support.fintokei.com/en/articles/12040973-how-does-swifttrader-challenge-work-what-are-the-rules
+  - 2026-07-15 — ProTrader Swing made swap-free — https://support.fintokei.com/en/articles/12058210-what-is-the-difference-between-protrader-and-protrader-swing
+  - 2026-01-21 — Scaling plan replaced by Loyalty Program boost — https://support.fintokei.com/en/articles/8409193-what-is-scaling
+- All sources:
+  - 2026-10-30 · Homepage, pricing cards and footer · https://www.fintokei.com/
+  - 2026-10-30 · Help: who can join (restricted countries) · https://support.fintokei.com/en/articles/6538820-who-can-join-fintokei
+  - 2026-10-30 · Help: StartTrader from 21 Oct 2026 · https://support.fintokei.com/en/articles/17677670-what-s-new-on-starttrader-from-october-21-2026-soft-breach-payouts-and-purchase-rules
+  - 2026-10-30 · Help: SwiftTrader rules · https://support.fintokei.com/en/articles/12040973-how-does-swifttrader-challenge-work-what-are-the-rules
+  - 2026-10-30 · Help: SwiftTrader reward ratio · https://support.fintokei.com/en/articles/8408430-what-is-the-performance-reward-ratio-on-swifttrader-accounts
+  - 2026-10-30 · Help: ProTrader rules · https://support.fintokei.com/en/articles/6538822-how-does-the-protrader-challenge-work-what-are-the-rules
+  - 2026-10-30 · Help: ProTrader vs ProTrader Swing · https://support.fintokei.com/en/articles/12058210-what-is-the-difference-between-protrader-and-protrader-swing
+  - 2026-10-30 · Help: ProTrader reward ratio · https://support.fintokei.com/en/articles/6538873-what-is-the-performance-reward-ratio-on-protrader-accounts
+  - 2026-10-30 · Help: ProTrader Slim · https://support.fintokei.com/en/articles/13913487-what-is-protrader-slim
+  - 2026-10-30 · Help: payouts · https://support.fintokei.com/en/articles/6538884-how-and-how-often-can-i-withdraw-my-performance-rewards-and-what-is-the-minimum-amount
+  - 2026-10-30 · Help: leverage · https://support.fintokei.com/en/articles/6538847-what-leverage-do-you-offer
+  - 2026-10-30 · Help: copy trading and EAs · https://support.fintokei.com/en/articles/10419735-copy-trading-and-eas-what-is-allowed-and-what-prohibited
+  - 2026-10-30 · Help: news and weekend · https://support.fintokei.com/en/articles/6538843-can-trade-any-time-hold-positions-over-weekends-and-trade-during-news
+  - 2026-10-30 · Help: platforms · https://support.fintokei.com/en/articles/6538834-what-trading-platforms-do-you-offer
+  - 2026-10-30 · Help: time limit · https://support.fintokei.com/en/articles/6538829-is-there-any-time-limit
+  - 2026-10-30 · Help: scaling · https://support.fintokei.com/en/articles/8409193-what-is-scaling
+  - 2026-10-30 · Help: consistency rules · https://support.fintokei.com/en/articles/11315966-consistency-rules-most-common-application
+- Data gaps:
+  - Founding year: homepage says 'Established in 2011' without naming the entity it refers to; left null.
+  - Brand colour not identified.
+  - Minimum withdrawal for StartTrader after the October 2026 change assumed to follow the general $100 rule in addition to the 2% profit minimum.
+
+## Fondeo
+<a id="fondeo"></a>
+
+- Website: https://fondeo.xyz/
+- Last verified: 2026-10-30
+- HQ: US, Sheridan — Red G Tech LLC (verified) — source: https://fondeo.xyz/en/terms-and-conditions (2026-10-30)
+- Restricted countries: not_published — source: https://fondeo.xyz/en/terms-and-conditions (2026-10-30)
+  - Note: Terms say services are only available in certain countries but name none; homepage says content is not directed where it would violate local law. Pakistan not mentioned.
+- Program **One-Step** (crypto, 1-step) — checked 2026-10-30
+  - https://fondeo.xyz/en/docs/trading-rules
+  - https://fondeo.xyz/
+  - https://fondeo.xyz/en#trading-programs
+  - Unverified fields: dailyLoss, maxDrawdown
+- Program **Two-Step** (crypto, 2-step) — checked 2026-10-30
+  - https://fondeo.xyz/en/docs/trading-rules
+  - https://fondeo.xyz/
+  - https://fondeo.xyz/en#trading-programs
+  - Unverified fields: maxDrawdown
+- Program **Subscription** (crypto, 1-step) — checked 2026-10-30
+  - https://fondeo.xyz/
+  - https://fondeo.xyz/en/docs/trading-rules
+  - Unverified fields: phases, maxDrawdown, profitSplit, minDays, consistency
+- Rule changes:
+  - 2026-03-04 — Fondeo Terminal launched (beta) — https://fondeo.xyz/en/blog/fondeo-terminal-trade-directly-no-external-platforms
+- All sources:
+  - 2026-10-30 · Homepage (programs, subscription prices, rules table) · https://fondeo.xyz/
+  - 2026-10-30 · Trading rules (docs) · https://fondeo.xyz/en/docs/trading-rules
+  - 2026-10-30 · Terms and Conditions · https://fondeo.xyz/en/terms-and-conditions
+  - 2026-10-30 · FAQ · https://fondeo.xyz/en/faq
+  - 2026-10-30 · Blog: Fondeo Terminal (4 Mar 2026) · https://fondeo.xyz/en/blog/fondeo-terminal-trade-directly-no-external-platforms
+  - 2026-10-30 · Blog index (checked for announcements) · https://fondeo.xyz/en/blog
+  - 2026-10-30 · Homepage challenge picker (prices) · https://fondeo.xyz/en#trading-programs
+- Data gaps:
+  - Homepage rules table conflicts with the trading-rules docs (homepage: 5% daily for all, max loss 10% / 5% / 10%, Subscription without minimum days or consistency; docs: One-Step 4% / 6%, Two-Step 5% / 10% then 5%, Subscription 4% / 5% with 10 days). Docs values used; conflicting fields marked unverified.
+  - Profit split conflicts on homepage ('up to 90%', '70-90%', 'Up to 70%' for Subscription).
+  - Copy-trading rule not published. Terms last updated June 2025 and refer to a separate help centre and account agreement not found.
+
+## For Traders
+<a id="for-traders"></a>
+
+- Website: https://www.fortraders.com/
+- Last verified: 2026-10-30
+- HQ: AE, Dubai — BLN Tech Club DMCC (platform operator); footer also names FT Trading Ltd., Saint Lucia (verified) — source: https://www.fortraders.com/terms-and-conditions (2026-10-30)
+- Restricted countries: published — PK, IR, SY, MM, BD, KP, RU, BY, CU, LB, LY, SD, SS — source: https://www.fortraders.com/terms-and-conditions (2026-10-30)
+  - Note: T&C clause 1.1.18 'Prohibited Jurisdictions' (repeated in the footer): Pakistan, Iran, Syria, Myanmar, Bangladesh, North Korea, Russia, Belarus, Cuba, Lebanon, Libya, Sudan, South Sudan, plus the Crimea, Donetsk and Luhansk regions of Ukraine. Pakistan IS restricted.
+- Program **Forex Pay After Pass (1-Step)** (cfd, 1-step) — checked 2026-10-30
+  - https://help.fortraders.com/en/articles/15359294-pay-after-pass-account-forex
+  - https://help.fortraders.com/en/articles/16761354-first-time-ever-a-200k-account-with-pay-after-pass
+  - https://help.fortraders.com/en/articles/15392485-what-are-the-leverages
+  - https://help.fortraders.com/en/articles/15342912-what-is-allowed-with-us
+  - Unverified fields: sizes, platforms
+- Program **Forex FAST (1-Step)** (cfd, 1-step) — checked 2026-10-30
+  - https://help.fortraders.com/en/articles/15360683-fast-account-forex
+  - https://www.fortraders.com/challenges
+  - https://help.fortraders.com/en/articles/15392485-what-are-the-leverages
+  - Unverified fields: platforms
+- Program **Forex FAST STATIC (1-Step)** (cfd, 1-step) — checked 2026-10-30
+  - https://help.fortraders.com/en/articles/15376206-fast-static-account-forex
+  - https://www.fortraders.com/challenges
+  - Unverified fields: platforms
+- Program **Forex CLASSIC (2-Step)** (cfd, 2-step) — checked 2026-10-30
+  - https://help.fortraders.com/en/articles/15378600-classic-account-forex
+  - https://help.fortraders.com/en/articles/15208251-account-types-comparison
+  - https://www.fortraders.com/challenges
+  - Unverified fields: sizes
+- Program **Forex INSTANT** (cfd, instant) — checked 2026-10-30
+  - https://help.fortraders.com/en/articles/15379105-instant-account-forex
+  - https://www.fortraders.com/instant-funding
+  - Unverified fields: platforms
+- Program **Forex INSTANT PRO** (cfd, instant) — checked 2026-10-30
+  - https://help.fortraders.com/en/articles/15379390-instant-pro-account-forex
+  - https://www.fortraders.com/instant-funding
+  - https://help.fortraders.com/en/articles/15392485-what-are-the-leverages
+  - Unverified fields: platforms
+- Program **Crypto FAST (1-Step)** (crypto, 1-step) — checked 2026-10-30
+  - https://help.fortraders.com/en/articles/15379636-fast-account-crypto
+  - https://www.fortraders.com/challenges
+  - https://help.fortraders.com/en/articles/11737598-what-crypto-assets-do-you-offer-for-trading
+- Program **Crypto FAST PRO (1-Step)** (crypto, 1-step) — checked 2026-10-30
+  - https://help.fortraders.com/en/articles/12292638-fast-pro-account-crypto
+  - https://www.fortraders.com/challenges
+- Program **Crypto INSTANT** (crypto, instant) — checked 2026-10-30
+  - https://help.fortraders.com/en/articles/11737088-instant-account-crypto
+  - https://www.fortraders.com/instant-funding
+- Program **Futures FAST (1-Step)** (futures, 1-step) — checked 2026-10-30
+  - https://help.fortraders.com/en/articles/11927530-fast-account-futures
+  - https://www.fortraders.com/challenges
+  - https://www.fortraders.com/trading-platforms
+  - Unverified fields: weekend
+- Program **Futures FAST PRO (1-Step)** (futures, 1-step) — checked 2026-10-30
+  - https://help.fortraders.com/en/articles/14470847-fast-pro-account-futures
+  - https://www.fortraders.com/challenges
+  - Unverified fields: weekend
+- Program **Futures INSTANT** (futures, instant) — checked 2026-10-30
+  - https://help.fortraders.com/en/articles/12115321-instant-account-futures
+  - https://www.fortraders.com/instant-funding
+  - Unverified fields: weekend
+- Rule changes:
+  - 2026-08-31 — $200K size added to Pay After Pass — https://help.fortraders.com/en/articles/16761354-first-time-ever-a-200k-account-with-pay-after-pass
+  - 2026-06-08 — New rule set and leverage for accounts bought from 8 Jun 2026 — https://help.fortraders.com/en/articles/15392485-what-are-the-leverages
+  - 2026-04-16 — New Forex Instant account launched — https://help.fortraders.com/en/articles/14653542-introducing-the-new-instant-account-faster-access-greater-power-smarter-trading
+- All sources:
+  - 2026-10-30 · Homepage / footer · https://www.fortraders.com/
+  - 2026-10-30 · Terms & Conditions · https://www.fortraders.com/terms-and-conditions
+  - 2026-10-30 · Challenges pricing · https://www.fortraders.com/challenges
+  - 2026-10-30 · Instant funding pricing · https://www.fortraders.com/instant-funding
+  - 2026-10-30 · Trading platforms · https://www.fortraders.com/trading-platforms
+  - 2026-10-30 · Account types comparison · https://help.fortraders.com/en/articles/15208251-account-types-comparison
+  - 2026-10-30 · Pay After Pass forex · https://help.fortraders.com/en/articles/15359294-pay-after-pass-account-forex
+  - 2026-10-30 · FAST forex · https://help.fortraders.com/en/articles/15360683-fast-account-forex
+  - 2026-10-30 · FAST STATIC forex · https://help.fortraders.com/en/articles/15376206-fast-static-account-forex
+  - 2026-10-30 · CLASSIC forex · https://help.fortraders.com/en/articles/15378600-classic-account-forex
+  - 2026-10-30 · INSTANT forex · https://help.fortraders.com/en/articles/15379105-instant-account-forex
+  - 2026-10-30 · INSTANT PRO forex · https://help.fortraders.com/en/articles/15379390-instant-pro-account-forex
+  - 2026-10-30 · FAST crypto · https://help.fortraders.com/en/articles/15379636-fast-account-crypto
+  - 2026-10-30 · FAST PRO crypto · https://help.fortraders.com/en/articles/12292638-fast-pro-account-crypto
+  - 2026-10-30 · INSTANT crypto · https://help.fortraders.com/en/articles/11737088-instant-account-crypto
+  - 2026-10-30 · FAST futures · https://help.fortraders.com/en/articles/11927530-fast-account-futures
+  - 2026-10-30 · FAST PRO futures · https://help.fortraders.com/en/articles/14470847-fast-pro-account-futures
+  - 2026-10-30 · INSTANT futures · https://help.fortraders.com/en/articles/12115321-instant-account-futures
+  - 2026-10-30 · Leverage · https://help.fortraders.com/en/articles/15392485-what-are-the-leverages
+  - 2026-10-30 · What is allowed · https://help.fortraders.com/en/articles/15342912-what-is-allowed-with-us
+  - 2026-10-30 · Crypto assets · https://help.fortraders.com/en/articles/11737598-what-crypto-assets-do-you-offer-for-trading
+  - 2026-10-30 · Instant launch (Apr 2026) · https://help.fortraders.com/en/articles/14653542-introducing-the-new-instant-account-faster-access-greater-power-smarter-trading
+  - 2026-10-30 · $200K Pay After Pass (Aug 2026) · https://help.fortraders.com/en/articles/16761354-first-time-ever-a-200k-account-with-pay-after-pass
+- Data gaps:
+  - Forex/crypto platforms: site lists MT5, cTrader and TradeLocker for 'standard accounts' without mapping them to programs; crypto platform not named.
+  - Crypto contract type (CFD vs perpetual) not stated.
+  - CLASSIC 2-Step shows prices on the challenges page but is marked not available for purchase in the help centre.
+  - Pay After Pass entry fee: account article lists $29–$69, a 31 Aug 2026 announcement says $9 for every size.
+  - Futures payout frequency and weekend holding are only covered by general articles, not the futures rule pages.
+
+## FTMO
+<a id="ftmo"></a>
+
+- Website: https://ftmo.com/en/
+- Last verified: 2026-10-30
+- HQ: CZ, Prague — FTMO s.r.o. (verified) — source: https://ftmo.com/en/faq/is-ftmo-a-trustworthy-company/ (2026-10-30)
+- Restricted countries: published — AF, AI, AQ, AG, BY, BZ, BT, BV, BI, CV, CF, TD, KM, CG, CK, CU, DJ, DM, GQ, ER, SZ, FJ, GA, GM, GD, GN, GW, VA, ID, IQ, KZ, KI, XK, KG, LS, LR, MW, ML, MH, MR, FM, NR, NE, NU, PG, RU, BL, KN, LC, VC, WS, SM, ST, SC, SL, SB, SO, SS, SD, SR, TJ, TL, TK, TO, TM, TV, UZ, VU, VE, EH, IR, SY, MM, KP — source: https://ftmo.com/en/faq/who-can-join-ftmo/ (2026-10-30)
+  - Note: CFD list (residency based). Ukraine is restricted only for Crimea, Sevastopol, Donetsk, Kherson, Luhansk and Zaporizhzhia. Iran, Syria, Myanmar and North Korea cover nationals and residents; nationals of Iran, Syria or Myanmar may be accepted with EEA residency and an EEA bank account. FTMO Futures has a longer list that adds AL, AO, AU, BB, BF, CN, CX, CC, CI, FK, GH, GY, HM, JM, JO, KE, LA, LY, YT, MC, MS, NA, RW, GS, LK, SJ, TG, TN, all of UA, VN and YE, and excludes US residents of Arkansas, Delaware, Louisiana, Montana and South Carolina. Pakistan is not on either list, but it is one of 35 countries where FTMO does not offer a Futures Live Funded Account (Sim-Funded accounts and payouts remain available). Pakistan residents and nationals cannot join the FTMO affiliate programme.
+- Program **2-Step FTMO Challenge** (cfd, 2-step) — checked 2026-10-30
+  - https://ftmo.com/en/trading-objectives/
+  - https://promo.ftmo.com/m26b-practice-trading-without-risk/
+  - https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/
+  - https://ftmo.com/en/faq/can-i-trade-news/
+  - https://ftmo.com/en/faq/can-i-hold-positions-overnight-or-over-the-weekend/
+  - https://ftmo.com/en/faq/what-is-the-swing-account-type-and-how-does-it-work/
+  - https://ftmo.com/en/faq/which-instruments-can-i-trade-and-what-strategies-am-i-allowed-to-use/
+  - https://ftmo.com/en/faq/which-platforms-can-i-use-for-trading/
+  - Unverified fields: copyTrading, instruments
+- Program **1-Step FTMO Challenge** (cfd, 1-step) — checked 2026-10-30
+  - https://ftmo.com/en/1-step-challenge/
+  - https://ftmo.com/en/trading-objectives/
+  - https://promo.ftmo.com/m26a-max-focus-1-step/
+  - https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/
+  - https://ftmo.com/en/blog/trading-updates/trading-update-8-oct-2026/
+  - https://ftmo.com/en/faq/what-is-the-swing-account-type-and-how-does-it-work/
+  - Unverified fields: copyTrading, instruments, leverage
+- Program **FTMO Instant Account** (cfd, instant) — checked 2026-10-30
+  - https://promo.ftmo.com/instant-account/
+  - https://ftmo.com/en/blog/introducing-the-ftmo-instant-account/
+  - https://ftmo.com/en/trading-objectives/
+  - https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/
+  - https://ftmo.com/en/faq/can-i-trade-news/
+  - https://ftmo.com/en/faq/can-i-hold-positions-overnight-or-over-the-weekend/
+  - Unverified fields: platforms, news, weekend, instruments
+- Program **FTMO Futures Growth** (futures, 1-step) — checked 2026-10-30
+  - https://ftmo.com/en/futures/
+  - https://ftmo.com/en/futures/trading-objectives-and-rules/
+  - https://ftmo.com/en/press-release/ftmo-launches-ftmo-futures/
+  - https://ftmo.com/en/futures/forbidden-trading-practices/
+  - Unverified fields: sizes, payoutFrequency, consistency, copyTrading
+- Program **FTMO Futures Pro** (futures, 1-step) — checked 2026-10-30
+  - https://ftmo.com/en/futures/
+  - https://ftmo.com/en/futures/trading-objectives-and-rules/
+  - https://ftmo.com/en/press-release/ftmo-launches-ftmo-futures/
+  - https://ftmo.com/en/futures/forbidden-trading-practices/
+  - Unverified fields: sizes, consistency, copyTrading
+- Rule changes:
+  - 2026-10-12 — FTMO Instant Account introduced — https://ftmo.com/en/blog/introducing-the-ftmo-instant-account/
+  - 2026-10-12 — 1-Step Best Day Rule replaced by Consistency rule — https://ftmo.com/en/blog/trading-updates/trading-update-8-oct-2026/
+  - 2026-09-17 — FTMO Futures launched — https://ftmo.com/en/press-release/ftmo-launches-ftmo-futures/
+  - 2026-02-06 — 1-Step FTMO Challenge introduced — https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/
+- All sources:
+  - 2026-10-30 · Trading objectives (CFD) · https://ftmo.com/en/trading-objectives/
+  - 2026-10-30 · 1-Step Challenge page · https://ftmo.com/en/1-step-challenge/
+  - 2026-10-30 · 2-Step prices (promo page) · https://promo.ftmo.com/m26b-practice-trading-without-risk/
+  - 2026-10-30 · 1-Step prices (promo page) · https://promo.ftmo.com/m26a-max-focus-1-step/
+  - 2026-10-30 · Instant Account prices (promo page) · https://promo.ftmo.com/instant-account/
+  - 2026-10-30 · Instant Account launch post · https://ftmo.com/en/blog/introducing-the-ftmo-instant-account/
+  - 2026-10-30 · 1-Step launch post · https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/
+  - 2026-10-30 · Restricted countries (CFD) · https://ftmo.com/en/faq/who-can-join-ftmo/
+  - 2026-10-30 · Restricted countries (Futures) · https://ftmo.com/en/futures/faq/who-can-join-ftmo-futures/
+  - 2026-10-30 · Futures Live Funded eligibility · https://ftmo.com/en/futures/faq/who-is-eligible-for-a-live-funded-account/
+  - 2026-10-30 · Reward withdrawal FAQ · https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/
+  - 2026-10-30 · News trading FAQ · https://ftmo.com/en/faq/can-i-trade-news/
+  - 2026-10-30 · Overnight / weekend FAQ · https://ftmo.com/en/faq/can-i-hold-positions-overnight-or-over-the-weekend/
+  - 2026-10-30 · Swing account FAQ · https://ftmo.com/en/faq/what-is-the-swing-account-type-and-how-does-it-work/
+  - 2026-10-30 · Instruments and strategies FAQ · https://ftmo.com/en/faq/which-instruments-can-i-trade-and-what-strategies-am-i-allowed-to-use/
+  - 2026-10-30 · Platforms FAQ · https://ftmo.com/en/faq/which-platforms-can-i-use-for-trading/
+  - 2026-10-30 · Company details · https://ftmo.com/en/faq/is-ftmo-a-trustworthy-company/
+  - 2026-10-30 · FTMO Futures overview · https://ftmo.com/en/futures/
+  - 2026-10-30 · FTMO Futures trading objectives and rules · https://ftmo.com/en/futures/trading-objectives-and-rules/
+  - 2026-10-30 · FTMO Futures launch press release · https://ftmo.com/en/press-release/ftmo-launches-ftmo-futures/
+  - 2026-10-30 · Trading update 8 Oct 2026 · https://ftmo.com/en/blog/trading-updates/trading-update-8-oct-2026/
+  - 2026-10-30 · Trading update 27 Aug 2026 · https://ftmo.com/en/blog/trading-updates/trading-updates-27-aug-2026/
+- Data gaps:
+  - Main ftmo.com pricing table is script-rendered; CFD prices come from FTMO's own promo pages (promo.ftmo.com), which also show special-offer prices for the $100K.
+  - FTMO Terms and Conditions PDF (updated 12 Oct 2026) could not be parsed, so the registered street address was not confirmed.
+  - Futures rules page lists Growth/Pro variants (40% vs 50% consistency, 50% vs 100% withdrawable profit, $2,500-$8,000 payout caps, 4 vs 5 qualifying days) without labelling which plan or size each belongs to; values are assigned from the Futures landing page and press release.
+  - Futures pages opened do not state EA/automation, overnight or weekend holding, minimum trading days or time limit.
+  - Instant Account platforms, news and weekend handling are not stated on its own pages; values are inferred from general FAQs.
+  - Copy-trading wording for CFD comes from a search snippet of the 'How many accounts can I have?' FAQ, not an opened page.
+  - 1-Step consistency rule start date conflicts: 12 Oct 2026 (trading update and trading objectives) vs 5 Oct 2026 (editor's note on launch post).
+
+## FTUK
+<a id="ftuk"></a>
+
+- Website: https://ftuk.com/
+- Last verified: 2026-10-30
+- HQ: NL, Utrecht — Nexdata-Solutions (operates the FTUK program) (verified) — source: https://ftuk.com/terms-of-service (2026-10-30)
+- Restricted countries: published — KP, IR, LY, SO, SS, SD, YE — source: https://ftuk.com/terms-of-service (2026-10-30)
+  - Note: Terms and site footer: North Korea, Iran, Libya, Somalia, South Sudan, Sudan, Yemen, plus sanctioned persons. MT5 is not available to US residents. Pakistan is not on the list.
+- Program **FLEX Challenge (Forex, pay after pass)** (cfd, 1-step) — checked 2026-10-30
+  - https://faq.ftuk.com/en/articles/14322511-flex-challenge-explained
+  - https://ftuk.com/flex-challenge
+  - https://ftuk.com/terms-of-service
+  - https://ftuk.com/flex-challenge
+- Program **Instant Funding (Forex)** (cfd, instant) — checked 2026-10-30
+  - https://faq.ftuk.com/en/articles/12310214-instant-funding-program-forex
+  - https://faq.ftuk.com/en/articles/12333289-what-are-the-drawdown-limits
+  - https://ftuk.com/instant
+  - https://ftuk.com/instant
+- Program **FLEX Futures (pay after pass)** (futures, 1-step) — checked 2026-10-30
+  - https://faq.ftuk.com/en/articles/17563548-flex-futures-account-rules-overview
+  - https://ftuk.com/futures-flex-funding
+  - Unverified fields: drawdownType
+- Program **Instant Sim Funding (Futures)** (futures, instant) — checked 2026-10-30
+  - https://faq.ftuk.com/en/articles/12355700-instant-sim-funding-futures-account-rules-overview
+  - https://ftuk.com/instant-sim-funding
+  - Unverified fields: billing
+- Rule changes:
+  - 2026-09-14 — Legacy One-Step and Two-Step withdrawn — https://faq.ftuk.com/en/articles/12333477-program-rules
+- All sources:
+  - 2026-10-30 · Homepage / footer · https://ftuk.com/
+  - 2026-10-30 · Terms of Service · https://ftuk.com/terms-of-service
+  - 2026-10-30 · FLEX Challenge page · https://ftuk.com/flex-challenge
+  - 2026-10-30 · Instant page · https://ftuk.com/instant
+  - 2026-10-30 · Help centre · https://faq.ftuk.com/en/
+  - 2026-10-30 · FLEX Challenge explained · https://faq.ftuk.com/en/articles/14322511-flex-challenge-explained
+  - 2026-10-30 · Instant Funding (Forex) · https://faq.ftuk.com/en/articles/12310214-instant-funding-program-forex
+  - 2026-10-30 · Drawdown limits · https://faq.ftuk.com/en/articles/12333289-what-are-the-drawdown-limits
+  - 2026-10-30 · Program rules · https://faq.ftuk.com/en/articles/12333477-program-rules
+  - 2026-10-30 · FLEX Futures rules · https://faq.ftuk.com/en/articles/17563548-flex-futures-account-rules-overview
+  - 2026-10-30 · Instant Sim Funding rules · https://faq.ftuk.com/en/articles/12355700-instant-sim-funding-futures-account-rules-overview
+  - 2026-10-30 · Futures platforms · https://faq.ftuk.com/en/articles/12353977-what-futures-platforms-are-available
+  - 2026-10-30 · Product pages (prices) · https://ftuk.com/
+- Data gaps:
+  - FLEX Challenge help article lists sizes up to $100K; the homepage selector also shows $200K.
+  - News and weekend rules for FLEX Challenge not stated; Instant Sim profit split not stated.
+  - Terms of Service carry a July 2024 issue date and may lag current rules.
+  - Prices were read from the JS pricing pickers on each product page in a browser on 2026-10-30.
+
+## Funded Futures Network
+<a id="funded-futures-network"></a>
+
+- Website: https://fundedfuturesnetwork.com/
+- Last verified: 2026-10-30
+- HQ: not published (unverified) — source: https://steady.fundedfuturesnetwork.com/ (2026-10-30)
+- Restricted countries: unverified — RU, IR, NG — source: https://fundedfuturesnetwork.zendesk.com/hc/en-us/articles/47386113405083-Article-12-1-Country-Restrictions-Product-List (2026-10-30)
+  - Note: PARTIAL. The firm publishes a prohibited-country list (help article 12.1 'Country Restrictions & Product List'), but it returned HTTP 403; only Russia, Iran and Nigeria were visible in the official page's search snippet. Pakistan (PK) status unknown.
+- Program **Steady** (futures, 1-step) — checked 2026-10-30
+  - https://steady.fundedfuturesnetwork.com/
+- Program **Standard MAX** (futures, 1-step) — checked 2026-10-30
+  - https://fundedfuturesnetwork.com/blog/standard-max-accounts-at-funded-futures-network-a-traders-complete-guide/
+  - https://blog.fundedfuturesnetwork.com/prop-firm-payouts-explained-how-funded-futures-network-max-accounts-fund-futures-traders-faster/
+  - https://fundedfuturesnetwork.zendesk.com/hc/en-us/articles/46870357137051-Article-5-3-Per-Account-Payout-Caps
+  - Unverified fields: billing, sizes, priceNote, payoutFrequency, minDays, consistency, weekend
+- Rule changes:
+  - 2026-07-01 — Steady replaces Express MAX — https://fundedfuturesnetwork.zendesk.com/hc/en-us/articles/53347326287131-Article-5-2-Payout-Eligibility-by-Account-Type
+  - 2026-04-20 — Per-account payout caps — https://fundedfuturesnetwork.zendesk.com/hc/en-us/articles/46870357137051-Article-5-3-Per-Account-Payout-Caps
+- All sources:
+  - 2026-10-30 · Steady evaluation page · https://steady.fundedfuturesnetwork.com/
+  - 2026-10-30 · Homepage (TLS error, not opened) · https://fundedfuturesnetwork.com/
+  - 2026-10-30 · Rules hub (Zendesk, HTTP 403) · https://fundedfuturesnetwork.zendesk.com/hc/en-us
+  - 2026-10-30 · Country restrictions (snippet only) · https://fundedfuturesnetwork.zendesk.com/hc/en-us/articles/47386113405083-Article-12-1-Country-Restrictions-Product-List
+  - 2026-10-30 · Per-account payout caps (snippet only) · https://fundedfuturesnetwork.zendesk.com/hc/en-us/articles/46870357137051-Article-5-3-Per-Account-Payout-Caps
+  - 2026-10-30 · Payout eligibility by account type (snippet only) · https://fundedfuturesnetwork.zendesk.com/hc/en-us/articles/53347326287131-Article-5-2-Payout-Eligibility-by-Account-Type
+  - 2026-10-30 · Account inactivity policy (snippet only) · https://fundedfuturesnetwork.zendesk.com/hc/en-us/articles/52807758679835-Article-6-5-Account-Inactivity-Policy
+  - 2026-10-30 · Standard MAX guide (snippet only) · https://fundedfuturesnetwork.com/blog/standard-max-accounts-at-funded-futures-network-a-traders-complete-guide/
+  - 2026-10-30 · MAX payouts explained (snippet only) · https://blog.fundedfuturesnetwork.com/prop-firm-payouts-explained-how-funded-futures-network-max-accounts-fund-futures-traders-faster/
+  - 2026-10-30 · FAQ (snippet only) · https://fundedfuturesnetwork.com/faq
+- Data gaps:
+  - fundedfuturesnetwork.com and blog.fundedfuturesnetwork.com failed TLS certificate verification and the Zendesk help centre returned HTTP 403, so only the Steady landing page could be read directly.
+  - Standard MAX values (monthly prices 25K $135, 50K $160, 250K $590; 5 winning days; 40% consistency; $100 reset) come only from search-engine snippets of official pages and may be outdated; drawdown, daily loss, split and contract limits not confirmed.
+  - Restricted-country list only partially visible (RU, IR, NG); Pakistan status unknown. HQ and legal entity not confirmed.
+  - Steady contract limits, payout minimum and overnight rules not stated on the landing page.
+  - Express MAX not listed as a program because a help-centre snippet says Steady replaced it for new purchases on 1 Jul 2026.
+
+## Funded Trading Plus
+<a id="funded-trading-plus"></a>
+
+- Website: https://www.fundedtradingplus.com/
+- Last verified: 2026-10-30
+- HQ: not published — Acello Ltd (formerly FTP London Ltd) (unverified) — source: https://help.fundedtradingplus.com/who-are-acello-ltd/ (2026-10-30)
+- Restricted countries: published — AF, BY, BI, CU, ER, GN, GW, IR, LR, LY, MM, KP, PG, RU, SO, SS, SD, SY, VU, VN, YE, ZW — source: https://help.fundedtradingplus.com/prohibited-countries/ (2026-10-30)
+  - Note: Help-centre list updated 26 Aug 2026. Ukraine is restricted only for the regions of Crimea, Donetsk, Luhansk, Kherson and Zaporizhzhya, so UA is not listed as a whole country. Pakistan is not on the list. MT5 is not available to US residents. The firm says it may amend the list at its discretion.
+- Program **1-Step Express** (cfd, 1-step) — checked 2026-10-30
+  - https://help.fundedtradingplus.com/1-step-express-program-information/
+  - https://help.fundedtradingplus.com/profit-split/
+  - https://help.fundedtradingplus.com/ft-leverage/
+  - https://help.fundedtradingplus.com/risk-review-policy/
+  - https://help.fundedtradingplus.com/consistency-rule/
+  - https://www.fundedtradingplus.com/prop-trading-challenges/compare-challenges
+  - Unverified fields: consistency
+- Program **2-Step Classic** (cfd, 2-step) — checked 2026-10-30
+  - https://help.fundedtradingplus.com/2-step-classic-program-information/
+  - https://help.fundedtradingplus.com/consistency-rule/
+  - https://help.fundedtradingplus.com/profit-split/
+  - https://help.fundedtradingplus.com/ft-leverage/
+  - https://help.fundedtradingplus.com/risk-review-policy/
+  - https://www.fundedtradingplus.com/prop-trading-challenges/compare-challenges
+- Program **Instant** (cfd, instant) — checked 2026-10-30
+  - https://help.fundedtradingplus.com/instant-program-information/
+  - https://help.fundedtradingplus.com/profit-split/
+  - https://help.fundedtradingplus.com/ft-leverage/
+  - https://help.fundedtradingplus.com/risk-review-policy/
+  - https://www.fundedtradingplus.com/prop-trading-challenges/compare-challenges
+- Program **Activation Account** (cfd, 1-step) — checked 2026-10-30
+  - https://help.fundedtradingplus.com/activation-accounts-pricing-and-fees/
+  - https://help.fundedtradingplus.com/activation-accounts-challenge-rules/
+- Rule changes:
+  - 2026-06-29 — Payment entity renamed Acello Ltd after acquisition — https://help.fundedtradingplus.com/who-are-acello-ltd/
+- All sources:
+  - 2026-10-30 · Help centre home · https://help.fundedtradingplus.com/
+  - 2026-10-30 · 1-Step Express program information · https://help.fundedtradingplus.com/1-step-express-program-information/
+  - 2026-10-30 · 2-Step Classic program information · https://help.fundedtradingplus.com/2-step-classic-program-information/
+  - 2026-10-30 · Instant program information · https://help.fundedtradingplus.com/instant-program-information/
+  - 2026-10-30 · Activation Accounts: pricing and fees · https://help.fundedtradingplus.com/activation-accounts-pricing-and-fees/
+  - 2026-10-30 · Activation Accounts: challenge rules · https://help.fundedtradingplus.com/activation-accounts-challenge-rules/
+  - 2026-10-30 · Prohibited countries · https://help.fundedtradingplus.com/prohibited-countries/
+  - 2026-10-30 · Who are Acello Ltd? · https://help.fundedtradingplus.com/who-are-acello-ltd/
+  - 2026-10-30 · Consistency rule · https://help.fundedtradingplus.com/consistency-rule/
+  - 2026-10-30 · Profit split · https://help.fundedtradingplus.com/profit-split/
+  - 2026-10-30 · Leverage · https://help.fundedtradingplus.com/ft-leverage/
+  - 2026-10-30 · Risk review policy · https://help.fundedtradingplus.com/risk-review-policy/
+  - 2026-10-30 · EAs, algos and bots · https://help.fundedtradingplus.com/does-your-simulated-live-environment-support-the-use-of-eas-algos-or-bots/
+  - 2026-10-30 · Copy trading · https://help.fundedtradingplus.com/do-you-permit-copy-trading/
+  - 2026-10-30 · Hedging · https://help.fundedtradingplus.com/do-you-permit-hedging/
+  - 2026-10-30 · Symbol loss limit · https://help.fundedtradingplus.com/symbol-loss-limit/
+  - 2026-10-30 · Platforms · https://help.fundedtradingplus.com/which-platforms-do-you-offer/
+  - 2026-10-30 · Futures (not offered) · https://help.fundedtradingplus.com/does-your-simulated-live-environment-include-futures-markets/
+  - 2026-10-30 · Trading rules (inactivity) · https://help.fundedtradingplus.com/trading-rules/
+  - 2026-10-30 · Payouts overview · https://help.fundedtradingplus.com/payouts-overview/
+  - 2026-10-30 · Terms and conditions (HTTP 403, not readable) · https://www.fundedtradingplus.com/terms-conditions/
+  - 2026-10-30 · Compare challenges (100K prices) · https://www.fundedtradingplus.com/prop-trading-challenges/compare-challenges
+- Data gaps:
+  - Registered address/country of the operating entity not found; the Terms page was blocked.
+  - 1-Step Express and Instant consistency rules are not stated on their program pages.
+  - Activation Account: profit split, payout schedule, EA policy and leverage after activation are not published in its help articles.
+  - Minimum trading days are not stated for 1-Step Express, 2-Step Classic or Instant.
+  - Help-centre dates use MM.DD.YYYY; '07.02.2026' was read as 2 July 2026.
+  - Only $100K prices could be read (comparison page, 2026-10-30); other sizes are not shown on the public pages.
+
+## FundedElite
+<a id="fundedelite"></a>
+
+- Website: https://fundedelite.com/
+- Last verified: 2026-10-30
+- HQ: IT, Latina — Quantum SRL (unverified) — source: https://faq.fundedelite.com/en/articles/17437482-who-operates-fundedelite (2026-10-30)
+- Restricted countries: published — US, MM, DZ, CU, IR, IQ, KE, LB, LY, KP, RU, SO, SY, TR — source: https://faq.fundedelite.com/en/articles/17437429-which-countries-can-t-use-fundedelite (2026-10-30)
+  - Note: CFD (FundedElite) FAQ list: US restricted on MT5 only; Myanmar on Match-Trader only; also Crimea, Donetsk and Luhansk regions (UA), plus any EU/UN-sanctioned country. Pakistan is not on the CFD list. The homepage disclaimer separately excludes residents of US, IL, IR, PS, SY and CA. FuturesElite (futures, same operator) publishes its own list, which does include Pakistan: AF, AL, DZ, AO, BS, BB, BY, BZ, BA, BW, BG, BF, BI, KH, CF, CG, CD, CI, CU, EC, ET, GH, GN, HT, IS, ID, IR, IQ, JM, KZ, KE, XK (Kosovo), KG, LA, LB, LR, LY, LT, ML, MU, MN, ME, MA, MZ, MM, NA, NI, NE, NG, KP, MK, PK, PA, PG, PH, RU, SN, RS, SC, SI, SO, ZA, KR, SS, LK, SD, SY, TZ, TT, TN, TR, UG, UA, UZ, VE, VN, YE, ZW.
+  - futures programs use their own list (FuturesElite (futures) list): AF, AL, AO, BA, BB, BF, BG, BI, BS, BW, BY, BZ, CD, CF, CG, CI, CU, DZ, EC, ET, GH, GN, HT, ID, IQ, IR, IS, JM, KE, KG, KH, KP, KR, KZ, LA, LB, LK, LR, LT, LY, MA, ME, MK, ML, MM, MN, MU, MZ, NA, NE, NG, NI, PA, PG, PH, PK, RS, RU, SC, SD, SI, SN, SO, SS, SY, TN, TR, TT, TZ, UA, UG, UZ, VE, VN, XK, YE, ZA, ZW — source: https://faq.futureselite.com/en/articles/17585480-countries-we-don-t-serve (2026-10-30)
+- Program **1-Step Challenge + Free Retry** (cfd, 1-step) — checked 2026-10-30
+  - https://faq.fundedelite.com/en/articles/17437187-1-step-challenge-free-retry
+  - https://faq.fundedelite.com/en/articles/17437176-which-program-is-right-for-me
+  - https://faq.fundedelite.com/en/articles/17437345-what-is-a-reward-and-how-much-do-i-keep
+  - https://faq.fundedelite.com/en/articles/17437220-rules-for-200k-and-larger-accounts
+  - https://fundedelite.com/challenges/free-retry
+  - https://app.fundedelite.com/website/choose-plan?preset=website
+- Program **2-Step Challenge + Free Retry** (cfd, 2-step) — checked 2026-10-30
+  - https://faq.fundedelite.com/en/articles/17437194-2-step-challenge-free-retry
+  - https://faq.fundedelite.com/en/articles/17437176-which-program-is-right-for-me
+  - https://faq.fundedelite.com/en/articles/17437220-rules-for-200k-and-larger-accounts
+  - https://app.fundedelite.com/website/choose-plan?preset=website
+- Program **LITE 1-Step** (cfd, 1-step) — checked 2026-10-30
+  - https://faq.fundedelite.com/en/articles/17437198-lite-1-step-challenge
+  - https://faq.fundedelite.com/en/articles/17437176-which-program-is-right-for-me
+  - https://app.fundedelite.com/website/choose-plan?preset=website
+- Program **LITE 2-Step** (cfd, 2-step) — checked 2026-10-30
+  - https://faq.fundedelite.com/en/articles/17437202-lite-2-step-challenge
+  - https://faq.fundedelite.com/en/articles/17437176-which-program-is-right-for-me
+  - https://app.fundedelite.com/website/choose-plan?preset=website
+- Program **Elite Atom 2-Step** (cfd, 2-step) — checked 2026-10-30
+  - https://faq.fundedelite.com/en/articles/17638456-elite-atom-challenge-faq
+- Program **Elite Atom 1-Step** (cfd, 1-step) — checked 2026-10-30
+  - https://faq.fundedelite.com/en/articles/17638456-elite-atom-challenge-faq
+- Program **Flash Activation (pay after you pass)** (cfd, 1-step) — checked 2026-10-30
+  - https://faq.fundedelite.com/en/articles/17437207-flash-activation-challenge
+  - https://fundedelite.com/challenges/flash-activation
+  - https://faq.fundedelite.com/en/articles/17437345-what-is-a-reward-and-how-much-do-i-keep
+- Program **Instant** (cfd, instant) — checked 2026-10-30
+  - https://faq.fundedelite.com/en/articles/17437205-instant-and-instant-elite
+  - https://faq.fundedelite.com/en/articles/17437345-what-is-a-reward-and-how-much-do-i-keep
+  - https://app.fundedelite.com/website/choose-plan?preset=website
+- Program **Instant Elite** (cfd, instant) — checked 2026-10-30
+  - https://faq.fundedelite.com/en/articles/17437205-instant-and-instant-elite
+  - https://faq.fundedelite.com/en/articles/17437220-rules-for-200k-and-larger-accounts
+  - https://app.fundedelite.com/website/choose-plan?preset=website
+- Program **Catalyst** (cfd, other) — checked 2026-10-30
+  - https://faq.fundedelite.com/en/articles/17437215-catalyst
+  - https://faq.fundedelite.com/en/articles/17437176-which-program-is-right-for-me
+- Program **FuturesElite Elite** (futures, 1-step) — checked 2026-10-30
+  - https://faq.futureselite.com/en/articles/17584185-elite-rules-at-a-glance
+  - https://faq.futureselite.com/en/articles/17585223-payments-refunds-and-the-one-time-fee
+  - https://faq.futureselite.com/en/articles/17584717-news-trading
+  - https://faq.futureselite.com/en/articles/17584810-trading-hours-and-the-2-price-limit-rule
+  - https://app.futureselite.com/website/choose-plan?version=v2
+- Program **FuturesElite Prime** (futures, 1-step) — checked 2026-10-30
+  - https://faq.futureselite.com/en/articles/17584343-prime-rules-at-a-glance
+  - https://faq.futureselite.com/en/articles/17584380-prime-drawdown-and-daily-loss-limit
+  - https://app.futureselite.com/website/choose-plan?version=v2
+- Program **FuturesElite Nitro** (futures, 1-step) — checked 2026-10-30
+  - https://faq.futureselite.com/en/articles/17584430-nitro-rules-at-a-glance
+  - https://faq.futureselite.com/en/articles/17584717-news-trading
+  - https://app.futureselite.com/website/choose-plan?version=v2
+- Program **FuturesElite Instant** (futures, instant) — checked 2026-10-30
+  - https://faq.futureselite.com/en/articles/17584549-instant-rules-at-a-glance
+  - https://faq.futureselite.com/en/articles/17584598-instant-drawdown-and-staying-active
+  - https://faq.futureselite.com/en/articles/17584610-instant-payouts
+  - https://app.futureselite.com/website/choose-plan?version=v2
+- All sources:
+  - 2026-10-30 · Homepage · https://fundedelite.com/
+  - 2026-10-30 · Terms and Conditions · https://fundedelite.com/terms-and-conditions
+  - 2026-10-30 · FAQ: who operates FundedElite · https://faq.fundedelite.com/en/articles/17437482-who-operates-fundedelite
+  - 2026-10-30 · FAQ: restricted countries · https://faq.fundedelite.com/en/articles/17437429-which-countries-can-t-use-fundedelite
+  - 2026-10-30 · FAQ: program comparison · https://faq.fundedelite.com/en/articles/17437176-which-program-is-right-for-me
+  - 2026-10-30 · FAQ: 1-Step + Free Retry · https://faq.fundedelite.com/en/articles/17437187-1-step-challenge-free-retry
+  - 2026-10-30 · FAQ: 2-Step + Free Retry · https://faq.fundedelite.com/en/articles/17437194-2-step-challenge-free-retry
+  - 2026-10-30 · FAQ: LITE 1-Step · https://faq.fundedelite.com/en/articles/17437198-lite-1-step-challenge
+  - 2026-10-30 · FAQ: LITE 2-Step · https://faq.fundedelite.com/en/articles/17437202-lite-2-step-challenge
+  - 2026-10-30 · FAQ: Instant and Instant Elite · https://faq.fundedelite.com/en/articles/17437205-instant-and-instant-elite
+  - 2026-10-30 · FAQ: Flash Activation · https://faq.fundedelite.com/en/articles/17437207-flash-activation-challenge
+  - 2026-10-30 · FAQ: Catalyst · https://faq.fundedelite.com/en/articles/17437215-catalyst
+  - 2026-10-30 · FAQ: Elite Atom · https://faq.fundedelite.com/en/articles/17638456-elite-atom-challenge-faq
+  - 2026-10-30 · FAQ: $200K+ rules · https://faq.fundedelite.com/en/articles/17437220-rules-for-200k-and-larger-accounts
+  - 2026-10-30 · FAQ: reward share · https://faq.fundedelite.com/en/articles/17437345-what-is-a-reward-and-how-much-do-i-keep
+  - 2026-10-30 · FAQ: payout methods and fees · https://faq.fundedelite.com/en/articles/17437354-how-will-i-be-paid-and-what-are-the-fees
+  - 2026-10-30 · FAQ: practices at a glance · https://faq.fundedelite.com/en/articles/17437297-at-a-glance
+  - 2026-10-30 · FAQ: news · https://faq.fundedelite.com/en/articles/17437302-can-i-trade-the-news
+  - 2026-10-30 · FAQ: weekend · https://faq.fundedelite.com/en/articles/17437306-can-i-trade-or-hold-positions-over-the-weekend
+  - 2026-10-30 · FAQ: EAs · https://faq.fundedelite.com/en/articles/17437309-can-i-use-expert-advisors-eas
+  - 2026-10-30 · FAQ: copy trading · https://faq.fundedelite.com/en/articles/17437312-can-i-copy-trade
+  - 2026-10-30 · Flash Activation page · https://fundedelite.com/challenges/flash-activation
+  - 2026-10-30 · FuturesElite homepage · https://futureselite.com/
+  - 2026-10-30 · FuturesElite: countries not served · https://faq.futureselite.com/en/articles/17585480-countries-we-don-t-serve
+  - 2026-10-30 · FuturesElite: account comparison · https://faq.futureselite.com/en/articles/17583984-which-account-is-right-for-me
+  - 2026-10-30 · FuturesElite: one-time fee · https://faq.futureselite.com/en/articles/17585223-payments-refunds-and-the-one-time-fee
+  - 2026-10-30 · FundedElite plan picker (prices) · https://app.fundedelite.com/website/choose-plan?preset=website
+  - 2026-10-30 · FuturesElite plan picker (prices, rules) · https://app.futureselite.com/website/choose-plan?version=v2
+- Data gaps:
+  - Exact size lists for 1-Step, 2-Step and LITE are not published in text (only ranges); only range ends are listed.
+  - Operator conflict: Terms/FAQ name Quantum SRL (Italy); homepage disclaimer names FundedElite Ltd (Saint Lucia).
+  - Restricted list conflict: FAQ list differs from the homepage disclaimer (which adds IL, PS, CA); FuturesElite has its own longer list that includes PK.
+  - Leverage is not published in the FAQ articles checked.
+  - No dated rule-change announcements were found; changes[] is empty. Web search budget ran out before a wider search for announcements could be done.
+  - Prices were read from the firm's own plan pickers in a browser on 2026-10-30. FundedElite's CFD prices depend on the rules chosen; the default set was used.
+
+## FundedNext
+<a id="fundednext"></a>
+
+- Website: https://fundednext.com/
+- Last verified: 2026-10-30
+- HQ: AE, Ajman — GrowthNext – F.Z.E. (verified) — source: https://fundednext.com/terms-of-service (2026-10-30)
+- Restricted countries: published — BD, MM, BY, KP, SY, GD, TD, MY, BZ, AG, CV, TV, VN, BV, BI, CK, ER, KM, LK, FJ — source: https://help.fundednext.com/en/articles/8020080-are-any-countries-restricted-on-fundednext-cfds (2026-10-30)
+  - Note: CFD list (residents and citizens), Terms of Service §5.3 and help centre. FundedNext Futures has a separate residency list (§5.4): AF, CD, MM, AL, DJ, PS, AQ, ER, RW, AG, FJ, RU, BD, GW, SL, BY, GD, SO, BZ, IR, SS, BV, IQ, LK, BF, JO, SD, BI, KP, SY, CV, LA, TJ, TD, LB, TL, KM, LS, TV, CG, LY, UA, CK, MW, VE, CI, MY, VN, CU, ML, YE. Sanctioned countries/persons may also be blocked. US clients cannot use MetaQuotes platforms (MT4/MT5), so Stellar Instant is Match-Trader only for them. Pakistan is not on the CFD or Futures restricted lists; it does appear in the Futures help article's live-trading eligibility table, where traders who reach live eligibility are reviewed by the Risk Desk.
+  - futures programs use their own list (FundedNext Futures list (Terms §5.4)): AF, AG, AL, AQ, BD, BF, BI, BV, BY, BZ, CD, CG, CI, CK, CU, CV, DJ, ER, FJ, GD, GW, IQ, IR, JO, KM, KP, LA, LB, LK, LS, LY, ML, MM, MW, MY, PS, RU, RW, SD, SL, SO, SS, SY, TD, TJ, TL, TV, UA, VE, VN, YE — source: https://helpfutures.fundednext.com/en/articles/14274473-are-any-countries-restricted-on-fundednext-futures (2026-10-30)
+- Program **Stellar 2-Step** (cfd, 2-step) — checked 2026-10-30
+  - https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge
+  - https://fundednext.com/general-rules/cfds/symbols-and-conditions
+  - https://help.fundednext.com/en/articles/8019808-which-platforms-can-i-use-for-trading-at-fundednext
+  - Unverified fields: platforms
+- Program **Stellar 1-Step** (cfd, 1-step) — checked 2026-10-30
+  - https://help.fundednext.com/en/articles/17252927-stellar-1-step-account
+  - https://fundednext.com/general-rules/cfds/symbols-and-conditions
+  - https://help.fundednext.com/en/articles/8019808-which-platforms-can-i-use-for-trading-at-fundednext
+  - Unverified fields: platforms
+- Program **Stellar Lite** (cfd, 2-step) — checked 2026-10-30
+  - https://help.fundednext.com/en/articles/17253939-stellar-lite-account
+  - https://fundednext.com/general-rules/cfds/symbols-and-conditions
+  - Unverified fields: platforms
+- Program **Stellar Instant** (cfd, instant) — checked 2026-10-30
+  - https://help.fundednext.com/en/articles/17253243-stellar-instant-account
+  - https://help.fundednext.com/en/articles/11641140-which-trading-platforms-are-available-for-the-stellar-instant-account
+  - https://fundednext.com/general-rules/cfds/symbols-and-conditions
+  - Unverified fields: sizes, platforms
+- Program **Labs CFDs-FNL:004 (limited experiment)** (cfd, instant) — checked 2026-10-30
+  - https://fundednext.com/labs
+  - https://fundednext.com/
+  - Unverified fields: platforms
+- Program **Futures Flex** (futures, 1-step) — checked 2026-10-30
+  - https://fundednext.com/futures
+  - https://helpfutures.fundednext.com/en/articles/17229829-fundednext-futures-flex-challenge-all-rules
+  - https://helpfutures.fundednext.com/en/articles/17229848-fundednext-futures-flex-fundednext-account-all-rules
+  - https://helpfutures.fundednext.com/en/articles/17225732-what-trading-platforms-does-fundednext-futures-offer
+  - Unverified fields: news, eas, weekend, copyTrading
+- Program **Futures Rapid (Pro / Daily)** (futures, 1-step) — checked 2026-10-30
+  - https://fundednext.com/futures/rapid
+  - https://helpfutures.fundednext.com/en/articles/17229677-fundednext-futures-rapid-pro-challenge-all-rules
+  - https://helpfutures.fundednext.com/en/articles/17229713-fundednext-futures-rapid-pro-fundednext-account-all-rules
+  - https://helpfutures.fundednext.com/en/articles/17229762-fundednext-futures-rapid-daily-challenge-all-rules
+  - Unverified fields: news, eas, weekend, copyTrading
+- Program **Futures Direct** (futures, instant) — checked 2026-10-30
+  - https://fundednext.com/futures/direct
+  - https://helpfutures.fundednext.com/en/articles/17225788-fundednext-futures-most-frequently-asked-questions
+  - Unverified fields: platforms, news, eas, weekend, copyTrading
+- Rule changes:
+  - 2026-10-12 — Stellar Lite: 2 minimum days and 10-day reward cycle — https://help.fundednext.com/en/articles/17253939-stellar-lite-account
+  - 2026-03-31 — US traders: no new cTrader accounts — https://help.fundednext.com/en/articles/12673271-usa-client-guide-at-fundednext-cfd-accounts-platforms-rewards
+  - 2026-01-12 — Stellar 1-Step reward share 90% to 80% — https://help.fundednext.com/en/articles/17252927-stellar-1-step-account
+- All sources:
+  - 2026-10-30 · Terms of Service (entity, restricted countries) · https://fundednext.com/terms-of-service
+  - 2026-10-30 · Restricted countries (CFDs) · https://help.fundednext.com/en/articles/8020080-are-any-countries-restricted-on-fundednext-cfds
+  - 2026-10-30 · Restricted countries (Futures) · https://helpfutures.fundednext.com/en/articles/14274473-are-any-countries-restricted-on-fundednext-futures
+  - 2026-10-30 · Stellar 2-Step · https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge
+  - 2026-10-30 · Stellar 1-Step · https://help.fundednext.com/en/articles/17252927-stellar-1-step-account
+  - 2026-10-30 · Stellar Lite · https://help.fundednext.com/en/articles/17253939-stellar-lite-account
+  - 2026-10-30 · Stellar Instant · https://help.fundednext.com/en/articles/17253243-stellar-instant-account
+  - 2026-10-30 · CFD symbols and leverage · https://fundednext.com/general-rules/cfds/symbols-and-conditions
+  - 2026-10-30 · CFD platforms · https://help.fundednext.com/en/articles/8019808-which-platforms-can-i-use-for-trading-at-fundednext
+  - 2026-10-30 · Stellar Instant platforms · https://help.fundednext.com/en/articles/11641140-which-trading-platforms-are-available-for-the-stellar-instant-account
+  - 2026-10-30 · US client guide · https://help.fundednext.com/en/articles/12673271-usa-client-guide-at-fundednext-cfd-accounts-platforms-rewards
+  - 2026-10-30 · FundedNext Labs · https://fundednext.com/labs
+  - 2026-10-30 · Futures overview and prices · https://fundednext.com/futures
+  - 2026-10-30 · Futures Rapid page · https://fundednext.com/futures/rapid
+  - 2026-10-30 · Futures Direct page · https://fundednext.com/futures/direct
+  - 2026-10-30 · Futures Flex challenge rules · https://helpfutures.fundednext.com/en/articles/17229829-fundednext-futures-flex-challenge-all-rules
+  - 2026-10-30 · Futures Flex funded rules · https://helpfutures.fundednext.com/en/articles/17229848-fundednext-futures-flex-fundednext-account-all-rules
+  - 2026-10-30 · Futures Rapid Pro challenge rules · https://helpfutures.fundednext.com/en/articles/17229677-fundednext-futures-rapid-pro-challenge-all-rules
+  - 2026-10-30 · Futures Rapid Pro funded rules · https://helpfutures.fundednext.com/en/articles/17229713-fundednext-futures-rapid-pro-fundednext-account-all-rules
+  - 2026-10-30 · Futures Rapid Daily rules · https://helpfutures.fundednext.com/en/articles/17229762-fundednext-futures-rapid-daily-challenge-all-rules
+  - 2026-10-30 · Futures Legacy rules (discontinued) · https://helpfutures.fundednext.com/en/articles/17229536-fundednext-futures-legacy-challenge-all-rules
+  - 2026-10-30 · Futures platforms · https://helpfutures.fundednext.com/en/articles/17225732-what-trading-platforms-does-fundednext-futures-offer
+  - 2026-10-30 · Futures FAQ (bots, news, overnight, copy trading) · https://helpfutures.fundednext.com/en/articles/17225788-fundednext-futures-most-frequently-asked-questions
+- Data gaps:
+  - CFD minimum payout and weekend-holding rules for Stellar 1-Step, 2-Step and Lite are not stated on the help articles opened.
+  - CFD platform list (MT4, MT5, cTrader, Match-Trader) comes from a search snippet of the platforms help article; the Stellar articles only mention cTrader and Match-Trader.
+  - Futures news, EA/bot, copy-trading and overnight rules come from search snippets of the Futures FAQ, not an opened page.
+  - Help-centre search snippets say Rapid (original) and Bolt futures accounts stopped being sold from 10 July 2026; this was not confirmed on an opened page, so it is not listed as a change.
+  - An earlier internal note (2026-10-23) said the site's data marked the CFD $100K as unavailable for Pakistan; not confirmed on any official page opened.
+  - Stellar Instant $2K price conflicts: $59.99 (help centre) vs 'from $49.99' (marketing snippet).
+  - Futures Direct minimum payout not stated; FAQ says withdrawals range $800 to $1,200.
+
+## FunderPro
+<a id="funderpro"></a>
+
+- Website: https://funderpro.com/
+- Last verified: 2026-10-30
+- HQ: MT, San Gwann — FunderPro Ltd (verified) — source: https://funderpro.com/terms-conditions/ (2026-10-30)
+- Restricted countries: published — AF, BY, CF, CD, CG, CU, HT, IR, IQ, LY, ML, MM, KP, SO, SD, SS, SY, RU, VE, YE — source: https://support.funderpro.com/en/articles/376945-sign-up-age-limits-and-country-restrictions (2026-10-30)
+  - Note: CFD help centre list also excludes the Donetsk, Zaporizhzhia, Luhansk, Kherson, Crimea and Sevastopol regions of Ukraine. Republic of the Congo (CG) appears only on the FunderPro Futures list. The Instant Program is not available to anyone located in the United States; FunderPro Futures states US traders are accepted. Pakistan (PK) is not listed.
+- Program **Classic Challenge (2-Phase)** (cfd, 2-step) — checked 2026-10-30
+  - https://funderpro.com/the-challenge/
+  - https://support.funderpro.com/en/articles/422676-leverage-on-funderpro-challenges
+  - https://support.funderpro.com/en/articles/377860-what-is-the-drawdown-rule-and-how-does-it-apply-to-funded-account-challenges
+  - https://support.funderpro.com/en/articles/419844-how-does-reward-frequency-and-eligibility-work-for-funderpro-challenges
+  - https://support.funderpro.com/en/articles/378023-are-news-holding-and-news-trading-allowed
+- Program **Pro Challenge (2-Phase)** (cfd, 2-step) — checked 2026-10-30
+  - https://funderpro.com/the-challenge/
+  - https://funderpro.com/trading-rules/
+  - https://support.funderpro.com/en/articles/377852-what-is-the-consistency-rule-and-how-does-it-affect-my-challenge
+  - https://support.funderpro.com/en/articles/419844-how-does-reward-frequency-and-eligibility-work-for-funderpro-challenges
+  - https://support.funderpro.com/en/articles/377983-will-my-challenge-fee-be-credited-back
+  - Unverified fields: minDays
+- Program **One Phase Challenge** (cfd, 1-step) — checked 2026-10-30
+  - https://funderpro.com/the-challenge/
+  - https://support.funderpro.com/en/articles/422676-leverage-on-funderpro-challenges
+  - https://support.funderpro.com/en/articles/377852-what-is-the-consistency-rule-and-how-does-it-affect-my-challenge
+  - Unverified fields: minDays
+- Program **Instant Program** (cfd, instant) — checked 2026-10-30
+  - https://funderpro.com/
+  - https://support.funderpro.com/en/articles/527811-instant-how-drawdown-works-in-instant-program
+  - https://support.funderpro.com/en/articles/527821-instant-reward-rules-requirements
+  - https://support.funderpro.com/en/articles/527822-instant-minimum-trading-days
+  - https://support.funderpro.com/en/articles/527831-instant-consistency-rule-explained
+  - https://support.funderpro.com/en/articles/532638-instant-leverage-on-instant-accounts-what-you-need-to-know
+  - https://support.funderpro.com/en/articles/527817-instant-news-trading-add-ons-explained
+  - https://support.funderpro.com/en/articles/528164-instant-is-overnight-and-weekend-holding-permitted
+  - https://support.funderpro.com/en/articles/528063-instant-is-the-instant-funding-product-available-in-the-united-states
+  - Unverified fields: platforms
+- Program **FunderPro Futures – Beginner Challenge** (futures, 1-step) — checked 2026-10-30
+  - https://support.funderprofutures.com/en/articles/709496-funderpro-futures-trading-rules-at-a-glance
+  - https://support.funderprofutures.com/en/articles/709494-funderpro-futures-all-fees-and-costs-explained
+  - https://support.funderprofutures.com/en/articles/709498-funderpro-futures-reward-rules-and-requirements
+  - https://support.funderprofutures.com/en/articles/378635-what-strategies-and-tools-are-allowed-during-the-funderpro-futures-challenge
+- Program **FunderPro Futures – Mid-Level Challenge** (futures, 1-step) — checked 2026-10-30
+  - https://support.funderprofutures.com/en/articles/709496-funderpro-futures-trading-rules-at-a-glance
+  - https://support.funderprofutures.com/en/articles/709494-funderpro-futures-all-fees-and-costs-explained
+  - https://support.funderprofutures.com/en/articles/709498-funderpro-futures-reward-rules-and-requirements
+  - Unverified fields: dailyLoss
+- Program **FunderPro Futures – Professional Challenge** (futures, 1-step) — checked 2026-10-30
+  - https://support.funderprofutures.com/en/articles/726460-everything-you-need-to-know-about-the-professional-challenge
+  - https://support.funderprofutures.com/en/articles/709498-funderpro-futures-reward-rules-and-requirements
+  - https://support.funderprofutures.com/en/articles/709494-funderpro-futures-all-fees-and-costs-explained
+- Rule changes:
+  - 2026-06-15 — FunderPro Futures relaunched with Beginner, Mid-Level and Professional challenges — https://support.funderprofutures.com/en/articles/709493-important-changes-to-funderpro-futures-june-2026-and-what-they-mean-for-you
+- All sources:
+  - 2026-10-30 · Homepage (pricing configuration) · https://funderpro.com/
+  - 2026-10-30 · Evaluation program page · https://funderpro.com/the-challenge/
+  - 2026-10-30 · Trading rules page · https://funderpro.com/trading-rules/
+  - 2026-10-30 · Challenge terms and conditions · https://funderpro.com/terms-conditions/
+  - 2026-10-30 · Help centre: country restrictions · https://support.funderpro.com/en/articles/376945-sign-up-age-limits-and-country-restrictions
+  - 2026-10-30 · Help centre: Instant not available in US · https://support.funderpro.com/en/articles/528063-instant-is-the-instant-funding-product-available-in-the-united-states
+  - 2026-10-30 · Help centre: consistency rule · https://support.funderpro.com/en/articles/377852-what-is-the-consistency-rule-and-how-does-it-affect-my-challenge
+  - 2026-10-30 · Help centre: drawdown rule · https://support.funderpro.com/en/articles/377860-what-is-the-drawdown-rule-and-how-does-it-apply-to-funded-account-challenges
+  - 2026-10-30 · Help centre: leverage · https://support.funderpro.com/en/articles/422676-leverage-on-funderpro-challenges
+  - 2026-10-30 · Help centre: reward frequency · https://support.funderpro.com/en/articles/419844-how-does-reward-frequency-and-eligibility-work-for-funderpro-challenges
+  - 2026-10-30 · Help centre: news trading · https://support.funderpro.com/en/articles/378023-are-news-holding-and-news-trading-allowed
+  - 2026-10-30 · Help centre: weekend holding · https://support.funderpro.com/en/articles/377999-can-i-open-close-a-position-or-hold-trades-over-the-weekend
+  - 2026-10-30 · Help centre: EAs · https://support.funderpro.com/en/articles/378021-can-i-use-eas-or-bots-while-participating-in-the-funded-account-challenge
+  - 2026-10-30 · Help centre: copy trading · https://support.funderpro.com/en/articles/378022-is-copy-trading-allowed
+  - 2026-10-30 · Help centre: fee credit · https://support.funderpro.com/en/articles/377983-will-my-challenge-fee-be-credited-back
+  - 2026-10-30 · Help centre: inactivity rule · https://support.funderpro.com/en/articles/377851-how-does-the-inactivity-rule-affect-my-challenge
+  - 2026-10-30 · Help centre: scaling plan · https://support.funderpro.com/en/articles/409956-can-funded-traders-scale-their-accounts
+  - 2026-10-30 · Help centre: Instant drawdown · https://support.funderpro.com/en/articles/527811-instant-how-drawdown-works-in-instant-program
+  - 2026-10-30 · Help centre: Instant rewards · https://support.funderpro.com/en/articles/527821-instant-reward-rules-requirements
+  - 2026-10-30 · Help centre: Zero Activation Fee challenge · https://support.funderpro.com/en/articles/602407-everything-you-need-to-know-about-the-zero-activation-fee-challenge
+  - 2026-10-30 · FunderPro Futures homepage · https://funderprofutures.com/
+  - 2026-10-30 · Futures: restricted countries · https://support.funderprofutures.com/en/articles/378431-which-are-the-restricted-countries-for-your-services
+  - 2026-10-30 · Futures: US traders · https://support.funderprofutures.com/en/articles/378432-do-you-accept-traders-from-the-united-states-usa
+  - 2026-10-30 · Futures: platforms · https://support.funderprofutures.com/en/articles/378473-which-trading-platforms-can-i-trade-on
+  - 2026-10-30 · Futures: rules at a glance · https://support.funderprofutures.com/en/articles/709496-funderpro-futures-trading-rules-at-a-glance
+  - 2026-10-30 · Futures: fees and costs · https://support.funderprofutures.com/en/articles/709494-funderpro-futures-all-fees-and-costs-explained
+  - 2026-10-30 · Futures: reward rules · https://support.funderprofutures.com/en/articles/709498-funderpro-futures-reward-rules-and-requirements
+  - 2026-10-30 · Futures: Professional challenge · https://support.funderprofutures.com/en/articles/726460-everything-you-need-to-know-about-the-professional-challenge
+  - 2026-10-30 · Futures: June 2026 changes · https://support.funderprofutures.com/en/articles/709493-important-changes-to-funderpro-futures-june-2026-and-what-they-mean-for-you
+  - 2026-10-30 · Futures: strategies and tools · https://support.funderprofutures.com/en/articles/378635-what-strategies-and-tools-are-allowed-during-the-funderpro-futures-challenge
+- Data gaps:
+  - Founding year not stated on official pages.
+  - Minimum trading days for Pro and One Phase challenges shown as '-' in the official spec table; not explicitly confirmed as 'none'.
+  - Instant Program platforms not stated separately; assumed same as challenges (MT5, cTrader, TradeLocker).
+  - Mid-Level futures challenge-phase daily limit: rules page says 'not applicable during eval' while the June 2026 article only mentions a funded 2% limit.
+  - Futures leverage is not applicable as a ratio; contract limits are 5/10/15/20 standard contracts by size.
+  - No dated CFD rule-change announcements in the last 12 months found on funderpro.com (news section posts are from 2023-2025).
+
+## FundingPips
+<a id="fundingpips"></a>
+
+- Website: https://fundingpips.com/
+- Last verified: 2026-10-30
+- HQ: AE, Dubai (unverified) — source: https://fundingpips.com/terms-and-conditions (2026-10-30)
+- Restricted countries: not_published — source: https://fundingpips.com/terms-and-conditions (2026-10-30)
+  - Note: No country list found in the Terms and Conditions or the help-centre search on 2026-10-30. The terms only say the services are for people in countries where they are available.
+- Program **1 Step Flex** (cfd, 1-step) — checked 2026-10-30
+  - https://help.fundingpips.com/hc/en-us/articles/48368490585105-Compare-Account-Models
+  - https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex
+  - https://help.fundingpips.com/hc/en-us/articles/44390730743825-Get-Started
+  - https://help.fundingpips.com/hc/en-us/articles/34504137479441-News-Trading-and-Holding-Trades-Over-the-Weekend
+  - https://fundingpips.com/#pricing
+- Program **2 Step Standard** (cfd, 2-step) — checked 2026-10-30
+  - https://help.fundingpips.com/hc/en-us/articles/48368490585105-Compare-Account-Models
+  - https://fundingpips.com/2-step-standard
+  - https://help.fundingpips.com/hc/en-us/articles/44390730743825-Get-Started
+  - https://help.fundingpips.com/hc/en-us/articles/34504137479441-News-Trading-and-Holding-Trades-Over-the-Weekend
+  - https://fundingpips.com/#pricing
+- Program **2 Step Pro** (cfd, 2-step) — checked 2026-10-30
+  - https://help.fundingpips.com/hc/en-us/articles/48368490585105-Compare-Account-Models
+  - https://fundingpips.com/2-step-pro
+  - https://help.fundingpips.com/hc/en-us/articles/44390730743825-Get-Started
+  - https://help.fundingpips.com/hc/en-us/articles/34504137479441-News-Trading-and-Holding-Trades-Over-the-Weekend
+  - https://fundingpips.com/#pricing
+- Program **2 Step Flex** (cfd, 2-step) — checked 2026-10-30
+  - https://help.fundingpips.com/hc/en-us/articles/48368490585105-Compare-Account-Models
+  - https://fundingpips.com/2-step-flex
+  - https://help.fundingpips.com/hc/en-us/articles/44390730743825-Get-Started
+  - https://help.fundingpips.com/hc/en-us/articles/34504137479441-News-Trading-and-Holding-Trades-Over-the-Weekend
+  - https://fundingpips.com/#pricing
+- Program **Zero (instant Master account)** (cfd, instant) — checked 2026-10-30
+  - https://help.fundingpips.com/hc/en-us/articles/48368490585105-Compare-Account-Models
+  - https://help.fundingpips.com/hc/en-us/articles/34502157694865-FundingPips-Zero
+  - https://help.fundingpips.com/hc/en-us/articles/44390730743825-Get-Started
+  - https://help.fundingpips.com/hc/en-us/articles/34504137479441-News-Trading-and-Holding-Trades-Over-the-Weekend
+  - https://fundingpips.com/#pricing
+- All sources:
+  - 2026-10-30 · Compare Account Models (help centre) · https://help.fundingpips.com/hc/en-us/articles/48368490585105-Compare-Account-Models
+  - 2026-10-30 · Get Started: sizes and commissions · https://help.fundingpips.com/hc/en-us/articles/44390730743825-Get-Started
+  - 2026-10-30 · 1 Step Flex (help centre) · https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex
+  - 2026-10-30 · FundingPips Zero (help centre) · https://help.fundingpips.com/hc/en-us/articles/34502157694865-FundingPips-Zero
+  - 2026-10-30 · Rewards: methods and 1% minimum · https://help.fundingpips.com/hc/en-us/articles/34504564970385-Your-Rewards-Your-Way
+  - 2026-10-30 · Terms and Conditions · https://fundingpips.com/terms-and-conditions
+  - 2026-10-23 · 1 Step Flex page (earlier research, prices) · https://fundingpips.com/1-step-flex
+  - 2026-10-30 · News trading & weekend holding policy · https://help.fundingpips.com/hc/en-us/articles/34504137479441-News-Trading-and-Holding-Trades-Over-the-Weekend
+  - 2026-10-30 · Homepage pricing picker (prices) · https://fundingpips.com/#pricing
+- Data gaps:
+  - Platforms, EA and copy-trading rules per model were not re-read on 2026-10-30.
+  - No legal entity or registered address is named in the terms; HQ is inferred from the Dubai governing-law clause and marked unverified.
+  - Prices were read from the homepage pricing picker in a browser on 2026-10-30. A new '1 Day Pass' type was listed but its prices did not load.
+
+## FundingTraders
+<a id="funding-traders"></a>
+
+- Website: https://fundingtraders.com/
+- Last verified: 2026-10-30
+- HQ: US, Miami Beach — FT US Inc (verified) — source: https://fundingtraders.com/terms-of-service (2026-10-30)
+- Restricted countries: published — AF, KZ, MN, VE, MM — source: https://fundingtraders.com/help/en/articles/10505376-are-there-any-restricted-countries-for-fundingtraders-services (2026-10-30)
+  - Note: Help-centre article (updated 14 Jul 2026) lists Afghanistan, Kazakhstan, Mongolia, Venezuela and Myanmar. Existing users there may keep trading active accounts. Poland, Ukraine, Morocco and Taiwan were reopened on 20 Jul 2026 per the firm's blog. Pakistan is not on the list.
+- Program **2-Step PRO10** (cfd, 2-step) — checked 2026-10-30
+  - https://fundingtraders.com/
+  - https://fundingtraders.com/help/en/articles/13399206-2-step-pro
+  - https://fundingtraders.com/help/en/articles/12838492-general-trading-guidelines
+  - https://fundingtraders.com/terms-of-service
+  - Unverified fields: payoutFrequency
+- Program **2-Step PRO6** (cfd, 2-step) — checked 2026-10-30
+  - https://fundingtraders.com/
+  - https://fundingtraders.com/help/en/articles/13399206-2-step-pro
+  - Unverified fields: payoutFrequency
+- Program **2-Step Day & Swing** (cfd, 2-step) — checked 2026-10-30
+  - https://fundingtraders.com/help/en/articles/17589312-2-step-day-swing
+  - https://fundingtraders.com/help/en/collections/12931562-main-challenges
+- Program **1-Step Pro** (cfd, 1-step) — checked 2026-10-30
+  - https://fundingtraders.com/
+  - https://fundingtraders.com/help/en/articles/13615032-1-step-pro
+  - Unverified fields: minDays
+- Program **Instant Funding** (cfd, instant) — checked 2026-10-30
+  - https://fundingtraders.com/
+  - https://fundingtraders.com/help/en/articles/17459915-instant-funding
+  - https://fundingtraders.com/help/en/articles/17333842-all-add-ons
+  - https://fundingtraders.com/help/en/articles/12838492-general-trading-guidelines
+  - Unverified fields: payoutFrequency, weekend
+- Rule changes:
+  - 2026-10-08 — New Instant Funding rule set — https://fundingtraders.com/help/en/articles/17459915-instant-funding
+  - 2026-07-20 — Four countries reopened — https://fundingtraders.com/blog/whats-new-with-fundingtraders-challenge-convert-ft-points-and-four-countries-reopened
+  - 2026-06-29 — Instant Funding: weekend holding and faster payouts — https://fundingtraders.com/blog/whats-new-with-fundingtraders-challenge-convert-ft-points-and-four-countries-reopened
+  - 2026-05-08 — Fee refund moved to second payout — https://fundingtraders.com/help/en/articles/13399206-2-step-pro
+- All sources:
+  - 2026-10-30 · Homepage pricing · https://fundingtraders.com/
+  - 2026-10-30 · Terms of Service (effective 1 Sep 2026) · https://fundingtraders.com/terms-of-service
+  - 2026-10-30 · Restricted countries · https://fundingtraders.com/help/en/articles/10505376-are-there-any-restricted-countries-for-fundingtraders-services
+  - 2026-10-30 · Main challenges list · https://fundingtraders.com/help/en/collections/12931562-main-challenges
+  - 2026-10-30 · 2-Step Pro rules · https://fundingtraders.com/help/en/articles/13399206-2-step-pro
+  - 2026-10-30 · 2-Step Day & Swing rules · https://fundingtraders.com/help/en/articles/17589312-2-step-day-swing
+  - 2026-10-30 · 1-Step Pro rules · https://fundingtraders.com/help/en/articles/13615032-1-step-pro
+  - 2026-10-30 · Instant Funding rules · https://fundingtraders.com/help/en/articles/17459915-instant-funding
+  - 2026-10-30 · Try Out account · https://fundingtraders.com/help/en/articles/16762255-try-out-account
+  - 2026-10-30 · General trading guidelines · https://fundingtraders.com/help/en/articles/12838492-general-trading-guidelines
+  - 2026-10-30 · Add-ons · https://fundingtraders.com/help/en/articles/17333842-all-add-ons
+  - 2026-10-30 · Blog: What's new (Aug 2026) · https://fundingtraders.com/blog/whats-new-with-fundingtraders-challenge-convert-ft-points-and-four-countries-reopened
+- Data gaps:
+  - 2-Step Day & Swing prices are not shown on the homepage or help article we opened.
+  - Payout cycle conflicts: Terms say 21 days (14 with add-on); homepage shows 14–21 days; Instant Funding shows 7 days on the homepage, a 14-day cycle on the add-ons page and on-demand in the newest Instant article.
+  - 1-Step Pro minimum trading days: help centre says 2, homepage says 4.
+  - Instant Funding weekend holding: newest article and Aug 2026 blog say allowed; March 2026 guidelines and the Terms say not allowed.
+  - Brand colour and founding year not confirmed on official pages.
+
+## FXIFY
+<a id="fxify"></a>
+
+- Website: https://fxify.com/
+- Last verified: 2026-10-30
+- HQ: GB, London — FXIFY Solutions Limited (verified) — source: https://fxify.com/terms-of-use/ (2026-10-30)
+- Restricted countries: published — US, ZW, IR, IQ, KP, SO, VN, BY, BI, CF, CI, LR, LY, SD, CU, SY, AF, YE, PS, MM, NI, CG, CD, ER, GN, GW, PG, SS, VU, VE, DZ, RU, KE, GH, HT — source: https://fxify.com/faqs/all-faqs/what-countries-are-accepted/ (2026-10-30)
+  - Note: This is the list for FXIFY's forex and crypto programs. The FAQ list includes Haiti, and the footer's 'Restricted Jurisdictions' paragraph adds the United States; we combined both. Crimea is also listed (a region, not coded). The list may change. Pakistan (PK) is NOT on this list. FXIFY's futures brand Futureify publishes its own, longer list, and PAKISTAN IS ON IT: AF, AL, DZ, AO, AZ, BS, BB, BY, BA, BW, BG, BF, BI, KH, CM, CF, CN, Crimea, HR, CU, CD, EC, ET, GH, GI, HT, HK, IS, ID, IR, IQ, JM, JO, KE, XK, LA, LB, LR, LY, MY, ML, MU, MK, MN, ME, MZ, MM, NA, NI, NG, KP, PK, PA, PG, PH, QA, RO, RU, SN, RS, SI, SO, ZA, SS, SD, SY, LK, TZ, TT, TN, TR, UG, UA, AE, VE, VN, YE, ZW (source: https://futureify.com/faqs/general-rules/prohibited-countries-and-restrictions/).
+  - futures programs use their own list (Futureify (futures) list): AE, AF, AL, AO, AZ, BA, BB, BF, BG, BI, BS, BW, BY, CD, CF, CM, CN, CU, DZ, EC, ET, GH, GI, HK, HR, HT, ID, IQ, IR, IS, JM, JO, KE, KH, KP, LA, LB, LK, LR, LY, ME, MK, ML, MM, MN, MU, MY, MZ, NA, NG, NI, PA, PG, PH, PK, QA, RO, RS, RU, SD, SI, SN, SO, SS, SY, TN, TR, TT, TZ, UA, UG, VE, VN, XK, YE, ZA, ZW — source: https://futureify.com/faqs/general-rules/prohibited-countries-and-restrictions/ (2026-10-30)
+- Program **One Phase** (cfd, 1-step) — checked 2026-10-30
+  - https://intercom.help/fxify/en/articles/14834059-the-1-phase-account
+  - https://fxify.com/programs/one-phase/
+  - https://fxify.com/blog/cheapest-path-funded-50k-fxify/
+  - https://fxify.com/blog/lightning-challenge-vs-one-phase/
+- Program **Two Phase Standard** (cfd, 2-step) — checked 2026-10-30
+  - https://intercom.help/fxify/en/articles/14834571-the-2-phase-standard-account
+  - https://intercom.help/fxify/en/articles/12130186-2-phase-account-types
+  - https://fxify.com/blog/cheapest-path-funded-50k-fxify/
+  - https://fxify.com/programs/two-phase/
+- Program **Two Phase Classic** (cfd, 2-step) — checked 2026-10-30
+  - https://intercom.help/fxify/en/articles/14834680-the-2-phase-classic-account
+  - https://intercom.help/fxify/en/articles/12130186-2-phase-account-types
+  - https://fxify.com/blog/cheapest-path-funded-50k-fxify/
+  - https://fxify.com/programs/two-phase/
+- Program **Two Phase Pro** (cfd, 2-step) — checked 2026-10-30
+  - https://intercom.help/fxify/en/articles/14834005-the-2-phase-pro-account
+  - https://intercom.help/fxify/en/articles/12130186-2-phase-account-types
+  - https://fxify.com/faqs/all-faqs/two-phase-pro/2-phase-pro-what-are-the-available-platforms-to-trade-with/
+  - https://fxify.com/blog/best-fxify-program-for-gold-traders/
+  - https://fxify.com/programs/two-phase/
+  - Unverified fields: splitMax
+- Program **Three Phase** (cfd, 3-step) — checked 2026-10-30
+  - https://intercom.help/fxify/en/articles/14835023-the-3-phase-account
+  - https://fxify.com/programs/three-phase-challenge/
+  - https://fxify.com/blog/cheapest-path-funded-50k-fxify/
+- Program **Lightning Challenge** (cfd, 1-step) — checked 2026-10-30
+  - https://intercom.help/fxify/en/articles/14941614-the-lightning-assessment-account
+  - https://fxify.com/blog/lightning-challenge-vs-one-phase/
+  - https://fxify.com/blog/cheapest-path-funded-50k-fxify/
+  - https://fxify.com/programs/lightning-challenge/
+  - Unverified fields: timeLimit, consistency, payoutFrequency
+- Program **Instant Funding Standard** (cfd, instant) — checked 2026-10-30
+  - https://intercom.help/fxify/en/articles/14938608-the-instant-funding-standard-account
+  - https://intercom.help/fxify/en/articles/13626534-instant-funding-programs
+  - https://fxify.com/blog/cheapest-path-funded-50k-fxify/
+  - https://fxify.com/programs/instant-funding/
+- Program **Instant Funding Lite** (cfd, instant) — checked 2026-10-30
+  - https://intercom.help/fxify/en/articles/14939653-the-instant-funding-lite-account
+  - https://intercom.help/fxify/en/articles/13626534-instant-funding-programs
+  - https://fxify.com/newsroom/introducing-fxify-instant-funding-lite/
+  - https://fxify.com/programs/instant-funding/
+  - Unverified fields: minDays
+- Program **Educational Instant Funding** (cfd, instant) — checked 2026-10-30
+  - https://intercom.help/fxify/en/articles/14940160-the-educational-instant-funding-account
+  - https://intercom.help/fxify/en/articles/13626534-instant-funding-programs
+- Program **Crypto One Phase** (crypto, 1-step) — checked 2026-10-30
+  - https://intercom.help/fxify/en/articles/14943468-the-1-phase-account-crypto
+  - https://fxify.com/newsroom/new-crypto-plans/
+  - https://fxify.com/programs/crypto/
+  - Unverified fields: platforms, perps
+- Program **Crypto Instant Funding** (crypto, instant) — checked 2026-10-30
+  - https://intercom.help/fxify/en/articles/14945352-the-crypto-instant-funding-account
+  - https://fxify.com/blog/fxify-crypto-instant-vs-standard/
+  - https://fxify.com/programs/crypto/
+  - Unverified fields: minDays, perps
+- Program **Futureify Flex (FXIFY Futures)** (futures, 1-step) — checked 2026-10-30
+  - https://futureify.com/
+  - https://futureify.com/faqs/flex-plan/flex-plan-payout-policy/
+  - https://futureify.com/faqs/general-rules/what-is-the-minimum-trading-days-requirement/
+  - https://futureify.com/faqs/general-rules/what-is-the-time-limit-to-complete-the-evaluation/
+  - https://futureify.com/faqs/general-rules/news-trading-policy/
+  - https://futureify.com/faqs/general-rules/can-i-use-eas-expert-advisors-to-trade/
+  - Unverified fields: billing
+- Program **Futureify Direct (FXIFY Futures)** (futures, instant) — checked 2026-10-30
+  - https://futureify.com/
+  - https://futureify.com/faqs/general-rules/what-is-the-time-limit-to-complete-the-evaluation/
+  - https://futureify.com/faqs/general-rules/news-trading-policy/
+  - https://futureify.com/faqs/general-rules/can-i-use-eas-expert-advisors-to-trade/
+  - Unverified fields: billing
+- Rule changes:
+  - 2026-02-06 — Instant Funding Lite launched — https://fxify.com/newsroom/introducing-fxify-instant-funding-lite/
+  - 2025-11-06 — Crypto moved to separate crypto-only plans — https://fxify.com/newsroom/new-crypto-plans/
+- All sources:
+  - 2026-10-30 · Homepage and footer · https://fxify.com/
+  - 2026-10-30 · Terms of Use · https://fxify.com/terms-of-use/
+  - 2026-10-30 · FAQ: countries not accepted · https://fxify.com/faqs/all-faqs/what-countries-are-accepted/
+  - 2026-10-30 · FAQ: platforms · https://fxify.com/faqs/all-faqs/what-platforms-can-i-use-to-trade-on/
+  - 2026-10-30 · FAQ: 2 Phase Pro platforms · https://fxify.com/faqs/all-faqs/two-phase-pro/2-phase-pro-what-are-the-available-platforms-to-trade-with/
+  - 2026-10-30 · Programs page · https://fxify.com/programs/
+  - 2026-10-30 · One Phase page · https://fxify.com/programs/one-phase/
+  - 2026-10-30 · Two Phase page · https://fxify.com/programs/two-phase/
+  - 2026-10-30 · Three Phase page · https://fxify.com/programs/three-phase-challenge/
+  - 2026-10-30 · Checkout page (options, add-ons) · https://trader.fxify.com/purchasechallenge?planID=32
+  - 2026-10-30 · Help centre: 1-Phase · https://intercom.help/fxify/en/articles/14834059-the-1-phase-account
+  - 2026-10-30 · Help centre: 2-Phase Standard · https://intercom.help/fxify/en/articles/14834571-the-2-phase-standard-account
+  - 2026-10-30 · Help centre: 2-Phase Classic · https://intercom.help/fxify/en/articles/14834680-the-2-phase-classic-account
+  - 2026-10-30 · Help centre: 2-Phase Pro · https://intercom.help/fxify/en/articles/14834005-the-2-phase-pro-account
+  - 2026-10-30 · Help centre: 2-Phase account types · https://intercom.help/fxify/en/articles/12130186-2-phase-account-types
+  - 2026-10-30 · Help centre: 3-Phase · https://intercom.help/fxify/en/articles/14835023-the-3-phase-account
+  - 2026-10-30 · Help centre: Instant Funding Standard · https://intercom.help/fxify/en/articles/14938608-the-instant-funding-standard-account
+  - 2026-10-30 · Help centre: Instant Funding Lite · https://intercom.help/fxify/en/articles/14939653-the-instant-funding-lite-account
+  - 2026-10-30 · Help centre: Educational Instant Funding · https://intercom.help/fxify/en/articles/14940160-the-educational-instant-funding-account
+  - 2026-10-30 · Help centre: Instant Funding programs compared · https://intercom.help/fxify/en/articles/13626534-instant-funding-programs
+  - 2026-10-30 · Help centre: Lightning · https://intercom.help/fxify/en/articles/14941614-the-lightning-assessment-account
+  - 2026-10-30 · Help centre: Crypto 1 Phase · https://intercom.help/fxify/en/articles/14943468-the-1-phase-account-crypto
+  - 2026-10-30 · Help centre: Crypto Instant Funding · https://intercom.help/fxify/en/articles/14945352-the-crypto-instant-funding-account
+  - 2026-10-30 · Blog: cheapest path to $50K (prices) · https://fxify.com/blog/cheapest-path-funded-50k-fxify/
+  - 2026-10-30 · Blog: Lightning vs One Phase · https://fxify.com/blog/lightning-challenge-vs-one-phase/
+  - 2026-10-30 · Blog: Crypto Instant vs Standard · https://fxify.com/blog/fxify-crypto-instant-vs-standard/
+  - 2026-10-30 · Blog: best program for gold traders · https://fxify.com/blog/best-fxify-program-for-gold-traders/
+  - 2026-10-30 · Newsroom: Instant Funding Lite · https://fxify.com/newsroom/introducing-fxify-instant-funding-lite/
+  - 2026-10-30 · Newsroom: crypto plans · https://fxify.com/newsroom/new-crypto-plans/
+  - 2026-10-30 · Futureify (FXIFY Futures) homepage · https://futureify.com/
+  - 2026-10-30 · Futureify prohibited countries · https://futureify.com/faqs/general-rules/prohibited-countries-and-restrictions/
+  - 2026-10-30 · Futureify Flex payout policy · https://futureify.com/faqs/flex-plan/flex-plan-payout-policy/
+  - 2026-10-30 · Futureify minimum trading days · https://futureify.com/faqs/general-rules/what-is-the-minimum-trading-days-requirement/
+  - 2026-10-30 · Futureify time limit · https://futureify.com/faqs/general-rules/what-is-the-time-limit-to-complete-the-evaluation/
+  - 2026-10-30 · Futureify news trading · https://futureify.com/faqs/general-rules/news-trading-policy/
+  - 2026-10-30 · Futureify EAs · https://futureify.com/faqs/general-rules/can-i-use-eas-expert-advisors-to-trade/
+  - 2026-10-30 · Program pickers (prices) · https://fxify.com/programs/
+  - 2026-10-30 · Crypto programs (prices, rules) · https://fxify.com/programs/crypto/
+- Data gaps:
+  - Lightning: help-centre and blog pages disagree on the time limit (7 calendar days vs 5 trading days), on whether the 30% consistency rule applies in the challenge, and on whether the fee is refunded.
+  - Two Phase Pro split: the help centre gives 80% with no add-on; a 23 Aug 2026 blog says up to 90%.
+  - MT4 appears in the checkout and an older platform FAQ, but newer program pages list only MT5, DXtrade and TradingView.
+  - Crypto programs: FXIFY does not say whether the instruments are CFDs or perpetuals. The crypto 1-Phase platform is assumed to be DXtrade, as for Crypto Instant.
+  - Futureify pages do not say whether futures fees are one-time or monthly, and give no rebrand date.
+  - Founding year and brand colour were not confirmed on official pages.
+  - The web-search quota was used up during this run, so pages could only be found through sitemaps and help-centre navigation.
+  - Prices were read from the JS program pickers in a browser on 2026-10-30. The Educational Instant Funding account was not shown separately; the Instant Standard picker includes a $1K size.
+
+## Goat Funded Trader
+<a id="goat-funded-trader"></a>
+
+- Website: https://www.goatfundedtrader.com/
+- Last verified: 2026-10-30
+- HQ: HK, Hong Kong — Wishes Tower International Limited (trading as Goat Funded Trader) (verified) — source: https://www.goatfundedtrader.com/ (2026-10-30)
+- Restricted countries: published — AF, BY, BO, BA, CF, CL, CU, CD, HK, IR, IL, JO, LA, LB, LY, ML, MM, KP, PG, RU, SN, SG, SO, KR, SS, SD, SY, TG, UA, VE, YE, ZW — source: https://help.goatfundedtrader.com/en/articles/10742187-which-countries-are-restricted-at-goat-funded-trader (2026-10-30)
+  - Note: Help-centre list (updated 1 Oct 2026) also names 'Islamic State in Iraq and the Levant and Al-Qaida', which has no country code. Pakistan is not on the list. No separate list was found for Goat Funded Futures; its site only says NinjaTrader and Tradovate are unavailable in some countries. MT5 and cTrader are not offered to US clients.
+- Program **1 Step** (cfd, 1-step) — checked 2026-10-30
+  - https://help.goatfundedtrader.com/1-step.html
+  - https://help.goatfundedtrader.com/trading-rules.html
+  - https://help.goatfundedtrader.com/rewards.html
+  - https://help.goatfundedtrader.com/goat-guard.html
+  - https://help.goatfundedtrader.com/platforms.html
+  - https://www.goatfundedtrader.com/
+- Program **2 Step Standard** (cfd, 2-step) — checked 2026-10-30
+  - https://help.goatfundedtrader.com/2-step-standard.html
+  - https://help.goatfundedtrader.com/trading-rules.html
+  - https://help.goatfundedtrader.com/rewards.html
+  - https://www.goatfundedtrader.com/
+- Program **2 Step GOAT** (cfd, 2-step) — checked 2026-10-30
+  - https://help.goatfundedtrader.com/2-step-goat.html
+  - https://help.goatfundedtrader.com/trading-rules.html
+  - https://help.goatfundedtrader.com/rewards.html
+  - https://www.goatfundedtrader.com/
+- Program **Instant GOAT** (cfd, instant) — checked 2026-10-30
+  - https://help.goatfundedtrader.com/instant-goat.html
+  - https://help.goatfundedtrader.com/compare-models.html
+  - https://help.goatfundedtrader.com/trading-rules.html
+  - https://www.goatfundedtrader.com/
+- Program **Instant HERO** (cfd, instant) — checked 2026-10-30
+  - https://help.goatfundedtrader.com/instant-hero.html
+  - https://help.goatfundedtrader.com/rewards.html
+  - https://help.goatfundedtrader.com/trading-rules.html
+  - https://www.goatfundedtrader.com/
+- Program **Instant Premium** (cfd, instant) — checked 2026-10-30
+  - https://help.goatfundedtrader.com/instant-premium.html
+  - https://help.goatfundedtrader.com/trading-rules.html
+  - https://www.goatfundedtrader.com/
+- Program **Instant Daily** (cfd, instant) — checked 2026-10-30
+  - https://help.goatfundedtrader.com/instant-daily.html
+  - https://help.goatfundedtrader.com/rewards.html
+  - https://www.goatfundedtrader.com/
+  - Unverified fields: sizes
+- Program **GOAT Daily (Daily Payouts) - Futures** (futures, 1-step) — checked 2026-10-30
+  - https://goatfundedfutures.com/
+  - https://help.goatfundedfutures.com/plans.html
+  - https://help.goatfundedfutures.com/payouts.html
+  - https://help.goatfundedfutures.com/trading-rules.html
+  - Unverified fields: sizes
+- Program **EOD Challenge - Futures** (futures, 1-step) — checked 2026-10-30
+  - https://help.goatfundedfutures.com/plans.html
+  - https://help.goatfundedfutures.com/payouts.html
+  - https://help.goatfundedfutures.com/trading-rules.html
+  - Unverified fields: sizes
+- Program **Flex Challenge - Futures** (futures, 1-step) — checked 2026-10-30
+  - https://help.goatfundedfutures.com/plans.html
+  - https://help.goatfundedfutures.com/payouts.html
+  - https://help.goatfundedfutures.com/trading-rules.html
+  - Unverified fields: sizes
+- Program **1-Day-Pass - Futures** (futures, 1-step) — checked 2026-10-30
+  - https://help.goatfundedfutures.com/plans.html
+  - https://help.goatfundedfutures.com/payouts.html
+  - https://help.goatfundedfutures.com/trading-rules.html
+  - Unverified fields: sizes
+- Program **Instant Classic - Futures** (futures, instant) — checked 2026-10-30
+  - https://help.goatfundedfutures.com/plans.html
+  - https://help.goatfundedfutures.com/payouts.html
+  - https://help.goatfundedfutures.com/trading-rules.html
+  - Unverified fields: sizes
+- Program **Instant Lite - Futures** (futures, instant) — checked 2026-10-30
+  - https://help.goatfundedfutures.com/plans.html
+  - https://help.goatfundedfutures.com/trading-rules.html
+- Rule changes:
+  - 2026-10-12 — Copy trading limited to GOAT Trade Copier — https://help.goatfundedtrader.com/trading-rules.html
+  - 2026-10-08 — Largest win must be at least the largest loss before payout — https://help.goatfundedtrader.com/rewards.html
+  - 2026-10-06 — Minimum hold cut to 1 minute; VPN/VPS/proxy banned — https://help.goatfundedtrader.com/trading-rules.html
+  - 2026-09-21 — Instant Premium payouts move to every 14 days — https://help.goatfundedtrader.com/instant-premium.html
+  - 2026-08-07 — Futures: new-profit requirement on payouts — https://help.goatfundedfutures.com/payouts.html
+  - 2026-08-01 — 1 Step daily drawdown reduced to 3% — https://help.goatfundedtrader.com/1-step.html
+  - 2026-07-25 — 2-Step funded payouts need 4 profitable days — https://help.goatfundedtrader.com/2-step-standard.html
+- All sources:
+  - 2026-10-30 · Homepage, configurator prices and legal footer · https://www.goatfundedtrader.com/
+  - 2026-10-30 · Restricted countries · https://help.goatfundedtrader.com/en/articles/10742187-which-countries-are-restricted-at-goat-funded-trader
+  - 2026-10-30 · Compare models · https://help.goatfundedtrader.com/compare-models.html
+  - 2026-10-30 · 1 Step · https://help.goatfundedtrader.com/1-step.html
+  - 2026-10-30 · 2 Step Standard · https://help.goatfundedtrader.com/2-step-standard.html
+  - 2026-10-30 · 2 Step GOAT · https://help.goatfundedtrader.com/2-step-goat.html
+  - 2026-10-30 · Instant GOAT · https://help.goatfundedtrader.com/instant-goat.html
+  - 2026-10-30 · Instant HERO · https://help.goatfundedtrader.com/instant-hero.html
+  - 2026-10-30 · Instant Premium · https://help.goatfundedtrader.com/instant-premium.html
+  - 2026-10-30 · Instant Daily · https://help.goatfundedtrader.com/instant-daily.html
+  - 2026-10-30 · Trading rules · https://help.goatfundedtrader.com/trading-rules.html
+  - 2026-10-30 · Goat Guard · https://help.goatfundedtrader.com/goat-guard.html
+  - 2026-10-30 · Rewards and payouts · https://help.goatfundedtrader.com/rewards.html
+  - 2026-10-30 · Platforms and leverage · https://help.goatfundedtrader.com/platforms.html
+  - 2026-10-30 · Goat Funded Futures homepage · https://goatfundedfutures.com/
+  - 2026-10-30 · Goat Funded Futures plans · https://help.goatfundedfutures.com/plans.html
+  - 2026-10-30 · Goat Funded Futures payouts · https://help.goatfundedfutures.com/payouts.html
+  - 2026-10-30 · Goat Funded Futures trading rules · https://help.goatfundedfutures.com/trading-rules.html
+- Data gaps:
+  - No restricted-countries list found for Goat Funded Futures; the CFD list is shown for the whole brand.
+  - Futures prices: the help-centre Plans page lists GOAT Daily at half the homepage strike-through price, so the help-centre prices for EOD, Flex, 1-Day-Pass and Instant Classic may be discounted figures; regular list prices for those plans could not be read from the JS-rendered homepage.
+  - Instant Lite (futures): prices, drawdown amount, daily loss and payout frequency are not published.
+  - Instant Daily (CFD): help centre lists $15-$499 while the homepage shows those as 50%-off prices against $30-$998 strike-through figures.
+  - CFD payout caps for Instant GOAT and Instant Premium not stated on their model pages.
+  - Futures leverage/contract limits published only for the GOAT Daily cards.
+
+## Hola Prime
+<a id="hola-prime"></a>
+
+- Website: https://holaprime.com/
+- Last verified: 2026-10-30
+- HQ: HK — Hola Prime Limited (unverified) — source: https://holaprime.com/terms-conditions/ (2026-10-30)
+- Restricted countries: published — AF, BY, BI, CN, CU, CG, SD, LK, KP, YE — source: https://holaprime.com/forex/faq/ (2026-10-30)
+  - Note: Site footer: 'does not provide services to the residents of certain countries including' these 10 — so the list is not exhaustive. 'Congo' is mapped to the Republic of the Congo (CG). Pakistan is not named.
+- Program **1-Step Prime** (cfd, 1-step) — checked 2026-10-30
+  - https://holaprime.com/forex/
+- Program **2-Step Prime** (cfd, 2-step) — checked 2026-10-30
+  - https://holaprime.com/forex/
+- Program **2-Step Pro** (cfd, 2-step) — checked 2026-10-30
+  - https://holaprime.com/forex/
+- Program **Direct Account** (cfd, instant) — checked 2026-10-30
+  - https://holaprime.com/forex/
+- Program **Futures 1-Step Prime** (futures, 1-step) — checked 2026-10-30
+  - https://holaprime.com/futures/
+- Program **Futures Direct Account** (futures, instant) — checked 2026-10-30
+  - https://holaprime.com/futures/
+- All sources:
+  - 2026-10-30 · Forex plans and comparison (prices, rules) · https://holaprime.com/forex/
+  - 2026-10-30 · Terms & Conditions · https://holaprime.com/terms-conditions/
+  - 2026-10-30 · Forex FAQ (footer country list) · https://holaprime.com/forex/faq/
+  - 2026-10-23 · Forex trading rules · https://holaprime.com/forex/forex-trading-rules/
+  - 2026-10-30 · Futures plans and comparison (prices, rules) · https://holaprime.com/futures/
+- Data gaps:
+  - Payout frequency and minimum, consistency and copy-trading rules were not read from the rulebook on 2026-10-30.
+  - Futures payout split and schedule were not shown on the plan comparison.
+
+## Hydra Funding
+<a id="hydra-funding"></a>
+
+- Website: https://hydrafunding.io/
+- Last verified: 2026-10-30
+- HQ: LC, Gros-Islet — Hydra Funding Ltd (verified) — source: https://hydrafunding.io/terms-of-use (2026-10-30)
+- Restricted countries: published — PK, RU, CU, SD, SO, IR, LY, SY, LB, VN, RO — source: https://hydrafunding.io/faq (2026-10-30)
+  - Note: Pakistan (PK) is restricted. FAQ 'Are there any restricted countries?' lists Pakistan, Russia, Cuba, Sudan, Somalia, Iran, Libya, Syria, Lebanon, Vietnam and Romania; the list 'may be updated at any time without prior notice'. Terms of Use point to the FAQ as the public list.
+- Program **Instant Lite – Futures** (futures, instant) — checked 2026-10-30
+  - https://hydrafunding.io/
+  - https://hydrafunding.io/faq
+  - https://www.hydrafunding.io/blog/400k-instant-lite
+  - Unverified fields: platforms
+- Program **Instant Prime – Futures** (futures, instant) — checked 2026-10-30
+  - https://hydrafunding.io/
+  - https://hydrafunding.io/faq
+  - https://www.hydrafunding.io/blog/instant-prime-relaunch
+  - Unverified fields: platforms
+- Program **Instant Pro – Futures** (futures, instant) — checked 2026-10-30
+  - https://hydrafunding.io/
+  - https://hydrafunding.io/faq
+  - Unverified fields: platforms
+- Program **Instant Lite – Forex** (cfd, instant) — checked 2026-10-30
+  - https://hydrafunding.io/
+  - https://hydrafunding.io/faq
+  - https://www.hydrafunding.io/blog/400k-instant-lite
+- Program **Instant Prime – Forex** (cfd, instant) — checked 2026-10-30
+  - https://hydrafunding.io/
+  - https://hydrafunding.io/faq
+  - https://www.hydrafunding.io/blog/instant-prime-relaunch
+- Program **Instant Pro – Forex** (cfd, instant) — checked 2026-10-30
+  - https://hydrafunding.io/
+  - https://hydrafunding.io/faq
+- Program **Instant Lite – Crypto** (crypto, instant) — checked 2026-10-30
+  - https://hydrafunding.io/
+  - https://hydrafunding.io/faq
+  - https://www.hydrafunding.io/blog/400k-instant-lite
+  - Unverified fields: perps, leverage
+- Program **Instant Prime – Crypto** (crypto, instant) — checked 2026-10-30
+  - https://hydrafunding.io/
+  - https://hydrafunding.io/faq
+  - https://www.hydrafunding.io/blog/instant-prime-relaunch
+  - Unverified fields: perps, leverage
+- Program **Instant Pro – Crypto** (crypto, instant) — checked 2026-10-30
+  - https://hydrafunding.io/
+  - https://hydrafunding.io/faq
+  - Unverified fields: perps, leverage
+- Rule changes:
+  - 2026-09-21 — Instant Prime relaunched with 50% Best Day rule — https://www.hydrafunding.io/blog/instant-prime-relaunch
+  - 2026-08-24 — $400K Instant Lite added — https://www.hydrafunding.io/blog/400k-instant-lite
+- All sources:
+  - 2026-10-30 · Homepage and pricing · https://hydrafunding.io/
+  - 2026-10-30 · FAQ (rules, restricted countries) · https://hydrafunding.io/faq
+  - 2026-10-30 · Terms of Use · https://hydrafunding.io/terms-of-use
+  - 2026-10-30 · Blog index · https://hydrafunding.io/blog
+  - 2026-10-30 · Instant Prime relaunch · https://www.hydrafunding.io/blog/instant-prime-relaunch
+  - 2026-10-30 · $400K Instant Lite launch · https://www.hydrafunding.io/blog/400k-instant-lite
+  - 2026-10-30 · Hydra Funding Turns Four (history) · https://www.hydrafunding.io/blog/hydra-funding-turns-four
+- Data gaps:
+  - The brief said the FAQ shows no restricted-country list, but on 2026-10-30 the FAQ had one (read twice, 11 countries including Pakistan), and the Terms of Use point to it.
+  - Futures platforms are inconsistent: the FAQ lists DxFutures and Volumetrica, but its platform-fee entry names Tradovate, DXTrade or Volumetrica.
+  - Crypto: the FAQ does not say whether instruments are perpetual futures or spot (perps set false, marked unverified); crypto leverage is 1:2 in the FX list but 5:1 BTC/ETH and 2:1 others in the crypto section.
+  - EAs and bots are not addressed directly in the FAQ.
+  - No maximum withdrawal is stated in the FAQ (the $400K Lite post says 'no maximum').
+
+## HyroTrader
+<a id="hyrotrader"></a>
+
+- Website: https://www.hyrotrader.com/
+- Last verified: 2026-10-30
+- HQ: AE, Ras Al Khaimah — HYRO TECHNOLOGIES FZ-LLC (verified) — source: https://www.hyrotrader.com/terms-and-conditions/ (2026-10-30)
+- Restricted countries: published — AF, BY, MM, CF, CU, CD, ER, ET, HT, IR, IQ, LB, LY, NI, KP, RU, SO, SS, SD, SY, VE, YE, ZW — source: https://www.hyrotrader.com/terms-and-conditions/ (2026-10-30)
+  - Note: T&C §12.1 prohibited jurisdictions; also the Crimea, Donetsk, Kherson, Luhansk and Zaporizhzhia regions of Ukraine. §12.2 adds enhanced due diligence for FATF-listed and sanctioned jurisdictions and refers to a Restricted Jurisdictions List on the platform (not public). Pakistan (PK) is not listed. Bybit/BloFin challenges must also meet those exchanges' own country terms; Tealstreet and Tiger terminals are not available to US traders.
+- Program **Zero-Step** (crypto, 1-step) — checked 2026-10-30
+  - https://www.hyrotrader.com/
+  - https://www.hyrotrader.com/challenge-terms/
+  - https://www.hyrotrader.com/blog/how-much-does-a-funded-account-cost/
+- Program **One-Step** (crypto, 1-step) — checked 2026-10-30
+  - https://www.hyrotrader.com/
+  - https://www.hyrotrader.com/challenge-terms/
+  - https://www.hyrotrader.com/blog/how-much-does-a-funded-account-cost/
+- Program **Two-Step** (crypto, 2-step) — checked 2026-10-30
+  - https://www.hyrotrader.com/
+  - https://www.hyrotrader.com/challenge-terms/
+  - https://www.hyrotrader.com/blog/how-much-does-a-funded-account-cost/
+- Rule changes:
+  - 2026-10-12 — Relaunch: Zero-Step added, static drawdown on all challenges — https://www.hyrotrader.com/blog/hyrotrader-relaunch/
+- All sources:
+  - 2026-10-30 · Homepage (programs, platforms, entities) · https://www.hyrotrader.com/
+  - 2026-10-30 · Terms and Conditions (entity, prohibited jurisdictions) · https://www.hyrotrader.com/terms-and-conditions/
+  - 2026-10-30 · Challenge Terms (rules, schedules, payouts) · https://www.hyrotrader.com/challenge-terms/
+  - 2026-10-30 · FAQ: which countries can join · https://www.hyrotrader.com/faq/platform/which-countries-are-allowed-to-join-hyrotrader-can-i-join-from-the-usuk/
+  - 2026-10-30 · FAQ: restricted countries · https://www.hyrotrader.com/faq/platform/is-trading-allowed-for-individuals-from-restricted-countries/
+  - 2026-10-30 · FAQ: refundable challenge deposit · https://www.hyrotrader.com/faq/getting-started/what-is-the-refundable-challenge-deposit/
+  - 2026-10-30 · Blog: relaunch (12 Oct 2026) · https://www.hyrotrader.com/blog/hyrotrader-relaunch/
+  - 2026-10-30 · Blog: price table (20 Oct 2026) · https://www.hyrotrader.com/blog/how-much-does-a-funded-account-cost/
+- Data gaps:
+  - Price table comes from an official blog article (20 Oct 2026), not a live checkout page.
+  - No maximum per-trade risk figure is published; leverage per pair is set by the connected platform (Challenge Terms Schedule 1 Part C), so the leverage figures come from the homepage.
+  - Criteria for the discretionary 90% split are not published.
+
+## Instant Funding
+<a id="instant-funding"></a>
+
+- Website: https://instantfunding.com/
+- Last verified: 2026-10-30
+- HQ: LC, Gros Islet — IF Pro Ltd (verified) — source: https://instantfunding.com/disclaimers-legal-information/ (2026-10-30)
+- Restricted countries: published — AF, BY, BI, CF, CG, CU, CD, ER, GN, GW, IR, IQ, LR, LY, MM, KP, PG, RU, SO, SS, SD, SY, VU, VE, YE, ZW — source: https://instantfunding.com/wp-content/uploads/2025/03/AML-Policy.pdf (2026-10-30)
+  - Note: List from the AML Policy (version 1.1, March 2025) 'Sanctioned Countries' section; it also names Crimea. US clients are accepted but can only use Match-Trader. Pakistan (PK) is not listed.
+- Program **Instant Funding Pro** (cfd, instant) — checked 2026-10-30
+  - https://instantfunding.com/
+  - https://instantfunding.com/help/instant-funding-program/
+  - https://instantfunding.com/help/whats-your-leverage/
+  - https://instantfunding.com/help/payouts/
+- Program **Instant Funding Lite** (cfd, instant) — checked 2026-10-30
+  - https://instantfunding.com/
+  - https://instantfunding.com/help/instant-funding-go/
+  - https://instantfunding.com/help/whats-your-leverage/
+  - Unverified fields: profitSplit
+- Program **IF Micro Pro** (cfd, instant) — checked 2026-10-30
+  - https://instantfunding.com/help/if-micro/
+  - https://instantfunding.com/help/whats-your-leverage/
+  - https://instantfunding.com/help/is-news-trading-allowed/
+- Program **IF Micro Lite** (cfd, instant) — checked 2026-10-30
+  - https://instantfunding.com/help/if-micro-lite/
+  - https://instantfunding.com/help/whats-your-leverage/
+- Program **IF Starter (formerly IF1)** (cfd, instant) — checked 2026-10-30
+  - https://instantfunding.com/help/if1/
+  - https://instantfunding.com/
+  - Unverified fields: profitSplit, splitMax
+- Program **One-Phase Pro** (cfd, 1-step) — checked 2026-10-30
+  - https://instantfunding.com/help/one-phase/
+  - https://instantfunding.com/help/is-news-trading-allowed/
+  - https://instantfunding.com/help/whats-your-leverage/
+  - Unverified fields: weekend
+- Program **One-Phase Lite (formerly One-Phase Clarity)** (cfd, 1-step) — checked 2026-10-30
+  - https://instantfunding.com/help/one-phase-clarity/
+  - https://instantfunding.com/help/payouts/
+  - https://instantfunding.com/help/is-news-trading-allowed/
+- Program **One-Phase Micro** (cfd, 1-step) — checked 2026-10-30
+  - https://instantfunding.com/help/one-phase-micro/
+  - https://instantfunding.com/one-phase-micro-updated-lower-profit-target-higher-drawdown/
+- Program **Two-Phase** (cfd, 2-step) — checked 2026-10-30
+  - https://instantfunding.com/help/two-phase/
+  - https://instantfunding.com/
+  - https://instantfunding.com/help/is-news-trading-allowed/
+  - Unverified fields: profitSplit, weekend
+- Program **Two-Phase Micro** (cfd, 2-step) — checked 2026-10-30
+  - https://instantfunding.com/help/two-phase-micro/
+  - https://instantfunding.com/
+- Program **IF Micro Crypto** (crypto, instant) — checked 2026-10-30
+  - https://instantfunding.com/help/if-micro-crypto/
+  - https://instantfunding.com/
+- Program **One-Phase Crypto** (crypto, 1-step) — checked 2026-10-30
+  - https://instantfunding.com/help/one-phase-crypto/
+  - https://instantfunding.com/
+- Program **IF Micro Clarity** (cfd, instant) — checked 2026-10-30
+  - https://instantfunding.com/help/if-micro-clarity/
+  - https://instantfunding.com/help/payouts/
+- Program **Instant Funding Clarity** (cfd, instant) — checked 2026-10-30
+  - https://instantfunding.com/help/instant-funding-clarity/
+  - https://instantfunding.com/help/whats-your-leverage/
+  - https://instantfunding.com/instant-funding-clarity-the-instant-account-you-know-now-with-more-clarity/
+  - Unverified fields: leverage, weekend
+- Rule changes:
+  - 2026-07-07 — Instant Funding Clarity launched — https://instantfunding.com/instant-funding-clarity-the-instant-account-you-know-now-with-more-clarity/
+  - 2026-06-19 — Clarity series introduced — https://instantfunding.com/meet-clarity-a-new-way-to-trade-with-instant-funding/
+  - 2026-03-11 — Instant Funding GO launched (now Instant Funding Lite) — https://instantfunding.com/instant-funding-go-launch-lower-price-10-drawdown-instant-access/
+  - 2026-02-26 — One-Phase Micro rules eased — https://instantfunding.com/one-phase-micro-updated-lower-profit-target-higher-drawdown/
+  - 2026-02-06 — One-Phase prices reduced — https://instantfunding.com/one-phase-account-prices-reduced-year-of-the-trader-update/
+  - 2025-11-21 — Lower profit targets on One-Phase Micro and Two-Phase Max — https://instantfunding.com/lower-profit-targets-announced-one-phase-micro-two-phase-max-update/
+- All sources:
+  - 2026-10-30 · Homepage (programs and pricing data) · https://instantfunding.com/
+  - 2026-10-30 · Legal information / entities · https://instantfunding.com/disclaimers-legal-information/
+  - 2026-10-30 · AML Policy v1.1 (sanctioned countries) · https://instantfunding.com/wp-content/uploads/2025/03/AML-Policy.pdf
+  - 2026-10-30 · General Terms (PDF, text not machine-readable) · https://instantfunding.com/wp-content/uploads/2026/10/INSTANT-FUNDING-GENERAL-TERMS.pdf
+  - 2026-10-30 · Help: Instant Funding Pro · https://instantfunding.com/help/instant-funding-program/
+  - 2026-10-30 · Help: Instant Funding Lite · https://instantfunding.com/help/instant-funding-go/
+  - 2026-10-30 · Help: IF Micro Pro · https://instantfunding.com/help/if-micro/
+  - 2026-10-30 · Help: IF Micro Lite · https://instantfunding.com/help/if-micro-lite/
+  - 2026-10-30 · Help: IF Starter · https://instantfunding.com/help/if1/
+  - 2026-10-30 · Help: One-Phase Pro · https://instantfunding.com/help/one-phase/
+  - 2026-10-30 · Help: One-Phase Lite · https://instantfunding.com/help/one-phase-clarity/
+  - 2026-10-30 · Help: One-Phase Micro · https://instantfunding.com/help/one-phase-micro/
+  - 2026-10-30 · Help: Two-Phase · https://instantfunding.com/help/two-phase/
+  - 2026-10-30 · Help: Two-Phase Micro · https://instantfunding.com/help/two-phase-micro/
+  - 2026-10-30 · Help: IF Micro Crypto · https://instantfunding.com/help/if-micro-crypto/
+  - 2026-10-30 · Help: One-Phase Crypto · https://instantfunding.com/help/one-phase-crypto/
+  - 2026-10-30 · Help: IF Micro Clarity · https://instantfunding.com/help/if-micro-clarity/
+  - 2026-10-30 · Help: Instant Funding Clarity · https://instantfunding.com/help/instant-funding-clarity/
+  - 2026-10-30 · Help: Evolve · https://instantfunding.com/help/instant-funding-evolve/
+  - 2026-10-30 · Help: Two-Phase ZAR · https://instantfunding.com/help/two-phase-zar/
+  - 2026-10-30 · Help: leverage · https://instantfunding.com/help/whats-your-leverage/
+  - 2026-10-30 · Help: news trading · https://instantfunding.com/help/is-news-trading-allowed/
+  - 2026-10-30 · Help: payouts · https://instantfunding.com/help/payouts/
+  - 2026-10-30 · Help: copy trading · https://instantfunding.com/help/is-copy-trading-allowed/
+  - 2026-10-30 · Help: platforms · https://instantfunding.com/help/what-trading-platforms-are-available-for-use/
+  - 2026-10-30 · Help: prohibited practices · https://instantfunding.com/help/prohibited-trading-practice/
+  - 2026-10-30 · Help: split increase for static accounts · https://instantfunding.com/help/90-profit-split-rules-smart-accounts-instant-funding/
+  - 2026-10-30 · News: acquisition of Funded Trading Plus · https://instantfunding.com/news/instant-funding-acquires-funded-trading-plus/
+- Data gaps:
+  - General Terms PDF could not be machine-read; restricted list taken from the AML Policy (March 2025).
+  - Instant Funding Lite base profit split not stated on its help page; 80% assumed from the +10% split add-on and homepage pattern.
+  - IF Starter profit split conflicts: help centre says 70%, homepage card says 90%.
+  - Two-Phase split text on the homepage could not be tied with certainty to Two-Phase vs One-Phase Pro (both show the 'reach 10% in 3 months for 90%' wording).
+  - Instant Funding Clarity leverage conflicts between its program page and the leverage FAQ.
+  - Leverage for One-Phase Micro, Two-Phase and Two-Phase Micro not stated in the leverage FAQ product groups.
+  - Prices read from the site's embedded product data (WooCommerce) on 2026-10-30; prices are the same across platforms and spread types.
+
+## Klein Funding
+<a id="klein-funding"></a>
+
+- Website: https://kleinfunding.com/
+- Last verified: 2026-10-30
+- HQ: not published — KUENTECH LLC (unverified) — source: https://kleinfunding.com/terms-of-use (2026-10-30)
+- Restricted countries: not_published — source: https://kleinfunding.com/terms-of-use (2026-10-30)
+  - Note: No country list found. The homepage says a restricted-jurisdiction list is kept in the Terms of Use, but the How It Works page says the firm has no restricted countries and Bybit can be used even where Bybit itself is restricted (both from search snippets; pages returned 403). Pakistan not mentioned.
+- Program **Cleo 1-Step** (crypto, 1-step) — checked 2026-10-30
+  - https://kleinfunding.com/
+- Program **Bybit Standard 1-Phase** (crypto, 1-step) — checked 2026-10-30
+  - https://kleinfunding.com/
+  - Unverified fields: perps
+- Program **Bybit Standard 2-Phase** (crypto, 2-step) — checked 2026-10-30
+  - https://kleinfunding.com/
+  - Unverified fields: perps
+- Program **Flex** (crypto, 1-step) — checked 2026-10-30
+  - https://kleinfunding.com/
+  - Unverified fields: perps, platforms
+- Program **Instant** (crypto, instant) — checked 2026-10-30
+  - https://kleinfunding.com/
+  - Unverified fields: perps, platforms
+- All sources:
+  - 2026-10-30 · Homepage (search snippet; 403 on fetch) · https://kleinfunding.com/
+  - 2026-10-30 · Terms of Use (search snippet; 403 on fetch) · https://kleinfunding.com/terms-of-use
+  - 2026-10-30 · How It Works (search snippet) · https://kleinfunding.com/how-it-works
+  - 2026-10-30 · Bybit prop firm page (search snippet) · https://kleinfunding.com/bybit-prop-firm
+  - 2026-10-30 · Pricing (search snippet) · https://kleinfunding.com/pricing
+  - 2026-10-30 · General Rules (search snippet) · https://kleinfunding.com/general-rules
+  - 2026-10-30 · FAQ: supported platforms (search snippet) · https://kleinfunding.com/faqs/what-trading-platforms-are-supported
+  - 2026-10-30 · FAQ: bot trading (search snippet) · https://kleinfunding.com/faqs/bot-trading
+  - 2026-10-30 · FAQ: 50 seconds rule (search snippet) · https://kleinfunding.com/faqs/50-seconds-rule-bybit-only
+  - 2026-10-30 · Homepage plan tables (prices, rules) · https://kleinfunding.com/
+- Data gaps:
+  - Prices and core rules were read from the homepage plan tables in a browser on 2026-10-30 (the fetch tool got HTTP 403). Which plans run on Bybit vs the in-house Cleo platform is inferred from the tab labels; perpetual contracts on Bybit are not stated outright.
+  - Restricted-country position conflicts between homepage and How It Works page; no list found.
+  - Registered country of KUENTECH LLC unclear (England and Wales vs Delaware address).
+
+## Lark Funding
+<a id="lark-funding"></a>
+
+- Website: https://larkfunding.com/
+- Last verified: 2026-10-30
+- HQ: CA, Montréal — Lark Dashboards Inc. (verified) — source: https://larkfunding.com/terms-of-use (2026-10-30)
+- Restricted countries: published — IR, KP, MM, RU, BY — source: https://helpdesk.larkfunding.com/en/articles/8028220-what-countries-are-we-available-in (2026-10-30)
+  - Note: Also not available in the province of Quebec (Canada). Payouts go through Riseworks, so its unsupported countries also apply. Pakistan (PK) is not listed.
+- Program **1-Step Career** (cfd, 1-step) — checked 2026-10-30
+  - https://larkfunding.com/
+  - https://helpdesk.larkfunding.com/en/articles/12853883-1-step-career-evaluation-details
+  - https://helpdesk.larkfunding.com/en/articles/8117403-how-do-payouts-work
+- Program **1-Step Max** (cfd, 1-step) — checked 2026-10-30
+  - https://larkfunding.com/
+  - https://helpdesk.larkfunding.com/en/articles/17319722-1-step-max-evaluation-details
+  - https://helpdesk.larkfunding.com/en/articles/17429577-how-does-the-1-per-trade-loss-limit-work-on-1-step-max-accounts
+- Program **3-Step Evaluation** (cfd, 3-step) — checked 2026-10-30
+  - https://larkfunding.com/
+  - https://helpdesk.larkfunding.com/en/articles/8251071-3-step-evaluation-details
+- Program **Instant Master Account** (cfd, instant) — checked 2026-10-30
+  - https://larkfunding.com/
+  - https://helpdesk.larkfunding.com/en/articles/10336809-instant-master-account-details
+  - https://helpdesk.larkfunding.com/en/articles/12029483-how-does-drawdown-lock-work-on-instant-accounts-after-a-withdrawal
+  - https://helpdesk.larkfunding.com/en/articles/13714987-withdrawal-rules-1-000-instant-account
+- All sources:
+  - 2026-10-30 · Homepage and pricing data · https://larkfunding.com/
+  - 2026-10-30 · Terms of Use · https://larkfunding.com/terms-of-use
+  - 2026-10-30 · Help: available countries · https://helpdesk.larkfunding.com/en/articles/8028220-what-countries-are-we-available-in
+  - 2026-10-30 · Help: platforms · https://helpdesk.larkfunding.com/en/articles/11738989-what-trading-platform-does-lark-funding-offer
+  - 2026-10-30 · Help: Instant Master Account · https://helpdesk.larkfunding.com/en/articles/10336809-instant-master-account-details
+  - 2026-10-30 · Help: 1-Step Career · https://helpdesk.larkfunding.com/en/articles/12853883-1-step-career-evaluation-details
+  - 2026-10-30 · Help: 1-Step Max · https://helpdesk.larkfunding.com/en/articles/17319722-1-step-max-evaluation-details
+  - 2026-10-30 · Help: 3-Step · https://helpdesk.larkfunding.com/en/articles/8251071-3-step-evaluation-details
+  - 2026-10-30 · Help: payouts · https://helpdesk.larkfunding.com/en/articles/8117403-how-do-payouts-work
+  - 2026-10-30 · Help: news trading · https://helpdesk.larkfunding.com/en/articles/7174111-can-i-trade-during-news-events
+  - 2026-10-30 · Help: EAs · https://helpdesk.larkfunding.com/en/articles/7174115-can-i-use-an-expert-advisor
+  - 2026-10-30 · Help: copy trading · https://helpdesk.larkfunding.com/en/articles/13941115-can-i-copy-trades-from-my-other-prop-firm-accounts
+  - 2026-10-30 · Help: weekend add-on · https://helpdesk.larkfunding.com/en/articles/13644432-what-is-hold-over-the-weekend-add-on-and-how-does-it-work
+  - 2026-10-30 · Help: inactivity · https://helpdesk.larkfunding.com/en/articles/7174035-is-there-a-breach-for-inactivity
+  - 2026-10-30 · Help: $1,000 instant withdrawals · https://helpdesk.larkfunding.com/en/articles/13714987-withdrawal-rules-1-000-instant-account
+  - 2026-10-30 · Help: about Lark Funding · https://helpdesk.larkfunding.com/en/articles/11739114-what-is-lark-funding
+- Data gaps:
+  - No dated rule-change announcements found on official pages; changes array left empty.
+  - Homepage marketing text mentions both 90% rewards and 'earn 80% of gains above your base'; program help articles used for split values.
+  - Brand colour not identified.
+  - No help-centre article covers EA/copy rules separately for 1-Step Max; general rules applied.
+
+## Leeloo Trading
+<a id="leeloo-trading"></a>
+
+- Website: https://www.leelootrading.com/
+- Last verified: 2026-10-30
+- HQ: US, Billings — Natural Trading, LLC d/b/a Leeloo Trading (verified) — source: https://www.leelootrading.com/terms-of-service (2026-10-30)
+- Restricted countries: not_published — source: https://www.leelootrading.com/terms-of-service (2026-10-30)
+  - Note: No restricted-country list on the public site or Terms of Service. Terms say services are operated out of the United States and users outside the US use them at their own risk and must ensure local legality; contests are 'void where prohibited'. Pakistan (PK) is not named anywhere; no OFAC/sanctions list is published. Help-centre knowledge base articles require a login.
+- Program **Standard Practice Account (Foundation LL)** (futures, 1-step) — checked 2026-10-30
+  - https://www.leelootrading.com/
+  - https://www.leelootrading.com/support
+  - https://www.leelootrading.com/le-trading-products
+  - https://www.leelootrading.com/terms-of-service
+  - https://support.leelootrading.com/news/root.aspx
+  - Unverified fields: profitSplit, instruments
+- Program **LB Bundle (3 accounts)** (futures, 1-step) — checked 2026-10-30
+  - https://www.leelootrading.com/
+  - https://www.leelootrading.com/le-trading-products
+- All sources:
+  - 2026-10-30 · Home page (accounts, PA rules, FAQ) · https://www.leelootrading.com/
+  - 2026-10-30 · Support page (PA fees and rules) · https://www.leelootrading.com/support
+  - 2026-10-30 · LE / LB trading products (bundle and payout structure) · https://www.leelootrading.com/le-trading-products
+  - 2026-10-30 · Terms of Service · https://www.leelootrading.com/terms-of-service
+  - 2026-10-30 · About us · https://www.leelootrading.com/blog/leeloo-about-us
+  - 2026-10-30 · Trader resources · https://www.leelootrading.com/trader-resources
+  - 2026-10-30 · Blog index · https://www.leelootrading.com/blog
+  - 2026-10-30 · Support portal news · https://support.leelootrading.com/news/root.aspx
+- Data gaps:
+  - Payout frequency, minimum and maximum payout, and any payout buffer are not on public pages; the knowledge-base articles (payouts, 30% rule, drawdown, instruments) require a login.
+  - Profit split '100% of first $12,500, then 90%' is stated on the LE products page for LB Bundle with the note that it matches Foundation Regular LL accounts; not separately confirmed for monthly Standard accounts, so marked unverified there.
+  - Whether automated trading/bots are allowed is not addressed on public pages (Terms only restrict automated agents used to create accounts, send messages or scrape data).
+  - Whether the trailing drawdown stops trailing (locks) at any level is not published.
+  - Entry (LE), Weekly (WL) and Ignite accounts are named but sizes, prices and rules are not public, so they are not listed as programs.
+  - No dated rule-change announcements within the last 12 months were found; the newest support-portal news item is from Sep 2024.
+
+## Lenvra Markets
+<a id="lenvra"></a>
+
+- Website: https://www.lenvra.xyz/
+- Last verified: 2026-10-30
+- HQ: US (unverified) — source: https://www.lenvra.xyz/legal/terms (2026-10-30)
+- Restricted countries: published — CU, IR, KP, SY — source: https://www.lenvra.xyz/legal/terms (2026-10-30)
+  - Note: Terms bar comprehensively sanctioned places — currently Cuba, Iran, North Korea, Syria and the Crimea, Donetsk and Luhansk regions of Ukraine — and anyone on UN/US/EU/UK sanctions lists. Lenvra may add jurisdictions at any time. Pakistan is not named.
+- Program **Evaluation (1 phase)** (cfd, 1-step) — checked 2026-10-30
+  - https://www.lenvra.xyz/funding
+  - https://www.lenvra.xyz/faq
+- Program **Instant funding** (cfd, instant) — checked 2026-10-30
+  - https://www.lenvra.xyz/funding
+  - https://www.lenvra.xyz/faq
+- All sources:
+  - 2026-10-30 · Get funded: plans, prices, rules · https://www.lenvra.xyz/funding
+  - 2026-10-30 · FAQ · https://www.lenvra.xyz/faq
+  - 2026-10-30 · Terms of Service · https://www.lenvra.xyz/legal/terms
+- Data gaps:
+  - News, weekend, bot and copy-trading rules were not found on the public pages (they may be in the Funded Trading Terms, not read).
+  - No legal entity is named in the terms; HQ is inferred from the Kentucky governing-law clause and marked unverified.
+
+## Lucid Trading
+<a id="lucid-trading"></a>
+
+- Website: https://lucidtrading.com/
+- Last verified: 2026-10-30
+- HQ: not published (not_published) — source: https://support.lucidtrading.com/en/articles/11404612-our-mission (2026-10-30)
+- Restricted countries: published — AF, AL, DZ, AO, BS, BB, BY, BZ, BA, BG, BF, MM, BW, BI, KH, CF, CI, CU, CG, CD, EC, ET, GH, GN, HT, IS, ID, IR, IQ, JM, KZ, KE, XK, KG, LA, LB, LR, LY, LT, ML, MU, MN, ME, MA, MZ, NA, NI, NG, KP, MK, PK, PA, PG, PH, RU, SN, RS, SC, SI, SO, ZA, SS, LK, SD, SY, TJ, TZ, TR, TT, TN, UG, UA, UZ, VN, VE, YE, ZW — source: https://support.lucidtrading.com/en/articles/11404636-restricted-countries (2026-10-30)
+  - Note: Citizens or residents of listed countries are ineligible. Pakistan is listed. Also lists the regions Crimea, Donetsk, Kherson, Luhansk and Sevastopol.
+- Program **LucidFlex** (futures, 1-step) — checked 2026-10-30
+  - https://support.lucidtrading.com/en/articles/12945790-lucidflex-evaluation-account
+  - https://support.lucidtrading.com/en/articles/12945795-lucidflex-funded-account
+  - https://support.lucidtrading.com/en/articles/12945796-lucidflex-payouts
+  - https://support.lucidtrading.com/en/articles/16226050-lucidflex-customization
+  - https://support.lucidtrading.com/en/articles/11404728-other-trading-activities
+  - https://support.lucidtrading.com/en/articles/11404729-allowed-trading-times
+  - https://lucidtrading.com/
+  - https://lucidtrading.com/wp-json/wc/store/v1/products
+- Program **LucidDaily** (futures, 1-step) — checked 2026-10-30
+  - https://support.lucidtrading.com/en/articles/15996664-luciddaily-evaluation
+  - https://support.lucidtrading.com/en/articles/15997266-luciddaily-payouts
+  - https://support.lucidtrading.com/en/articles/11404728-other-trading-activities
+  - https://lucidtrading.com/
+  - https://lucidtrading.com/wp-json/wc/store/v1/products
+- Program **LucidPro** (futures, 1-step) — checked 2026-10-30
+  - https://support.lucidtrading.com/en/articles/12890029-lucidpro-evaluation-account
+  - https://support.lucidtrading.com/en/articles/12890069-lucidpro-funded-account
+  - https://support.lucidtrading.com/en/articles/12890092-lucidpro-payouts
+  - https://support.lucidtrading.com/en/articles/12890136-lucidpro-drawdown
+  - https://support.lucidtrading.com/en/articles/11404620-simulated-account-fees
+  - https://lucidtrading.com/
+  - https://lucidtrading.com/wp-json/wc/store/v1/products
+- Program **LucidDirect (straight to funded)** (futures, instant) — checked 2026-10-30
+  - https://support.lucidtrading.com/en/articles/12890148-luciddirect-funded-account
+  - https://support.lucidtrading.com/en/articles/12890164-luciddirect-payout-objectives
+  - https://support.lucidtrading.com/en/articles/11404620-simulated-account-fees
+  - https://lucidtrading.com/
+  - https://lucidtrading.com/wp-json/wc/store/v1/products
+- Rule changes:
+  - 2025-11-28 — Funded split set at 90/10 for new accounts — https://support.lucidtrading.com/en/articles/12890092-lucidpro-payouts
+- All sources:
+  - 2026-10-30 · Restricted countries · https://support.lucidtrading.com/en/articles/11404636-restricted-countries
+  - 2026-10-30 · Simulated account fees · https://support.lucidtrading.com/en/articles/11404620-simulated-account-fees
+  - 2026-10-30 · Supported platforms · https://support.lucidtrading.com/en/articles/11404614-lucid-trading-supported-platforms
+  - 2026-10-30 · Maximum number of accounts · https://support.lucidtrading.com/en/articles/11404617-maximum-number-of-accounts
+  - 2026-10-30 · LucidFlex evaluation · https://support.lucidtrading.com/en/articles/12945790-lucidflex-evaluation-account
+  - 2026-10-30 · LucidFlex funded · https://support.lucidtrading.com/en/articles/12945795-lucidflex-funded-account
+  - 2026-10-30 · LucidFlex payouts · https://support.lucidtrading.com/en/articles/12945796-lucidflex-payouts
+  - 2026-10-30 · LucidFlex customization · https://support.lucidtrading.com/en/articles/16226050-lucidflex-customization
+  - 2026-10-30 · LucidDaily evaluation · https://support.lucidtrading.com/en/articles/15996664-luciddaily-evaluation
+  - 2026-10-30 · LucidDaily payouts · https://support.lucidtrading.com/en/articles/15997266-luciddaily-payouts
+  - 2026-10-30 · LucidPro evaluation · https://support.lucidtrading.com/en/articles/12890029-lucidpro-evaluation-account
+  - 2026-10-30 · LucidPro funded · https://support.lucidtrading.com/en/articles/12890069-lucidpro-funded-account
+  - 2026-10-30 · LucidPro payouts · https://support.lucidtrading.com/en/articles/12890092-lucidpro-payouts
+  - 2026-10-30 · LucidPro drawdown · https://support.lucidtrading.com/en/articles/12890136-lucidpro-drawdown
+  - 2026-10-30 · LucidDirect funded · https://support.lucidtrading.com/en/articles/12890148-luciddirect-funded-account
+  - 2026-10-30 · LucidDirect payout objectives · https://support.lucidtrading.com/en/articles/12890164-luciddirect-payout-objectives
+  - 2026-10-30 · Other trading activities (news, automation) · https://support.lucidtrading.com/en/articles/11404728-other-trading-activities
+  - 2026-10-30 · Allowed trading times · https://support.lucidtrading.com/en/articles/11404729-allowed-trading-times
+  - 2026-10-30 · New LucidMaxx program · https://support.lucidtrading.com/en/articles/17327076-new-lucidmaxx-program
+  - 2026-10-30 · Homepage plan picker (pricing config) · https://lucidtrading.com/
+  - 2026-10-30 · Lucid store API (regular prices) · https://lucidtrading.com/wp-json/wc/store/v1/products
+- Data gaps:
+  - LucidDaily daily loss limit article not read; LucidDirect drawdown type not stated in the article read.
+  - Launch dates for LucidDaily and the new LucidMaxx program not published.
+  - Prices were read from the firm's pricing config and WooCommerce store API in a browser on 2026-10-30 (the main site was reachable that time).
+
+## Lux Trading Firm
+<a id="lux-trading-firm"></a>
+
+- Website: https://luxtradingfirm.com/
+- Last verified: 2026-10-30
+- HQ: GB, London — Lux Trading Firm Ltd (verified) — source: https://luxtradingfirm.com/t_c-2/ (2026-10-30)
+- Restricted countries: not_published — source: https://luxtradingfirm.com/t_c-2/ (2026-10-30)
+  - Note: T&C Article 11 refers to 'sanctioned countries' listed in a 'declaration of compliance', but no such list was found on the public site. Whether Pakistan (PK) is restricted could not be confirmed.
+- Program **1-Step Evaluation** (cfd, 1-step) — checked 2026-10-30
+  - https://luxtradingfirm.com/rules-of-engagement-3/
+  - https://luxtradingfirm.com/1-step-evaluation/
+  - https://luxtradingfirm.com/
+  - Unverified fields: sizes
+- Program **INSTA (Instant Funding)** (cfd, instant) — checked 2026-10-30
+  - https://luxtradingfirm.com/rules-of-engagement-3/
+  - https://luxtradingfirm.com/instant-funding/
+- Program **Prediction Markets Challenge** (prediction, 1-step) — checked 2026-10-30
+  - https://luxtradingfirm.com/prediction-markets-funded-accounts/
+- Rule changes:
+  - 2025-09-22 — New trading rules for accounts activated from 22 Sep 2025 — https://luxtradingfirm.com/t_c-2/
+- All sources:
+  - 2026-10-30 · Homepage · https://luxtradingfirm.com/
+  - 2026-10-30 · New trading rules · https://luxtradingfirm.com/rules-of-engagement-3/
+  - 2026-10-30 · Old trading rules (pre-22 Sep 2025 accounts) · https://luxtradingfirm.com/trading-rules/
+  - 2026-10-30 · 1-Step Evaluation page · https://luxtradingfirm.com/1-step-evaluation/
+  - 2026-10-30 · Instant Funding page · https://luxtradingfirm.com/instant-funding/
+  - 2026-10-30 · Prediction Markets page and rules · https://luxtradingfirm.com/prediction-markets-funded-accounts/
+  - 2026-10-30 · Terms & Conditions · https://luxtradingfirm.com/t_c-2/
+- Data gaps:
+  - No restricted-country list published; T&C refer to a 'declaration of compliance' that was not found.
+  - Daily loss limit, weekend holding and leverage not stated in the current (new) trading rules.
+  - $1M evaluation price differs between the rules page (£999) and the homepage (£699).
+  - Founding year not stated (copyright '2020-26' only).
+  - Prediction Markets news/event rules and payout minimum not stated.
+
+## Maven Trading
+<a id="maven-trading"></a>
+
+- Website: https://maventrading.com/
+- Last verified: 2026-10-30
+- HQ: AE, Dubai — MAVEN EDU - FZCO (trading as Maven Trading) (verified) — source: https://maventrading.com/terms-and-conditions (2026-10-30)
+- Restricted countries: published — AF, BY, BF, BI, CF, CG, CU, ER, GN, GW, GY, HT, IR, ML, KP, RU, LC, SL, SO, SS, SD, UA, VU, VE, YE — source: https://maventrading.com/terms-and-conditions (2026-10-30)
+  - Note: Same 25-country list in the Terms (v2026.2, amended 23 Oct 2026) and the FAQ. Pakistan is not on the list. MetaTrader is not available to residents of the United States or Canada; some products show 'not available in your region'.
+- Program **Standard 1-Step** (cfd, 1-step) — checked 2026-10-30
+  - https://maventrading.com/challenges
+  - https://maventrading.com/challenges/1-step
+  - https://maventrading.com/faqs
+- Program **Standard 2-Step** (cfd, 2-step) — checked 2026-10-30
+  - https://maventrading.com/challenges
+  - https://maventrading.com/faqs
+- Program **Standard 3-Step** (cfd, 3-step) — checked 2026-10-30
+  - https://maventrading.com/challenges
+  - https://maventrading.com/faqs
+- Program **2-Step Omo** (cfd, 2-step) — checked 2026-10-30
+  - https://maventrading.com/challenges
+  - https://maventrading.com/faqs
+- Program **Buy Now, Pay Later** (cfd, 1-step) — checked 2026-10-30
+  - https://maventrading.com/challenges
+  - https://maventrading.com/faqs
+  - https://maventrading.com/terms-and-conditions
+- Program **Instant** (cfd, instant) — checked 2026-10-30
+  - https://maventrading.com/challenges/instant
+  - https://maventrading.com/challenges
+  - https://maventrading.com/faqs
+- Program **Instant Mini (24-hour)** (cfd, instant) — checked 2026-10-30
+  - https://maventrading.com/challenges
+  - https://maventrading.com/faqs
+  - https://maventrading.com/terms-and-conditions
+- Program **Prediction Markets 1-Step (Essential)** (prediction, 1-step) — checked 2026-10-30
+  - https://maventrading.com/challenges
+  - https://maventrading.com/faqs
+- Program **Prediction Markets Elite 1-Step** (prediction, 1-step) — checked 2026-10-30
+  - https://maventrading.com/challenges
+  - https://maventrading.com/faqs
+- All sources:
+  - 2026-10-30 · Challenges and prices · https://maventrading.com/challenges
+  - 2026-10-30 · Standard 1-Step page · https://maventrading.com/challenges/1-step
+  - 2026-10-30 · Instant page · https://maventrading.com/challenges/instant
+  - 2026-10-30 · FAQ (rules, restricted countries, payouts) · https://maventrading.com/faqs
+  - 2026-10-30 · Terms and Conditions v2026.2 · https://maventrading.com/terms-and-conditions
+  - 2026-10-30 · Blog (checked for announcements) · https://maventrading.com/blog
+- Data gaps:
+  - No dated rule-change announcements found on the blog (first page, Jun-Oct 2026) or FAQ, so changes[] is empty.
+  - Trailing drawdown lock point for Standard 1-Step, Instant and Mini is not described.
+  - Time limits are not stated for Standard plans, Instant or BNPL.
+  - Prediction Markets: payout minimum, weekend rules and any leverage are not published.
+  - BNPL: the meaning of the 4% 'reward target' shown on the challenge card is not explained in the FAQ.
+
+## Ment Funding
+<a id="ment-funding"></a>
+
+- Website: https://mentfunding.com/
+- Last verified: 2026-10-30
+- HQ: US — Prop Account LLC (US) / Prop Account LC (Cayman Islands) (unverified) — source: https://mentfunding.com/terms-of-service.html (2026-10-30)
+- Restricted countries: not_published — source: https://mentfunding.com/terms-of-service.html (2026-10-30)
+  - Note: No country list found on the homepage, Terms of Service, refund policy or contact page. Terms only say the firm may limit access by jurisdiction. Pakistan's status is not stated.
+- Program **Forex 1-Step** (cfd, 1-step) — checked 2026-10-30
+  - https://mentfunding.com/
+  - https://mentfunding.com/terms-of-service.html
+  - https://mentfunding.com/commissions-and-products/
+  - Unverified fields: eas
+- Program **Futures 1-Step** (futures, 1-step) — checked 2026-10-30
+  - https://mentfunding.com/
+  - https://mentfunding.com/commissions-and-products/
+- Program **Equities 1-Phase** (stocks, 1-step) — checked 2026-10-30
+  - https://mentfunding.com/
+- Rule changes:
+  - 2026-10-18 — Lower leverage on gold and CFD indices — https://mentfunding.com/
+- All sources:
+  - 2026-10-30 · Homepage (rules, programs, scaling) · https://mentfunding.com/
+  - 2026-10-30 · Terms of Service (Jul 2026) · https://mentfunding.com/terms-of-service.html
+  - 2026-10-30 · Commissions and products · https://mentfunding.com/commissions-and-products/
+  - 2026-10-30 · Contact · https://mentfunding.com/contact/
+  - 2026-10-30 · Refund policy · https://mentfunding.com/refund-policy.html
+  - 2026-10-30 · Homepage plan picker (prices) · https://mentfunding.com/
+- Data gaps:
+  - No trading platform is named on any public page we opened.
+  - No restricted-country list published.
+  - EAs: homepage rules say permitted on Forex, Terms of Service say prohibited.
+  - HQ address differs between the Terms (Florida / Cayman) and the contact page (Texas, HQ Pennsylvania).
+  - Payout minimums for Forex and Futures not stated.
+  - Prices were read from the JS plan picker in a browser on 2026-10-30. The picker shows a 5% max daily loss on Forex while the page headline says 4% on every plan.
+
+## Moneta Funded
+<a id="moneta-funded"></a>
+
+- Website: https://monetafunded.com/
+- Last verified: 2026-10-30
+- HQ: not published (unverified) — source: https://help.monetafunded.com/en/articles/14058476-get-to-know-moneta-funded (2026-10-30)
+- Restricted countries: published — AF, TH, VN, CU, MM, KP, AE, IR, VE — source: https://help.monetafunded.com/en/articles/12607025-prohibited-countries (2026-10-30)
+  - Note: Help-centre list: Afghanistan, Thailand, Vietnam, Cuba, Myanmar, North Korea, UAE, Iran, Venezuela. The restriction is based on country of residence. Citizens of listed countries who legally live in an allowed country may join if they provide proof of residence. Pakistan (PK) is not on the list. MT5 is not available to US traders; Match-Trader is.
+- Program **1-Step (revised)** (cfd, 1-step) — checked 2026-10-30
+  - https://help.monetafunded.com/en/articles/17240483-1-step-new-challenge-relaunch-rules-account-sizes-and-payouts
+  - https://help.monetafunded.com/en/articles/13904591-1-step-challenge
+  - https://help.monetafunded.com/en/articles/12532973-leverage-and-commission-structure-across-all-trading-programs
+  - https://help.monetafunded.com/en/articles/13345521-how-does-the-consistency-rule-work-at-moneta-funded
+  - https://help.monetafunded.com/en/articles/12542447-news-trading-at-moneta-funded
+  - https://help.monetafunded.com/en/articles/12146808-which-trading-methods-aren-t-allowed
+  - https://www.monetafunded.com/
+  - Unverified fields: payoutMinimum, timeLimit
+- Program **1-Step Daily** (cfd, 1-step) — checked 2026-10-30
+  - https://help.monetafunded.com/en/articles/16822149-what-is-1-step-daily-and-how-does-it-work
+  - https://help.monetafunded.com/en/articles/16822203-how-do-daily-payouts-work-on-1-step-daily
+  - https://help.monetafunded.com/en/articles/16822425-1-step-daily-vs-the-standard-1-step
+  - https://help.monetafunded.com/en/articles/12542447-news-trading-at-moneta-funded
+  - https://www.monetafunded.com/
+- Program **2-Step** (cfd, 2-step) — checked 2026-10-30
+  - https://help.monetafunded.com/en/articles/13904608-2-step-challenge
+  - https://help.monetafunded.com/en/articles/14627417-2-step-challenge-what-you-get-vs-what-you-don-t-get
+  - https://help.monetafunded.com/en/articles/12532973-leverage-and-commission-structure-across-all-trading-programs
+  - https://help.monetafunded.com/en/articles/12542447-news-trading-at-moneta-funded
+  - https://www.monetafunded.com/
+- Program **Instant Funding** (cfd, instant) — checked 2026-10-30
+  - https://help.monetafunded.com/en/articles/17017469-instant-funding-account
+  - https://help.monetafunded.com/en/articles/12532267-moneta-funded-product-offerings
+  - https://help.monetafunded.com/en/articles/13345521-how-does-the-consistency-rule-work-at-moneta-funded
+  - https://help.monetafunded.com/en/articles/12532973-leverage-and-commission-structure-across-all-trading-programs
+  - https://help.monetafunded.com/en/articles/12542447-news-trading-at-moneta-funded
+  - https://www.monetafunded.com/
+- Program **Instant Funding Pro** (cfd, instant) — checked 2026-10-30
+  - https://help.monetafunded.com/en/articles/17017943-instant-funding-pro-account
+  - https://help.monetafunded.com/en/articles/12532267-moneta-funded-product-offerings
+  - https://help.monetafunded.com/en/articles/12542447-news-trading-at-moneta-funded
+  - https://help.monetafunded.com/en/articles/12532973-leverage-and-commission-structure-across-all-trading-programs
+  - https://www.monetafunded.com/
+- Program **Sprint Challenge** (cfd, other) — checked 2026-10-30
+  - https://help.monetafunded.com/en/articles/14060005-what-is-the-sprint-challenge
+  - https://help.monetafunded.com/en/articles/14060017-sprint-challenge-rules
+  - https://help.monetafunded.com/en/articles/14060008-payout-rules-for-the-sprint-challenge
+  - https://help.monetafunded.com/en/articles/12532973-leverage-and-commission-structure-across-all-trading-programs
+  - https://www.monetafunded.com/
+- Program **Phoenix Instant** (cfd, instant) — checked 2026-10-30
+  - https://www.monetafunded.com/
+- Rule changes:
+  - 2026-09-21 — Instant Funding: 1% floating-loss breach and max-loss lock on payout — https://help.monetafunded.com/en/articles/17017469-instant-funding-account
+  - 2026-07-02 — Instant Funding max loss cut from 6% to 5% trailing — https://help.monetafunded.com/en/articles/12532267-moneta-funded-product-offerings
+- All sources:
+  - 2026-10-30 · Help centre home · https://help.monetafunded.com/en/
+  - 2026-10-30 · Prohibited countries · https://help.monetafunded.com/en/articles/12607025-prohibited-countries
+  - 2026-10-30 · Product offerings overview · https://help.monetafunded.com/en/articles/12532267-moneta-funded-product-offerings
+  - 2026-10-30 · Revised 1-Step rules · https://help.monetafunded.com/en/articles/17240483-1-step-new-challenge-relaunch-rules-account-sizes-and-payouts
+  - 2026-10-30 · 1-Step (earlier page) · https://help.monetafunded.com/en/articles/13904591-1-step-challenge
+  - 2026-10-30 · 1-Step: what you get · https://help.monetafunded.com/en/articles/14626960-1-step-challenge-what-you-get-vs-what-you-don-t-get
+  - 2026-10-30 · 1-Step Daily · https://help.monetafunded.com/en/articles/16822149-what-is-1-step-daily-and-how-does-it-work
+  - 2026-10-30 · 1-Step Daily payouts · https://help.monetafunded.com/en/articles/16822203-how-do-daily-payouts-work-on-1-step-daily
+  - 2026-10-30 · 1-Step Daily vs standard 1-Step · https://help.monetafunded.com/en/articles/16822425-1-step-daily-vs-the-standard-1-step
+  - 2026-10-30 · Can I buy the old 1-Step? · https://help.monetafunded.com/en/articles/16822323-can-i-purchase-the-old-1-step
+  - 2026-10-30 · 2-Step Challenge · https://help.monetafunded.com/en/articles/13904608-2-step-challenge
+  - 2026-10-30 · 2-Step: what you get · https://help.monetafunded.com/en/articles/14627417-2-step-challenge-what-you-get-vs-what-you-don-t-get
+  - 2026-10-30 · Instant Funding · https://help.monetafunded.com/en/articles/17017469-instant-funding-account
+  - 2026-10-30 · Instant Funding Pro · https://help.monetafunded.com/en/articles/17017943-instant-funding-pro-account
+  - 2026-10-30 · Sprint Challenge overview · https://help.monetafunded.com/en/articles/14060005-what-is-the-sprint-challenge
+  - 2026-10-30 · Sprint Challenge rules · https://help.monetafunded.com/en/articles/14060017-sprint-challenge-rules
+  - 2026-10-30 · Sprint Challenge payouts · https://help.monetafunded.com/en/articles/14060008-payout-rules-for-the-sprint-challenge
+  - 2026-10-30 · Phoenix Scaling Program · https://help.monetafunded.com/en/articles/12533211-the-phoenix-scaling-program
+  - 2026-10-30 · Live Plan · https://help.monetafunded.com/en/articles/16413440-what-is-the-monetafunded-live-plan
+  - 2026-10-30 · Leverage and commissions · https://help.monetafunded.com/en/articles/12532973-leverage-and-commission-structure-across-all-trading-programs
+  - 2026-10-30 · News trading (incl. weekend holding) · https://help.monetafunded.com/en/articles/12542447-news-trading-at-moneta-funded
+  - 2026-10-30 · Prohibited trading methods (EAs, copy trading) · https://help.monetafunded.com/en/articles/12146808-which-trading-methods-aren-t-allowed
+  - 2026-10-30 · Consistency rule · https://help.monetafunded.com/en/articles/13345521-how-does-the-consistency-rule-work-at-moneta-funded
+  - 2026-10-30 · Trading platforms · https://help.monetafunded.com/en/articles/12178595-trading-platforms-offered-at-moneta-funded
+  - 2026-10-30 · About Moneta Funded · https://help.monetafunded.com/en/articles/14058476-get-to-know-moneta-funded
+  - 2026-10-30 · Refund policy · https://help.monetafunded.com/en/articles/12542419-moneta-funded-refund-policy
+  - 2026-10-30 · Homepage (HTTP 403) · https://monetafunded.com/
+  - 2026-10-30 · Homepage challenge builder product data (prices) · https://www.monetafunded.com/
+- Data gaps:
+  - Legal entity, registered address and founding year were not found: the help centre does not publish them, and the site footer and terms were blocked.
+  - 1-Step availability: one help-centre page says the revised 1-Step and 1-Step Daily are sold alongside each other. Another says 1-Step Daily is the current one-step product and the 'legacy 1-Step' is not for sale. We list both.
+  - The revised 1-Step article gives no payout minimum or time limit. The $100 minimum and unlimited time come from the earlier 1-Step page and the product overview.
+  - Help-centre articles show only relative update times ('Updated over 2 weeks ago'). Change dates come from dates stated inside the articles.
+  - The web-search quota was used up during this run, so pages could only be found through help-centre navigation.
+  - Prices were read from the product data the homepage challenge builder loads (in a browser on 2026-10-30). Phoenix Instant's loss limits and split were not shown on the homepage card.
+
+## MyFundedFutures
+<a id="myfundedfutures"></a>
+
+- Website: https://myfundedfutures.com/
+- Last verified: 2026-10-30
+- HQ: not published — MyFunded Futures, LLC (unverified) — source: https://myfundedfutures.com/ (2026-10-30)
+- Restricted countries: published — AF, AL, DZ, AO, BS, BB, BY, BA, BW, BF, BG, MM, BI, KH, CM, CF, CN, CG, CI, HR, CU, CD, EC, ET, GH, GI, GY, HT, HK, IS, ID, IR, IQ, JM, JO, KZ, KE, XK, KG, LA, LB, LR, LY, MK, MY, ML, MT, MU, MN, ME, MA, MZ, NA, NR, NI, NG, KP, PK, PA, PG, PH, QA, RO, RU, RW, SN, RS, SI, SO, ZA, SS, LK, SD, SY, TW, TZ, TT, TN, TR, TM, UG, UA, AE, UZ, VE, VN, YE, ZW — source: https://help.myfundedfutures.com/en/articles/8229993-restricted-countries-policy (2026-10-30)
+  - Note: Pakistan is restricted. Also lists Crimea and 'France Metro (FX)' for Corsica and non-mainland islands only (mainland France not restricted). Travellers may keep trading but cannot buy or reset accounts while in a restricted country.
+- Program **Rapid** (futures, 1-step) — checked 2026-10-30
+  - https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified
+  - https://help.myfundedfutures.com/en/articles/13134709-rapid-plan-50k-a-comprehensive-look
+  - https://help.myfundedfutures.com/en/articles/13286542-rapid-plan-100k-a-comprehensive-look
+  - https://help.myfundedfutures.com/en/articles/14116402-rapid-plan-25k-a-comprehensive-look
+  - https://help.myfundedfutures.com/en/articles/8230009-news-trading-policy
+  - https://help.myfundedfutures.com/en/articles/9558251-permitted-times-to-trade
+  - https://myfundedfutures.com/
+- Program **Rapid EOD** (futures, 1-step) — checked 2026-10-30
+  - https://help.myfundedfutures.com/en/articles/16158363-rapid-eod-50k-a-comprehensive-look
+  - https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified
+  - https://myfundedfutures.com/
+- Program **Pro** (futures, 1-step) — checked 2026-10-30
+  - https://help.myfundedfutures.com/en/articles/17573707-comprehensive-look-into-redesigned-pro-plan
+  - https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified
+  - https://help.myfundedfutures.com/en/articles/8230009-news-trading-policy
+  - https://myfundedfutures.com/
+- Program **Builder** (futures, 1-step) — checked 2026-10-30
+  - https://help.myfundedfutures.com/en/articles/14290805-builder-plan-50k-a-comprehensive-guide
+  - https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified
+  - https://help.myfundedfutures.com/en/articles/8230009-news-trading-policy
+  - https://myfundedfutures.com/
+- Program **Studio (limited releases)** (futures, 1-step) — checked 2026-10-30
+  - https://help.myfundedfutures.com/en/articles/17589665-studio-plans-a-comprehensive-guide
+- Rule changes:
+  - 2026-10-14 — Studio #003 ($5K) added — https://help.myfundedfutures.com/en/articles/17589665-studio-plans-a-comprehensive-guide
+  - 2026-08-25 — One-time payment model for all new purchases — https://help.myfundedfutures.com/en/articles/16596406-understanding-the-difference-between-account-resets-and-renewals
+- All sources:
+  - 2026-10-30 · Restricted countries policy · https://help.myfundedfutures.com/en/articles/8229993-restricted-countries-policy
+  - 2026-10-30 · Traders evaluation simplified (all plans) · https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified
+  - 2026-10-30 · Rapid 50K · https://help.myfundedfutures.com/en/articles/13134709-rapid-plan-50k-a-comprehensive-look
+  - 2026-10-30 · Rapid 100K · https://help.myfundedfutures.com/en/articles/13286542-rapid-plan-100k-a-comprehensive-look
+  - 2026-10-30 · Rapid 25K · https://help.myfundedfutures.com/en/articles/14116402-rapid-plan-25k-a-comprehensive-look
+  - 2026-10-30 · Rapid EOD 50K · https://help.myfundedfutures.com/en/articles/16158363-rapid-eod-50k-a-comprehensive-look
+  - 2026-10-30 · Redesigned Pro plan · https://help.myfundedfutures.com/en/articles/17573707-comprehensive-look-into-redesigned-pro-plan
+  - 2026-10-30 · Builder 50K · https://help.myfundedfutures.com/en/articles/14290805-builder-plan-50k-a-comprehensive-guide
+  - 2026-10-30 · Studio plans · https://help.myfundedfutures.com/en/articles/17589665-studio-plans-a-comprehensive-guide
+  - 2026-10-30 · Resets vs renewals (one-time model) · https://help.myfundedfutures.com/en/articles/16596406-understanding-the-difference-between-account-resets-and-renewals
+  - 2026-10-30 · Inactivity rule · https://help.myfundedfutures.com/en/articles/16596524-inactivity-rule-one-time-payment-model
+  - 2026-10-30 · News trading policy · https://help.myfundedfutures.com/en/articles/8230009-news-trading-policy
+  - 2026-10-30 · Fair play and prohibited practices · https://help.myfundedfutures.com/en/articles/8444599-fair-play-and-prohibited-trading-practices
+  - 2026-10-30 · Copy trading · https://help.myfundedfutures.com/en/articles/10771500-copy-trading-at-myfundedfutures
+  - 2026-10-30 · Permitted times to trade · https://help.myfundedfutures.com/en/articles/9558251-permitted-times-to-trade
+  - 2026-10-30 · Supported platforms · https://help.myfundedfutures.com/en/articles/8528335-overview-of-supported-platforms-at-mffu
+  - 2026-10-30 · Homepage · https://myfundedfutures.com/
+- Data gaps:
+  - Rapid 150K payout buffer and Builder 25K/100K/150K payout caps not captured.
+  - Legal entity address and country not found.
+  - Launch dates for Rapid EOD, redesigned Pro and Builder not stated.
+  - Prices: only regular list prices are recorded; per-plan prices were read from the homepage plan picker (JS-rendered) in a browser on 2026-10-30.
+
+## Nordic Funder
+<a id="nordic-funder"></a>
+
+- Website: https://nordicfunder.com/
+- Last verified: 2026-10-30
+- HQ: not published — Forest Park FX LTD or Prop Account, LLC (pages disagree) (unverified) — source: https://nordicfunder.com/about/ (2026-10-30)
+- Restricted countries: not_published — source: https://nordicfunder.com/faq/ (2026-10-30)
+  - Note: FAQ and Terms carry no country list; FAQ says to contact support for eligibility. Pakistan's status not stated.
+- Program **FX & CFDs One-Step** (cfd, 1-step) — checked 2026-10-30
+  - https://nordicfunder.com/programs/fx-cfd/
+  - https://nordicfunder.com/faq/
+  - https://nordicfunder.com/
+  - Unverified fields: payoutFrequency
+- Program **FX & CFDs Two-Step** (cfd, 2-step) — checked 2026-10-30
+  - https://nordicfunder.com/programs/fx-cfd/
+  - https://nordicfunder.com/faq/
+  - Unverified fields: payoutFrequency
+- Program **FX & CFDs Three-Step** (cfd, 3-step) — checked 2026-10-30
+  - https://nordicfunder.com/programs/fx-cfd/
+  - https://nordicfunder.com/faq/
+  - Unverified fields: payoutFrequency
+- Program **FX & CFDs One-Step Lite** (cfd, 1-step) — checked 2026-10-30
+  - https://nordicfunder.com/programs/fx-cfd/
+  - https://nordicfunder.com/
+- Program **FX & CFDs Two-Step Lite** (cfd, 2-step) — checked 2026-10-30
+  - https://nordicfunder.com/programs/fx-cfd/
+  - https://nordicfunder.com/
+- Program **Crypto One-Step** (crypto, 1-step) — checked 2026-10-30
+  - https://nordicfunder.com/programs/crypto/
+  - https://nordicfunder.com/faq/
+  - Unverified fields: platforms
+- Program **Crypto Two-Step** (crypto, 2-step) — checked 2026-10-30
+  - https://nordicfunder.com/programs/crypto/
+  - Unverified fields: platforms
+- Program **Equities One-Step Daily** (stocks, 1-step) — checked 2026-10-30
+  - https://nordicfunder.com/programs/equities/
+  - Unverified fields: platforms, weekend
+- Program **Instant Funding Lite** (cfd, instant) — checked 2026-10-30
+  - https://nordicfunder.com/programs/instant-funding/
+  - https://nordicfunder.com/
+- All sources:
+  - 2026-10-30 · Homepage · https://nordicfunder.com/
+  - 2026-10-30 · FX & CFD programs · https://nordicfunder.com/programs/fx-cfd/
+  - 2026-10-30 · Crypto programs · https://nordicfunder.com/programs/crypto/
+  - 2026-10-30 · Equities program · https://nordicfunder.com/programs/equities/
+  - 2026-10-30 · Instant Funding · https://nordicfunder.com/programs/instant-funding/
+  - 2026-10-30 · FAQ · https://nordicfunder.com/faq/
+  - 2026-10-30 · Terms · https://nordicfunder.com/legal/terms/
+  - 2026-10-30 · About · https://nordicfunder.com/about/
+- Data gaps:
+  - No restricted-country list published.
+  - Legal entity unclear: pages name both Forest Park FX LTD and Prop Account, LLC; no address. Terms page says the operative terms are awaiting counsel sign-off.
+  - Standard FX One/Two/Three-Step pages show no payout schedule; the FAQ's 'no delay, then every 14 days' is applied but not confirmed per track.
+  - News-trading rules not stated anywhere on the site.
+  - Crypto contract type (CFD vs perpetual) and per-track platform not stated.
+
+## OneUp Trader
+<a id="oneup-trader"></a>
+
+- Website: https://www.oneuptrader.com/
+- Last verified: 2026-10-30
+- HQ: US, Wilmington — OneUp Trader (verified) — source: https://www.oneuptrader.com/terms-conditions/ (2026-10-30)
+- Restricted countries: published — AF, BY, MM, BF, BI, CU, CF, IR, IQ, LR, LY, KP, SD, SO, SY, YE, ZM, ZW, CD — source: https://help.oneuptrader.com/article/363-is-there-a-geographical-restriction (2026-10-30)
+  - Note: Help article (last updated 27 Jan 2026) says traders are welcome worldwide except OFAC-sanctioned countries and lists the countries above ('mainly'). It also lists 'The Balkans' without naming countries (not mapped to codes). Ukraine and Russia allowed at the trader's own risk. Pakistan (PK) is not on the list.
+- Program **Evaluation** (futures, 1-step) — checked 2026-10-30
+  - https://www.oneuptrader.com/
+  - https://help.oneuptrader.com/article/387-what-are-the-rules-of-the-evaluation
+  - https://help.oneuptrader.com/article/385-evaluation-rules-parameters
+  - https://help.oneuptrader.com/article/371-how-does-the-billing-work
+  - https://help.oneuptrader.com/article/520-getting-funded-process
+  - https://help.oneuptrader.com/article/372-funded-trader-rules
+  - https://help.oneuptrader.com/article/376-profit-info
+  - https://help.oneuptrader.com/article/388-funded-trader-trailing-drawdown
+  - https://help.oneuptrader.com/article/386-funded-trader-dynamic-scaling-targets
+  - https://help.oneuptrader.com/article/367-economic-release-calendar
+  - https://help.oneuptrader.com/article/378-funded-trader-permissible-products
+  - https://blog.oneuptrader.com/announcements/oneup-trader-trailing-drawdown/
+- Program **Pro Evaluation** (futures, 1-step) — checked 2026-10-30
+  - https://www.oneuptrader.com/
+  - https://blog.oneuptrader.com/announcements/new-pro-evaluations-now-available-with-only-5-trading-days/
+  - https://help.oneuptrader.com/article/387-what-are-the-rules-of-the-evaluation
+  - Unverified fields: priceNote
+- Rule changes:
+  - 2026-09-16 — Pro Evaluation launched with 5 minimum trading days — https://blog.oneuptrader.com/announcements/new-pro-evaluations-now-available-with-only-5-trading-days/
+- All sources:
+  - 2026-10-30 · Home page (pricing, FAQ) · https://www.oneuptrader.com/
+  - 2026-10-30 · Terms & Conditions · https://www.oneuptrader.com/terms-conditions/
+  - 2026-10-30 · About us · https://www.oneuptrader.com/about-us/
+  - 2026-10-30 · Geographical restriction · https://help.oneuptrader.com/article/363-is-there-a-geographical-restriction
+  - 2026-10-30 · Evaluation rules · https://help.oneuptrader.com/article/387-what-are-the-rules-of-the-evaluation
+  - 2026-10-30 · Evaluation rules & parameters · https://help.oneuptrader.com/article/385-evaluation-rules-parameters
+  - 2026-10-30 · Express Funding · https://help.oneuptrader.com/article/488-express-funding-how-does-it-work
+  - 2026-10-30 · Billing · https://help.oneuptrader.com/article/371-how-does-the-billing-work
+  - 2026-10-30 · Getting funded process · https://help.oneuptrader.com/article/520-getting-funded-process
+  - 2026-10-30 · Account fees · https://help.oneuptrader.com/article/373-account-fees
+  - 2026-10-30 · Funded trader rules · https://help.oneuptrader.com/article/372-funded-trader-rules
+  - 2026-10-30 · Profit info and withdrawals · https://help.oneuptrader.com/article/376-profit-info
+  - 2026-10-30 · Funded trailing drawdown · https://help.oneuptrader.com/article/388-funded-trader-trailing-drawdown
+  - 2026-10-30 · Dynamic scaling targets · https://help.oneuptrader.com/article/386-funded-trader-dynamic-scaling-targets
+  - 2026-10-30 · Economic release calendar (news rule) · https://help.oneuptrader.com/article/367-economic-release-calendar
+  - 2026-10-30 · Funded permissible products/times · https://help.oneuptrader.com/article/378-funded-trader-permissible-products
+  - 2026-10-30 · Multiple accounts · https://help.oneuptrader.com/article/505-can-i-have-multiple-evaluation-accounts
+  - 2026-10-30 · Daily loss limit removed (2023) · https://help.oneuptrader.com/article/486-no-more-daily-loss-limit-restrictions
+  - 2026-10-30 · Payout ratio (2022) · https://help.oneuptrader.com/article/476-more-profits-for-you-with-our-new-payout-ratio
+  - 2026-10-30 · Crypto withdrawals · https://help.oneuptrader.com/article/478-withdraw-profits-via-cryptocurrency
+  - 2026-10-30 · Announcements: Pro Evaluation · https://blog.oneuptrader.com/announcements/new-pro-evaluations-now-available-with-only-5-trading-days/
+  - 2026-10-30 · Announcements: trailing drawdown explained · https://blog.oneuptrader.com/announcements/oneup-trader-trailing-drawdown/
+  - 2026-10-30 · Announcements index · https://blog.oneuptrader.com/category/announcements/
+- Data gaps:
+  - Whether automated trading/bots are allowed is not stated on official pages.
+  - Activation fee for sizes above 50K and for Pro Evaluation is described only as the remaining 50% of the evaluation fee; exact amounts are not published as text.
+  - Funded Dynamic Scaling contract limits are shown only in an image on the help centre and could not be read.
+  - Funded drawdown amounts per size are not listed in text; the firm only states that the same real-time trailing rule (stopping at the starting balance) applies to funded accounts.
+  - Founding year not stated (About page says 'more than a decade').
+
+## Phidias Propfirm
+<a id="phidias"></a>
+
+- Website: https://phidiaspropfirm.com/
+- Last verified: 2026-10-30
+- HQ: GI — Phidias Propfirm LTD (verified) — source: https://phidiaspropfirm.com/tou (2026-10-30)
+- Restricted countries: published — AF, DZ, AO, AL, BA, BG, BY, BW, BF, BI, HR, CF, CU, CD, KP, EC, ET, GY, HT, IR, ID, IQ, JM, KE, XK, LA, LB, LY, MU, MK, ME, ML, MT, MZ, NA, NI, NG, MM, PK, PG, PH, RO, RU, SN, RS, SO, ZA, SD, SS, SY, LK, SI, TZ, TT, TN, VE, YE, ZW — source: https://phidiaspropfirm.com/tou (2026-10-30)
+  - Note: Pakistan (PK) is restricted. List is Annex No. 1 of the Terms of Usage (59 entries), 'subject to modification'. Also lists 'Crimea (region of Ukraine)' (no ISO code) and 'Slovenia and Yugoslavia' (mapped to SI). Kosovo mapped to XK (user-assigned code).
+- Program **Express to Live (E2L)** (futures, 1-step) — checked 2026-10-30
+  - https://phidiaspropfirm.com/
+  - https://phidiaspropfirm.com/rules
+  - https://phidiaspropfirm.com/accounts
+  - Unverified fields: priceNote
+- Program **Fundamental** (futures, 1-step) — checked 2026-10-30
+  - https://phidiaspropfirm.com/rules
+  - https://phidiaspropfirm.com/
+  - https://phidiaspropfirm.com/accounts
+- Program **Premium** (futures, 1-step) — checked 2026-10-30
+  - https://phidiaspropfirm.com/rules
+  - https://phidiaspropfirm.com/
+  - https://phidiaspropfirm.com/accounts
+  - Unverified fields: minDays
+- Program **10K Drawdown Challenge (contest)** (futures, other) — checked 2026-10-30
+  - https://phidiaspropfirm.com/rules
+  - https://phidiaspropfirm.com/accounts
+  - Unverified fields: platforms
+- All sources:
+  - 2026-10-30 · Homepage · https://phidiaspropfirm.com/
+  - 2026-10-30 · Trading rules · https://phidiaspropfirm.com/rules
+  - 2026-10-30 · Accounts · https://phidiaspropfirm.com/accounts
+  - 2026-10-30 · Terms of Usage (entity, Annex 1 restricted countries) · https://phidiaspropfirm.com/tou
+  - 2026-10-30 · About us · https://phidiaspropfirm.com/about-us
+  - 2026-10-30 · Education / blog index · https://phidiaspropfirm.com/education
+  - 2026-10-30 · Prop firms for US traders (firm article) · https://phidiaspropfirm.com/education/prop-firms-for-us-traders
+  - 2026-10-30 · Accounts page pricing config (prices) · https://phidiaspropfirm.com/accounts
+- Data gaps:
+  - E2L activation fee conflicts: homepage card shows $149 struck through to $0; rules page lists $83 / $149 / $149 / $169 'lifetime'.
+  - Premium minimum evaluation days: Premium section says 1 day, general section says 3 days.
+  - Help centre (helpcenter.phidiaspropfirm.com), FAQ and changelog are JavaScript-rendered and returned no content, so no dated rule-change announcements could be confirmed; changes left empty.
+  - Founded year not stated (site only says it has operated for 3 years); no registered address published.
+  - 10K Drawdown Challenge: rules page does not state which platforms it runs on; firm-wide platforms assumed.
+  - Prices were read from the live pricing config on the accounts page (2026-10-30). An older cached script on the same site lists different Fundamental/Premium prices; the live config, which the page actually uses, was recorded.
+
+## PipFarm
+<a id="pipfarm"></a>
+
+- Website: https://pipfarm.com/
+- Last verified: 2026-10-30
+- HQ: SG — ECI Ventures Pte. Ltd. (UEN 202329954C) (verified) — source: https://pipfarm.com/ (2026-10-30)
+- Restricted countries: published — AF, CF, CG, CD, IR, LY, KP, SO, SS, SD, SY, US, YE — source: https://help.pipfarm.com/articles/4318163-prohibited-country-list (2026-10-30)
+  - Note: Prohibited by tax residency: Afghanistan, Central African Republic, Congo Republic, Crimea (a region, so no country code added; the rest of Ukraine is not listed), DR Congo, Iran, Libya, North Korea, Somalia, South Sudan, Sudan, Syria, United States, Yemen. Also prohibited by nationality regardless of residence: Iran, North Korea, United States. Pakistan is not on the list.
+- Program **1-Stage Challenge (Classic / Endurance / Consistency)** (cfd, 1-step) — checked 2026-10-30
+  - https://help.pipfarm.com/articles/0873123-challenge-mode-comparison
+  - https://help.pipfarm.com/articles/7719299-classic-mode-introduction
+  - https://help.pipfarm.com/articles/9367703-how-payouts-work
+  - https://help.pipfarm.com/articles/1900230-payout-caps
+  - https://help.pipfarm.com/articles/7969763-leverage-and-margin-requirements
+  - https://help.pipfarm.com/articles/3206378-extended-time-limit-add-on
+  - Unverified fields: sizes
+- Program **2-Stage Challenge (Classic / Endurance / Consistency)** (cfd, 2-step) — checked 2026-10-30
+  - https://help.pipfarm.com/articles/0873123-challenge-mode-comparison
+  - https://help.pipfarm.com/articles/7719299-classic-mode-introduction
+  - Unverified fields: sizes
+- Program **One Step Light** (cfd, 1-step) — checked 2026-10-30
+  - https://help.pipfarm.com/articles/7831815-one-step-light
+  - https://help.pipfarm.com/articles/1900230-payout-caps
+- Program **Swing Account** (cfd, 2-step) — checked 2026-10-30
+  - https://help.pipfarm.com/articles/2145428-swing-account
+- Program **Instant Account (EOD / Equity / Payout trailing)** (cfd, instant) — checked 2026-10-30
+  - https://help.pipfarm.com/articles/4791772-eod-trailing-instant-account
+  - https://help.pipfarm.com/articles/5487245-equity-trailing-instant-account
+  - https://help.pipfarm.com/articles/3262423-payout-trailing-instant-account
+  - https://pipfarm.com/instant
+- Program **Pay with Profits (Consistency / Endurance)** (cfd, other) — checked 2026-10-30
+  - https://help.pipfarm.com/articles/4035678-pay-with-profits-overview
+  - https://pipfarm.com/#challenges
+  - https://pipfarm.com/pay-with-profits
+- Rule changes:
+  - 2026-09-23 — One Step Light model updated — https://help.pipfarm.com/articles/7831815-one-step-light
+  - 2026-08-27 — Lower payout caps and minimums on challenge accounts — https://help.pipfarm.com/articles/1900230-payout-caps
+  - 2026-08-19 — EOD Trailing Instant drawdown widened — https://help.pipfarm.com/articles/4791772-eod-trailing-instant-account
+  - 2026-04-09 — Classic funded consistency and time-limit add-ons — https://help.pipfarm.com/articles/7719299-classic-mode-introduction
+- All sources:
+  - 2026-10-30 · Prohibited country list · https://help.pipfarm.com/articles/4318163-prohibited-country-list
+  - 2026-10-30 · Who cannot join · https://help.pipfarm.com/articles/1083211-who-cannot-join-pipfarm
+  - 2026-10-30 · Challenge mode comparison · https://help.pipfarm.com/articles/0873123-challenge-mode-comparison
+  - 2026-10-30 · Classic mode · https://help.pipfarm.com/articles/7719299-classic-mode-introduction
+  - 2026-10-30 · One Step Light · https://help.pipfarm.com/articles/7831815-one-step-light
+  - 2026-10-30 · Swing Account · https://help.pipfarm.com/articles/2145428-swing-account
+  - 2026-10-30 · EOD Trailing Instant · https://help.pipfarm.com/articles/4791772-eod-trailing-instant-account
+  - 2026-10-30 · Equity Trailing Instant · https://help.pipfarm.com/articles/5487245-equity-trailing-instant-account
+  - 2026-10-30 · Payout Trailing Instant · https://help.pipfarm.com/articles/3262423-payout-trailing-instant-account
+  - 2026-10-30 · Pay with Profits · https://help.pipfarm.com/articles/4035678-pay-with-profits-overview
+  - 2026-10-30 · How payouts work · https://help.pipfarm.com/articles/9367703-how-payouts-work
+  - 2026-10-30 · Payout caps · https://help.pipfarm.com/articles/1900230-payout-caps
+  - 2026-10-30 · Leverage and margin · https://help.pipfarm.com/articles/7969763-leverage-and-margin-requirements
+  - 2026-10-30 · Time limit add-on · https://help.pipfarm.com/articles/3206378-extended-time-limit-add-on
+  - 2026-10-30 · News trading policy · https://help.pipfarm.com/articles/9200020-news-trading-policy
+  - 2026-10-30 · Weekend holding · https://help.pipfarm.com/articles/9914179-holding-positions-overnight-and-at-weekends
+  - 2026-10-30 · Automated trading · https://help.pipfarm.com/articles/9435400-automated-trading-guidelines
+  - 2026-10-30 · Copy trading · https://help.pipfarm.com/articles/2914190-copy-trading-guidelines
+  - 2026-10-30 · Platform · https://help.pipfarm.com/articles/0752617-trading-platform-and-simulated-market-data
+  - 2026-10-30 · Challenge picker (prices) · https://pipfarm.com/#challenges
+  - 2026-10-30 · Instant customiser (prices) · https://pipfarm.com/instant
+- Data gaps:
+  - Prices for One Step Light, Swing, Instant and Pay with Profits are not in the help centre (checkout only).
+  - Daily-loss calculation basis (balance vs equity) is not stated on the comparison page.
+  - One Step Light and Swing list only the size range 5K–150K, not every size.
+  - One-Stage and Two-Stage prices were not re-checked on 2026-10-30: the live picker showed $25–$420 for one model (5K–150K), which differs from the older figures recorded here, and the picker did not reliably switch models.
+
+## Pipstone Capital
+<a id="pipstone-capital"></a>
+
+- Website: https://pipstonecapital.com/
+- Last verified: 2026-10-30
+- HQ: not published — Pipstone - FZCO (not_published) — source: https://pipstonecapital.com/terms-conditions (2026-10-30)
+- Restricted countries: published — AF, CU, IR, IQ, KP, SY, SD — source: https://pipstonecapital.com/terms-conditions (2026-10-30)
+  - Note: Terms §1: Afghanistan, Cuba, Iran, Iraq, North Korea, Syria, Sudan, plus any sanctioned jurisdiction. The site's restricted-countries page links to a separate help article we could not open. Pakistan is not on the Terms list.
+- Program **1-Step Challenge** (cfd, 1-step) — checked 2026-10-30
+  - https://help.pipstonecapital.com/en/articles/11968798-what-is-the-1-step-challenge-and-how-does-it-work
+  - https://help.pipstonecapital.com/en/articles/11983693-what-are-the-drawdown-rules
+  - https://pipstonecapital.com/challenges
+  - https://pipstonecapital.com/terms-conditions
+  - https://pipstonecapital.com/
+- Program **2-Step Challenge** (cfd, 2-step) — checked 2026-10-30
+  - https://help.pipstonecapital.com/en/articles/11983492-what-is-the-2-step-challenge-and-how-does-it-work
+  - https://pipstonecapital.com/challenges
+  - https://pipstonecapital.com/
+  - Unverified fields: drawdownType, payoutFrequency
+- Program **Instant Funding** (cfd, instant) — checked 2026-10-30
+  - https://help.pipstonecapital.com/en/articles/12590944-what-is-the-instant-funding-model-and-how-does-it-work
+  - https://help.pipstonecapital.com/en/articles/12633536-maximum-trailing-drawdown-5
+  - https://help.pipstonecapital.com/en/articles/12590974-how-is-profit-sharing-handled
+  - https://pipstonecapital.com/
+- All sources:
+  - 2026-10-30 · Homepage · https://pipstonecapital.com/
+  - 2026-10-30 · Challenges page · https://pipstonecapital.com/challenges
+  - 2026-10-30 · Terms & Conditions · https://pipstonecapital.com/terms-conditions
+  - 2026-10-30 · Restricted countries page · https://pipstonecapital.com/restricted-countries
+  - 2026-10-30 · 1-Step Challenge · https://help.pipstonecapital.com/en/articles/11968798-what-is-the-1-step-challenge-and-how-does-it-work
+  - 2026-10-30 · 2-Step Challenge · https://help.pipstonecapital.com/en/articles/11983492-what-is-the-2-step-challenge-and-how-does-it-work
+  - 2026-10-30 · Instant Funding model · https://help.pipstonecapital.com/en/articles/12590944-what-is-the-instant-funding-model-and-how-does-it-work
+  - 2026-10-30 · Instant trailing drawdown · https://help.pipstonecapital.com/en/articles/12633536-maximum-trailing-drawdown-5
+  - 2026-10-30 · Instant profit split · https://help.pipstonecapital.com/en/articles/12590974-how-is-profit-sharing-handled
+  - 2026-10-30 · Drawdown rules · https://help.pipstonecapital.com/en/articles/11983693-what-are-the-drawdown-rules
+  - 2026-10-30 · Platforms · https://help.pipstonecapital.com/en/articles/11983675-what-platforms-can-i-trade-on
+  - 2026-10-30 · News trading · https://help.pipstonecapital.com/en/articles/12590986-can-i-trade-during-news-events
+  - 2026-10-30 · Weekend holding · https://help.pipstonecapital.com/en/articles/11983871-can-i-hold-trades-over-the-weekend
+  - 2026-10-30 · Copy trading · https://help.pipstonecapital.com/en/articles/12855447-is-copy-trading-allowed
+  - 2026-10-30 · KYC & eligibility · https://help.pipstonecapital.com/en/articles/15308958-kyc-eligibility-requirements
+  - 2026-10-30 · Homepage challenge picker (prices) · https://pipstonecapital.com/
+- Data gaps:
+  - Platforms: help centre names cTrader and Match-Trader; homepage also lists MT5.
+  - Registered country/address for Pipstone - FZCO not published.
+  - The restricted-countries page points to a help article we could not locate; Terms list used.
+  - 1-Step drawdown type and daily-loss calculation basis not stated.
+  - Prices were read from the JS challenge picker in a browser on 2026-10-30.
+
+## Propr
+<a id="propr"></a>
+
+- Website: https://www.propr.xyz/
+- Last verified: 2026-10-30
+- HQ: VG, Road Town — Propr Limited (Reg. No. 2211330) (verified) — source: https://www.propr.xyz/terms (2026-10-30)
+- Restricted countries: published — BD, BY, BF, CF, CG, CU, ET, HT, IR, IQ, KZ, KG, LB, LY, ML, MM, NG, KP, PK, RU, SO, SS, SD, SY, TJ, TM, UZ, VE, YE, ZW — source: https://www.propr.xyz/terms (2026-10-30)
+  - Note: Terms clause 2.1(b). Also Crimea, Donetsk, Luhansk and any OFAC-sanctioned jurisdiction. 'Congo' is listed without specifying which; mapped to CG. Pakistan (PK) IS restricted. The firm may update the list; the platform holds the current version.
+- Program **Classic 1-Step** (crypto, 1-step) — checked 2026-10-30
+  - https://www.propr.xyz/rules
+  - https://www.propr.xyz/
+  - Unverified fields: payoutMinimum, copyTrading, leverage
+- Program **Turbo 1-Step** (crypto, 1-step) — checked 2026-10-30
+  - https://www.propr.xyz/rules
+  - https://www.propr.xyz/
+  - Unverified fields: payoutMinimum, copyTrading, leverage
+- Program **Pro 1-Step** (crypto, 1-step) — checked 2026-10-30
+  - https://www.propr.xyz/rules
+  - https://www.propr.xyz/
+  - Unverified fields: payoutMinimum, copyTrading, leverage
+- Program **Classic 2-Step** (crypto, 2-step) — checked 2026-10-30
+  - https://www.propr.xyz/rules
+  - https://www.propr.xyz/
+  - Unverified fields: payoutMinimum, copyTrading, leverage
+- Rule changes:
+  - 2026-07-27 — Daily loss now % of start-of-day balance (Rulebook v1.0.5) — https://www.propr.xyz/rules
+  - 2026-07-21 — Daily loss basis changed (Rulebook v1.0.4) — https://www.propr.xyz/rules
+  - 2026-06-29 — Turbo 1-Step added; funded cap raised to $300K (Rulebook v1.0.3) — https://www.propr.xyz/rules
+  - 2026-04-23 — Daily loss fixed at % of starting balance (Rulebook v1.0.2) — https://www.propr.xyz/rules
+  - 2026-02-25 — Launch (Rulebook v1.0 / v1.0.1) — https://www.propr.xyz/rules
+- All sources:
+  - 2026-10-30 · Homepage · https://www.propr.xyz/
+  - 2026-10-30 · Rulebook v1.0.5 (rules, prices, changelog) · https://www.propr.xyz/rules
+  - 2026-10-30 · Terms and Conditions (entity, restricted jurisdictions) · https://www.propr.xyz/terms
+- Data gaps:
+  - Payout minimum: rulebook §11 says $20, launch changelog said $50 with no recorded change.
+  - BTC/ETH leverage: rulebook table says 10x, a chart on the same page and the homepage say 5x.
+  - Copy trading: rulebook §14 allows it between own accounts; Terms Annex 2 prohibits it.
+  - Pro 1-Step has no changelog entry; launch date unknown.
+  - Equity, index, commodity and FX perps are offered alongside crypto; markets field shows crypto only.
+
+## Purdia Capital
+<a id="purdia-capital"></a>
+
+- Website: https://purdia.com/
+- Last verified: 2026-10-30
+- HQ: not published (not_published) — source: https://purdia.com/knowledgebase/general/policies-and-compliance (2026-10-30)
+- Restricted countries: unverified — source: https://purdia.com/knowledgebase/prohibited-countries (2026-10-30)
+  - Note: Pakistan (PK): unknown. Purdia publishes a 'Prohibited Countries' knowledge-base page and says it cannot serve residents of certain jurisdictions as set by its brokerage and compliance partners (may change without notice), but the page is script-rendered and the country names could not be read.
+- Program **EOD Evaluation** (futures, 1-step) — checked 2026-10-30
+  - https://purdia.com/
+  - https://purdia.com/programs
+  - https://purdia.com/knowledgebase/general/payouts-global
+  - https://purdia.com/knowledgebase/general/rules-and-risk-management
+  - https://purdia.com/de/terms-and-conditions
+  - Unverified fields: sizes, billing, phases, dailyLoss, maxDrawdown, drawdownType, payoutFrequency, minDays, consistency, copyTrading, weekend, leverage
+- Program **Pro Evaluation** (futures, 1-step) — checked 2026-10-30
+  - https://purdia.com/programs
+  - https://purdia.com/
+  - Unverified fields: sizes, billing, phases, maxDrawdown, payoutFrequency, minDays, consistency, copyTrading, weekend, leverage
+- Program **Instant Funded (EOD)** (futures, instant) — checked 2026-10-30
+  - https://purdia.com/
+  - https://purdia.com/programs
+  - Unverified fields: sizes, maxDrawdown, drawdownType, payoutFrequency, minDays, consistency, copyTrading, weekend, leverage
+- Program **Static Instant Funded** (futures, instant) — checked 2026-10-30
+  - https://purdia.com/
+  - https://purdia.com/programs
+  - Unverified fields: sizes, dailyLoss, maxDrawdown, payoutFrequency, minDays, consistency, copyTrading, weekend, leverage
+- Program **100K Pioneer (Pilot)** (futures, instant) — checked 2026-10-30
+  - https://purdia.com/
+  - https://purdia.com/de/pilot
+  - Unverified fields: sizes, dailyLoss, maxDrawdown, drawdownType, payoutFrequency, minDays, consistency, copyTrading, weekend, leverage
+- Rule changes:
+  - 2026-10-01 — Inactivity closure after 14 days — https://purdia.com/knowledgebase/general/rules-and-risk-management
+- All sources:
+  - 2026-10-30 · Homepage (plan cards) · https://purdia.com/
+  - 2026-10-30 · Programs · https://purdia.com/programs
+  - 2026-10-30 · Pilot products (German) · https://purdia.com/de/pilot
+  - 2026-10-30 · FAQ (German) · https://purdia.com/de/faq
+  - 2026-10-30 · Terms and conditions (German) · https://purdia.com/de/terms-and-conditions
+  - 2026-10-30 · Risk disclosure (German) · https://purdia.com/de/risk-disclosure
+  - 2026-10-30 · KB: Rules and risk management · https://purdia.com/knowledgebase/general/rules-and-risk-management
+  - 2026-10-30 · KB: Payouts · https://purdia.com/knowledgebase/general/payouts-global
+  - 2026-10-30 · KB: Live Funded Account · https://purdia.com/knowledgebase/general/funding-process/live-funded-account
+  - 2026-10-30 · KB: Policies and compliance · https://purdia.com/knowledgebase/general/policies-and-compliance
+  - 2026-10-30 · KB: Prohibited countries · https://purdia.com/knowledgebase/prohibited-countries
+  - 2026-10-30 · KB: How many accounts can I trade · https://purdia.com/knowledgebase/general/getting-started/how-many-accounts-can-i-trade
+  - 2026-10-30 · KB: Trading multiple accounts · https://purdia.com/knowledgebase/multiple-accounts
+- Data gaps:
+  - purdia.com is fully script-rendered: every page fetched (home, programs, knowledge base, terms, FAQ, checkout) returned only the page title. All rules and prices come from search-engine snippets of official purdia.com URLs, so most program fields are marked unverified.
+  - Prohibited-countries list exists but country names could not be read; Pakistan status unknown.
+  - Legal entity, registered address and founded year not found on readable official content.
+  - Evaluation billing: cards show a price 'for the first month'; whether later months rebill at the listed regular price is not confirmed.
+  - Only the sizes seen on official snippets are listed (EOD Eval 50K/100K, Pro Eval 100K, Instant 25K/50K, Static Instant 100K/150K, Pioneer 100K); other sizes may exist. A 25K Beginner Evaluation ($119) appears only on an older checkout page and was not included.
+  - Payout minimum/maximum and SFA-stage requirements for evaluation accounts not published in readable form; Pro Evaluation and Instant Funded daily loss limits not shown.
+  - Overnight rule taken from a truncated snippet ('automatically closed prior to the ...' daily close).
+  - Web search budget ran out before further checks.
+
+## QT Funded
+<a id="qt-funded"></a>
+
+- Website: https://qtfunded.quanttekel.com/
+- Last verified: 2026-10-30
+- HQ: VC — Quant Tekel SVG (verified) — source: https://qtfunded.quanttekel.com/ (2026-10-30)
+- Restricted countries: published — IR, IQ, MM, BY, KP, KR, PK, SY, EG, RU, CY, SD — source: https://support.qtfunded.com/support/articles/5295613659039-restricted-countries (2026-10-30)
+  - Note: Help centre list: Iran, Iraq, Myanmar, Belarus, North Korea, South Korea, Russia (MT5), Pakistan, Syria, Egypt, United States (MT5 and cTrader), Canada (MT5). Website jurisdictional notice adds Cyprus and Sudan and lists Russia without platform qualifier. US and Canada are platform-specific restrictions only (US clients may use TradeLocker) and are not in the code list. Pakistan (PK) is restricted.
+- Program **QT One (1-Step)** (cfd, 1-step) — checked 2026-10-30
+  - https://qtfunded.quanttekel.com/evaluations/
+  - https://support.qtfunded.com/support/articles/9000000000001-qt-one
+  - https://support.qtfunded.com/support/articles/5412723610527-can-i-hold-trades-over-the-weekend
+  - Unverified fields: sizes
+- Program **QT Two (2-Step)** (cfd, 2-step) — checked 2026-10-30
+  - https://qtfunded.quanttekel.com/evaluations/
+  - https://support.qtfunded.com/support/articles/9000000000002-qt-two
+  - https://support.qtfunded.com/support/articles/5613561900191-news-rule
+  - Unverified fields: sizes, splitMax, eas
+- Program **QT Instant** (cfd, instant) — checked 2026-10-30
+  - https://qtfunded.quanttekel.com/evaluations/
+  - https://support.qtfunded.com/support/articles/9000000000003-qt-instant-funded-new
+  - Unverified fields: sizes, payoutFrequency, eas
+- Program **QT Power (2-Step)** (cfd, 2-step) — checked 2026-10-30
+  - https://qtfunded.quanttekel.com/evaluations/
+  - https://support.qtfunded.com/support/articles/5744325221663-qt-power
+  - Unverified fields: sizes, dailyLoss
+- Program **QT 1-Step Buy Now Pay Later** (cfd, 1-step) — checked 2026-10-30
+  - https://qtfunded.quanttekel.com/evaluations/
+  - https://support.qtfunded.com/support/articles/5632217156767-qt-1-step-bnpl
+  - Unverified fields: sizes, eas
+- Rule changes:
+  - 2026-08-10 — Old QT Instant Funded plan discontinued — https://support.qtfunded.com/support/articles/5613494245663-qt-instant-funded-old-discontinued
+- All sources:
+  - 2026-10-30 · Homepage and legal footer · https://qtfunded.quanttekel.com/
+  - 2026-10-30 · Evaluations page and comparison table · https://qtfunded.quanttekel.com/evaluations/
+  - 2026-10-30 · Help: restricted countries · https://support.qtfunded.com/support/articles/5295613659039-restricted-countries
+  - 2026-10-30 · Help: QT One · https://support.qtfunded.com/support/articles/9000000000001-qt-one
+  - 2026-10-30 · Help: QT Two · https://support.qtfunded.com/support/articles/9000000000002-qt-two
+  - 2026-10-30 · Help: QT Instant (new) · https://support.qtfunded.com/support/articles/9000000000003-qt-instant-funded-new
+  - 2026-10-30 · Help: QT Power · https://support.qtfunded.com/support/articles/5744325221663-qt-power
+  - 2026-10-30 · Help: QT 1-Step BNPL · https://support.qtfunded.com/support/articles/5632217156767-qt-1-step-bnpl
+  - 2026-10-30 · Help: news rule · https://support.qtfunded.com/support/articles/5613561900191-news-rule
+  - 2026-10-30 · Help: weekend holding · https://support.qtfunded.com/support/articles/5412723610527-can-i-hold-trades-over-the-weekend
+  - 2026-10-30 · Help: prohibited strategies · https://support.qtfunded.com/support/articles/5613598693279-prohibited-strategies
+  - 2026-10-30 · Help: maximum capital allocation · https://support.qtfunded.com/support/articles/5613619906463-maximum-capital-allocation
+  - 2026-10-30 · Help: old Instant plan discontinued · https://support.qtfunded.com/support/articles/5613494245663-qt-instant-funded-old-discontinued
+  - 2026-10-30 · Help: QT 2 Step discontinued · https://support.qtfunded.com/support/articles/5613390200863-qt-2-step-discontinued
+- Data gaps:
+  - Prices taken from the site's embedded pricing configuration (regular, pre-promo); the page shows heavy promo discounts and the rendered prices could not be viewed without a browser.
+  - QT Instant payout cycle conflicts: help centre says 14 days, evaluations page says 4 days.
+  - QT Power daily drawdown percentage (3% or 4%) not clearly stated.
+  - EA and copy-trading rules not found in readable help articles; EA use appears as a paid checkout add-on.
+  - QT Two inactivity: help centre says 14 days, evaluations table says none.
+  - Founding year and HQ street address not published.
+
+## RebelsFunding
+<a id="rebels-funding"></a>
+
+- Website: https://www.rebelsfunding.com/
+- Last verified: 2026-10-30
+- HQ: SK, Bratislava — RIFM, s.r.o. (Company ID 48 116 700) (verified) — source: https://www.rebelsfunding.com/terms-and-conditions/ (2026-10-30)
+- Restricted countries: published — PK, SY, KP, CD, IR, IQ, SS, SD, YE — source: https://www.rebelsfunding.com/terms-and-conditions/ (2026-10-30)
+  - Note: Terms cl. 1.4: Pakistan, Syria, North Korea, DR Congo, Iran, Iraq, South Sudan, Sudan, Yemen, plus others restricted by the provider's published policy (list not exhaustive). Pakistan IS restricted.
+- Program **Copper (4-Phase)** (cfd, other) — checked 2026-10-30
+  - https://www.rebelsfunding.com/all-the-rules/
+  - https://www.rebelsfunding.com/programs/copper-4-phase/
+  - https://rf-zone.rebelsfunding.com/programs_no_menu_dark/copper
+- Program **Bronze (3-Phase)** (cfd, 3-step) — checked 2026-10-30
+  - https://www.rebelsfunding.com/all-the-rules/
+  - https://rf-zone.rebelsfunding.com/programs_no_menu_dark/bronze
+- Program **Silver (2-Phase)** (cfd, 2-step) — checked 2026-10-30
+  - https://www.rebelsfunding.com/all-the-rules/
+  - https://www.rebelsfunding.com/programs/silver-2-phase/
+  - https://rf-zone.rebelsfunding.com/programs_no_menu_dark/silver
+- Program **Gold (1-Phase)** (cfd, 1-step) — checked 2026-10-30
+  - https://www.rebelsfunding.com/all-the-rules/
+  - https://www.rebelsfunding.com/platform-manual/rf-trader-platform-updates/
+  - https://rf-zone.rebelsfunding.com/programs_no_menu_dark/gold
+- Program **Diamond (Instant)** (cfd, instant) — checked 2026-10-30
+  - https://www.rebelsfunding.com/all-the-rules/
+  - https://www.rebelsfunding.com/programs/diamond-instant/
+  - https://rf-zone.rebelsfunding.com/programs_no_menu_dark/diamond
+- Rule changes:
+  - 2026-08-13 — New General Terms and Conditions — https://www.rebelsfunding.com/terms-and-conditions/
+  - 2026-03-08 — Daily drawdown reset time moved — https://www.rebelsfunding.com/platform-manual/rf-trader-platform-updates/
+  - 2026-03-01 — Gold: no daily drawdown in evaluation — https://www.rebelsfunding.com/platform-manual/rf-trader-platform-updates/
+  - 2026-02-14 — Swap changed on indices and energies — https://www.rebelsfunding.com/platform-manual/rf-trader-platform-updates/
+- All sources:
+  - 2026-10-30 · Homepage · https://www.rebelsfunding.com/
+  - 2026-10-30 · Program rules v3.1 (11 Aug 2026) · https://www.rebelsfunding.com/all-the-rules/
+  - 2026-10-30 · Terms and Conditions (effective 13 Aug 2026) · https://www.rebelsfunding.com/terms-and-conditions/
+  - 2026-10-30 · Programs overview · https://www.rebelsfunding.com/programs/
+  - 2026-10-30 · Copper program page · https://www.rebelsfunding.com/programs/copper-4-phase/
+  - 2026-10-30 · Silver program page · https://www.rebelsfunding.com/programs/silver-2-phase/
+  - 2026-10-30 · Diamond program page · https://www.rebelsfunding.com/programs/diamond-instant/
+  - 2026-10-30 · RF-Trader platform updates · https://www.rebelsfunding.com/platform-manual/rf-trader-platform-updates/
+  - 2026-10-30 · Program selector (prices), rf-zone.rebelsfunding.com · https://rf-zone.rebelsfunding.com/programs_no_menu_dark/silver
+- Data gaps:
+  - Prices were read from the firm's own program selector pages (rf-zone.rebelsfunding.com) in a browser on 2026-10-30.
+
+## RZR Funded (formerly Hantec Trader)
+<a id="rzr-funded"></a>
+
+- Website: https://rzrfunded.com/
+- Last verified: 2026-10-30
+- HQ: MU, Ebene — RZR Funded Limited (Mauritius, C191400); also RZR Funded Limited (Saint Lucia, 2026-00682) (verified) — source: https://rzrfunded.com/terms-conditions/ (2026-10-30)
+- Restricted countries: published — US, GB, MU, HK, SG — source: https://rzrfunded.com/terms-conditions/ (2026-10-30)
+  - Note: US residents and citizens are not served. Instant programs are not available to residents of the UK, Mauritius, Hong Kong and Singapore ('including but not limited to'). Nationals or residents of sanctioned countries (UN, EU, OFAC) are also excluded, without a named list. Pakistan is not named.
+- Program **Express (1-Step)** (cfd, 1-step) — checked 2026-10-30
+  - https://help.rzrfunded.com/en/support/solutions/articles/158000470340-express-1-step-
+  - https://rzrfunded.com/product-specifications/
+  - https://rzrfunded.com/
+- Program **Enhanced (2-Step)** (cfd, 2-step) — checked 2026-10-30
+  - https://help.rzrfunded.com/en/support/solutions/articles/158000470342-enhanced-2-step-
+  - https://rzrfunded.com/
+- Program **EnhancedX (2-Step Consistency)** (cfd, 2-step) — checked 2026-10-30
+  - https://help.rzrfunded.com/en/support/solutions/articles/158000470343-enhancedx-2-step-consistency-
+  - https://rzrfunded.com/
+- Program **Endurance (3-Step)** (cfd, 3-step) — checked 2026-10-30
+  - https://help.rzrfunded.com/en/support/solutions/articles/158000470344-endurance-3-step-challenge-
+  - https://rzrfunded.com/
+- Program **Instant Funding** (cfd, instant) — checked 2026-10-30
+  - https://help.rzrfunded.com/en/support/solutions/articles/158000470345-instant-funding
+  - https://rzrfunded.com/
+- Program **Instant Lite** (cfd, instant) — checked 2026-10-30
+  - https://help.rzrfunded.com/en/support/solutions/articles/158000470347-instant-lite
+  - https://rzrfunded.com/
+- Program **Instant24** (cfd, instant) — checked 2026-10-30
+  - https://help.rzrfunded.com/en/support/solutions/articles/158000470348-instant24
+  - https://rzrfunded.com/
+- All sources:
+  - 2026-10-30 · Homepage · https://rzrfunded.com/
+  - 2026-10-30 · Terms & Conditions · https://rzrfunded.com/terms-conditions/
+  - 2026-10-30 · Rules index · https://help.rzrfunded.com/en/support/solutions/158000621948
+  - 2026-10-30 · Express (1-Step) · https://help.rzrfunded.com/en/support/solutions/articles/158000470340-express-1-step-
+  - 2026-10-30 · Enhanced (2-Step) · https://help.rzrfunded.com/en/support/solutions/articles/158000470342-enhanced-2-step-
+  - 2026-10-30 · EnhancedX (2-Step Consistency) · https://help.rzrfunded.com/en/support/solutions/articles/158000470343-enhancedx-2-step-consistency-
+  - 2026-10-30 · Endurance (3-Step) · https://help.rzrfunded.com/en/support/solutions/articles/158000470344-endurance-3-step-challenge-
+  - 2026-10-30 · Instant Funding · https://help.rzrfunded.com/en/support/solutions/articles/158000470345-instant-funding
+  - 2026-10-30 · Instant Lite · https://help.rzrfunded.com/en/support/solutions/articles/158000470347-instant-lite
+  - 2026-10-30 · Instant24 · https://help.rzrfunded.com/en/support/solutions/articles/158000470348-instant24
+  - 2026-10-30 · Platforms · https://rzrfunded.com/platforms/
+  - 2026-10-30 · Product specifications · https://rzrfunded.com/product-specifications/
+  - 2026-10-30 · Rebrand FAQ · https://rzrfunded.com/why-we-are-rebranding/
+  - 2026-10-30 · Homepage challenge cards (prices) · https://rzrfunded.com/
+- Data gaps:
+  - Rebrand date not stated; help-article modification dates show day and month but no year.
+  - Leverage only published for forex pairs (up to 1:50).
+  - Prices were read from the JS challenge cards in a browser on 2026-10-30.
+
+## SabioTrade
+<a id="sabiotrade"></a>
+
+- Website: https://sabiotrade.com/
+- Last verified: 2026-10-30
+- HQ: IE, Dublin — CODEVIL IT ENGINEERING LIMITED (company no. 680139), d/b/a SabioTrade (verified) — source: https://sabiotrade.com/terms (2026-10-30)
+- Restricted countries: unverified — US — source: https://sabiotrade.com/ (2026-10-30)
+  - Note: Homepage says US citizens are not accepted and that 'a few countries' are excluded, with the full list in the Terms; the Terms page we opened contained no country list. Pakistan's status not confirmed.
+- Program **Assessment (1-Step)** (cfd, 1-step) — checked 2026-10-30
+  - https://sabiotrade.com/
+  - https://sabiotrade.com/terms
+  - Unverified fields: dailyLoss, leverage
+- All sources:
+  - 2026-10-30 · Homepage, plans and FAQ · https://sabiotrade.com/
+  - 2026-10-30 · Terms and Conditions · https://sabiotrade.com/terms
+- Data gaps:
+  - Restricted-country list is referenced but not shown on the Terms page we opened.
+  - Daily-loss reset time and index leverage differ between the FAQ and the terms table.
+  - No dated rule-change announcements found on official pages.
+
+## Seacrest Funded
+<a id="seacrest-funded"></a>
+
+- Website: https://seacrestfunded.com/
+- Last verified: 2026-10-30
+- HQ: ZA, Durban — Seacrest Markets (PTY) Ltd (unverified) — source: https://seacrestmarkets.io/closed (2026-10-30)
+- Restricted countries: not_published — source: https://seacrestmarkets.io/closed (2026-10-30)
+  - Note: No Seacrest Funded restricted-country list is available because the site is offline. The Seacrest Markets closure page states the broker did not serve the United States, Canada, Iran, North Korea and Russia, but that refers to the broker, not the prop programs. Pakistan (PK) status unknown.
+- All sources:
+  - 2026-10-30 · seacrestfunded.com (now a parked 'domain may be for sale' page) · https://seacrestfunded.com/
+  - 2026-10-30 · Seacrest Markets closure notice ('no longer operating') · https://seacrestmarkets.io/closed
+  - 2026-10-30 · seacrestmarkets.io/funded (redirects to /closed) · https://seacrestmarkets.io/funded
+- Data gaps:
+  - No dated official closure announcement found; the closure date is unknown.
+  - The official notice refers to Seacrest Markets as a whole; no separate Seacrest Funded statement could be retrieved.
+  - Web search budget was exhausted before third-party discovery searches could be run, so archived official announcements were not looked up.
+
+## Take Profit Trader
+<a id="take-profit-trader"></a>
+
+- Website: https://takeprofittrader.com/
+- Last verified: 2026-10-30
+- HQ: US, Windermere — TakeProfitTrader LLC (verified) — source: https://takeprofittrader.com/ (2026-10-30)
+- Restricted countries: not_published — source: https://try.takeprofittrader.com/nf100-1125-TPT-FAQs (2026-10-30)
+  - Note: No restricted-country list found on the official pages that could be opened (homepage and FAQ page). The Terms of Service page returned HTTP 403; its search snippet only says the site 'can be accessed by most countries'. Pakistan status could not be confirmed from an official source.
+- Program **Test -> PRO / PRO+** (futures, 1-step) — checked 2026-10-30
+  - https://takeprofittrader.com/
+  - https://try.takeprofittrader.com/nf100-1125-TPT-FAQs
+  - https://try.takeprofittrader.com/futures-traders-tabgoogle-0725
+  - https://takeprofittrader.com/blog/take-profit-trader-vs-topstep
+  - https://takeprofittrader.com/blog/test-reset-pricing-update-our-biggest-flash-sale-ever-nofee-50
+- All sources:
+  - 2026-10-30 · Homepage (account types, footer) · https://takeprofittrader.com/
+  - 2026-10-30 · FAQ page · https://try.takeprofittrader.com/nf100-1125-TPT-FAQs
+  - 2026-10-30 · Landing page (rules summary) · https://try.takeprofittrader.com/futures-traders-tabgoogle-0725
+  - 2026-10-30 · Terms of Service (snippet only, HTTP 403) · https://takeprofittrader.com/terms
+  - 2026-10-30 · TPT vs Topstep blog (snippet only, HTTP 403) · https://takeprofittrader.com/blog/take-profit-trader-vs-topstep
+  - 2026-10-30 · Reset pricing post (snippet only, HTTP 403) · https://takeprofittrader.com/blog/test-reset-pricing-update-our-biggest-flash-sale-ever-nofee-50
+- Data gaps:
+  - Prices, targets, drawdowns and contract limits were read from the homepage plan cards in a browser on 2026-10-30 (the fetch tool got HTTP 403). The terms and blog pages could not be opened.
+  - No official restricted-country list found; Pakistan status unknown.
+  - Overnight/weekend holding rule not found on accessible pages.
+  - Dated announcements (PRO+ EOD drawdown 'as of June 30', reset price change 'effective May 16') do not state the year, so they are not listed as changes.
+
+## The Legends Trading
+<a id="the-legends-trading"></a>
+
+- Website: https://thelegendstrading.com/
+- Last verified: 2026-10-30
+- HQ: US, Calabasas — Legends Trading Group, Inc. (verified) — source: https://thelegendstrading.com/terms-conditions (2026-10-30)
+- Restricted countries: unverified — source: https://thelegendstrading.com/terms-conditions (2026-10-30)
+  - Note: Pakistan (PK): unknown. Terms & Conditions and main site name no restricted countries; the firm's knowledge base (knowledge.thelegendstrading.com) returned HTTP 403, so any list there could not be checked.
+- Program **Apprentice (Evaluation)** (futures, 1-step) — checked 2026-10-30
+  - https://thelegendstrading.com/plans
+  - https://thelegendstrading.com/
+  - Unverified fields: minDays, consistency
+- Program **Elite (Evaluation)** (futures, 1-step) — checked 2026-10-30
+  - https://thelegendstrading.com/plans
+  - https://thelegendstrading.com/
+  - Unverified fields: consistency
+- Program **Straight to Master** (futures, instant) — checked 2026-10-30
+  - https://thelegendstrading.com/plans
+  - https://thelegendstrading.com/
+  - Unverified fields: drawdownType, dailyLoss
+- All sources:
+  - 2026-10-30 · Homepage · https://thelegendstrading.com/
+  - 2026-10-30 · Plans and FAQ · https://thelegendstrading.com/plans
+  - 2026-10-30 · Terms & Conditions · https://thelegendstrading.com/terms-conditions
+  - 2026-10-30 · About · https://thelegendstrading.com/about
+  - 2026-10-30 · Knowledge base (HTTP 403, not readable) · https://knowledge.thelegendstrading.com
+- Data gaps:
+  - Knowledge base (knowledge.thelegendstrading.com) returned HTTP 403, so news-trading, automation/bots, copy-trading, overnight-holding and restricted-country rules could not be read; those fields are null.
+  - Plans page does not label which price cards belong to which tab; mapping to Apprentice (per-month cards), Elite and Straight to Master (one-time cards) is by page order and card features.
+  - Apprentice minimum days conflict: plan card says 4 days, FAQ says trading 1 day qualifies for Master, another FAQ answer says ten days.
+  - Funded/Master consistency percentage not stated separately; homepage describes a 30% 'Fair Consistency Rule'.
+  - Payout minimum/maximum, payout buffer, reset prices and the Straight to Master activation fee are not published.
+  - Entity name inconsistent (Legends Trading Group, Inc. vs Legends Trading LLC) and Terms cite both California and 'PR' law; founded year not stated.
+  - No dated rule-change announcements found on accessible official pages.
+
+## The Trading Pit
+<a id="the-trading-pit"></a>
+
+- Website: https://www.thetradingpit.com/
+- Last verified: 2026-10-30
+- HQ: LI, Vaduz — The Trading Pit Challenge GmbH (FL-0002.693.417-1) (verified) — source: https://www.thetradingpit.com/ (2026-10-30)
+- Restricted countries: published — BI, CU, IR, KP, SS, SD, US, CA, RU — source: https://support.thetradingpit.com/en/articles/835065-eligibility-requirements (2026-10-30)
+  - Note: All services: Burundi, Cuba, Iran, North Korea, South Sudan, Sudan. CFDs not offered to residents of the USA, Canada and Russia. Futures additionally restricted in: Afghanistan, Albania, Antarctica, Belarus, Burkina Faso, Chad, Congo, Côte d'Ivoire, Djibouti, East Timor, Guinea-Bissau, Lao PDR, Lesotho, Libya, Malawi, Palestinian Territory, Rwanda, Sierra Leone, Somalia, Syria, Tajikistan, Yemen, Iraq, Russia. Pakistan is not on any list.
+- Program **CFD Prime (1-Phase / 2-Phase)** (cfd, 1-step) — checked 2026-10-30
+  - https://support.thetradingpit.com/en/articles/835083-cfd-prime-how-it-works
+  - https://support.thetradingpit.com/en/articles/835084-cfd-prime-rules
+  - https://support.thetradingpit.com/en/articles/835093-cfd-prime-rewards
+  - https://support.thetradingpit.com/en/articles/835334-cfd-prime-platforms-trading-conditions
+  - https://www.thetradingpit.com/cfds-prop-trading
+- Program **CFD Instant** (cfd, instant) — checked 2026-10-30
+  - https://support.thetradingpit.com/en/articles/835380-cfd-instant-rules
+  - https://support.thetradingpit.com/en/articles/835434-cfd-instant-platforms-trading-conditions
+  - https://www.thetradingpit.com/cfds-prop-trading
+  - https://www.thetradingpit.com/cfds-prop-trading
+- Program **Futures Prime** (futures, 1-step) — checked 2026-10-30
+  - https://support.thetradingpit.com/en/articles/836068-futures-prime-how-it-works
+  - https://support.thetradingpit.com/en/articles/836071-futures-prime-rules
+  - https://support.thetradingpit.com/en/articles/836079-futures-prime-rewards
+  - https://support.thetradingpit.com/en/articles/836080-futures-prime-platforms-conditions
+  - https://www.thetradingpit.com/futures
+- Program **Futures Instant** (futures, instant) — checked 2026-10-30
+  - https://support.thetradingpit.com/en/articles/857316-futures-instant-rules
+  - https://support.thetradingpit.com/en/articles/857320-futures-instant-rewards
+  - https://www.thetradingpit.com/futures
+- Program **Stocks Challenge** (stocks, 1-step) — checked 2026-10-30
+  - https://support.thetradingpit.com/en/articles/836370-stocks-how-it-works
+  - https://support.thetradingpit.com/en/articles/836375-stocks-rules
+  - https://support.thetradingpit.com/en/articles/836378-stocks-rewards
+  - https://support.thetradingpit.com/en/articles/836379-stocks-platform-conditions
+  - Unverified fields: billing
+- Rule changes:
+  - 2026-07-27 — Futures Prime daily profit threshold lowered — https://support.thetradingpit.com/en/articles/836079-futures-prime-rewards
+  - 2026-07-14 — Futures Prime: daily pause removed on Earning accounts — https://support.thetradingpit.com/en/articles/836071-futures-prime-rules
+  - 2026-07-06 — CFD Prime 1-Phase $100K/$200K consistency rule — https://support.thetradingpit.com/en/articles/835084-cfd-prime-rules
+  - 2026-04-29 — Trailing drawdown on larger CFD Prime accounts — https://support.thetradingpit.com/en/articles/835084-cfd-prime-rules
+  - 2026-03-26 — Futures Prime activation fee removed — https://support.thetradingpit.com/en/articles/835066-costs-fees-extras
+- All sources:
+  - 2026-10-30 · Homepage / footer · https://www.thetradingpit.com/
+  - 2026-10-30 · Eligibility & restricted countries · https://support.thetradingpit.com/en/articles/835065-eligibility-requirements
+  - 2026-10-30 · Costs, fees & extras · https://support.thetradingpit.com/en/articles/835066-costs-fees-extras
+  - 2026-10-30 · CFD product page · https://www.thetradingpit.com/cfds-prop-trading
+  - 2026-10-30 · CFD Prime how it works · https://support.thetradingpit.com/en/articles/835083-cfd-prime-how-it-works
+  - 2026-10-30 · CFD Prime rules · https://support.thetradingpit.com/en/articles/835084-cfd-prime-rules
+  - 2026-10-30 · CFD Prime rewards · https://support.thetradingpit.com/en/articles/835093-cfd-prime-rewards
+  - 2026-10-30 · CFD Prime platforms · https://support.thetradingpit.com/en/articles/835334-cfd-prime-platforms-trading-conditions
+  - 2026-10-30 · CFD Instant rules · https://support.thetradingpit.com/en/articles/835380-cfd-instant-rules
+  - 2026-10-30 · CFD Instant platforms · https://support.thetradingpit.com/en/articles/835434-cfd-instant-platforms-trading-conditions
+  - 2026-10-30 · Futures Prime how it works · https://support.thetradingpit.com/en/articles/836068-futures-prime-how-it-works
+  - 2026-10-30 · Futures Prime rules · https://support.thetradingpit.com/en/articles/836071-futures-prime-rules
+  - 2026-10-30 · Futures Prime rewards · https://support.thetradingpit.com/en/articles/836079-futures-prime-rewards
+  - 2026-10-30 · Futures Prime platforms · https://support.thetradingpit.com/en/articles/836080-futures-prime-platforms-conditions
+  - 2026-10-30 · Futures Instant rules · https://support.thetradingpit.com/en/articles/857316-futures-instant-rules
+  - 2026-10-30 · Futures Instant rewards · https://support.thetradingpit.com/en/articles/857320-futures-instant-rewards
+  - 2026-10-30 · Stocks how it works · https://support.thetradingpit.com/en/articles/836370-stocks-how-it-works
+  - 2026-10-30 · Stocks rules · https://support.thetradingpit.com/en/articles/836375-stocks-rules
+  - 2026-10-30 · Stocks rewards · https://support.thetradingpit.com/en/articles/836378-stocks-rewards
+  - 2026-10-30 · Stocks platform · https://support.thetradingpit.com/en/articles/836379-stocks-platform-conditions
+  - 2026-10-30 · Press releases · https://www.thetradingpit.com/press-releases
+  - 2026-10-30 · CFD configurator (prices) · https://www.thetradingpit.com/cfds-prop-trading
+  - 2026-10-30 · Futures plans (prices) · https://www.thetradingpit.com/futures
+- Data gaps:
+  - CFD Prime is sold as 1-Phase or 2-Phase; recorded as one program because per-phase targets were not published on pages we could open.
+  - Futures Instant platforms not listed in the rules article; Futures Prime platform list used for the firm total.
+  - Stocks entry fee billing (one-time vs recurring) not stated.
+  - Prices were read from the JS configurators in a browser on 2026-10-30.
+
+## The5ers
+<a id="the5ers"></a>
+
+- Website: https://the5ers.com/
+- Last verified: 2026-10-30
+- HQ: GB, London — Five Percent Online Ltd (verified) — source: https://the5ers.com/ (2026-10-30)
+- Restricted countries: published — AF, BY, BI, CF, CU, CG, CD, ER, GN, GW, IQ, IR, IL, LA, LB, LR, LY, MM, KP, PS, PG, RU, SS, SD, SO, SY, VU, VE, YE — source: https://the5ers.com/ (2026-10-30)
+  - Note: Site disclaimer 'Forbidden Territories' (residents or citizens), 'including but not limited to' the listed jurisdictions; also Crimea (region of Ukraine, no separate code). Same list on the Futures FAQ page. Pakistan is not on the list.
+- Program **2 Step | High Stakes** (cfd, 2-step) — checked 2026-10-30
+  - https://the5ers.com/high-stakes/
+  - https://the5ers.com/high-stakes/
+- Program **1 Step | Hyper Growth** (cfd, 1-step) — checked 2026-10-30
+  - https://the5ers.com/hyper-growth/
+  - Unverified fields: dailyLoss, sizes
+- Program **3 Step | Bootcamp** (cfd, 3-step) — checked 2026-10-30
+  - https://the5ers.com/bootcamp/
+  - https://the5ers.com/faqs/how-much-does-the-bootcamp-cost-in-total-and-how-much-is-it-to-start/
+  - Unverified fields: platforms
+- Program **1 Step | Summer Plan (limited time)** (cfd, 1-step) — checked 2026-10-30
+  - https://the5ers.com/summer-plan/
+  - https://the5ers.com/
+  - Unverified fields: payoutMinimum, platforms, sizes
+- Program **Futures (Day Trade / Swing)** (futures, 2-step) — checked 2026-10-30
+  - https://the5ers.com/futures/
+  - https://the5ers.com/futures-faqs/
+  - Unverified fields: model, drawdownType, sizes
+- All sources:
+  - 2026-10-30 · Homepage (entity, restricted list, programs) · https://the5ers.com/
+  - 2026-10-30 · High Stakes · https://the5ers.com/high-stakes/
+  - 2026-10-30 · Hyper Growth · https://the5ers.com/hyper-growth/
+  - 2026-10-30 · Bootcamp · https://the5ers.com/bootcamp/
+  - 2026-10-30 · Bootcamp fees FAQ · https://the5ers.com/faqs/how-much-does-the-bootcamp-cost-in-total-and-how-much-is-it-to-start/
+  - 2026-10-30 · Summer Plan · https://the5ers.com/summer-plan/
+  - 2026-10-30 · Futures · https://the5ers.com/futures/
+  - 2026-10-30 · Futures FAQs · https://the5ers.com/futures-faqs/
+  - 2026-10-30 · FAQ index · https://the5ers.com/faqs/
+  - 2026-10-30 · High Stakes plan table (prices) · https://the5ers.com/high-stakes/
+- Data gaps:
+  - Payout frequency, first payout timing and minimum payout are not stated on the program pages; FAQ category articles (Payouts, High Stakes, Hyper Growth) were not individually reachable, and web search quota was exhausted.
+  - Drawdown type (static vs trailing) is not stated on the High Stakes, Hyper Growth or Bootcamp pages.
+  - EA and copy-trading rules not found on the pages opened.
+  - Futures platform not named (FAQ has a 'BlackArrow Demo Account' category); Day Trade vs Swing parameters not separated on the page.
+  - No dated rule-change announcements were collected; the 2026-10-23 internal note listed a $100K Summer Plan at $249 with a $2K payout cap, which differs from today's page.
+
+## ThinkCapital
+<a id="thinkcapital"></a>
+
+- Website: https://www.thinkcapital.com/
+- Last verified: 2026-10-30
+- HQ: GB, London — TFG (Payments) Limited (verified) — source: https://www.thinkcapital.com/terms-of-services/ (2026-10-30)
+- Restricted countries: published — AF, AL, AU, MM, BI, CF, CY, CU, GN, HT, IR, IQ, XK, LB, LY, ML, UM, KP, CG, RU, WS, SO, SD, SY, VA, VN, VE, PS, EH, YE, ZM — source: https://www.thinkcapital.com/tc-faqs/general-faqs/client-eligibility-and-restricted-countries/ (2026-10-30)
+  - Note: Residents and citizens excluded, plus OFAC-sanctioned countries and SDN list. Also British Columbia (Canada) and the Crimea, Sevastopol, Donetsk, Kherson, Luhansk and Zaporizhzhia regions of Ukraine (the homepage disclaimer lists Ukraine as a whole). Pakistan (PK) is not fully restricted: clients in Pakistan, Malaysia, Cambodia and Indonesia can only buy Bolt or Bolt Flex instant accounts. Midway Islands mapped to UM, West Bank to PS, Kosovo to XK.
+- Program **Lightning (1-Step)** (cfd, 1-step) — checked 2026-10-30
+  - https://www.thinkcapital.com/
+  - https://www.thinkcapital.com/tc-faqs/introduction-to-thinkcapital-programs/lightning-program/
+  - https://www.thinkcapital.com/tc-faqs/general-faqs/leverage-commission-and-swap-charges-structure/
+  - https://www.thinkcapital.com/tc-faqs/funded-accounts/news-trading-policy-rule-and-restriction/
+- Program **Dual Step Intraday (2-Step)** (cfd, 2-step) — checked 2026-10-30
+  - https://www.thinkcapital.com/
+  - https://www.thinkcapital.com/tc-faqs/introduction-to-thinkcapital-programs/dual-step-challenge/
+  - https://www.thinkcapital.com/tc-faqs/general-faqs/leverage-commission-and-swap-charges-structure/
+- Program **Dual Step Swing (2-Step)** (cfd, 2-step) — checked 2026-10-30
+  - https://www.thinkcapital.com/
+  - https://www.thinkcapital.com/tc-faqs/introduction-to-thinkcapital-programs/dual-step-challenge/
+- Program **Nexus (3-Step)** (cfd, 3-step) — checked 2026-10-30
+  - https://www.thinkcapital.com/
+  - https://www.thinkcapital.com/tc-faqs/introduction-to-thinkcapital-programs/nexus-challenge/
+- Program **Bolt (Instant Funding)** (cfd, instant) — checked 2026-10-30
+  - https://www.thinkcapital.com/
+  - https://www.thinkcapital.com/tc-faqs/introduction-to-thinkcapital-programs/bolt-plan/
+  - https://www.thinkcapital.com/tc-faqs/funded-accounts/how-often-are-payouts-offered-for-simulated-funded-accounts/
+  - https://www.thinkcapital.com/thinkcapital-instant-funding-update/
+  - Unverified fields: leverage
+- Program **Bolt Flex (Instant Funding)** (cfd, instant) — checked 2026-10-30
+  - https://www.thinkcapital.com/
+  - https://www.thinkcapital.com/tc-faqs/introduction-to-thinkcapital-programs/bolt-flex-plan/
+  - https://www.thinkcapital.com/bolt-flex-instant-funding/
+- Rule changes:
+  - 2026-10-23 — Bolt Flex instant account launched — https://www.thinkcapital.com/bolt-flex-instant-funding/
+  - 2026-10-05 — Bolt (Instant Funding) prices cut and add-ons introduced — https://www.thinkcapital.com/thinkcapital-instant-funding-update/
+- All sources:
+  - 2026-10-30 · Homepage, pricing data and disclaimer · https://www.thinkcapital.com/
+  - 2026-10-30 · Terms of Service · https://www.thinkcapital.com/terms-of-services/
+  - 2026-10-30 · FAQ: restricted countries · https://www.thinkcapital.com/tc-faqs/general-faqs/client-eligibility-and-restricted-countries/
+  - 2026-10-30 · FAQ: who is ThinkCapital · https://www.thinkcapital.com/tc-faqs/general-faqs/who-is-thinkcapital/
+  - 2026-10-30 · FAQ: Lightning · https://www.thinkcapital.com/tc-faqs/introduction-to-thinkcapital-programs/lightning-program/
+  - 2026-10-30 · FAQ: Dual Step · https://www.thinkcapital.com/tc-faqs/introduction-to-thinkcapital-programs/dual-step-challenge/
+  - 2026-10-30 · FAQ: Nexus · https://www.thinkcapital.com/tc-faqs/introduction-to-thinkcapital-programs/nexus-challenge/
+  - 2026-10-30 · FAQ: Bolt · https://www.thinkcapital.com/tc-faqs/introduction-to-thinkcapital-programs/bolt-plan/
+  - 2026-10-30 · FAQ: Bolt Flex · https://www.thinkcapital.com/tc-faqs/introduction-to-thinkcapital-programs/bolt-flex-plan/
+  - 2026-10-30 · FAQ: payout frequency · https://www.thinkcapital.com/tc-faqs/funded-accounts/how-often-are-payouts-offered-for-simulated-funded-accounts/
+  - 2026-10-30 · FAQ: consistency rule · https://www.thinkcapital.com/tc-faqs/general-faqs/is-there-any-consistency-rule/
+  - 2026-10-30 · FAQ: minimum profitable days · https://www.thinkcapital.com/tc-faqs/general-faqs/how-does-the-minimum-profitable-trading-days-rule-work/
+  - 2026-10-30 · FAQ: news trading · https://www.thinkcapital.com/tc-faqs/funded-accounts/news-trading-policy-rule-and-restriction/
+  - 2026-10-30 · FAQ: leverage · https://www.thinkcapital.com/tc-faqs/general-faqs/leverage-commission-and-swap-charges-structure/
+  - 2026-10-30 · FAQ: EAs · https://www.thinkcapital.com/tc-faqs/general-faqs/are-expert-advisors-eas-allowed-at-thinkcapital/
+  - 2026-10-30 · FAQ: copy trading · https://www.thinkcapital.com/tc-faqs/general-faqs/can-i-use-copy-trading-software-with-thinkcapital-accounts/
+  - 2026-10-30 · FAQ: platforms · https://www.thinkcapital.com/tc-faqs/general-faqs/what-trading-platforms-does-thinkcapital-offer-and-what-instruments-can-i-trade-there/
+  - 2026-10-30 · FAQ: inactivity · https://www.thinkcapital.com/tc-faqs/funded-accounts/how-long-can-i-be-inactive-on-a-trading-account/
+  - 2026-10-30 · Blog: Instant Funding update · https://www.thinkcapital.com/thinkcapital-instant-funding-update/
+  - 2026-10-30 · Blog: Bolt Flex launch · https://www.thinkcapital.com/bolt-flex-instant-funding/
+- Data gaps:
+  - Challenge time limit not stated on pages checked.
+  - Bolt leverage: FAQ says up to 1:100 on forex, homepage card says dynamic up to 1:50.
+  - Founding year not stated.
+  - Base profit split for Lightning/Dual Step/Nexus inferred from the homepage calculator (80%, 90% with add-on); program cards only say 'up to 90%'.
+
+## Top One Trader
+<a id="top-one-trader"></a>
+
+- Website: https://toponetrader.com/
+- Last verified: 2026-10-30
+- HQ: KM, Mutsamudu — Top One Trader Ltd (verified) — source: https://toponetrader.com/terms-and-conditions (2026-10-30)
+- Restricted countries: published — AF, AL, DZ, AM, AZ, BY, CU, HT, IR, IQ, KZ, KW, LB, LY, MK, MA, MM, KP, PK, RU, SO, SD, SY, TR, UA, VN — source: https://help.toponetrader.com/en/articles/8477370-countries-with-limitations-and-restrictions (2026-10-30)
+  - Note: List for Top One Trader (CFD and Top One Crypto) applies to citizens or residents. MT5 is not offered in the US, Canada, US outlying territories or Puerto Rico. Top One Futures publishes its own, longer list (also includes PK): AF, ET, PK, AL, GH, PS, DZ, GW, PA, AO, IS, PG, AQ, ID, PH, AM, IR, RU, AZ, IQ, RW, BS, JM, SL, BB, JO, SO, BY, KZ, SS, BA, XK (Kosovo), LK, BW, KW, SD, BF, LA, SY, MM, LB, TJ, BI, LS, TT, KH, LR, TN, CF, LY, TR, TD, MK, UG, CI, MW, UA, Crimea, MU, VE, CU, MN, VN, CD, ME, YE, DJ, MA, ZW, TL, NI, EC, KP.
+  - futures programs use their own list (Top One Futures list): AF, AL, AM, AO, AQ, AZ, BA, BB, BF, BI, BS, BW, BY, CD, CF, CI, CU, DJ, DZ, EC, ET, GH, GW, ID, IQ, IR, IS, JM, JO, KH, KP, KW, KZ, LA, LB, LK, LR, LS, LY, MA, ME, MK, MM, MN, MU, MW, NI, PA, PG, PH, PK, PS, RU, RW, SD, SL, SO, SS, SY, TD, TJ, TL, TN, TR, TT, UA, UG, VE, VN, XK, YE, ZW — source: https://help.toponefutures.com/en/articles/11021644-countries-with-limitations-and-restrictions (2026-10-30)
+- Program **1-Step FLASH** (cfd, 1-step) — checked 2026-10-30
+  - https://help.toponetrader.com/en/articles/8318230-what-are-the-rules-for-the-1-step-flash-challenge-account
+  - https://help.toponetrader.com/en/articles/15146575-1-step-flash-daily-drawdown-rule
+  - https://help.toponetrader.com/en/articles/15146735-when-can-i-request-a-payout-1-step-flash
+  - https://help.toponetrader.com/en/articles/16567764-1-step-flash-leverage-levels
+  - https://help.toponetrader.com/en/articles/8318943-1-step-flash-news-trading-rule
+  - https://help.toponetrader.com/en/articles/9636241-minimum-3-profitable-trading-days-1-step-flash
+  - https://help.toponetrader.com/en/articles/10912482-comparison-of-account-types
+  - https://toponetrader.com/
+- Program **1-Step NOVA (pay after you pass)** (cfd, 1-step) — checked 2026-10-30
+  - https://help.toponetrader.com/en/articles/13832165-nova-account-overview
+  - https://help.toponetrader.com/en/articles/13833385-nova-payout-rules
+  - https://help.toponetrader.com/en/articles/10912482-comparison-of-account-types
+  - https://toponetrader.com/
+  - Unverified fields: sizes
+- Program **2-Step PRO v2** (cfd, 2-step) — checked 2026-10-30
+  - https://help.toponetrader.com/en/articles/15164777-2-step-pro-v2-overview
+  - https://help.toponetrader.com/en/articles/15164904-2-step-pro-v2-daily-loss-limit
+  - https://help.toponetrader.com/en/articles/15164961-2-step-pro-v2-when-can-i-request-a-payout
+  - https://help.toponetrader.com/en/articles/10912482-comparison-of-account-types
+  - https://toponetrader.com/
+- Program **Instant Funding** (cfd, instant) — checked 2026-10-30
+  - https://help.toponetrader.com/en/articles/12575317-what-are-the-rules-for-the-instant-funding-account
+  - https://help.toponetrader.com/en/articles/9929793-when-can-i-request-a-payout-instant-funding
+  - https://help.toponetrader.com/en/articles/10912482-comparison-of-account-types
+  - https://toponetrader.com/
+- Program **Instant Prime** (cfd, instant) — checked 2026-10-30
+  - https://help.toponetrader.com/en/articles/12132613-prime-accounts-overview
+  - https://help.toponetrader.com/en/articles/12619496-when-can-i-request-a-payout-instant-prime-funding
+  - https://help.toponetrader.com/en/articles/10912482-comparison-of-account-types
+  - https://toponetrader.com/
+- Program **Top One Crypto 1-Step ELITE** (crypto, 1-step) — checked 2026-10-30
+  - https://help.toponetrader.com/en/articles/13309252-top-one-crypto-general-overview
+  - https://help.toponetrader.com/en/articles/13309986-top-one-crypto-payout-frequency-overview
+  - https://toponecrypto.com/
+  - Unverified fields: perps
+- Program **Top One Crypto Instant Funded** (crypto, instant) — checked 2026-10-30
+  - https://help.toponetrader.com/en/articles/13309252-top-one-crypto-general-overview
+  - https://help.toponetrader.com/en/articles/13309986-top-one-crypto-payout-frequency-overview
+  - https://toponecrypto.com/
+  - Unverified fields: perps, consistency
+- Program **Top One Futures Elite DAILY** (futures, 1-step) — checked 2026-10-30
+  - https://help.toponefutures.com/en/articles/15056075-elite-daily-v2-overview
+  - https://help.toponefutures.com/en/articles/11021027-how-do-subscriptions-work-on-top-one-futures
+  - https://help.toponefutures.com/en/articles/10907920-can-i-use-ea-s-bots
+  - https://help.toponefutures.com/en/articles/10907901-can-i-hold-trades-overnight
+  - https://help.toponefutures.com/en/articles/11680891-copy-trading-policy
+  - https://toponefutures.com/
+- Program **Top One Futures Elite ACCESS** (futures, 1-step) — checked 2026-10-30
+  - https://help.toponefutures.com/en/articles/14595016-elite-access-accounts-overview
+  - https://help.toponefutures.com/en/articles/16150794-elite-access-activation-fees-explained
+  - https://help.toponefutures.com/en/articles/10907920-can-i-use-ea-s-bots
+  - https://help.toponefutures.com/en/articles/10907901-can-i-hold-trades-overnight
+  - https://toponefutures.com/
+- Program **Top One Futures Instant Sim Funded** (futures, instant) — checked 2026-10-30
+  - https://help.toponefutures.com/en/articles/11020805-overview-of-the-instant-sim-funded-program
+  - https://help.toponefutures.com/en/articles/12718038-instant-sim-funded-account-payout-requirements
+  - https://help.toponefutures.com/en/articles/13449146-top-one-futures-account-comparison-elite-vs-instant-vs-ignite-accounts
+  - https://help.toponefutures.com/en/articles/10907951-can-i-trade-news
+  - https://toponefutures.com/
+  - Unverified fields: billing
+- Program **Top One Futures Ignite** (futures, instant) — checked 2026-10-30
+  - https://help.toponefutures.com/en/articles/12671168-ignite-accounts-overview
+  - https://help.toponefutures.com/en/articles/12707415-ignite-accounts-payout-requirements
+  - https://help.toponefutures.com/en/articles/10907951-can-i-trade-news
+  - https://toponefutures.com/
+- Rule changes:
+  - 2026-07-27 — Instant Sim Funded 2.0 rules (futures) — https://help.toponefutures.com/en/articles/11020805-overview-of-the-instant-sim-funded-program
+  - 2025-10-25 — Instant Prime daily loss limit added — https://help.toponetrader.com/en/articles/12132613-prime-accounts-overview
+  - 2025-10-14 — Instant Funding 15% consistency score — https://help.toponetrader.com/en/articles/12575317-what-are-the-rules-for-the-instant-funding-account
+- All sources:
+  - 2026-10-30 · Homepage (programs, prices) · https://toponetrader.com/
+  - 2026-10-30 · Terms and Conditions · https://toponetrader.com/terms-and-conditions
+  - 2026-10-30 · Help centre index · https://intercom.help/top-one-trader/en
+  - 2026-10-30 · Restricted countries (CFD) · https://help.toponetrader.com/en/articles/8477370-countries-with-limitations-and-restrictions
+  - 2026-10-30 · Comparison of account types · https://help.toponetrader.com/en/articles/10912482-comparison-of-account-types
+  - 2026-10-30 · 1-Step FLASH rules · https://help.toponetrader.com/en/articles/8318230-what-are-the-rules-for-the-1-step-flash-challenge-account
+  - 2026-10-30 · 1-Step FLASH payouts · https://help.toponetrader.com/en/articles/15146735-when-can-i-request-a-payout-1-step-flash
+  - 2026-10-30 · NOVA overview · https://help.toponetrader.com/en/articles/13832165-nova-account-overview
+  - 2026-10-30 · NOVA payouts · https://help.toponetrader.com/en/articles/13833385-nova-payout-rules
+  - 2026-10-30 · 2-Step PRO v2 overview · https://help.toponetrader.com/en/articles/15164777-2-step-pro-v2-overview
+  - 2026-10-30 · Instant Funding rules · https://help.toponetrader.com/en/articles/12575317-what-are-the-rules-for-the-instant-funding-account
+  - 2026-10-30 · Instant Prime overview · https://help.toponetrader.com/en/articles/12132613-prime-accounts-overview
+  - 2026-10-30 · Top One Crypto overview · https://help.toponetrader.com/en/articles/13309252-top-one-crypto-general-overview
+  - 2026-10-30 · Top One Crypto site · https://toponecrypto.com/
+  - 2026-10-30 · X-1-Step-DAILY overview · https://help.toponetrader.com/en/articles/17433185-x-1-step-daily-accounts-overview
+  - 2026-10-30 · Top One Futures homepage · https://toponefutures.com/
+  - 2026-10-30 · Top One Futures restricted countries · https://help.toponefutures.com/en/articles/11021644-countries-with-limitations-and-restrictions
+  - 2026-10-30 · Top One Futures account comparison · https://help.toponefutures.com/en/articles/13449146-top-one-futures-account-comparison-elite-vs-instant-vs-ignite-accounts
+  - 2026-10-30 · Top One Futures subscriptions · https://help.toponefutures.com/en/articles/11021027-how-do-subscriptions-work-on-top-one-futures
+- Data gaps:
+  - help.toponetrader.com returned HTTP 403; the same articles were read via the firm's Intercom alias intercom.help/top-one-trader.
+  - Prices are the struck-through figures on the homepages as read by a text extractor; sale prices were shown at the time of checking.
+  - NOVA 5K/10K activation fees come only from the homepage; 25K-300K from the help centre. Entry fee is $7 in the help centre vs $1 on the homepage (offer).
+  - Terms name both 'Top One Trader Ltd' and 'Top One Trader, LLC'.
+  - Top One Crypto: the help centre does not say whether instruments are CFDs or perpetual futures; Instant consistency is 25% in the help centre vs '15-25%' on toponecrypto.com.
+  - 2-Step PRO v2 applies to accounts bought 'after May 18' with no year given, so it is not listed as a dated change.
+  - Copy trading rules for CFD accounts were not checked in detail; futures allow copying only between same type and size.
+  - Futures Instant Sim Funded billing and minimum payout are not stated in the help centre.
+
+## Topstep
+<a id="topstep"></a>
+
+- Website: https://www.topstep.com/
+- Last verified: 2026-10-30
+- HQ: US, Chicago — Topstep LLC (verified) — source: https://www.topstep.com/terms-of-use/ (2026-10-30)
+- Restricted countries: published — AF, DZ, AO, BY, BF, MM, BI, CI, CU, CD, HT, IR, IQ, KE, XK, LB, LY, ML, MA, NI, NG, KP, PK, RU, SO, SS, SD, SY, TR, UA, VE, YE — source: https://help.topstep.com/en/articles/8284116-eligibility-faq (2026-10-30)
+  - Note: Ineligible list (citizenship and permanent residency both count; article dated 4 Sep 2026). Also lists 'Chinese Military Companies' and the Crimea, Donetsk, Luhansk, Kherson and Zaporizhzhia regions. Pakistan is on the ineligible list. A second list (AL, BO, BA, VG, CM, CF, ET, DE, GH, HK, IS, KW, LA, LR, MK, MN, MC, ME, NA, NP, PG, RS, TT, VN, ZW) may hold Express Funded Accounts but not Live Funded Accounts. XK (Kosovo) is a user-assigned code.
+- Program **Trading Combine (Standard path)** (futures, 1-step) — checked 2026-10-30
+  - https://help.topstep.com/en/articles/14289835-topstep-pricing-and-payment-questions
+  - https://www.topstep.com/topstep-prop
+  - https://help.topstep.com/en/articles/8284197-trading-combine-parameters
+  - https://help.topstep.com/en/articles/8284204-what-is-the-maximum-loss-limit
+  - https://help.topstep.com/en/articles/10490293-daily-loss-limit-in-the-trading-combine-and-express-funded-account
+  - https://help.topstep.com/en/articles/8284215-express-funded-account-parameters
+  - https://help.topstep.com/en/articles/8284233-topstep-payout-policy
+  - https://help.topstep.com/en/articles/8284208-consistency-at-topstep
+  - https://help.topstep.com/en/articles/8284206-when-and-what-products-can-i-trade
+  - https://help.topstep.com/en/articles/10305426-prohibited-trading-strategies-at-topstep
+  - https://help.topstep.com/en/articles/11187768-topstepx-api-access
+  - https://help.topstep.com/en/articles/14434175-topstepx
+- Program **Trading Combine (No Activation Fee path)** (futures, 1-step) — checked 2026-10-30
+  - https://help.topstep.com/en/articles/14289835-topstep-pricing-and-payment-questions
+  - https://www.topstep.com/topstep-prop
+  - https://help.topstep.com/en/articles/8284233-topstep-payout-policy
+- Program **Topstep Labs Static Drawdown Trading Combine** (futures, 1-step) — checked 2026-10-30
+  - https://help.topstep.com/en/articles/15520357-topstep-labs
+- Program **Topstep Labs $250K Freedom Funded Trading Combine** (futures, 1-step) — checked 2026-10-30
+  - https://help.topstep.com/en/articles/15520357-topstep-labs
+- Program **Topstep Labs $1.5K Challenge Powered Up (fixed payout)** (futures, other) — checked 2026-10-30
+  - https://help.topstep.com/en/articles/15520357-topstep-labs
+  - https://www.topstep.com/blog/labs-3k-challenge
+- Rule changes:
+  - 2026-10-15 — Topstep Labs $3K Undead and Slasher Challenges released — https://www.topstep.com/blog/labs-3k-challenge
+  - 2026-02-11 — XFA Consistency payout path introduced — https://topstepbrokerage.com/blog/topstep-express-funded-account-consistency
+  - 2026-01-12 — 100% split on first $10K limited to earlier traders — https://help.topstep.com/en/articles/8284233-topstep-payout-policy
+- All sources:
+  - 2026-10-30 · Eligibility / restricted countries · https://help.topstep.com/en/articles/8284116-eligibility-faq
+  - 2026-10-30 · Terms of Use · https://www.topstep.com/terms-of-use/
+  - 2026-10-30 · Pricing and payment · https://help.topstep.com/en/articles/14289835-topstep-pricing-and-payment-questions
+  - 2026-10-30 · Topstep prop page (targets, limits) · https://www.topstep.com/topstep-prop
+  - 2026-10-30 · Trading Combine parameters · https://help.topstep.com/en/articles/8284197-trading-combine-parameters
+  - 2026-10-30 · Maximum Loss Limit · https://help.topstep.com/en/articles/8284204-what-is-the-maximum-loss-limit
+  - 2026-10-30 · Daily Loss Limit · https://help.topstep.com/en/articles/10490293-daily-loss-limit-in-the-trading-combine-and-express-funded-account
+  - 2026-10-30 · Express Funded Account parameters · https://help.topstep.com/en/articles/8284215-express-funded-account-parameters
+  - 2026-10-30 · Live Funded Account parameters · https://help.topstep.com/en/articles/10657969-live-funded-account-parameters
+  - 2026-10-30 · Payout policy · https://help.topstep.com/en/articles/8284233-topstep-payout-policy
+  - 2026-10-30 · Consistency · https://help.topstep.com/en/articles/8284208-consistency-at-topstep
+  - 2026-10-30 · Products and trading hours · https://help.topstep.com/en/articles/8284206-when-and-what-products-can-i-trade
+  - 2026-10-30 · Prohibited trading strategies · https://help.topstep.com/en/articles/10305426-prohibited-trading-strategies-at-topstep
+  - 2026-10-30 · Prohibited conduct · https://help.topstep.com/en/articles/10296582-prohibited-conduct
+  - 2026-10-30 · TopstepX platform · https://help.topstep.com/en/articles/14434175-topstepx
+  - 2026-10-30 · TopstepX API access · https://help.topstep.com/en/articles/11187768-topstepx-api-access
+  - 2026-10-30 · Quantower via TopstepX · https://help.topstep.com/en/articles/8284179-quantower-connection-instructions
+  - 2026-10-30 · Topstep Labs · https://help.topstep.com/en/articles/15520357-topstep-labs
+  - 2026-10-30 · Labs $3K Challenge post · https://www.topstep.com/blog/labs-3k-challenge
+  - 2026-10-30 · XFA Consistency path post · https://topstepbrokerage.com/blog/topstep-express-funded-account-consistency
+- Data gaps:
+  - No effective date published for the Combine consistency change from 50% (with buffer) to 55%.
+  - Third-party trackers report a 28 Apr 2026 change to No Activation Fee pricing and XFA payout caps; no official announcement found, so it is not listed under changes.
+  - NinjaTrader, Tradovate and Rithmic are not mentioned on current help pages; only TopstepX (ProjectX) and Quantower via TopstepX are confirmed.
+  - Topstep Labs article does not publish payout rules, split, news or holding rules for the Static and Freedom Combines.
+  - Several help articles show only relative update dates ('updated over 2 weeks ago').
+
+## Trade The Pool
+<a id="trade-the-pool"></a>
+
+- Website: https://tradethepool.com/
+- Last verified: 2026-10-30
+- HQ: IL, Raanana — Five Percent Online Ltd. (verified) — source: https://tradethepool.com/terms-and-conditions/ (2026-10-30)
+- Restricted countries: published — AF, BY, BA, BI, CF, CU, CG, CD, ER, GN, GW, IQ, IR, IL, LA, LB, LR, LY, MM, KP, PS, PG, RU, SS, SD, SO, SY, VU, VE, YE — source: https://tradethepool.com/terms-and-conditions/ (2026-10-30)
+  - Note: 'Forbidden Territory' list in the Terms and Conditions (updated 28 Oct 2026), plus Crimea. The list is non-exhaustive ('including, but not limited to') and also covers sanctioned jurisdictions. Pakistan (PK) is not listed.
+- Program **Day Trading FLEX** (stocks, 1-step) — checked 2026-10-30
+  - https://tradethepool.com/the-program/
+  - https://tradethepool.com/program-terms/
+- Program **Day Trading MAX** (stocks, 1-step) — checked 2026-10-30
+  - https://tradethepool.com/the-program/
+  - https://tradethepool.com/program-terms/
+  - Unverified fields: consistency
+- Program **Swing Trading FLEX** (stocks, 1-step) — checked 2026-10-30
+  - https://tradethepool.com/the-program/
+  - https://tradethepool.com/program-terms/
+  - Unverified fields: weekend
+- Program **Swing Trading MAX** (stocks, 1-step) — checked 2026-10-30
+  - https://tradethepool.com/the-program/
+  - https://tradethepool.com/program-terms/
+  - Unverified fields: consistency, weekend
+- Program **Edge** (stocks, 1-step) — checked 2026-10-30
+  - https://tradethepool.com/the-program/
+- All sources:
+  - 2026-10-30 · Homepage · https://tradethepool.com/
+  - 2026-10-30 · The Program (pricing cards, FAQ) · https://tradethepool.com/the-program/
+  - 2026-10-30 · Program Terms · https://tradethepool.com/program-terms/
+  - 2026-10-30 · Terms and Conditions (entity, Forbidden Territory) · https://tradethepool.com/terms-and-conditions/
+- Data gaps:
+  - Pricing cards do not label FLEX vs MAX columns; mapping inferred from the trading-period row (Unlimited = FLEX, 60/100 days = MAX), consistent with Program Terms.
+  - Consistency figures on the pricing cards (30% for MAX) conflict with the FAQ (Day MAX none, Swing MAX 70%).
+  - Weekend: Swing description allows weekend holding while the FAQ bars trading Fri 8pm-Mon 3am ET.
+  - Max-loss type (static/trailing) not stated for FLEX/MAX; Program Terms say max drawdown moves to initial balance after 3x daily-loss in new profit.
+  - Blog/announcements not checked for dated rule changes (web search budget exhausted).
+
+## TradeDay
+<a id="tradeday"></a>
+
+- Website: https://www.tradeday.com/
+- Last verified: 2026-10-30
+- HQ: US, Chicago — Tradeday LLC (verified) — source: https://www.tradeday.com/ (2026-10-30)
+- Restricted countries: published — AF, AL, DZ, AO, BB, BY, VG, BA, BW, BG, BF, BI, CM, KY, CF, CI, HR, CU, KP, CD, EC, ET, GH, GI, GU, GY, HT, IS, ID, IR, IQ, JM, JO, XK, LA, LB, LR, LY, MK, ML, MT, MU, MC, MN, ME, MA, MZ, MM, NA, NP, NI, NG, PK, PA, PG, PS, PH, PR, RO, RU, SN, RS, SI, SO, ZA, SS, LK, SD, SY, TZ, TT, TN, TR, UG, UA, VI, VE, VN, YE, ZW — source: https://tradeday.freshdesk.com/en/support/solutions/articles/103000123294-prohibited-countries (2026-10-30)
+  - Note: Pakistan (PK) is restricted. Citizens or residents of listed countries cannot open accounts, even with another citizenship; extended stays trading from a listed country are also barred. The list also names 'Balkans', 'Crimea Region of Ukraine' and 'Magnitsky' (no single ISO code). Ukraine: no new users (payout provider limitation); existing users may withdraw in crypto only. Canada (outside Ontario) and Germany: Funded Sim only, no Funded Live. Kosovo mapped to XK (user-assigned code). The firm says the restrictions come from its broker and clearing firm.
+- Program **Quick Pay – Intraday** (futures, 1-step) — checked 2026-10-30
+  - https://www.tradeday.com/
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000008847-what-are-the-objectives-and-rules-of-the-quick-pay-and-fast-pass-evaluation-
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000008855-what-is-the-maximum-drawdown-rule-
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000008889-what-are-the-rules-for-funded-funded-sim-and-funded-live-traders-
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000335937-quick-pay-funded-sim-payout-policy
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000081072-can-i-trade-news-or-data-releases-
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000085101-automated-algo-and-bot-trading
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000354796-multiple-accounts
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000018874-what-is-the-permitted-trading-times-guideline-
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000008891-what-are-the-position-limits-guidelines-and-contracts-vs-micros-
+- Program **Quick Pay – End of Day** (futures, 1-step) — checked 2026-10-30
+  - https://www.tradeday.com/
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000008847-what-are-the-objectives-and-rules-of-the-quick-pay-and-fast-pass-evaluation-
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000008889-what-are-the-rules-for-funded-funded-sim-and-funded-live-traders-
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000335937-quick-pay-funded-sim-payout-policy
+- Program **Fast Pass – End of Day** (futures, 1-step) — checked 2026-10-30
+  - https://www.tradeday.com/
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000008847-what-are-the-objectives-and-rules-of-the-quick-pay-and-fast-pass-evaluation-
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000404096-fast-pass-funded-sim-payout-policy
+  - https://tradeday.freshdesk.com/en/support/solutions/articles/103000008889-what-are-the-rules-for-funded-funded-sim-and-funded-live-traders-
+  - https://www.tradeday.com/blog-posts/the-cheapest-route-to-funding-just-got-cheaper
+  - Unverified fields: minDays
+- Rule changes:
+  - 2026-09-08 — Account limits raised — https://www.tradeday.com/blog-posts/trade-up-to-10-accounts
+  - 2026-09-01 — $25K accounts launched — https://www.tradeday.com/blog-posts/the-lowest-cost-tradeday-account-ever-introducing-the-25k-account
+  - 2026-08-10 — Rithmic added — https://www.tradeday.com/blog-posts/rithmic-is-now-available
+  - 2026-07-27 — Fast Pass funded consistency and payout caps — https://www.tradeday.com/blog-posts/the-cheapest-route-to-funding-just-got-cheaper
+  - 2026-05-29 — TradeDay 2.0: Quick Pay and Fast Pass — https://www.tradeday.com/blog-posts/tradeday-2-0---the-next-evolution-of-prop-trading
+- All sources:
+  - 2026-10-30 · Homepage and pricing · https://www.tradeday.com/
+  - 2026-10-30 · Help centre index · https://tradeday.freshdesk.com/en/support/solutions
+  - 2026-10-30 · Prohibited countries · https://tradeday.freshdesk.com/en/support/solutions/articles/103000123294-prohibited-countries
+  - 2026-10-30 · Quick Pay and Fast Pass evaluation rules · https://tradeday.freshdesk.com/en/support/solutions/articles/103000008847-what-are-the-objectives-and-rules-of-the-quick-pay-and-fast-pass-evaluation-
+  - 2026-10-30 · Maximum drawdown rule · https://tradeday.freshdesk.com/en/support/solutions/articles/103000008855-what-is-the-maximum-drawdown-rule-
+  - 2026-10-30 · Funded Sim and Funded Live rules · https://tradeday.freshdesk.com/en/support/solutions/articles/103000008889-what-are-the-rules-for-funded-funded-sim-and-funded-live-traders-
+  - 2026-10-30 · Quick Pay Funded Sim payout policy · https://tradeday.freshdesk.com/en/support/solutions/articles/103000335937-quick-pay-funded-sim-payout-policy
+  - 2026-10-30 · Fast Pass Funded Sim payout policy · https://tradeday.freshdesk.com/en/support/solutions/articles/103000404096-fast-pass-funded-sim-payout-policy
+  - 2026-10-30 · News / data releases · https://tradeday.freshdesk.com/en/support/solutions/articles/103000081072-can-i-trade-news-or-data-releases-
+  - 2026-10-30 · Automated, algo and bot trading · https://tradeday.freshdesk.com/en/support/solutions/articles/103000085101-automated-algo-and-bot-trading
+  - 2026-10-30 · Multiple accounts and copy trading · https://tradeday.freshdesk.com/en/support/solutions/articles/103000354796-multiple-accounts
+  - 2026-10-30 · Permitted trading times · https://tradeday.freshdesk.com/en/support/solutions/articles/103000018874-what-is-the-permitted-trading-times-guideline-
+  - 2026-10-30 · Position limits · https://tradeday.freshdesk.com/en/support/solutions/articles/103000008891-what-are-the-position-limits-guidelines-and-contracts-vs-micros-
+  - 2026-10-30 · Prohibited trade practices · https://tradeday.freshdesk.com/en/support/solutions/articles/103000121031-prohibited-trade-practices
+  - 2026-10-30 · Trading platforms · https://tradeday.freshdesk.com/en/support/solutions/articles/103000008813-which-trading-platforms-does-tradeday-use-
+  - 2026-10-30 · Monthly billing · https://tradeday.freshdesk.com/en/support/solutions/articles/103000008902-how-does-monthly-billing-work-
+  - 2026-10-30 · Blog index · https://www.tradeday.com/blog
+  - 2026-10-30 · TradeDay 2.0 announcement · https://www.tradeday.com/blog-posts/tradeday-2-0---the-next-evolution-of-prop-trading
+  - 2026-10-30 · Fast Pass rule change and price cut · https://www.tradeday.com/blog-posts/the-cheapest-route-to-funding-just-got-cheaper
+  - 2026-10-30 · Rithmic launch · https://www.tradeday.com/blog-posts/rithmic-is-now-available
+  - 2026-10-30 · $25K account launch · https://www.tradeday.com/blog-posts/the-lowest-cost-tradeday-account-ever-introducing-the-25k-account
+  - 2026-10-30 · Up to 10 accounts · https://www.tradeday.com/blog-posts/trade-up-to-10-accounts
+- Data gaps:
+  - No daily loss limit is listed on the pricing cards or rules articles, and the firm does not explicitly say 'none'; dailyLoss left null.
+  - Fast Pass minimum days: pricing card and rules article say 3 trading days, but the 29 May 2026 TradeDay 2.0 post said Fast Pass removes the minimum trading-day requirement.
+  - Quick Pay has no maximum payout stated in the payout policy.
+  - Help-centre article dates are shown without a year, so they could not be used to date rule changes.
+  - The pricing cards show a running 55%/50% discount; the struck-through figures are used as list prices.
+
+## Tradeify
+<a id="tradeify"></a>
+
+- Website: https://tradeify.co/
+- Last verified: 2026-10-30
+- HQ: US, Boca Raton — Tradeify Holdings, Corp. (verified) — source: https://tradeify.co/ (2026-10-30)
+- Restricted countries: published — AF, AL, DZ, AD, AO, AQ, AZ, BS, BB, BY, BA, BW, BG, MM, BI, KH, CF, CU, CI, CD, EC, ET, GH, IS, ID, IR, IQ, IL, JM, KZ, XK, KG, LA, LB, LR, LY, MO, MY, MU, MN, ME, MA, NI, KP, PK, PA, PS, PG, RU, SO, SS, LK, SD, SY, TJ, TT, TN, TR, UG, UA, VE, VN, YE, ZW — source: https://intercom.help/tradeify/en/articles/10495888-rules-restricted-countries (2026-10-30)
+  - Note: Futures list ('Completely Restricted Countries', 65 entries incl. Crimea; based on permanent residence). Pakistan is restricted for futures. Tradeify FX (CFD) publishes its own 31-country list that does NOT include Pakistan: AF, BY, BE, MM, KH, CF, Crimea, CU, CD, ER, ET, HT, IR, IQ, IL, LB, LY, MA, NI, KP, RU, SO, SS, SD, SY, TW, US, VE, VN, YE, ZW (United States restricted on every FX plan).
+  - cfd programs use their own list (Tradeify FX (CFD) list): AF, BE, BY, CD, CF, CU, ER, ET, HT, IL, IQ, IR, KH, KP, LB, LY, MA, MM, NI, RU, SD, SO, SS, SY, TW, US, VE, VN, YE, ZW — source: https://help.tradeifyfx.co/en/articles/16976515-restricted-countries (2026-10-30)
+- Program **Growth Evaluation** (futures, 1-step) — checked 2026-10-30
+  - https://intercom.help/tradeify/en/articles/14369021-tradeify-pricing-reference
+  - https://intercom.help/tradeify/en/articles/10495915-growth-evaluation-accounts
+  - https://intercom.help/tradeify/en/articles/11083796-growth-funded-account-payout-policy
+  - https://intercom.help/tradeify/en/articles/10468320-rules-consistency-rule
+  - https://intercom.help/tradeify/en/articles/12268167-essential-trading-rules-overview
+  - https://intercom.help/tradeify/en/articles/10495874-rules-news-trading
+- Program **Select Evaluation (Flex or Daily funded)** (futures, 1-step) — checked 2026-10-30
+  - https://intercom.help/tradeify/en/articles/14369021-tradeify-pricing-reference
+  - https://intercom.help/tradeify/en/articles/12853921-select-evaluation-accounts
+  - https://intercom.help/tradeify/en/articles/12853966-select-flex-and-select-daily-payout-policies
+  - https://intercom.help/tradeify/en/articles/10468320-rules-consistency-rule
+- Program **Lightning Funded (instant)** (futures, instant) — checked 2026-10-30
+  - https://intercom.help/tradeify/en/articles/14369021-tradeify-pricing-reference
+  - https://intercom.help/tradeify/en/articles/10495938-lightning-funded-accounts
+  - https://intercom.help/tradeify/en/articles/10495932-lightning-funded-account-payout-policy
+- Program **Tradeify FX Daily (1-Step)** (cfd, 1-step) — checked 2026-10-30
+  - https://help.tradeifyfx.co/en/articles/16975771-account-sizes-and-pricing
+  - https://help.tradeifyfx.co/en/articles/16975953-daily-1-step-guide
+  - https://help.tradeifyfx.co/en/articles/16976076-trading-rules-overview
+  - https://help.tradeifyfx.co/en/articles/16975746-tradeify-fx-faq
+- Program **Tradeify FX Classic (2-Step)** (cfd, 2-step) — checked 2026-10-30
+  - https://help.tradeifyfx.co/en/articles/16975771-account-sizes-and-pricing
+  - https://help.tradeifyfx.co/en/articles/16976039-classic-2-step-guide
+  - https://help.tradeifyfx.co/en/articles/16976076-trading-rules-overview
+  - https://help.tradeifyfx.co/en/articles/16975746-tradeify-fx-faq
+- Program **Tradeify FX Direct (Instant Funding)** (cfd, instant) — checked 2026-10-30
+  - https://help.tradeifyfx.co/en/articles/16975771-account-sizes-and-pricing
+  - https://help.tradeifyfx.co/en/articles/16976051-direct-instant-funding-guide
+  - https://help.tradeifyfx.co/en/articles/16976076-trading-rules-overview
+  - https://help.tradeifyfx.co/en/articles/16975746-tradeify-fx-faq
+- Rule changes:
+  - 2026-09-01 — Select funded payout caps changed for new purchases — https://intercom.help/tradeify/en/articles/12853966-select-flex-and-select-daily-payout-policies
+- All sources:
+  - 2026-10-30 · Futures restricted countries (official Intercom mirror) · https://intercom.help/tradeify/en/articles/10495888-rules-restricted-countries
+  - 2026-10-30 · Futures pricing reference · https://intercom.help/tradeify/en/articles/14369021-tradeify-pricing-reference
+  - 2026-10-30 · Growth evaluation · https://intercom.help/tradeify/en/articles/10495915-growth-evaluation-accounts
+  - 2026-10-30 · Growth funded payouts · https://intercom.help/tradeify/en/articles/11083796-growth-funded-account-payout-policy
+  - 2026-10-30 · Select evaluation · https://intercom.help/tradeify/en/articles/12853921-select-evaluation-accounts
+  - 2026-10-30 · Select Flex / Daily payouts · https://intercom.help/tradeify/en/articles/12853966-select-flex-and-select-daily-payout-policies
+  - 2026-10-30 · Lightning funded · https://intercom.help/tradeify/en/articles/10495938-lightning-funded-accounts
+  - 2026-10-30 · Lightning payouts · https://intercom.help/tradeify/en/articles/10495932-lightning-funded-account-payout-policy
+  - 2026-10-30 · Consistency rule · https://intercom.help/tradeify/en/articles/10468320-rules-consistency-rule
+  - 2026-10-30 · Essential trading rules · https://intercom.help/tradeify/en/articles/12268167-essential-trading-rules-overview
+  - 2026-10-30 · News trading · https://intercom.help/tradeify/en/articles/10495874-rules-news-trading
+  - 2026-10-30 · Supported platforms · https://intercom.help/tradeify/en/articles/10468221-supported-platforms
+  - 2026-10-30 · Common FAQs · https://intercom.help/tradeify/en/articles/12268494-common-faqs
+  - 2026-10-30 · Account limits · https://intercom.help/tradeify/en/articles/10468251-how-many-simulated-funded-accounts-can-i-have-at-once
+  - 2026-10-30 · Homepage footer · https://tradeify.co/
+  - 2026-10-30 · Tradeify FX restricted countries · https://help.tradeifyfx.co/en/articles/16976515-restricted-countries
+  - 2026-10-30 · Tradeify FX sizes and pricing · https://help.tradeifyfx.co/en/articles/16975771-account-sizes-and-pricing
+  - 2026-10-30 · Tradeify FX trading rules · https://help.tradeifyfx.co/en/articles/16976076-trading-rules-overview
+  - 2026-10-30 · Tradeify FX FAQ · https://help.tradeifyfx.co/en/articles/16975746-tradeify-fx-faq
+  - 2026-10-30 · Tradeify FX Daily guide · https://help.tradeifyfx.co/en/articles/16975953-daily-1-step-guide
+  - 2026-10-30 · Tradeify FX Classic guide · https://help.tradeifyfx.co/en/articles/16976039-classic-2-step-guide
+  - 2026-10-30 · Tradeify FX Direct guide · https://help.tradeifyfx.co/en/articles/16976051-direct-instant-funding-guide
+  - 2026-10-30 · Tradeify Perps early-access page · https://www.tradeifyperps.co/
+- Data gaps:
+  - help.tradeify.co returned HTTP 403; the same articles were read on Tradeify's official Intercom mirror (intercom.help/tradeify).
+  - A search snippet of help.tradeify.co mentions a separate tier of countries eligible for evaluations but not Live; that tier was not visible on the mirror.
+  - Help articles show only relative update dates; dashboard-launch and other change dates not published.
+  - Tradeify FX Daily plan minimum trading days not stated; Select 300K parameters not captured.
+  - Copy trading between own futures accounts is not addressed in the futures help centre.
+
+## UProfit
+<a id="uprofit"></a>
+
+- Website: https://uprofit.com/
+- Last verified: 2026-10-30
+- HQ: US, Dover, DE — UProfit Trader (verified) — source: https://uprofit.com/terms-and-conditions (2026-10-30)
+- Restricted countries: published — KP, IR, CU, SY, SD, IQ, AF, LY, MM, PK — source: https://uprofit.com/help/-restricted-countries-41564123018772 (2026-10-30)
+  - Note: Help-centre article 'Restricted Countries' (last updated 8 Oct 2026). Pakistan (PK) is restricted.
+- Program **DAY 2.0 Soft** (futures, 1-step) — checked 2026-10-30
+  - https://uprofit.com/day-programs
+  - https://uprofit.com/help/uprofit-soft-trading-parameters-52063207935892
+  - https://uprofit.com/help/uprofit-soft-payout-policy-52063548100500
+  - https://uprofit.com/help/uprofit-soft-50k-52063403210132
+  - https://uprofit.com/help/uprofit-soft-live-virtual-50k-52063647938580
+  - https://uprofit.com/help/uprofit-soft-live-virtual-10k-54394490735252
+  - Unverified fields: copyTrading
+- Program **DAY 2.0 Flex** (futures, 1-step) — checked 2026-10-30
+  - https://uprofit.com/day-programs
+  - https://uprofit.com/help/uprofit-flex-trading-parameters-52062905513620
+  - https://uprofit.com/help/uprofit-flex-payout-policy-52062715698580
+  - https://uprofit.com/help/uprofit-flex-live-virtual-50k-52062598543508
+  - https://uprofit.com/help/uprofit-flex-live-virtual-10k-54395343573908
+  - Unverified fields: copyTrading
+- All sources:
+  - 2026-10-30 · Homepage · https://uprofit.com/
+  - 2026-10-30 · DAY programs and pricing · https://uprofit.com/day-programs
+  - 2026-10-30 · Help centre · https://uprofit.com/help
+  - 2026-10-30 · How evaluation programs work · https://uprofit.com/help/-how-do-evaluation-programs-work-38337950337940
+  - 2026-10-30 · Restricted countries · https://uprofit.com/help/-restricted-countries-41564123018772
+  - 2026-10-30 · Copy Trading Tool · https://uprofit.com/help/-copy-trading-tool-38898240741012
+  - 2026-10-30 · Soft trading parameters · https://uprofit.com/help/uprofit-soft-trading-parameters-52063207935892
+  - 2026-10-30 · Soft payout policy · https://uprofit.com/help/uprofit-soft-payout-policy-52063548100500
+  - 2026-10-30 · Soft 50K · https://uprofit.com/help/uprofit-soft-50k-52063403210132
+  - 2026-10-30 · Soft Live Virtual 50K · https://uprofit.com/help/uprofit-soft-live-virtual-50k-52063647938580
+  - 2026-10-30 · Soft Live Virtual 10K · https://uprofit.com/help/uprofit-soft-live-virtual-10k-54394490735252
+  - 2026-10-30 · Flex trading parameters · https://uprofit.com/help/uprofit-flex-trading-parameters-52062905513620
+  - 2026-10-30 · Flex payout policy · https://uprofit.com/help/uprofit-flex-payout-policy-52062715698580
+  - 2026-10-30 · Flex Live Virtual 50K · https://uprofit.com/help/uprofit-flex-live-virtual-50k-52062598543508
+  - 2026-10-30 · Flex Live Virtual 10K · https://uprofit.com/help/uprofit-flex-live-virtual-10k-54395343573908
+  - 2026-10-30 · UProfit DAY (legacy) category · https://uprofit.com/help/benefits-of-uprofit-day-accounts-34553700689940
+  - 2026-10-30 · Terms and Conditions · https://uprofit.com/terms-and-conditions
+- Data gaps:
+  - The pricing page shows two figures per size without labels; the higher one is used as the list price because the 50K Soft help article gives $130 as the monthly price. The lower figure may be a discount or the reset fee.
+  - Copy trading: the firm offers a built-in copier between your accounts, but its 2021 Terms ban identical trades across separate accounts; marked unverified.
+  - Minimum payout amount, news rules and general automation rules are not published.
+  - Help centre also has 'UProfit DAY' (50K-150K) and 'UProfit One' categories; the current sales page lists only DAY 2.0 Soft and Flex, so those are treated as legacy and not listed.
+  - Terms and Conditions are dated November 2021.
+  - No dated rule-change announcements found on official pages.
