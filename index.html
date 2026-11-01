@@ -2,37 +2,40 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Prop Firm Mirror — Every prop firm, side by side</title>
-<meta name="description" content="Compare prop trading firms side by side: CFD, futures and crypto challenges, rules, prices, restricted countries and rule changes, each taken from the firm's own pages with a source link and the date checked.">
+<!-- search: page title up to 60 characters and unlike any hub page's, description 120–158; og/twitter texts match them.
+     tools/seo-index-links.mjs (run by tools/build-data.mjs) refreshes them from data/seo-copy.json "home" when those fit,
+     and writes the JSON-LD below and the footer's Browse links. app.js reuses this page title for the main section. -->
+<title>Prop Firm Mirror: Compare Prop Firms Side by Side</title>
+<meta name="description" content="Prop firm comparison for forex, futures and crypto: rules, prices, payout terms, discount codes and restricted countries, from each firm's own pages.">
 <meta name="theme-color" content="#0A0E0C">
 <meta name="application-name" content="Prop Firm Mirror">
 <meta name="apple-mobile-web-app-title" content="Prop Firm Mirror">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://propfirmmirror.com/">
 <!-- share previews -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Prop Firm Mirror">
-<meta property="og:title" content="Prop Firm Mirror — Every prop firm, side by side">
-<meta property="og:description" content="Rules, prices and restricted countries for 70 prop firms. Every fact sourced from the firm's own site, with the date we checked.">
+<meta property="og:title" content="Prop Firm Mirror: Compare Prop Firms Side by Side">
+<meta property="og:description" content="Prop firm comparison for forex, futures and crypto: rules, prices, payout terms, discount codes and restricted countries, from each firm's own pages.">
 <meta property="og:url" content="https://propfirmmirror.com/">
 <meta property="og:image" content="https://propfirmmirror.com/assets/icons/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@PropFirmMirror">
-<meta name="twitter:title" content="Prop Firm Mirror — Every prop firm, side by side">
-<meta name="twitter:description" content="Rules, prices and restricted countries for 70 prop firms, each sourced from the firm's own site.">
+<meta name="twitter:title" content="Prop Firm Mirror: Compare Prop Firms Side by Side">
+<meta name="twitter:description" content="Prop firm comparison for forex, futures and crypto: rules, prices, payout terms, discount codes and restricted countries, from each firm's own pages.">
 <meta name="twitter:image" content="https://propfirmmirror.com/assets/icons/og.png">
 <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
 <link rel="manifest" href="site.webmanifest">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "name": "Prop Firm Mirror", "url": "https://propfirmmirror.com/", "logo": "https://propfirmmirror.com/assets/icons/icon-512.png", "sameAs": ["https://x.com/PropFirmMirror"]}, {"@type": "WebSite", "name": "Prop Firm Mirror", "url": "https://propfirmmirror.com/", "description": "Compare prop trading firms side by side: rules, prices, restricted countries and dated rule changes, each sourced from the firm's own pages."}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://propfirmmirror.com/#organization","name":"Prop Firm Mirror","url":"https://propfirmmirror.com/","logo":"https://propfirmmirror.com/assets/icons/icon-512.png","sameAs":["https://x.com/PropFirmMirror"]},{"@type":"WebSite","@id":"https://propfirmmirror.com/#website","name":"Prop Firm Mirror","alternateName":"PropFirmMirror","url":"https://propfirmmirror.com/","description":"Prop firm comparison for forex, futures and crypto: rules, prices, payout terms, discount codes and restricted countries, from each firm's own pages.","inLanguage":"en","publisher":{"@id":"https://propfirmmirror.com/#organization"}},{"@type":"ItemList","@id":"https://propfirmmirror.com/#browse","name":"Browse Prop Firm Mirror","numberOfItems":6,"itemListElement":[{"@type":"SiteNavigationElement","position":1,"name":"Compare prop firms","url":"https://propfirmmirror.com/compare-prop-firms"},{"@type":"SiteNavigationElement","position":2,"name":"Forex prop firms","url":"https://propfirmmirror.com/forex-prop-firms"},{"@type":"SiteNavigationElement","position":3,"name":"Futures prop firms","url":"https://propfirmmirror.com/futures-prop-firms"},{"@type":"SiteNavigationElement","position":4,"name":"Crypto prop firms","url":"https://propfirmmirror.com/crypto-prop-firms"},{"@type":"SiteNavigationElement","position":5,"name":"Prop firm discount codes","url":"https://propfirmmirror.com/prop-firm-discount-codes"},{"@type":"SiteNavigationElement","position":6,"name":"Prop firm rule changes","url":"https://propfirmmirror.com/prop-firm-rule-changes"}]}]}</script>
 <link rel="preload" href="assets/fonts/MonaSansVF-wdth-opsz-wght.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="assets/css/app.css?v=20261101091712">
-<script src="assets/js/boot.js?v=20261101091712"></script>
+<link rel="stylesheet" href="assets/css/app.css?v=20261101101033">
+<script src="assets/js/boot.js?v=20261101101033"></script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A0E0C'/%3E%3Crect x='28.5' y='10' width='7' height='44' fill='%233DDC97'/%3E%3Cpath d='M25 20a14 14 0 0 0 0 26v-6a8 8 0 0 1 0-14z M39 20a14 14 0 0 1 0 26v-6a8 8 0 0 0 0-14z' fill='%233DDC97'/%3E%3C/svg%3E">
 </head>
 <body>
@@ -71,7 +74,27 @@
   <a href="#/method" data-nav="method">How we verify</a>
 </nav>
 
-<main id="app" class="wrap"></main>
+<main id="app" class="wrap">
+  <section class="seo-intro">
+    <h1>Compare prop firms side by side</h1>
+    <p>Prop Firm Mirror compares 70 prop trading firms across forex and CFDs, futures, crypto and perpetuals. For every firm you see the challenge prices, profit targets, daily loss and maximum drawdown rules, profit split, payout schedule, consistency rules, news and weekend rules, platforms and restricted countries, each taken from the firm's own website with a link to the page and the date we checked it.</p>
+    <h2>How we verify every prop firm</h2>
+    <p>We read each firm's own pages, help centre and terms, never review blogs or affiliate sites. Data is re-checked every day and every firm at least every three days; rule changes are logged with the date the firm gave. If a firm does not publish something, we say so instead of guessing.</p>
+    <h2>Mirror Score</h2>
+    <p>Each firm gets a Mirror Score, our opinion built from its payout record (35%), public reviews from many platforms (35%), its rules and costs (18%) and its track record (12%). The score changes when the evidence changes.</p>
+    <h2>Browse prop firms by market</h2>
+    <ul>
+      <li><a href="/compare-prop-firms">Compare all prop firms</a></li>
+      <li><a href="/forex-prop-firms">Forex and CFD prop firms</a></li>
+      <li><a href="/futures-prop-firms">Futures prop firms</a></li>
+      <li><a href="/crypto-prop-firms">Crypto prop firms</a></li>
+      <li><a href="/prop-firm-discount-codes">Prop firm discount codes</a></li>
+      <li><a href="/prop-firm-rule-changes">Prop firm rule changes</a></li>
+    </ul>
+    <h2>No affiliate links</h2>
+    <p>Every promo code on this site is the firm's own public code, with a link to where the firm published it. We earn nothing from them. The founder's one partnership is disclosed on that firm's page, and that firm is scored with the same method as every other.</p>
+  </section>
+</main>
 
 <footer>
   <div class="foot-mark" aria-hidden="true"><span>PROP FIRM</span><span>MIRROR</span></div>
@@ -88,6 +111,46 @@
       <a href="https://x.com/PropFirmMirror" target="_blank" rel="noopener">@PropFirmMirror</a>
     </div>
   </div>
+  <!-- seo-links:start -->
+  <nav class="wrap fdir" aria-labelledby="fdir-h">
+    <div class="fdir-main">
+      <h2 class="eyebrow fdir-h" id="fdir-h">Browse</h2>
+      <ul class="fdir-hubs">
+        <li><a href="/compare-prop-firms">Compare prop firms</a></li>
+        <li><a href="/forex-prop-firms">Forex prop firms</a></li>
+        <li><a href="/futures-prop-firms">Futures prop firms</a></li>
+        <li><a href="/crypto-prop-firms">Crypto prop firms</a></li>
+        <li><a href="/prop-firm-discount-codes">Prop firm discount codes</a></li>
+        <li><a href="/prop-firm-rule-changes">Prop firm rule changes</a></li>
+      </ul>
+    </div>
+    <div class="fdir-firms">
+      <h3 class="fdir-sub">Prop firms A–Z <span>70</span></h3>
+      <ul class="fdir-az">
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">A</span><ul><li><a href="/firms/alpha-capital">Alpha Capital Group</a></li><li><a href="/firms/alpha-futures">Alpha Futures</a></li><li><a href="/firms/apex-trader-funding">Apex Trader Funding</a></li><li><a href="/firms/aquafunded">AquaFunded</a></li><li><a href="/firms/aquafutures">AquaFutures (AquaFunded Futures)</a></li><li><a href="/firms/atmos-funded">Atmos Funded</a></li><li><a href="/firms/audacity-capital">Audacity Capital</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">B</span><ul><li><a href="/firms/bitfunded">Bitfunded</a></li><li><a href="/firms/blue-guardian">Blue Guardian</a></li><li><a href="/firms/blusky-trading">BluSky Trading</a></li><li><a href="/firms/breakout">Breakout (Kraken)</a></li><li><a href="/firms/brightfunded">BrightFunded</a></li><li><a href="/firms/bulenox">Bulenox</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">C</span><ul><li><a href="/firms/city-traders-imperium">City Traders Imperium</a></li><li><a href="/firms/crypto-fund-trader">Crypto Fund Trader</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">D</span><ul><li><a href="/firms/daytraders-com">DayTraders.com</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">E</span><ul><li><a href="/firms/e8-markets">E8 Markets</a></li><li><a href="/firms/earn2trade">Earn2Trade</a></li><li><a href="/firms/elite-trader-funding">Elite Trader Funding</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">F</span><ul><li><a href="/firms/finotive">Finotive Funding</a></li><li><a href="/firms/fintokei">Fintokei</a></li><li><a href="/firms/fondeo">Fondeo</a></li><li><a href="/firms/for-traders">For Traders</a></li><li><a href="/firms/ftmo">FTMO</a></li><li><a href="/firms/ftuk">FTUK</a></li><li><a href="/firms/funded-futures-network">Funded Futures Network</a></li><li><a href="/firms/funded-trading-plus">Funded Trading Plus</a></li><li><a href="/firms/fundedelite">FundedElite</a></li><li><a href="/firms/fundednext">FundedNext</a></li><li><a href="/firms/funderpro">FunderPro</a></li><li><a href="/firms/fundingpips">FundingPips</a></li><li><a href="/firms/funding-traders">FundingTraders</a></li><li><a href="/firms/fxify">FXIFY</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">G</span><ul><li><a href="/firms/goat-funded-trader">Goat Funded Trader</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">H</span><ul><li><a href="/firms/hola-prime">Hola Prime</a></li><li><a href="/firms/hydra-funding">Hydra Funding</a></li><li><a href="/firms/hyrotrader">HyroTrader</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">I</span><ul><li><a href="/firms/instant-funding">Instant Funding</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">K</span><ul><li><a href="/firms/klein-funding">Klein Funding</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">L</span><ul><li><a href="/firms/lark-funding">Lark Funding</a></li><li><a href="/firms/leeloo-trading">Leeloo Trading</a></li><li><a href="/firms/lenvra">Lenvra Markets</a></li><li><a href="/firms/lucid-trading">Lucid Trading</a></li><li><a href="/firms/lux-trading-firm">Lux Trading Firm</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">M</span><ul><li><a href="/firms/maven-trading">Maven Trading</a></li><li><a href="/firms/ment-funding">Ment Funding</a></li><li><a href="/firms/moneta-funded">Moneta Funded</a></li><li><a href="/firms/myfundedfutures">MyFundedFutures</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">N</span><ul><li><a href="/firms/nordic-funder">Nordic Funder</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">O</span><ul><li><a href="/firms/oneup-trader">OneUp Trader</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">P</span><ul><li><a href="/firms/phidias">Phidias Propfirm</a></li><li><a href="/firms/pipfarm">PipFarm</a></li><li><a href="/firms/pipstone-capital">Pipstone Capital</a></li><li><a href="/firms/propr">Propr</a></li><li><a href="/firms/purdia-capital">Purdia Capital</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">Q</span><ul><li><a href="/firms/qt-funded">QT Funded</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">R</span><ul><li><a href="/firms/rebels-funding">RebelsFunding</a></li><li><a href="/firms/rzr-funded">RZR Funded (formerly Hantec Trader)</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">S</span><ul><li><a href="/firms/sabiotrade">SabioTrade</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">T</span><ul><li><a href="/firms/take-profit-trader">Take Profit Trader</a></li><li><a href="/firms/the-legends-trading">The Legends Trading</a></li><li><a href="/firms/the-trading-pit">The Trading Pit</a></li><li><a href="/firms/the5ers">The5ers</a></li><li><a href="/firms/thinkcapital">ThinkCapital</a></li><li><a href="/firms/top-one-trader">Top One Trader</a></li><li><a href="/firms/topstep">Topstep</a></li><li><a href="/firms/trade-the-pool">Trade The Pool</a></li><li><a href="/firms/tradeday">TradeDay</a></li><li><a href="/firms/tradeify">Tradeify</a></li></ul></li>
+        <li class="fdir-g"><span class="fdir-k" aria-hidden="true">U</span><ul><li><a href="/firms/uprofit">UProfit</a></li></ul></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- seo-links:end -->
   <div class="wrap foot-base"><span>© 2026 Prop Firm Mirror. All rights reserved.</span><span>Firm names and logos belong to their owners and are shown only to identify each firm.</span></div>
 </footer>
 
@@ -96,14 +159,15 @@
 <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"></div>
 <div class="picker" id="picker" role="dialog" aria-modal="true" aria-labelledby="pickerTitle"></div>
 
-<noscript><div class="wrap" style="padding:40px 0">This comparison needs JavaScript turned on.</div></noscript>
+<noscript><div class="wrap" style="padding:40px 0">This interactive comparison needs JavaScript turned on. Without it, read the <a href="/compare-prop-firms" style="color:#2EF2A0">prop firm comparison</a> and the firm pages listed under Browse.</div></noscript>
 
-<script src="assets/js/config.js?v=20261101091712"></script>
-<script src="assets/js/mark.js?v=20261101091712"></script>
-<script src="assets/js/countries.js?v=20261101091712"></script>
-<script src="assets/js/motion.js?v=20261101091712"></script>
-<script src="data/bundle.js?v=20261101091712"></script>
-<script src="assets/js/app.js?v=20261101091712"></script>
-<script type="module" src="assets/js/hero3d.js?v=20261101091712"></script>
+<script src="assets/js/config.js?v=20261101101033"></script>
+<script src="assets/js/analytics.js?v=20261101101033"></script>
+<script src="assets/js/mark.js?v=20261101101033"></script>
+<script src="assets/js/countries.js?v=20261101101033"></script>
+<script src="assets/js/motion.js?v=20261101101033"></script>
+<script src="data/bundle.js?v=20261101101033"></script>
+<script src="assets/js/app.js?v=20261101101033"></script>
+<script type="module" src="assets/js/hero3d.js?v=20261101101033"></script>
 </body>
 </html>
