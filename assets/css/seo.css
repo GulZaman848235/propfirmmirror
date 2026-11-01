@@ -249,9 +249,9 @@ img, svg { max-width: 100%; }
 /* ---------- footer, ending on the wordmark laid back like a floor ---------- */
 .s-foot { position: relative; margin-top: clamp(64px, 9vw, 120px); padding-top: 36px; border-top: 1px solid rgba(255,255,255,.1); overflow: clip; font-size: 13.5px; color: var(--s55); }
 .s-foot::before { content: ""; position: absolute; top: -1px; left: 50%; width: min(640px, 80%); height: 1px; transform: translateX(-50%); background: linear-gradient(90deg, transparent, rgba(var(--a1),.8), transparent); }
-.s-foot::after { content: "PROP FIRM MIRROR"; content: "PROP FIRM MIRROR" / ""; display: block; margin-top: clamp(36px, 6vw, 72px); padding-bottom: .06em; text-align: center; white-space: nowrap;
-  font-size: min(6.4vw, 116px); font-weight: 800; font-stretch: 120%; letter-spacing: -.04em; line-height: .9; color: transparent; pointer-events: none; -webkit-user-select: none; user-select: none;
-  background: linear-gradient(rgba(var(--a1),.42), rgba(var(--a1),0) 90%); -webkit-background-clip: text; background-clip: text; transform: perspective(620px) rotateX(30deg); transform-origin: 50% 150%; }
+.s-foot::after { content: "PROP FIRM MIRROR"; content: "PROP FIRM MIRROR" / ""; display: block; margin-top: clamp(36px, 6vw, 72px); padding-bottom: .12em; text-align: center; white-space: nowrap;
+  font-size: min(6.4vw, 116px); font-weight: 800; font-stretch: 120%; letter-spacing: -.04em; line-height: 1.2; color: transparent; pointer-events: none; -webkit-user-select: none; user-select: none;
+  background: linear-gradient(rgba(var(--a1),.42), rgba(var(--a1),0) 90%); -webkit-background-clip: text; background-clip: text; transform: perspective(620px) rotateX(30deg); transform-origin: 50% 100%; }
 .s-foot nav { display: flex; flex-wrap: wrap; gap: 10px 22px; }
 .s-foot a { color: var(--s70); transition: color .2s; }
 .s-foot a:hover { color: #fff; }
