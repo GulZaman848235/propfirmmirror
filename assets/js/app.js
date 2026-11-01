@@ -1750,12 +1750,12 @@
       <p>What this site stores, what it loads from other sites, and what its information is — and is not.</p></div>
       <div class="prose">
         <h2>Privacy</h2>
-        ${UMAMI ? `<p>There are no accounts, sign-ups, forms, cookies or ads on this site. To see how many people visit and which pages they read, we count visits with Umami, a privacy-friendly analytics service that sets no cookies, keeps no IP address and builds no profile of you. It records the page, the referring site, your browser type and your country, stored in the EU. Nothing else you do here is sent to us.</p>` : `<p>There are no accounts, sign-ups, forms, cookies, ads or analytics on this site. Nothing you do here is sent to us.</p>`}
+        ${(window.PFM_CONFIG || {}).ga4 ? `<p>There are no accounts, sign-ups, forms or ads on this site. To see how many people visit, which pages they read and which firm links they open, we use Google Analytics. It stores a first-party cookie and sends Google the page, the referring site, your browser type and your approximate location. We don't use it for advertising and we don't sell data. In the EU, the UK and Switzerland it stays off until you accept. <span data-consent-state></span></p><p><button type="button" class="btn" data-consent="no">Turn analytics off</button> <button type="button" class="btn" data-consent="yes">Allow analytics</button></p>` : UMAMI ? `<p>There are no accounts, sign-ups, forms, cookies or ads on this site. To see how many people visit and which pages they read, we count visits with Umami, a privacy-friendly analytics service that sets no cookies, keeps no IP address and builds no profile of you. It records the page, the referring site, your browser type and your country, stored in the EU. Nothing else you do here is sent to us.</p>` : `<p>There are no accounts, sign-ups, forms, cookies, ads or analytics on this site. Nothing you do here is sent to us.</p>`}
         <p>Your choices — market tab, account size, sort, view, your country, the availability filter and your compare list — are saved only in your own browser (local storage), so they are still there next time. Clearing your browser's site data removes them.</p>
         <p>Firm logos load from each firm's own website or from Google's public favicon service. Those services receive the normal details any browser sends when it loads an image, such as your IP address. We ask the browser not to send them the page you were on.</p>
         <p>Links to firms open the firm's own website, which has its own privacy policy.</p>
         <h2>Disclaimer</h2>
-        <p>Prop Firm Mirror is an independent comparison. It is not owned by, paid by or affiliated with any firm listed, and it has no affiliate links.</p>
+        <p>Prop Firm Mirror is an independent comparison. It is not owned or paid by any firm listed, and it has no affiliate links. The founder's one partnership (Lenvra) is disclosed on that firm's page, and Lenvra is scored with the same method as every other firm.</p>
         <p>Everything here is general information, not financial advice. Prop firm rules and prices change often; each fact shows the date we checked it. Always confirm on the firm's own page before you buy.</p>
         <p>The Mirror Score is Prop Firm Mirror's opinion, based on public reviews, trader reports and each firm's published rules on the dates shown. It is not a guarantee of how a firm will treat you.</p>
         <p>Firm names, logos and trademarks belong to their owners and are shown only to identify each firm.</p>
@@ -1984,6 +1984,8 @@
   /* ------------------------------------------------------------------ router */
   const app = $("#app");
   let currentNav = "home";
+  // the main section keeps index.html's own <title>, the one written for search engines
+  const HOME_TITLE = document.title || "Prop Firm Mirror — Every prop firm, side by side";
   function route() {
     const hc = document.getElementById("heroCanvas");
     if (hc && hc.__pfmHero) hc.__pfmHero.destroy();
@@ -1996,7 +1998,7 @@
     if (sec !== SEC || !route.entered) { route.entered = true; enterSection(sec); }
     closeSheet();
     $("#mnav").classList.remove("open");
-    document.title = SEC.id === "cfd" ? "Prop Firm Mirror — Every prop firm, side by side" : `Prop Firm Mirror ${SEC.label} — Every ${SEC.noun} prop firm, side by side`;
+    document.title = SEC.id === "cfd" ? HOME_TITLE : `Prop Firm Mirror ${SEC.label} — Every ${SEC.noun} prop firm, side by side`;
     if (parts[0] === "firm" && parts[1]) { currentNav = "home"; viewFirm(decodeURIComponent(parts[1]), params); }
     else if (parts[0] === "compare") {
       currentNav = "compare";
