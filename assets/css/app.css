@@ -2298,3 +2298,28 @@ div.db.auto:hover { transform: none; }
 .tray.show { visibility: visible; pointer-events: auto; transition: transform .35s cubic-bezier(.2, .8, .2, 1), visibility 0s; }
 /* phones: a panel's long subtitle sits under its title instead of squeezing beside it */
 @media (max-width: 640px) { .panel h2 { flex-wrap: wrap; row-gap: 4px; } .panel h2 .r { flex-basis: 100%; } }
+/* ---------- footer directory: plain links to the hub pages and to every firm's own page, which search engines follow
+   without running the app (written by tools/seo-index-links.mjs between the seo-links markers in index.html) ---------- */
+footer .fdir { display: grid; grid-template-columns: minmax(190px, 230px) minmax(0, 1fr); justify-content: normal; gap: 26px 56px; align-items: start; margin-top: 34px; padding-top: 30px; border-top: 1px solid var(--line); }
+.fdir-h, .fdir-sub { margin: 0; line-height: 16px; }
+.fdir-sub { display: flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--s55); }
+.fdir-sub span { padding: 0 7px; border-radius: 999px; font-size: 10.5px; line-height: 16px; letter-spacing: .04em; color: var(--s70); border: 1px solid var(--line-2); }
+.fdir-hubs, .fdir-az, .fdir-g ul { list-style: none; margin: 0; padding: 0; }
+.fdir-hubs { display: grid; gap: 2px; margin-top: 14px; }
+.fdir-hubs a { display: block; width: fit-content; max-width: 100%; padding: 5px 0; font-size: 14px; font-weight: 560; line-height: 20px; color: var(--s85); transition: color .2s; }
+.fdir-hubs a:hover { color: var(--emerald-hi); }
+.fdir-az { margin-top: 14px; columns: 5 150px; column-gap: 26px; }
+.fdir-g { display: grid; grid-template-columns: 14px minmax(0, 1fr); column-gap: 8px; padding-bottom: 10px; break-inside: avoid; }
+.fdir-k { font-family: var(--mono); font-size: 11px; font-weight: 600; line-height: 24px; color: var(--emerald); }
+.fdir-g a { display: block; width: fit-content; max-width: 100%; padding: 2px 0; font-size: 13px; line-height: 20px; color: var(--s55); overflow-wrap: anywhere; transition: color .2s; }
+.fdir-g a:hover { color: var(--silver); }
+@media (max-width: 960px) {
+  footer .fdir { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .fdir-hubs { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 16px; }
+}
+@media (max-width: 640px) {
+  footer .fdir { margin-top: 28px; padding-top: 26px; }
+  .fdir-hubs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .fdir-hubs a { font-size: 13.5px; }
+  .fdir-az { column-gap: 16px; }
+}
