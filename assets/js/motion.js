@@ -102,7 +102,9 @@
     if (t && !t.contains(e.relatedTarget)) { t.style.transform = ""; t.style.setProperty("--tx", 0); t.style.setProperty("--ty", 0); t.classList.remove("tilting"); }
   });
 
-  /* ---------- 3D logo ring: tiles ride a tilted cylinder; scrolling spins it faster, hovering slows it ---------- */
+  /* ---------- 3D logo ring: tiles ride a tilted cylinder; scrolling spins it faster, hovering slows it ----------
+     With reduced motion it still turns, at half speed and without the scroll push, so phones with the setting on
+     see it move. */
   function ring3d(el) {
     el.dataset.ringOn = "1";
     const items = [...el.querySelectorAll(".r3-item")], n = items.length;
@@ -122,11 +124,12 @@
     const tick = () => {
       raf = 0;
       if (!el.isConnected) return;
+      const calm = reduced();
       const dy = window.scrollY - lastY; lastY = window.scrollY;
-      vel = (vel + dy * 0.00006) * 0.93;
-      theta -= (hover ? 0.0007 : 0.0024) + vel;
+      vel = calm ? 0 : (vel + dy * 0.00006) * 0.93;
+      theta -= (hover ? 0.0007 : calm ? 0.0012 : 0.0024) + vel;
       place();
-      if (visible && !reduced()) raf = requestAnimationFrame(tick);
+      if (visible) raf = requestAnimationFrame(tick);
     };
     size(); place();
     new ResizeObserver(() => { size(); place(); }).observe(el);
