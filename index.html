@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Prop Firm Mirror — Every prop firm, side by side</title>
 <meta name="description" content="Compare prop trading firms side by side: CFD, futures and crypto challenges, rules, prices, restricted countries and rule changes, each taken from the firm's own pages with a source link and the date checked.">
@@ -29,8 +31,8 @@
 <link rel="manifest" href="site.webmanifest">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "name": "Prop Firm Mirror", "url": "https://propfirmmirror.com/", "logo": "https://propfirmmirror.com/assets/icons/icon-512.png", "sameAs": ["https://x.com/PropFirmMirror"]}, {"@type": "WebSite", "name": "Prop Firm Mirror", "url": "https://propfirmmirror.com/", "description": "Compare prop trading firms side by side: rules, prices, restricted countries and dated rule changes, each sourced from the firm's own pages."}]}</script>
 <link rel="preload" href="assets/fonts/MonaSansVF-wdth-opsz-wght.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="assets/css/app.css?v=20261030172017">
-<script>(function(){var d=document.documentElement;try{if(sessionStorage.getItem("pfm-intro")||matchMedia("(prefers-reduced-motion: reduce)").matches)d.classList.add("no-loader");else d.classList.add("is-loading")}catch(e){d.classList.add("no-loader")}})();</script>
+<link rel="stylesheet" href="assets/css/app.css?v=20261101091712">
+<script src="assets/js/boot.js?v=20261101091712"></script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A0E0C'/%3E%3Crect x='28.5' y='10' width='7' height='44' fill='%233DDC97'/%3E%3Cpath d='M25 20a14 14 0 0 0 0 26v-6a8 8 0 0 1 0-14z M39 20a14 14 0 0 1 0 26v-6a8 8 0 0 0 0-14z' fill='%233DDC97'/%3E%3C/svg%3E">
 </head>
 <body>
@@ -53,6 +55,7 @@
       <a href="#/" data-nav="home">Firms</a>
       <a href="#/compare" data-nav="compare">Compare <span class="count" id="navCmpCount" hidden>0</span></a>
       <a href="#/changes" data-nav="changes">Rule changes</a>
+      <a href="#/offers" data-nav="offers">Offers <span class="count" id="navOffCount" hidden>0</span></a>
       <a href="#/method" data-nav="method">How we verify</a>
     </nav>
     <div class="spacer"></div>
@@ -64,10 +67,11 @@
   <a href="#/" data-nav="home">Firms</a>
   <a href="#/compare" data-nav="compare">Compare <span class="mono" id="mnavCmp"></span></a>
   <a href="#/changes" data-nav="changes">Rule changes</a>
+  <a href="#/offers" data-nav="offers">Offers</a>
   <a href="#/method" data-nav="method">How we verify</a>
 </nav>
 
-<main id="app" class="wrap" tabindex="-1"></main>
+<main id="app" class="wrap"></main>
 
 <footer>
   <div class="foot-mark" aria-hidden="true"><span>PROP FIRM</span><span>MIRROR</span></div>
@@ -94,12 +98,12 @@
 
 <noscript><div class="wrap" style="padding:40px 0">This comparison needs JavaScript turned on.</div></noscript>
 
-<script type="importmap">{ "imports": { "three": "./assets/vendor/three.module.js?v=20261030172017" } }</script>
-<script src="assets/js/mark.js?v=20261030172017"></script>
-<script src="assets/js/countries.js?v=20261030172017"></script>
-<script src="assets/js/motion.js?v=20261030172017"></script>
-<script src="data/bundle.js?v=20261030172017"></script>
-<script src="assets/js/app.js?v=20261030172017"></script>
-<script type="module" src="assets/js/hero3d.js?v=20261030172017"></script>
+<script src="assets/js/config.js?v=20261101091712"></script>
+<script src="assets/js/mark.js?v=20261101091712"></script>
+<script src="assets/js/countries.js?v=20261101091712"></script>
+<script src="assets/js/motion.js?v=20261101091712"></script>
+<script src="data/bundle.js?v=20261101091712"></script>
+<script src="assets/js/app.js?v=20261101091712"></script>
+<script type="module" src="assets/js/hero3d.js?v=20261101091712"></script>
 </body>
 </html>
